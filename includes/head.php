@@ -82,7 +82,8 @@
         }
 
         .rs-contact-form-banner .rs-form-group {
-            flex: 1;
+            flex: 1 1 0%;
+            min-width: 0;
             display: flex;
             flex-direction: column;
         }
@@ -93,20 +94,56 @@
 
         .rs-contact-form-banner input,
         .rs-contact-form-banner select,
+        .rs-contact-form-banner .nice-select,
         .rs-contact-form-banner textarea {
-            width: 100%;
+            width: 100% !important;
             border: 1px solid #e0e0e0;
             border-radius: 4px;
-            padding: 9px 12px;
-            font-size: 12px;
+            font-size: 14px;
             color: #444;
-            background: #fff;
+            background: #fff !important;
+            background-image: none !important;
             outline: none;
             transition: border-color 0.3s;
             font-family: inherit;
-            appearance: auto;
-            -webkit-appearance: auto;
+            appearance: none !important;
+            -webkit-appearance: none !important;
+            -moz-appearance: none !important;
             box-sizing: border-box;
+        }
+
+        .rs-contact-form-banner input,
+        .rs-contact-form-banner select,
+        .rs-contact-form-banner .nice-select {
+            height: 45px !important;
+            padding: 0 12px;
+            line-height: 43px; /* adjusted for border */
+        }
+
+        .rs-contact-form-banner .nice-select {
+            display: flex;
+            align-items: center;
+            float: none;
+        }
+
+        .rs-contact-form-banner .nice-select .current {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding-right: 20px;
+        }
+
+        .rs-contact-form-banner .nice-select:after {
+            content: "" !important;
+            border-bottom: 2px solid #AB052D;
+            border-right: 2px solid #AB052D;
+            height: 8px;
+            width: 8px;
+            right: 15px;
+            top: 40%; 
+            transform: rotate(45deg);
         }
 
         .rs-contact-form-banner input::placeholder,
@@ -116,6 +153,7 @@
 
         .rs-contact-form-banner input:focus,
         .rs-contact-form-banner select:focus,
+        .rs-contact-form-banner .nice-select:focus,
         .rs-contact-form-banner textarea:focus {
             border-color: #AB052D;
         }
@@ -130,8 +168,10 @@
         }
 
         .rs-contact-form-banner textarea {
-            resize: vertical;
-            min-height: 70px;
+            height: 120px !important;
+            padding: 12px;
+            resize: none;
+            line-height: normal;
         }
 
         /* Button: maroon matching the site header */

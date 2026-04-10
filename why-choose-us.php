@@ -23,7 +23,7 @@
                                 <div class="rs-about-content-left">
                                     <div class="rs-about-counter">
                                         <div class="rs-counter-number-wrapper">
-                                            <span class="rs-counter-number odometer" data-count="30">00</span>
+                                            <span class="rs-counter-number odometer" data-count="26">00</span>
                                             <span class="prefix">+</span>
                                         </div>
                                         <span class="rs-counter-title">Years Of Experience</span>
