@@ -7628,16 +7628,16 @@ html.lenis body {
 }
 
 .rs-banner-eight .rs-banner-feature {
-  width: 625px;
+  width: 520px;
   position: absolute;
   bottom: 0;
-  inset-inline-start: -625px;
+  inset-inline-start: -520px;
 }
 
 @media only screen and (max-width: 1199px) {
   .rs-banner-eight .rs-banner-feature {
-    width: 580px;
-    inset-inline-start: -580px;
+    width: 480px;
+    inset-inline-start: -480px;
   }
 }
 
@@ -7667,8 +7667,8 @@ html.lenis body {
 
 .rs-banner-eight .rs-banner-feature-inner {
   display: grid;
-  grid-template-columns: 265px auto;
-  gap: 30px;
+  grid-template-columns: 180px auto;
+  gap: 20px;
   align-items: center;
   padding: 16px;
   border-radius: 6px 0px 0px 6px;
