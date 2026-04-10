@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Fan Animation Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* ─── BEFORE SECTION ─── */
+    .before-section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      text-align: center;
+    }
+    .before-section h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #fff;
+      opacity: 0.5;
+    }
+
+    /* ─── SCROLL SECTION WRAPPER ─── */
+    .scroll-section {
+      position: relative;
+      height: 450vh;
+      background: #f0f6ff;
+    }
+
+    /* ─── STICKY VIEWPORT ─── */
+    .sticky-viewport {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ─── PROGRESS BAR ─── */
+    .progress-bar {
+      position: absolute;
+      top: 0; left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #1e6bd6, #6c63ff);
+      width: 0%;
+      z-index: 100;
+    }
+
+    /* ─── HEADING ─── */
+    .fan-heading {
+      text-align: center;
+      margin-bottom: 36px;
+      z-index: 10;
+      position: relative;
+    }
+    .fan-heading .label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #1e6bd6;
+      margin-bottom: 10px;
+    }
+    .fan-heading h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+      font-weight: 800;
+      color: #0a0a1a;
+      line-height: 1.1;
+    }
+    .fan-heading h2 span { color: #1e6bd6; }
+    .fan-heading p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-top: 8px;
+    }
+
+    /* ─── CARDS STAGE ─── */
+    .cards-stage {
+      position: relative;
+      width: 100%;
+      height: 420px;
+    }
+
+    /* ─── CARD ─── */
+    .fan-card {
+      position: absolute;
+      width: 190px;
+      height: 185px;
+      border-radius: 18px;
+      overflow: hidden;
+      will-change: transform;
+      /* All start stacked center */
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 6px 30px rgba(0,0,0,0.18);
+      cursor: pointer;
+      transition: box-shadow 0.3s;
+    }
+    .fan-card:hover { box-shadow: 0 14px 50px rgba(0,0,0,0.28); }
+
+    .card-inner {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      position: relative;
+    }
+
+    /* ─── Card colors ─── */
+    .fan-card:nth-child(1) .card-inner { background: linear-gradient(145deg,#1e3c72,#2a5298); }
+    .fan-card:nth-child(2) .card-inner { background: linear-gradient(145deg,#11998e,#38ef7d); }
+    .fan-card:nth-child(3) .card-inner { background: linear-gradient(145deg,#8e2de2,#4a00e0); }
+    .fan-card:nth-child(4) .card-inner { background: linear-gradient(145deg,#f7971e,#ffd200); }
+    .fan-card:nth-child(5) .card-inner { background: linear-gradient(145deg,#c94b4b,#4b134f); }
+    .fan-card:nth-child(6) .card-inner { background: linear-gradient(145deg,#134e5e,#71b280); }
+    .fan-card:nth-child(7) .card-inner { background: linear-gradient(145deg,#ee0979,#ff6a00); }
+    .fan-card:nth-child(8) .card-inner { background: linear-gradient(145deg,#232526,#414345); }
+
+    .card-icon {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      width: 42px; height: 42px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card-num {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 4px;
+    }
+    .card-line { width: 24px; height: 2px; background: rgba(255,255,255,0.3); margin: 6px 0; }
+    .card-title { font-size: 0.9rem; font-weight: 700; color: #fff; }
+    .card-sub { font-size: 0.72rem; color: rgba(255,255,255,0.6); margin-top: 4px; line-height: 1.4; }
+
+    /* ─── SCROLL HINT ─── */
+    .scroll-hint {
+      position: absolute;
+      bottom: 28px;
+      left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      color: #999; font-size: 0.7rem; font-weight: 600;
+      letter-spacing: 0.1em; z-index: 20;
+      opacity: 1; transition: opacity 0.4s;
+    }
+    .scroll-hint.hidden { opacity: 0; }
+    .arrow-down {
+      width: 18px; height: 18px;
+      border-right: 2px solid #999;
+      border-bottom: 2px solid #999;
+      transform: rotate(45deg);
+      animation: bounce 1.4s infinite;
+    }
+    @keyframes bounce {
+      0%,100% { transform:rotate(45deg) translateY(0); }
+      50%      { transform:rotate(45deg) translateY(5px); }
+    }
+
+    /* ─── AFTER SECTION ─── */
+    .after-section {
+      min-height: 80vh;
+      display: flex; align-items: center; justify-content: center;
+      background: #0d0d0d; text-align: center;
+    }
+    .after-section h2 { font-size: 2rem; font-weight: 700; color: rgba(255,255,255,0.25); }
+  </style>
+</head>
+<body>
+
+<!-- Before -->
+<div class="before-section">
+  <h1>Scroll Down ↓</h1>
+</div>
+
+<!-- ══════ FAN SCROLL SECTION ══════ -->
+<div class="scroll-section" id="scrollSection">
+  <div class="sticky-viewport">
+
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Heading -->
+    <div class="fan-heading">
+      <div class="label">What We Offer</div>
+      <h2>Your Business, <span>Our Expertise</span></h2>
+      <p>Services for your development</p>
+    </div>
+
+    <!-- Cards stage — all 8 start stacked in center -->
+    <div class="cards-stage" id="cardsStage">
+
+      <!-- ROW 1 — cards 1-4 -->
+      <div class="fan-card" id="c1">
+        <div class="card-inner">
+          <div class="card-icon">🎯</div>
+          <div class="card-num">Service 01</div>
+          <div class="card-line"></div>
+          <div class="card-title">HR Consulting</div>
+          <div class="card-sub">Strategic workforce solutions</div>
+        </div>
+      </div>
+
+      <div class="fan-card" id="c2">
+        <div class="card-inner">
+          <div class="card-icon">📋</div>
+          <div class="card-num">Service 02</div>
+          <div class="card-line"></div>
+          <div class="card-title">Recruitment</div>
+          <div class="card-sub">Top talent acquisition</div>
+        </div>
+      </div>
+
+      <div class="fan-card" id="c3">
+        <div class="card-inner">
+          <div class="card-icon">💼</div>
+          <div class="card-num">Service 03</div>
+          <div class="card-line"></div>
+          <div class="card-title">Staffing</div>
+          <div class="card-sub">Flexible workforce management</div>
+        </div>
+      </div>
+
+      <div class="fan-card" id="c4">
+        <div class="card-inner">
+          <div class="card-icon">📊</div>
+          <div class="card-num">Service 04</div>
+          <div class="card-line"></div>
+          <div class="card-title">Payroll</div>
+          <div class="card-sub">Seamless payroll processing</div>
+        </div>
+      </div>
+
+      <!-- ROW 2 — cards 5-8 -->
+      <div class="fan-card" id="c5">
+        <div class="card-inner">
+          <div class="card-icon">🏆</div>
+          <div class="card-num">Service 05</div>
+          <div class="card-line"></div>
+          <div class="card-title">Training</div>
+          <div class="card-sub">Employee development programs</div>
+        </div>
+      </div>
+
+      <div class="fan-card" id="c6">
+        <div class="card-inner">
+          <div class="card-icon">⚡</div>
+          <div class="card-num">Service 06</div>
+          <div class="card-line"></div>
+          <div class="card-title">Compliance</div>
+          <div class="card-sub">Regulatory expertise & support</div>
+        </div>
+      </div>
+
+      <div class="fan-card" id="c7">
+        <div class="card-inner">
+          <div class="card-icon">🌐</div>
+          <div class="card-num">Service 07</div>
+          <div class="card-line"></div>
+          <div class="card-title">Global Solutions</div>
+          <div class="card-sub">International business support</div>
+        </div>
+      </div>
+
+      <div class="fan-card" id="c8">
+        <div class="card-inner">
+          <div class="card-icon">🔒</div>
+          <div class="card-num">Service 08</div>
+          <div class="card-line"></div>
+          <div class="card-title">Risk Management</div>
+          <div class="card-sub">Protect & secure your business</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="scroll-hint" id="scrollHint">
+      <div class="arrow-down"></div>
+      SCROLL
+    </div>
+
+  </div>
+</div>
+
+<!-- After -->
+<div class="after-section">
+  <h2>Continue Scrolling ↓</h2>
+</div>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+const section   = document.getElementById('scrollSection');
+const progress  = document.getElementById('progressBar');
+const hint      = document.getElementById('scrollHint');
+const stage     = document.getElementById('cardsStage');
+
+const CARD_W    = 190;
+const CARD_H    = 185;
+const GAP_X     = 18;   // horizontal gap between cards
+const GAP_Y     = 18;   // vertical gap between rows
+
+// Cards split into 2 rows of 4
+const row1 = [document.getElementById('c1'), document.getElementById('c2'),
+              document.getElementById('c3'), document.getElementById('c4')];
+const row2 = [document.getElementById('c5'), document.getElementById('c6'),
+              document.getElementById('c7'), document.getElementById('c8')];
+const allCards = [...row1, ...row2];
+
+// z-index: row1 cards on top of row2 visually during stack
+allCards.forEach((card, i) => {
+  gsap.set(card, { zIndex: allCards.length - i });
+});
+
+function calcPositions() {
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+
+  const totalRowW = 4 * CARD_W + 3 * GAP_X;   // width of 4-card row
+  const rowStartX  = (vw - totalRowW) / 2;      // left edge of row
+
+  // Row Y centers — row1 above center, row2 below center
+  const stageH = CARD_H * 2 + GAP_Y;
+  const stageTopY = (vh - stageH) / 2;
+
+  const row1Y = stageTopY;
+  const row2Y = stageTopY + CARD_H + GAP_Y;
+
+  // X positions for each card in a row (4 cards)
+  const rowXPos = [0,1,2,3].map(i => rowStartX + i * (CARD_W + GAP_X));
+
+  return { rowXPos, row1Y, row2Y };
+}
+
+let tl;
+
+function buildTimeline() {
+  if (tl) tl.kill();
+  ScrollTrigger.getAll().forEach(t => t.kill());
+
+  const { rowXPos, row1Y, row2Y } = calcPositions();
+
+  // Set initial position — all stacked center
+  const centerX = window.innerWidth / 2 - CARD_W / 2;
+  const centerY = window.innerHeight / 2 - CARD_H / 2;
+
+  allCards.forEach(card => {
+    gsap.set(card, { x: 0, y: 0, left: '50%', top: '50%',
+                     xPercent: -50, yPercent: -50 });
+  });
+
+  tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: section,
+      start:   'top top',
+      end:     'bottom bottom',
+      scrub:   1.5,
+      onUpdate(self) {
+        progress.style.width = (self.progress * 100) + '%';
+        hint.classList.toggle('hidden', self.progress > 0.04);
+      }
+    }
+  });
+
+  // Animate ROW 1 cards → spread horizontally in top row
+  row1.forEach((card, i) => {
+    // Final absolute position (override left/top percentage with px)
+    tl.to(card, {
+      left:     rowXPos[i] + 'px',
+      top:      row1Y + 'px',
+      xPercent: 0,
+      yPercent: 0,
+      duration: 1,
+      ease:     'power2.inOut'
+    }, i * 0.06);
+  });
+
+  // Animate ROW 2 cards → spread horizontally in bottom row
+  row2.forEach((card, i) => {
+    tl.to(card, {
+      left:     rowXPos[i] + 'px',
+      top:      row2Y + 'px',
+      xPercent: 0,
+      yPercent: 0,
+      duration: 1,
+      ease:     'power2.inOut'
+    }, i * 0.06 + 0.2); // slight delay after row 1
+  });
+}
+
+buildTimeline();
+
+window.addEventListener('resize', () => {
+  ScrollTrigger.refresh();
+  buildTimeline();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,703 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Image Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+        h1 { text-align: center; color: #2c3e50; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 15px; display: flex; flex-direction: column; }
+        .card a { text-decoration: none; color: inherit; }
+        .card img { max-width: 100%; border-bottom: 1px solid #eee; margin-bottom: 15px; border-radius: 4px; object-fit: contain; height: 180px; background: #eee; }
+        .card h3 { margin: 0 0 10px 0; font-size: 16px; word-break: break-all; color: #e74c3c; }
+        .card .size { font-weight: bold; background: #2ecc71; color: #fff; padding: 2px 8px; border-radius: 12px; display: inline-block; font-size: 13px; margin-bottom: 10px; }
+        .card .usage { font-size: 13px; margin: 5px 0; border-left: 2px solid #3498db; padding-left: 10px; }
+        .card .usage b { color: #2c3e50; font-size: 11px; display: block; }
+        .card .usage a { color: #3498db; text-decoration: underline; }
+        .category-title { grid-column: 1 / -1; margin-top: 40px; padding-bottom: 10px; border-bottom: 3px solid #e74c3c; font-size: 28px; color: #2c3e50; font-weight: 800; }
+        .stats { text-align: center; margin-bottom: 30px; font-size: 18px; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <h1>🖼️ Designer's Visual Asset Map</h1>
+    <div class="stats">Showing all images for <b>https://icef.iscl.cricket/</b></div>
+    <div class="grid">
+<div class="category-title">ABOUT ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/about/about-thumb-02.webp" target="_blank"><img src="assets/images/about/about-thumb-02.webp" onerror="this.src='https://placehold.co/616x676/EEE/31343C?text=about-thumb-02.webp'" alt="about-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 616x676</div>
+            <h3>about-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> ABOUT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/about/about-thumb-03.webp" target="_blank"><img src="assets/images/about/about-thumb-03.webp" onerror="this.src='https://placehold.co/581x262/EEE/31343C?text=about-thumb-03.webp'" alt="about-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 581x262</div>
+            <h3>about-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> ABOUT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/about/about-thumb-01.webp" target="_blank"><img src="assets/images/about/about-thumb-01.webp" onerror="this.src='https://placehold.co/464x417/EEE/31343C?text=about-thumb-01.webp'" alt="about-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 464x417</div>
+            <h3>about-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/about/about-thumb-08.webp" target="_blank"><img src="assets/images/about/about-thumb-08.webp" onerror="this.src='https://placehold.co/768x590/EEE/31343C?text=about-thumb-08.webp'" alt="about-thumb-08.webp"></a>
+            <div class="size">REQUIRED: 768x590</div>
+            <h3>about-thumb-08.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">BG ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/banner-bg-thumb-05.webp" target="_blank"><img src="assets/images/bg/banner-bg-thumb-05.webp" onerror="this.src='https://placehold.co/1922x989/EEE/31343C?text=banner-bg-thumb-05.webp'" alt="banner-bg-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 1922x989</div>
+            <h3>banner-bg-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BANNER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/banner-bg-thumb-06.webp" target="_blank"><img src="assets/images/bg/banner-bg-thumb-06.webp" onerror="this.src='https://placehold.co/1920x989/EEE/31343C?text=banner-bg-thumb-06.webp'" alt="banner-bg-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 1920x989</div>
+            <h3>banner-bg-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/banner-bg-thumb-07.webp" target="_blank"><img src="assets/images/bg/banner-bg-thumb-07.webp" onerror="this.src='https://placehold.co/1920x989/EEE/31343C?text=banner-bg-thumb-07.webp'" alt="banner-bg-thumb-07.webp"></a>
+            <div class="size">REQUIRED: 1920x989</div>
+            <h3>banner-bg-thumb-07.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/noise-thumb.webp" target="_blank"><img src="assets/images/bg/noise-thumb.webp" onerror="this.src='https://placehold.co/1922x923/EEE/31343C?text=noise-thumb.webp'" alt="noise-thumb.webp"></a>
+            <div class="size">REQUIRED: 1922x923</div>
+            <h3>noise-thumb.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BANNER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/testimonial-bg-thumb-02.webp" target="_blank"><img src="assets/images/bg/testimonial-bg-thumb-02.webp" onerror="this.src='https://placehold.co/1920x513/EEE/31343C?text=testimonial-bg-thumb-02.webp'" alt="testimonial-bg-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 1920x513</div>
+            <h3>testimonial-bg-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> VIDEO</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> VIDEO</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> VIDEO</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> VIDEO</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/video-bg-thumb-02.webp" target="_blank"><img src="assets/images/bg/video-bg-thumb-02.webp" onerror="this.src='https://placehold.co/1920x481/EEE/31343C?text=video-bg-thumb-02.webp'" alt="video-bg-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 1920x481</div>
+            <h3>video-bg-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> VIDEO</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/why-choose-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/why-choose-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1920x484/EEE/31343C?text=why-choose-bg-thumb-01.webp'" alt="why-choose-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1920x484</div>
+            <h3>why-choose-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> WHY CHOOSE</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/breadcrumb-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/breadcrumb-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1920x384/EEE/31343C?text=breadcrumb-bg-thumb-01.webp'" alt="breadcrumb-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1920x384</div>
+            <h3>breadcrumb-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> BREADCRUMB</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/feature-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/feature-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1920x481/EEE/31343C?text=feature-bg-thumb-01.webp'" alt="feature-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1920x481</div>
+            <h3>feature-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FEATURE</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/feature-bg-thumb-05.webp" target="_blank"><img src="assets/images/bg/feature-bg-thumb-05.webp" onerror="this.src='https://placehold.co/1920x468/EEE/31343C?text=feature-bg-thumb-05.webp'" alt="feature-bg-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 1920x468</div>
+            <h3>feature-bg-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> FEATURE</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/value-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/value-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1920x481/EEE/31343C?text=value-bg-thumb-01.webp'" alt="value-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1920x481</div>
+            <h3>value-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> VALUE</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/feature-bg-thumb-02.webp" target="_blank"><img src="assets/images/bg/feature-bg-thumb-02.webp" onerror="this.src='https://placehold.co/1920x484/EEE/31343C?text=feature-bg-thumb-02.webp'" alt="feature-bg-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 1920x484</div>
+            <h3>feature-bg-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> FEATURE</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/services-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/services-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1920x589/EEE/31343C?text=services-bg-thumb-01.webp'" alt="services-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1920x589</div>
+            <h3>services-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> SERVICES</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/testimonial-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/testimonial-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1801x771/EEE/31343C?text=testimonial-bg-thumb-01.webp'" alt="testimonial-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1801x771</div>
+            <h3>testimonial-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> TESTIMONIAL</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/feature-bg-thumb-03.webp" target="_blank"><img src="assets/images/bg/feature-bg-thumb-03.webp" onerror="this.src='https://placehold.co/1920x305/EEE/31343C?text=feature-bg-thumb-03.webp'" alt="feature-bg-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 1920x305</div>
+            <h3>feature-bg-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> FEATURE</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/bg/video-bg-thumb-01.webp" target="_blank"><img src="assets/images/bg/video-bg-thumb-01.webp" onerror="this.src='https://placehold.co/1920x481/EEE/31343C?text=video-bg-thumb-01.webp'" alt="video-bg-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 1920x481</div>
+            <h3>video-bg-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> VIDEO</div>
+        </div>
+        <div class="category-title">BLOG ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/blog/blog-thumb-01.webp" target="_blank"><img src="assets/images/blog/blog-thumb-01.webp" onerror="this.src='https://placehold.co/768x583/EEE/31343C?text=blog-thumb-01.webp'" alt="blog-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 768x583</div>
+            <h3>blog-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BLOG</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> BLOG</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> BLOG</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BLOG</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> BLOG</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/blog/blog-thumb-02.webp" target="_blank"><img src="assets/images/blog/blog-thumb-02.webp" onerror="this.src='https://placehold.co/407x564/EEE/31343C?text=blog-thumb-02.webp'" alt="blog-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 407x564</div>
+            <h3>blog-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> BLOG</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/blog/blog-thumb-03.webp" target="_blank"><img src="assets/images/blog/blog-thumb-03.webp" onerror="this.src='https://placehold.co/407x564/EEE/31343C?text=blog-thumb-03.webp'" alt="blog-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 407x564</div>
+            <h3>blog-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/blog/blog-thumb-04.webp" target="_blank"><img src="assets/images/blog/blog-thumb-04.webp" onerror="this.src='https://placehold.co/768x583/EEE/31343C?text=blog-thumb-04.webp'" alt="blog-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 768x583</div>
+            <h3>blog-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/blog/blog-thumb-05.webp" target="_blank"><img src="assets/images/blog/blog-thumb-05.webp" onerror="this.src='https://placehold.co/768x583/EEE/31343C?text=blog-thumb-05.webp'" alt="blog-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 768x583</div>
+            <h3>blog-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/blog/blog-thumb-06.webp" target="_blank"><img src="assets/images/blog/blog-thumb-06.webp" onerror="this.src='https://placehold.co/768x583/EEE/31343C?text=blog-thumb-06.webp'" alt="blog-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 768x583</div>
+            <h3>blog-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">BRAND ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-01.webp" target="_blank"><img src="assets/images/brand/brand-thumb-01.webp" onerror="this.src='https://placehold.co/163x40/EEE/31343C?text=brand-thumb-01.webp'" alt="brand-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 163x40</div>
+            <h3>brand-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BRAND SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BRAND</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-02.webp" target="_blank"><img src="assets/images/brand/brand-thumb-02.webp" onerror="this.src='https://placehold.co/194x36/EEE/31343C?text=brand-thumb-02.webp'" alt="brand-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 194x36</div>
+            <h3>brand-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BRAND SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BRAND</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-03.webp" target="_blank"><img src="assets/images/brand/brand-thumb-03.webp" onerror="this.src='https://placehold.co/180x37/EEE/31343C?text=brand-thumb-03.webp'" alt="brand-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 180x37</div>
+            <h3>brand-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BRAND SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BRAND</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-04.webp" target="_blank"><img src="assets/images/brand/brand-thumb-04.webp" onerror="this.src='https://placehold.co/160x32/EEE/31343C?text=brand-thumb-04.webp'" alt="brand-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 160x32</div>
+            <h3>brand-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BRAND SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BRAND</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-05.webp" target="_blank"><img src="assets/images/brand/brand-thumb-05.webp" onerror="this.src='https://placehold.co/177x34/EEE/31343C?text=brand-thumb-05.webp'" alt="brand-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 177x34</div>
+            <h3>brand-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> BRAND</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BRAND SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> BRAND</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-06.webp" target="_blank"><img src="assets/images/brand/brand-thumb-06.webp" onerror="this.src='https://placehold.co/184x29/EEE/31343C?text=brand-thumb-06.webp'" alt="brand-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 184x29</div>
+            <h3>brand-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-07.webp" target="_blank"><img src="assets/images/brand/brand-thumb-07.webp" onerror="this.src='https://placehold.co/104x91/EEE/31343C?text=brand-thumb-07.webp'" alt="brand-thumb-07.webp"></a>
+            <div class="size">REQUIRED: 104x91</div>
+            <h3>brand-thumb-07.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> FOOTER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-08.webp" target="_blank"><img src="assets/images/brand/brand-thumb-08.webp" onerror="this.src='https://placehold.co/74x86/EEE/31343C?text=brand-thumb-08.webp'" alt="brand-thumb-08.webp"></a>
+            <div class="size">REQUIRED: 74x86</div>
+            <h3>brand-thumb-08.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> FOOTER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/brand/brand-thumb-09.webp" target="_blank"><img src="assets/images/brand/brand-thumb-09.webp" onerror="this.src='https://placehold.co/103x90/EEE/31343C?text=brand-thumb-09.webp'" alt="brand-thumb-09.webp"></a>
+            <div class="size">REQUIRED: 103x90</div>
+            <h3>brand-thumb-09.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> FOOTER</div>
+        </div>
+        <div class="category-title">CTA ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/cta/cta-thumb-01.webp" target="_blank"><img src="assets/images/cta/cta-thumb-01.webp" onerror="this.src='https://placehold.co/561x672/EEE/31343C?text=cta-thumb-01.webp'" alt="cta-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 561x672</div>
+            <h3>cta-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> CTA</div>
+        </div>
+        <div class="category-title">FAQ ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/faq/faq-thumb-01.webp" target="_blank"><img src="assets/images/faq/faq-thumb-01.webp" onerror="this.src='https://placehold.co/871x670/EEE/31343C?text=faq-thumb-01.webp'" alt="faq-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 871x670</div>
+            <h3>faq-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/faq/faq-thumb-04.webp" target="_blank"><img src="assets/images/faq/faq-thumb-04.webp" onerror="this.src='https://placehold.co/871x670/EEE/31343C?text=faq-thumb-04.webp'" alt="faq-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 871x670</div>
+            <h3>faq-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">FAVICON.WEBP ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/favicon.webp" target="_blank"><img src="assets/images/favicon.webp" onerror="this.src='https://placehold.co/100x100/EEE/31343C?text=favicon.webp'" alt="favicon.webp"></a>
+            <div class="size">REQUIRED: 100x100</div>
+            <h3>favicon.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT, HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> CTA, HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> CTA, HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> CTA, HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> CTA, HEAD, HEADER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> HEAD, HEADER</div>
+        </div>
+        <div class="category-title">FEATURE ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-05.webp" target="_blank"><img src="assets/images/feature/feature-thumb-05.webp" onerror="this.src='https://placehold.co/300x300/EEE/31343C?text=feature-thumb-05.webp'" alt="feature-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 300x300</div>
+            <h3>feature-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> rs-feature-area</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-06.webp" target="_blank"><img src="assets/images/feature/feature-thumb-06.webp" onerror="this.src='https://placehold.co/300x300/EEE/31343C?text=feature-thumb-06.webp'" alt="feature-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 300x300</div>
+            <h3>feature-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-07.webp" target="_blank"><img src="assets/images/feature/feature-thumb-07.webp" onerror="this.src='https://placehold.co/300x300/EEE/31343C?text=feature-thumb-07.webp'" alt="feature-thumb-07.webp"></a>
+            <div class="size">REQUIRED: 300x300</div>
+            <h3>feature-thumb-07.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-08.webp" target="_blank"><img src="assets/images/feature/feature-thumb-08.webp" onerror="this.src='https://placehold.co/300x300/EEE/31343C?text=feature-thumb-08.webp'" alt="feature-thumb-08.webp"></a>
+            <div class="size">REQUIRED: 300x300</div>
+            <h3>feature-thumb-08.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-09.webp" target="_blank"><img src="assets/images/feature/feature-thumb-09.webp" onerror="this.src='https://placehold.co/300x300/EEE/31343C?text=feature-thumb-09.webp'" alt="feature-thumb-09.webp"></a>
+            <div class="size">REQUIRED: 300x300</div>
+            <h3>feature-thumb-09.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-10.webp" target="_blank"><img src="assets/images/feature/feature-thumb-10.webp" onerror="this.src='https://placehold.co/300x300/EEE/31343C?text=feature-thumb-10.webp'" alt="feature-thumb-10.webp"></a>
+            <div class="size">REQUIRED: 300x300</div>
+            <h3>feature-thumb-10.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-01.webp" target="_blank"><img src="assets/images/feature/feature-thumb-01.webp" onerror="this.src='https://placehold.co/768x768/EEE/31343C?text=feature-thumb-01.webp'" alt="feature-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 768x768</div>
+            <h3>feature-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-02.webp" target="_blank"><img src="assets/images/feature/feature-thumb-02.webp" onerror="this.src='https://placehold.co/768x768/EEE/31343C?text=feature-thumb-02.webp'" alt="feature-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 768x768</div>
+            <h3>feature-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-03.webp" target="_blank"><img src="assets/images/feature/feature-thumb-03.webp" onerror="this.src='https://placehold.co/768x768/EEE/31343C?text=feature-thumb-03.webp'" alt="feature-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 768x768</div>
+            <h3>feature-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/feature/feature-thumb-04.webp" target="_blank"><img src="assets/images/feature/feature-thumb-04.webp" onerror="this.src='https://placehold.co/768x768/EEE/31343C?text=feature-thumb-04.webp'" alt="feature-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 768x768</div>
+            <h3>feature-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">GALLERY ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/gallery/gallery-thumb-01.webp" target="_blank"><img src="assets/images/gallery/gallery-thumb-01.webp" onerror="this.src='https://placehold.co/870x750/EEE/31343C?text=gallery-thumb-01.webp'" alt="gallery-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 870x750</div>
+            <h3>gallery-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/gallery/gallery-thumb-02.webp" target="_blank"><img src="assets/images/gallery/gallery-thumb-02.webp" onerror="this.src='https://placehold.co/1054x750/EEE/31343C?text=gallery-thumb-02.webp'" alt="gallery-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 1054x750</div>
+            <h3>gallery-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/gallery/gallery-thumb-03.webp" target="_blank"><img src="assets/images/gallery/gallery-thumb-03.webp" onerror="this.src='https://placehold.co/1237x750/EEE/31343C?text=gallery-thumb-03.webp'" alt="gallery-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 1237x750</div>
+            <h3>gallery-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/gallery/gallery-thumb-04.webp" target="_blank"><img src="assets/images/gallery/gallery-thumb-04.webp" onerror="this.src='https://placehold.co/870x750/EEE/31343C?text=gallery-thumb-04.webp'" alt="gallery-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 870x750</div>
+            <h3>gallery-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/gallery/gallery-thumb-05.webp" target="_blank"><img src="assets/images/gallery/gallery-thumb-05.webp" onerror="this.src='https://placehold.co/870x750/EEE/31343C?text=gallery-thumb-05.webp'" alt="gallery-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 870x750</div>
+            <h3>gallery-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/gallery/gallery-thumb-06.webp" target="_blank"><img src="assets/images/gallery/gallery-thumb-06.webp" onerror="this.src='https://placehold.co/1237x750/EEE/31343C?text=gallery-thumb-06.webp'" alt="gallery-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 1237x750</div>
+            <h3>gallery-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        <div class="category-title">LOGO ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/logo/logo-white.webp" target="_blank"><img src="assets/images/logo/logo-white.webp" onerror="this.src='https://placehold.co/168x36/EEE/31343C?text=logo-white.webp'" alt="logo-white.webp"></a>
+            <div class="size">REQUIRED: 168x36</div>
+            <h3>logo-white.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> HEADER, OFFCANVAS, FOOTER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/logo/logo-black.webp" target="_blank"><img src="assets/images/logo/logo-black.webp" onerror="this.src='https://placehold.co/153x36/EEE/31343C?text=logo-black.webp'" alt="logo-black.webp"></a>
+            <div class="size">REQUIRED: 153x36</div>
+            <h3>logo-black.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> OFFCANVAS</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> OFFCANVAS</div>
+        </div>
+        <div class="category-title">PORTFOLIO ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-03.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-03.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-03.webp'" alt="portfolio-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-04.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-04.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-04.webp'" alt="portfolio-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-16.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-16.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-16.webp'" alt="portfolio-thumb-16.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-16.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-17.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-17.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-17.webp'" alt="portfolio-thumb-17.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-17.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-18.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-18.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-18.webp'" alt="portfolio-thumb-18.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-18.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-19.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-19.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-19.webp'" alt="portfolio-thumb-19.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-19.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-20.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-20.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-20.webp'" alt="portfolio-thumb-20.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-20.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/portfolio/portfolio-thumb-21.webp" target="_blank"><img src="assets/images/portfolio/portfolio-thumb-21.webp" onerror="this.src='https://placehold.co/768x551/EEE/31343C?text=portfolio-thumb-21.webp'" alt="portfolio-thumb-21.webp"></a>
+            <div class="size">REQUIRED: 768x551</div>
+            <h3>portfolio-thumb-21.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">SERVICES ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/services/services-thumb-03.webp" target="_blank"><img src="assets/images/services/services-thumb-03.webp" onerror="this.src='https://placehold.co/750x356/EEE/31343C?text=services-thumb-03.webp'" alt="services-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 750x356</div>
+            <h3>services-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/services/services-thumb-04.webp" target="_blank"><img src="assets/images/services/services-thumb-04.webp" onerror="this.src='https://placehold.co/750x356/EEE/31343C?text=services-thumb-04.webp'" alt="services-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 750x356</div>
+            <h3>services-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/services/services-thumb-05.webp" target="_blank"><img src="assets/images/services/services-thumb-05.webp" onerror="this.src='https://placehold.co/562x267/EEE/31343C?text=services-thumb-05.webp'" alt="services-thumb-05.webp"></a>
+            <div class="size">REQUIRED: 562x267</div>
+            <h3>services-thumb-05.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/services/services-thumb-06.webp" target="_blank"><img src="assets/images/services/services-thumb-06.webp" onerror="this.src='https://placehold.co/562x267/EEE/31343C?text=services-thumb-06.webp'" alt="services-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 562x267</div>
+            <h3>services-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/services/services-thumb-01.webp" target="_blank"><img src="assets/images/services/services-thumb-01.webp" onerror="this.src='https://placehold.co/308x244/EEE/31343C?text=services-thumb-01.webp'" alt="services-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 308x244</div>
+            <h3>services-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> SERVICES</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/services/services-thumb-02.webp" target="_blank"><img src="assets/images/services/services-thumb-02.webp" onerror="this.src='https://placehold.co/308x244/EEE/31343C?text=services-thumb-02.webp'" alt="services-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 308x244</div>
+            <h3>services-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">SHAPE ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/multi-line-shape.webp" target="_blank"><img src="assets/images/shape/multi-line-shape.webp" onerror="this.src='https://placehold.co/24x24/EEE/31343C?text=multi-line-shape.webp'" alt="multi-line-shape.webp"></a>
+            <div class="size">REQUIRED: 24x24</div>
+            <h3>multi-line-shape.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> TEXT SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> TEXT SLIDER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> TEXT SLIDER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/services-shape-01.webp" target="_blank"><img src="assets/images/shape/services-shape-01.webp" onerror="this.src='https://placehold.co/569x386/EEE/31343C?text=services-shape-01.webp'" alt="services-shape-01.webp"></a>
+            <div class="size">REQUIRED: 569x386</div>
+            <h3>services-shape-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/testimonial-shape-02.webp" target="_blank"><img src="assets/images/shape/testimonial-shape-02.webp" onerror="this.src='https://placehold.co/308x244/EEE/31343C?text=testimonial-shape-02.webp'" alt="testimonial-shape-02.webp"></a>
+            <div class="size">REQUIRED: 308x244</div>
+            <h3>testimonial-shape-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> TESTIMONIAL</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/footer-shape-01.webp" target="_blank"><img src="assets/images/shape/footer-shape-01.webp" onerror="this.src='https://placehold.co/358x284/EEE/31343C?text=footer-shape-01.webp'" alt="footer-shape-01.webp"></a>
+            <div class="size">REQUIRED: 358x284</div>
+            <h3>footer-shape-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> FOOTER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/footer-shape-02.webp" target="_blank"><img src="assets/images/shape/footer-shape-02.webp" onerror="this.src='https://placehold.co/358x284/EEE/31343C?text=footer-shape-02.webp'" alt="footer-shape-02.webp"></a>
+            <div class="size">REQUIRED: 358x284</div>
+            <h3>footer-shape-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/articles.php" target="_blank">articles.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/case-study.php" target="_blank">case-study.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> FOOTER</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> FOOTER</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/cta-shape-01.webp" target="_blank"><img src="assets/images/shape/cta-shape-01.webp" onerror="this.src='https://placehold.co/365x225/EEE/31343C?text=cta-shape-01.webp'" alt="cta-shape-01.webp"></a>
+            <div class="size">REQUIRED: 365x225</div>
+            <h3>cta-shape-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> CTA</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/squre-shape.webp" target="_blank"><img src="assets/images/shape/squre-shape.webp" onerror="this.src='https://placehold.co/120x120/EEE/31343C?text=squre-shape.webp'" alt="squre-shape.webp"></a>
+            <div class="size">REQUIRED: 120x120</div>
+            <h3>squre-shape.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> CTA</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> CTA</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/award-shape.webp" target="_blank"><img src="assets/images/shape/award-shape.webp" onerror="this.src='https://placehold.co/123x91/EEE/31343C?text=award-shape.webp'" alt="award-shape.webp"></a>
+            <div class="size">REQUIRED: 123x91</div>
+            <h3>award-shape.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/about-shape-01.webp" target="_blank"><img src="assets/images/shape/about-shape-01.webp" onerror="this.src='https://placehold.co/365x225/EEE/31343C?text=about-shape-01.webp'" alt="about-shape-01.webp"></a>
+            <div class="size">REQUIRED: 365x225</div>
+            <h3>about-shape-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> ABOUT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/shape/squre-shape-03.webp" target="_blank"><img src="assets/images/shape/squre-shape-03.webp" onerror="this.src='https://placehold.co/46x46/EEE/31343C?text=squre-shape-03.webp'" alt="squre-shape-03.webp"></a>
+            <div class="size">REQUIRED: 46x46</div>
+            <h3>squre-shape-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">SKILL ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/skill/skill-thumb-02.webp" target="_blank"><img src="assets/images/skill/skill-thumb-02.webp" onerror="this.src='https://placehold.co/581x272/EEE/31343C?text=skill-thumb-02.webp'" alt="skill-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 581x272</div>
+            <h3>skill-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">TESTIMONIAL ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/testimonial/testimonial-thumb-03.webp" target="_blank"><img src="assets/images/testimonial/testimonial-thumb-03.webp" onerror="this.src='https://placehold.co/500x377/EEE/31343C?text=testimonial-thumb-03.webp'" alt="testimonial-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 500x377</div>
+            <h3>testimonial-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> TESTIMONIAL</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/testimonial/testimonial-thumb-02.webp" target="_blank"><img src="assets/images/testimonial/testimonial-thumb-02.webp" onerror="this.src='https://placehold.co/500x375/EEE/31343C?text=testimonial-thumb-02.webp'" alt="testimonial-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 500x375</div>
+            <h3>testimonial-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> rs-testimonial-area</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> TESTIMONIAL</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> TESTIMONIAL</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/testimonial/testimonial-thumb-01.webp" target="_blank"><img src="assets/images/testimonial/testimonial-thumb-01.webp" onerror="this.src='https://placehold.co/384x637/EEE/31343C?text=testimonial-thumb-01.webp'" alt="testimonial-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 384x637</div>
+            <h3>testimonial-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> TESTIMONIAL</div>
+        </div>
+        <div class="category-title">USER ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/user/client-group.webp" target="_blank"><img src="assets/images/user/client-group.webp" onerror="this.src='https://placehold.co/128x56/EEE/31343C?text=client-group.webp'" alt="client-group.webp"></a>
+            <div class="size">REQUIRED: 128x56</div>
+            <h3>client-group.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/user/user-thumb-01.webp" target="_blank"><img src="assets/images/user/user-thumb-01.webp" onerror="this.src='https://placehold.co/500x500/EEE/31343C?text=user-thumb-01.webp'" alt="user-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 500x500</div>
+            <h3>user-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/support.php" target="_blank">support.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/user/user-thumb-02.webp" target="_blank"><img src="assets/images/user/user-thumb-02.webp" onerror="this.src='https://placehold.co/500x500/EEE/31343C?text=user-thumb-02.webp'" alt="user-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 500x500</div>
+            <h3>user-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/user/user-thumb-03.webp" target="_blank"><img src="assets/images/user/user-thumb-03.webp" onerror="this.src='https://placehold.co/500x500/EEE/31343C?text=user-thumb-03.webp'" alt="user-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 500x500</div>
+            <h3>user-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">WHY-CHOOSE ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/why-choose/why-choose-thumb-02.webp" target="_blank"><img src="assets/images/why-choose/why-choose-thumb-02.webp" onerror="this.src='https://placehold.co/523x285/EEE/31343C?text=why-choose-thumb-02.webp'" alt="why-choose-thumb-02.webp"></a>
+            <div class="size">REQUIRED: 523x285</div>
+            <h3>why-choose-thumb-02.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/why-choose/why-choose-thumb-03.webp" target="_blank"><img src="assets/images/why-choose/why-choose-thumb-03.webp" onerror="this.src='https://placehold.co/523x285/EEE/31343C?text=why-choose-thumb-03.webp'" alt="why-choose-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 523x285</div>
+            <h3>why-choose-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/why-choose/why-choose-thumb-04.webp" target="_blank"><img src="assets/images/why-choose/why-choose-thumb-04.webp" onerror="this.src='https://placehold.co/523x285/EEE/31343C?text=why-choose-thumb-04.webp'" alt="why-choose-thumb-04.webp"></a>
+            <div class="size">REQUIRED: 523x285</div>
+            <h3>why-choose-thumb-04.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/index.php" target="_blank">index.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/why-choose/why-choose-thumb-06.webp" target="_blank"><img src="assets/images/why-choose/why-choose-thumb-06.webp" onerror="this.src='https://placehold.co/565x498/EEE/31343C?text=why-choose-thumb-06.webp'" alt="why-choose-thumb-06.webp"></a>
+            <div class="size">REQUIRED: 565x498</div>
+            <h3>why-choose-thumb-06.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        <div class="category-title">WORK ASSETS</div>
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/work/working-thumb-03.webp" target="_blank"><img src="assets/images/work/working-thumb-03.webp" onerror="this.src='https://placehold.co/633x305/EEE/31343C?text=working-thumb-03.webp'" alt="working-thumb-03.webp"></a>
+            <div class="size">REQUIRED: 633x305</div>
+            <h3>working-thumb-03.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/about-mission.php" target="_blank">about-mission.php</a><br><b>SECTION:</b> FEATURE</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> rs-feature-area</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/work/working-thumb-09.webp" target="_blank"><img src="assets/images/work/working-thumb-09.webp" onerror="this.src='https://placehold.co/522x428/EEE/31343C?text=working-thumb-09.webp'" alt="working-thumb-09.webp"></a>
+            <div class="size">REQUIRED: 522x428</div>
+            <h3>working-thumb-09.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/industry-clients.php" target="_blank">industry-clients.php</a><br><b>SECTION:</b> PAGE CONTENT</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/careers-culture.php" target="_blank">careers-culture.php</a><br><b>SECTION:</b> PAGE CONTENT</div>
+        </div>
+        
+        <div class="card">
+            <a href="https://icef.iscl.cricket/assets/images/work/working-thumb-01.webp" target="_blank"><img src="assets/images/work/working-thumb-01.webp" onerror="this.src='https://placehold.co/418x493/EEE/31343C?text=working-thumb-01.webp'" alt="working-thumb-01.webp"></a>
+            <div class="size">REQUIRED: 418x493</div>
+            <h3>working-thumb-01.webp</h3>
+            <div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/awards.php" target="_blank">awards.php</a><br><b>SECTION:</b> BREADCRUMB</div><div class="usage"><b>PAGE:</b> <a href="https://icef.iscl.cricket/why-choose-us.php" target="_blank">why-choose-us.php</a><br><b>SECTION:</b> WORKING</div>
+        </div>
+        
+    </div>
+</body>
+</html>
