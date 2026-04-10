@@ -1,0 +1,8 @@
+{
+    "name": "charmy/icef",
+    "description": "ICEF INDIA - Integrated Assessment & Recruitment Platform",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    }
+}

@@ -1,0 +1,22 @@
+# Dependencies
+/vendor/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Local configuration
+.env
+php_errors.log
+
+# Temporary/Unnecessary files
+unnecessary/
+wisk_aero.html
+scroll-fan-demo.html
+temp_about.html
+visual_image_dashboard.html
