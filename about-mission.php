@@ -40,7 +40,7 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                 </div>
                                 <div class="rs-about-btn" style="margin-top: 10px;">
                                     <a class="rs-btn has-icon is-transparent hover-primary border-hover-primary border-red"
-                                        href="about.php">Explore More
+                                        href="about-mission.php">Explore More
                                         <span class="icon-box">
                                             <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                 fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -666,7 +666,7 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                     <p class="rs-section-desc">We will be a leading education services organisation respected globally for academic and business excellence, providing affordable and flexible learning solutions -powered by technology, innovation and passion. Learners, enterprises and communities will reward us with market leadership creating prosperity for all our stakeholders.To be the workplace of choice for top-tier talent, where passion for technology and assessment expertise converges to create a globally respected platform. We envision a future where our team is at the forefront of educational and business transformation, creating prosperity for themselves, our stakeholders, and the communities we serve.</p>
                                 </div>
                                 <div class="rs-why-choose-btn">
-                                    <a class="rs-btn has-icon hover-secondary border-hover-primary" href="about.php">Get
+                                    <a class="rs-btn has-icon hover-secondary border-hover-primary" href="about-mission.php">Get
                                         Start Now
                                         <span class="icon-box">
                                             <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"

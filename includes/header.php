@@ -222,55 +222,55 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children rs-mega-menu">
-                                    <a href="solutions.php">Solutions</a>
+                                    <a href="javascript:void(0)">Solutions</a>
                                     <ul class="mega-menu mega-grid-two">
                                         <li class="rs-menu-item">
                                             <a href="it-emerging-tech.php" class="title">IT & Emerging Tech Enablement</a>
                                             <ul>
-                                                <li><a href="cognitive-domain.php">IOT & RFID Based Products</a></li>
-                                                <li><a href="online-offline.php">Application Development</a></li>
-                                                <li><a href="remote-proctoring.php">Customized Software Development</a></li>
-                                                <li><a href="remote-proctoring.php">Emerging Tech</a></li>
+                                                <li><a href="it-emerging-tech.php">IOT & RFID Based Products</a></li>
+                                                <li><a href="it-emerging-tech.php">Application Development</a></li>
+                                                <li><a href="it-emerging-tech.php">Customized Software Development</a></li>
+                                                <li><a href="it-emerging-tech.php">Emerging Tech</a></li>
                                             </ul>
                                         </li>
                                         <li class="rs-menu-item">
                                             <a href="assessment-and-testing.php" class="title">Assessment & Testing</a>
                                             <ul>
-                                                <li><a href="cognitive-domain.php">Cognitive/Domain</a></li>
-                                                <li><a href="online-offline.php">Online/Offline</a></li>
-                                                <li><a href="remote-proctoring.php">Proctoring</a></li>
+                                                <li><a href="assessment-and-testing.php">Cognitive/Domain</a></li>
+                                                <li><a href="assessment-and-testing.php">Online/Offline</a></li>
+                                                <li><a href="assessment-and-testing.php">Proctoring</a></li>
                                             </ul>
                                         </li>
                                         <li class="rs-menu-item">
                                             <a href="recruitment-hiring.php" class="title">Recruitment & Hiring</a>
                                             <ul>
-                                                <li><a href="screening.php">Screening</a></li>
-                                                <li><a href="assessments.php">Assessments</a></li>
-                                                <li><a href="merit-lists.php">Merit Lists</a></li>
+                                                <li><a href="recruitment-hiring.php">Screening</a></li>
+                                                <li><a href="recruitment-hiring.php">Assessments</a></li>
+                                                <li><a href="recruitment-hiring.php">Merit Lists</a></li>
                                             </ul>
                                         </li>
                                         <li class="rs-menu-item">
                                             <a href="exam-management.php" class="title">Exam Management</a>
                                             <ul>
-                                                <li><a href="question-banks.php">Question Banks</a></li>
-                                                <li><a href="conduct.php">Conduct</a></li>
-                                                <li><a href="processing.php">Processing</a></li>
+                                                <li><a href="exam-management.php">Question Banks</a></li>
+                                                <li><a href="exam-management.php">Conduct</a></li>
+                                                <li><a href="exam-management.php">Processing</a></li>
                                             </ul>
                                         </li>
                                         <li class="rs-menu-item">
                                             <a href="manpower-workforce.php" class="title">Manpower & Workforce</a>
                                             <ul>
-                                                <li><a href="outsourcing.php">Outsourcing</a></li>
-                                                <li><a href="staffing.php">Staffing</a></li>
-                                                <li><a href="deployment.php">Deployment</a></li>
+                                                <li><a href="manpower-workforce.php">Outsourcing</a></li>
+                                                <li><a href="manpower-workforce.php">Staffing</a></li>
+                                                <li><a href="manpower-workforce.php">Deployment</a></li>
                                             </ul>
                                         </li>
                                         <li class="rs-menu-item">
                                             <a href="call-center-and-bpos.php" class="title">Call Center & BPOs</a>
                                             <ul>
-                                                <li><a href="inbound-outbound.php">Inbound/Outbound</a></li>
-                                                <li><a href="customer-support.php">Support</a></li>
-                                                <li><a href="tele-calling.php">Tele-Calling</a></li>
+                                                <li><a href="call-center-and-bpos.php">Inbound/Outbound</a></li>
+                                                <li><a href="call-center-and-bpos.php">Support</a></li>
+                                                <li><a href="call-center-and-bpos.php">Tele-Calling</a></li>
                                             </ul>
                                         </li>
                                         <li class="mega-menu-feature">
