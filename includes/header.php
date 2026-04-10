@@ -276,7 +276,7 @@
                                         <li class="mega-menu-feature">
                                             <div class="mega-feature-content">
                                                 <h6 class="title">Let's Talk Business</h6>
-                                                <p>Empowering businesses with smart IT solutions since 1997.</p>
+                                                <p>Empowering businesses with smart IT solutions since 2000.</p>
                                                 <a href="contact.php" class="rs-btn has-icon has-md-radius hover-primary">Request Quote</a>
                                                 <div class="feature-thumb mt-20">
                                                     <img id="mega-menu-target-img" src="assets/images/mega-menu-feature.png" alt="Consultation">

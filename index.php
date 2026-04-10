@@ -329,530 +329,273 @@ include 'includes/head.php'; ?>
 
 
 
-        <!-- services area start — Wisk Aero fan scroll -->
-        <div id="servicesFanSection" class="rs-services-fan-scroll">
-            <!-- sticky viewport -->
-            <div class="rs-services-fan-sticky rs-services-two">
-
-                <!-- shape stays as background decoration -->
-                <div class="rs-services-shape rs-services-fan-shape">
-                    <img src="assets/images/shape/services-shape-01.webp" alt="image">
-                </div>
-
-                <!-- heading -->
-                <div class="rs-services-fan-heading">
-                    <span class="section-subtitle is-white">
-                        Your Business Our Expertise
-                    </span>
-                    <h2 class="section-title rs-split-text-enable split-in-left is-white mb-10">Service for your
-                        development</h2>
-                    <p class="section-desc">We believe that every business is uniquids our approach is never growth.</p>
-                </div>
-
-                <!-- cards stage: all 4 start stacked center, fan out to row on scroll -->
-                <div class="rs-services-fan-stage" id="servicesFanStage">
-
-                    <div class="rs-services-item rs-services-fan-card" id="svc1">
-                        <div class="rs-services-thumb">
-                            <img src="assets/images/services/services-thumb-03.webp" alt="image">
-                            <div class="rs-services-btn">
-                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
-                                    href="services-details.php">Explore More
-                                    <span class="icon-box">
-                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-
-                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="rs-services-content">
-                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
-                                    Marketing
-                                    Consulting</a></h5>
-                            <p class="rs-services-desc"> Complex data into clear and strategic insights that
-                                improve
-                                performance guide growth.</p>
-                            <div class="rs-services-list-wrapper">
-                                <h6 class="rs-services-list-title">Data Analysis</h6>
-                                <div class="rs-services-list-item-wrapper">
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Regulatory Investigations </p>
-                                    </div>
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Anit- Competitive Conduct</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rs-services-item rs-services-fan-card" id="svc2">
-                        <div class="rs-services-thumb">
-                            <img src="assets/images/services/services-thumb-04.webp" alt="image">
-                            <div class="rs-services-btn">
-                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
-                                    href="services-details.php">Explore More
-                                    <span class="icon-box">
-                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-
-                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="rs-services-content">
-                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
-                                    Financial
-                                    Insurance</a></h5>
-                            <p class="rs-services-desc"> we analyze structured and unstructured data to help you
-                                optimize
-                                operations.</p>
-                            <div class="rs-services-list-wrapper">
-                                <h6 class="rs-services-list-title">Bank Cost</h6>
-                                <div class="rs-services-list-item-wrapper">
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Save costs for your development </p>
-                                    </div>
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Cancel anytime you want</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rs-services-item rs-services-fan-card" id="svc3">
-                        <div class="rs-services-thumb">
-                            <img src="assets/images/services/services-thumb-05.webp" alt="image">
-                            <div class="rs-services-btn">
-                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
-                                    href="services-details.php">Explore More
-                                    <span class="icon-box">
-                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-
-                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="rs-services-content">
-                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
-                                    Portfolio
-                                    Management</a></h5>
-                            <p class="rs-services-desc"> Every number tells a story We analyze your data to
-                                uncover
-                                patterns and highlight</p>
-                            <div class="rs-services-list-wrapper">
-                                <h6 class="rs-services-list-title">CV Solutions</h6>
-                                <div class="rs-services-list-item-wrapper">
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Regulatory Investigations</p>
-                                    </div>
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Management System</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="rs-services-item rs-services-fan-card" id="svc4">
-                        <div class="rs-services-thumb">
-                            <img src="assets/images/services/services-thumb-06.webp" alt="image">
-                            <div class="rs-services-btn">
-                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
-                                    href="services-details.php">Explore More
-                                    <span class="icon-box">
-                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-
-                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                fill="white" />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="rs-services-content">
-                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
-                                    Business
-                                    Insurances</a></h5>
-                            <p class="rs-services-desc"> We provide the best services ensuring your outstanding
-                                growth
-                                Lorem ipsum dolor.</p>
-                            <div class="rs-services-list-wrapper">
-                                <h6 class="rs-services-list-title">Effective Retail</h6>
-                                <div class="rs-services-list-item-wrapper">
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Conversion Optimization </p>
-                                    </div>
-                                    <div class="rs-services-list-item">
-                                        <div class="rs-services-list-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
-                                                viewBox="0 0 12 10" fill="none">
-                                                <path
-                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
-                                                    fill="black"></path>
-                                            </svg>
-                                        </div>
-                                        <p> Anit- Competitive Conduct</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div><!-- /fan-stage -->
-            </div><!-- /fan-sticky -->
-        </div>
-        <!-- services area end -->
-
-        <!-- ══ SERVICES FAN SCROLL CSS ══ -->
+        <!-- services area start — Timeline Component -->
         <style>
-            /* ── SCROLL WRAPPER ── */
-            .rs-services-fan-scroll {
-                position: relative;
-                height: 380vh;
-                /* scroll travel = animation length */
-            }
-
-            /* ── STICKY VIEWPORT (pins while scrolling 380vh) ── */
-            .rs-services-fan-sticky {
-                position: sticky;
-                top: 0;
-                height: 100vh;
-                overflow: hidden;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+        .timeline-section-custom {
+            --primary-bg: #2B3944;
+            --accent-theme: #AB052D;
+            --accent-hover: #8a0424;
+            --text-dark: #FFFFFF;
+            --text-muted: rgba(255, 255, 255, 0.7);
+            --card-radius: 20px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: var(--primary-bg);
+            color: var(--text-dark);
+            padding: 100px 0;
+            font-family: 'Outfit', sans-serif;
+            position: relative;
+        }
+        .timeline-section-custom .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        .timeline-section-custom .header-custom {
+            margin-bottom: 60px;
+        }
+        .timeline-section-custom .section-subtitle {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: inline-block;
+            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        .timeline-section-custom .header-custom h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            color: #fff;
+        }
+        .timeline-section-custom .header-custom p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+        .timeline-section-custom .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        .timeline-section-custom .timeline-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .timeline-section-custom .card {
+            width: 100%;
+            aspect-ratio: 4/3;
+            border-radius: var(--card-radius);
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            transition: var(--transition);
+            background: rgba(255, 255, 255, 0.05);
+            border: none;
+            padding: 0;
+        }
+        .timeline-section-custom .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        .timeline-section-custom .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        .timeline-section-custom .card:hover img {
+            scale: 1.05;
+        }
+        .timeline-section-custom .connector {
+            width: 1px;
+            height: 80px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+            margin-bottom: 20px;
+        }
+        .timeline-section-custom .label {
+            text-align: center;
+        }
+        .timeline-section-custom .year {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .timeline-section-custom .gen-name {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.3;
+        }
+        .timeline-section-custom .cta-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--accent-theme);
+            color: #ffffff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(171, 5, 45, 0.3);
+            margin: 0 auto;
+        }
+        .timeline-section-custom .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(171, 5, 45, 0.4);
+            background-color: var(--accent-hover);
+            color: #fff;
+        }
+        .timeline-section-custom .cta-button span {
+            margin-right: 10px;
+        }
+        .timeline-section-custom .cta-button i {
+            font-style: normal;
+        }
+        @media (max-width: 1024px) {
+            .timeline-section-custom .timeline {
+                flex-wrap: wrap;
                 justify-content: center;
-                /* exact theme-secondary color from --rs-theme-secondary: #2B3944 */
-                background: var(--rs-theme-secondary, #2B3944);
+                gap: 40px 20px;
             }
-
-            /* ── BACKGROUND SHAPE ── */
-            .rs-services-fan-shape {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                pointer-events: none;
-                z-index: 0;
+            .timeline-section-custom .timeline-item {
+                flex: 0 0 calc(33.333% - 20px);
             }
-
-            .rs-services-fan-shape img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                opacity: 0.18;
+        }
+        @media (max-width: 768px) {
+            .timeline-section-custom .timeline-item {
+                flex: 0 0 calc(50% - 20px);
             }
-
-            /* ── HEADING ── */
-            .rs-services-fan-heading {
-                text-align: center;
-                margin-bottom: 32px;
-                position: relative;
-                z-index: 10;
-                padding: 0 20px;
+            .timeline-section-custom .header-custom h2 {
+                font-size: 2.5rem;
             }
-
-            .rs-services-fan-heading .section-subtitle.is-white {
-                display: block;
-                margin-bottom: 10px;
+        }
+        @media (max-width: 480px) {
+            .timeline-section-custom .timeline-item {
+                flex: 0 0 100%;
             }
-
-            /* ── STAGE: the 4-card absolute canvas ── */
-            .rs-services-fan-stage {
-                position: relative;
-                width: 100%;
-                /* auto height — cards are absolute positioned, stage just holds z-context */
-                height: 480px;
-                z-index: 5;
-                flex-shrink: 0;
+            .timeline-section-custom .connector {
+                height: 40px;
             }
-
-            /* ── FAN STAGE: cap image height so full card fits within 100vh ── */
-            .rs-services-fan-stage .rs-services-thumb {
-                height: 160px;
-                overflow: hidden;
+            .timeline-section-custom .header-custom h2 {
+                font-size: 2rem;
             }
-
-            .rs-services-fan-stage .rs-services-thumb img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            /* ── FAN CARD base ── */
-            .rs-services-fan-card {
-                position: absolute !important;
-                /* Start stacked center — JS sets width & position */
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-                will-change: transform, left, top;
-                margin: 0 !important;
-                float: none !important;
-                transition: none !important;
-                /* CRITICAL: Prevent CSS transitions from fighting GSAP */
-            }
-
-            /* ── MOBILE SIMPLE SET ── */
-            @media (max-width: 991px) {
-                .rs-services-fan-scroll {
-                    height: auto !important;
-                }
-
-                .rs-services-fan-sticky {
-                    position: relative !important;
-                    top: auto !important;
-                    height: auto !important;
-                    padding: 60px 0 !important;
-                    display: block !important;
-                }
-
-                .rs-services-fan-stage {
-                    height: auto !important;
-                    display: flex !important;
-                    flex-direction: column !important;
-                    gap: 30px !important;
-                    padding: 0 15px !important;
-                }
-
-                .rs-services-fan-card {
-                    position: relative !important;
-                    left: auto !important;
-                    top: auto !important;
-                    transform: none !important;
-                    width: 100% !important;
-                    margin-bottom: 20px !important;
-                }
-
-                .rs-services-fan-stage .rs-services-thumb {
-                    height: auto !important;
-                }
-            }
+        }
         </style>
 
-        <!-- ══ GSAP + ScrollTrigger for fan animation ══ -->
-        <script>
-            (function () {
-                // Wait for GSAP to load (already loaded on page)
-                function initServicesFan() {
-                    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
-                        setTimeout(initServicesFan, 100);
-                        return;
-                    }
-                    gsap.registerPlugin(ScrollTrigger);
+        <section class="timeline-section-custom theme-secondary" id="how-it-works">
+            <div class="rs-services-shape rs-services-fan-shape" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:1;">
+                <img src="assets/images/shape/services-shape-01.webp" alt="image" style="width:100%; height:100%; object-fit:cover; opacity:0.18;">
+            </div>
+            
+            <div class="container">
+                <header class="header-custom">
+                    <span class="section-subtitle is-white">How It Works</span>
+                    <h2>Service for your development</h2>
+                    <p>We believe that every business is unique and our approach aims for unparalleled growth. Explore our key offerings below.</p>
+                </header>
 
-                    var section = document.getElementById('servicesFanSection');
-                    var cards = [
-                        document.getElementById('svc1'),
-                        document.getElementById('svc2'),
-                        document.getElementById('svc3'),
-                        document.getElementById('svc4')
-                    ];
+                <div class="timeline" role="list">
+                    <!-- Gen 1 -->
+                    <div class="timeline-item" role="listitem">
+                        <div class="card">
+                            <img src="assets/images/banner/banner-thumb-02.webp" alt="IT & Emerging Tech Enablement Solution">
+                        </div>
+                        <div class="connector"></div>
+                        <div class="label">
+                            <div class="year">01</div>
+                            <div class="gen-name">IT & Emerging Tech<br>Enablement</div>
+                        </div>
+                    </div>
 
-                    if (!section || cards.some(function (c) { return !c; })) return;
+                    <!-- Gen 2 -->
+                    <div class="timeline-item" role="listitem">
+                        <div class="card">
+                            <img src="assets/images/banner/assessment-testing.webp" alt="Assessment & Testing Solution">
+                        </div>
+                        <div class="connector"></div>
+                        <div class="label">
+                            <div class="year">02</div>
+                            <div class="gen-name">Assessment &<br>Testing</div>
+                        </div>
+                    </div>
 
-                    // Match original rs-services-two grid:
-                    // padding: 75px each side (0px on ≤1600px), gap: 30px
-                    var GAP = 30; // same as original grid gap
+                    <!-- Gen 3 -->
+                    <div class="timeline-item" role="listitem">
+                        <div class="card">
+                            <img src="assets/images/banner/recruitment.webp" alt="Recruitment & Hiring Solution">
+                        </div>
+                        <div class="connector"></div>
+                        <div class="label">
+                            <div class="year">03</div>
+                            <div class="gen-name">Recruitment &<br>Hiring</div>
+                        </div>
+                    </div>
 
-                    function calcCardW() {
-                        var vw = window.innerWidth;
-                        // mirror the responsive padding from the original CSS
-                        var sidePad = vw > 1600 ? 75 : 0;
-                        return Math.floor((vw - sidePad * 2 - GAP * 3) / 4);
-                    }
+                    <!-- Gen 4 -->
+                    <div class="timeline-item" role="listitem">
+                        <div class="card">
+                            <img src="assets/images/banner/exam-management.webp" alt="Exam Management Solution">
+                        </div>
+                        <div class="connector"></div>
+                        <div class="label">
+                            <div class="year">04</div>
+                            <div class="gen-name">Exam<br>Management</div>
+                        </div>
+                    </div>
 
-                    var tl;
+                    <!-- Gen 5 -->
+                    <div class="timeline-item" role="listitem">
+                        <div class="card">
+                            <img src="assets/images/banner/manpower.webp" alt="Manpower & Workforce Solution">
+                        </div>
+                        <div class="connector"></div>
+                        <div class="label">
+                            <div class="year">05</div>
+                            <div class="gen-name">Manpower &<br>Workforce</div>
+                        </div>
+                    </div>
 
-                    function build() {
-                        if (tl) tl.kill();
-                        ScrollTrigger.getAll().forEach(function (t) {
-                            if (t.vars && t.vars.id === 'servicesFan') t.kill();
-                        });
+                    <!-- Gen 6 -->
+                    <div class="timeline-item" role="listitem">
+                        <div class="card">
+                            <img src="assets/images/banner/call-center.webp" alt="Call Center & BPOs Solution">
+                        </div>
+                        <div class="connector"></div>
+                        <div class="label">
+                            <div class="year">06</div>
+                            <div class="gen-name">Call Center &<br>BPOs</div>
+                        </div>
+                    </div>
+                </div>
 
-                        var vw = window.innerWidth;
-
-                        // Mobile fallback: clear GSAP styles and exit
-                        if (vw < 992) {
-                            cards.forEach(function (c) {
-                                gsap.set(c, { clearProps: "all" });
-                                c.style.width = '100%';
-                            });
-                            return;
-                        }
-
-                        var cardW = calcCardW();
-
-                        // Apply the correct width to every card so they look original
-                        cards.forEach(function (c) {
-                            c.style.width = cardW + 'px';
-                        });
-
-                        // side padding mirrors the original wrapper padding
-                        var sidePad = vw > 1600 ? 75 : 0;
-
-                        // Final X positions for each card (left edge)
-                        var finalX = [0, 1, 2, 3].map(function (i) {
-                            return sidePad + i * (cardW + GAP);
-                        });
-
-                        // Final vertical center of stage
-                        var stageH = document.querySelector('.rs-services-fan-stage').offsetHeight;
-                        var cardH = cards[0].offsetHeight;
-                        var finalY = (stageH - cardH) / 2;
-
-                        // z-index: last card on bottom, first card on top
-                        cards.forEach(function (c, i) {
-                            gsap.set(c, { zIndex: cards.length - i });
-                        });
-
-                        // reset to center stack
-                        cards.forEach(function (c) {
-                            gsap.set(c, {
-                                left: '50%',
-                                top: '50%',
-                                xPercent: -50,
-                                yPercent: -50
-                            });
-                        });
-
-                        tl = gsap.timeline({
-                            id: 'servicesFan',
-                            scrollTrigger: {
-                                trigger: section,
-                                start: 'top top',
-                                end: 'bottom bottom',
-                                scrub: 1.5
-                            }
-                        });
-
-                        // Fan cards out to their row positions
-                        cards.forEach(function (card, i) {
-                            tl.to(card, {
-                                left: finalX[i] + 'px',
-                                top: finalY + 'px',
-                                xPercent: 0,
-                                yPercent: 0,
-                                duration: 1,
-                                ease: 'power2.inOut'
-                            }, i * 0.08);
-                        });
-                    }
-
-                    build();
-                    window.addEventListener('resize', function () {
-                        ScrollTrigger.refresh();
-                        build();
-                    });
-                }
-
-                // Delay slightly to ensure GSAP libs are ready
-                if (document.readyState === 'loading') {
-                    document.addEventListener('DOMContentLoaded', initServicesFan);
-                } else {
-                    initServicesFan();
-                }
-            })();
-        </script>
+                <a href="solutions.php" class="cta-button" id="explore-btn">
+                    <span>Explore our solutions</span>
+                    <i>&rarr;</i>
+                </a>
+            </div>
+        </section>
+        <!-- services area end -->
 
         <!-- (dummy section tag to satisfy original template PHP structure — EMPTY) -->
         <section class="rs-services-area section-space theme-secondary rs-services-two"
