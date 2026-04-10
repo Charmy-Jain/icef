@@ -137,7 +137,7 @@
                         </svg>
                     </span>
                     <div class="header-top-content">
-                        <p>India's Leading Integrated Assessment & Recruitment Platform Since 1997
+                        <p>India's Leading Integrated Assessment & Recruitment Platform Since 2000
                             <a href="about-mission.php">Learn More</a>
                         </p>
                     </div>
