@@ -224,7 +224,7 @@
                                 <li class="menu-item-has-children rs-mega-menu">
                                     <a href="javascript:void(0)">Solutions</a>
                                     <ul class="mega-menu mega-grid-two">
-                                        <li class="rs-menu-item">
+                                        <li class="rs-menu-item" data-image="assets/images/banner/banner-thumb-02.webp">
                                             <a href="it-emerging-tech.php" class="title">IT & Emerging Tech Enablement</a>
                                             <ul>
                                                 <li><a href="it-emerging-tech.php">IOT & RFID Based Products</a></li>
@@ -233,7 +233,7 @@
                                                 <li><a href="it-emerging-tech.php">Emerging Tech</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item">
+                                        <li class="rs-menu-item" data-image="assets/images/banner/assessment-testing.webp">
                                             <a href="assessment-and-testing.php" class="title">Assessment & Testing</a>
                                             <ul>
                                                 <li><a href="assessment-and-testing.php">Cognitive/Domain</a></li>
@@ -241,7 +241,7 @@
                                                 <li><a href="assessment-and-testing.php">Proctoring</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item">
+                                        <li class="rs-menu-item" data-image="assets/images/banner/recruitment.webp">
                                             <a href="recruitment-hiring.php" class="title">Recruitment & Hiring</a>
                                             <ul>
                                                 <li><a href="recruitment-hiring.php">Screening</a></li>
@@ -249,7 +249,7 @@
                                                 <li><a href="recruitment-hiring.php">Merit Lists</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item">
+                                        <li class="rs-menu-item" data-image="assets/images/banner/exam-management.webp">
                                             <a href="exam-management.php" class="title">Exam Management</a>
                                             <ul>
                                                 <li><a href="exam-management.php">Question Banks</a></li>
@@ -257,7 +257,7 @@
                                                 <li><a href="exam-management.php">Processing</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item">
+                                        <li class="rs-menu-item" data-image="assets/images/banner/manpower.webp">
                                             <a href="manpower-workforce.php" class="title">Manpower & Workforce</a>
                                             <ul>
                                                 <li><a href="manpower-workforce.php">Outsourcing</a></li>
@@ -265,7 +265,7 @@
                                                 <li><a href="manpower-workforce.php">Deployment</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item">
+                                        <li class="rs-menu-item" data-image="assets/images/banner/call-center.webp">
                                             <a href="call-center-and-bpos.php" class="title">Call Center & BPOs</a>
                                             <ul>
                                                 <li><a href="call-center-and-bpos.php">Inbound/Outbound</a></li>
@@ -279,7 +279,7 @@
                                                 <p>Empowering businesses with smart IT solutions since 1997.</p>
                                                 <a href="contact.php" class="rs-btn has-icon has-md-radius hover-primary">Request Quote</a>
                                                 <div class="feature-thumb mt-20">
-                                                    <img src="assets/images/mega-menu-feature.png" alt="Consultation">
+                                                    <img id="mega-menu-target-img" src="assets/images/mega-menu-feature.png" alt="Consultation">
                                                 </div>
                                             </div>
                                         </li>
@@ -327,3 +327,60 @@
         </div>
     </header>
     <!-- Header area end -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const targetImg = document.getElementById('mega-menu-target-img');
+            if (!targetImg) return;
+
+            const globalDefaultImg = targetImg.getAttribute('src');
+            let defaultImg = globalDefaultImg;
+            const menuItems = document.querySelectorAll('.rs-mega-menu .mega-menu .rs-menu-item');
+
+            // Detect active page and set its image as default
+            const currentPath = window.location.pathname;
+            menuItems.forEach(item => {
+                const links = item.querySelectorAll('a');
+                links.forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (href && href !== '#' && currentPath.endsWith(href)) {
+                        const activeImg = item.getAttribute('data-image');
+                        if (activeImg) {
+                            defaultImg = activeImg;
+                            targetImg.setAttribute('src', activeImg);
+                        }
+                    }
+                });
+            });
+
+            menuItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    const newImg = this.getAttribute('data-image');
+                    if (newImg) {
+                        targetImg.style.opacity = '0';
+                        setTimeout(() => {
+                            targetImg.setAttribute('src', newImg);
+                            targetImg.style.opacity = '1';
+                        }, 200);
+                    }
+                });
+            });
+
+            // Revert to default when leaving the entire mega menu grid
+            const megaGrid = document.querySelector('.mega-grid-two');
+            if (megaGrid) {
+                megaGrid.addEventListener('mouseleave', function() {
+                    targetImg.style.opacity = '0';
+                    setTimeout(() => {
+                        targetImg.setAttribute('src', defaultImg);
+                        targetImg.style.opacity = '1';
+                    }, 200);
+                });
+            }
+        });
+    </script>
+    <style>
+        #mega-menu-target-img {
+            transition: opacity 0.3s ease;
+        }
+    </style>
