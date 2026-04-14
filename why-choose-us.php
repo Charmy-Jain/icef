@@ -1055,6 +1055,8 @@
 
         .timeline-inner-container .header-custom {
             margin-bottom: 60px;
+            opacity: 0; /* Hidden by default for JS animation */
+            transform: translateY(-20px);
         }
         .timeline-inner-container .header-custom .section-subtitle {
             text-transform: uppercase;
@@ -1112,11 +1114,19 @@
             object-fit: cover;
             display: block;
         }
+        .timeline-inner-container .connector,
+        .timeline-inner-container .label,
+        .timeline-inner-container .cta-button {
+            opacity: 0; /* Hidden by default */
+            transform: translateY(20px);
+        }
         .timeline-inner-container .connector {
             width: 1px;
             height: 80px;
             background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
             margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .timeline-inner-container .label { text-align: center; }
         .timeline-inner-container .year {
@@ -1145,12 +1155,9 @@
             text-decoration: none;
             font-weight: 700;
             font-size: 1rem;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             border: none;
             cursor: pointer;
             box-shadow: 0 4px 15px rgba(171,5,45,0.3);
-            opacity: 0;
-            transform: translateY(20px);
         }
         .timeline-inner-container .cta-button span { margin-right: 10px; }
         .timeline-inner-container .cta-button i { font-style: normal; }
@@ -1254,17 +1261,19 @@
                     var labels = gsap.utils.toArray('.timeline-scroll-driver .label');
                     var cta = document.getElementById('hiw-explore-btn');
 
+                    var sticky = document.querySelector('.timeline-sticky-container');
                     var vw = window.innerWidth;
                     var vh = window.innerHeight;
 
-                    // Snapshot each card's distance from viewport center
+                    // Snapshot each card's distance from the center of the STICKY container
                     var snap = cards.map(function(card) {
-                        var r = card.getBoundingClientRect();
+                        var cr = card.getBoundingClientRect();
+                        var sr = sticky.getBoundingClientRect();
                         return {
-                            xToCenter: (vw / 2) - (r.left + r.width / 2),
-                            yToCenter: (vh / 2) - (r.top + r.height / 2),
-                            width: r.width,
-                            height: r.height
+                            xToCenter: (sr.width / 2) - (cr.left - sr.left + cr.width / 2),
+                            yToCenter: (sr.height / 2) - (cr.top - sr.top + cr.height / 2),
+                            width: cr.width,
+                            height: cr.height
                         };
                     });
 
@@ -1315,34 +1324,41 @@
                         }
                     });
 
-                    // Phase 1: Card 1 shrinks and Section Header appears
-                    tl.to(card1, {
+                    // Phase 1: Card 1 shrinks (Zoom Out)
+                    tl.fromTo(card1, {
+                        scale: coverScale,
+                        borderRadius: '0px'
+                    }, {
                         scale: 1,
-                        borderRadius: '20px',
-                        ease: 'none',
+                        borderRadius: '32px',
+                        ease: 'power2.inOut',
                         duration: 0.4
-                    }, 0)
-                    .to(sectionHeader, {
+                    }, 0);
+
+                    // Phase 2: Section Header fades in AFTER zoom out
+                    tl.fromTo(sectionHeader, {
+                        opacity: 0,
+                        y: -20
+                    }, {
                         opacity: 1,
                         y: 0,
-                        duration: 0.2
-                    }, 0.2);
+                        duration: 0.2,
+                        ease: 'power1.out'
+                    }, 0.35);
 
-                    // Phase 2: Deck becomes visible
-                    tl.set(otherCards, { opacity: 1 }, 0.4);
-
-                    // Phase 3: All cards spread to natural row positions
-                    tl.to(cards, {
+                    // Phase 3: Other 5 cards appear and all cards spread
+                    tl.to(otherCards, { opacity: 1, duration: 0.1 }, 0.55)
+                      .to(cards, {
                         x: 0,
                         y: 0,
                         scale: 1,
                         ease: 'power2.inOut',
-                        duration: 0.5
-                    }, 0.4);
+                        duration: 0.35
+                    }, 0.55);
 
-                    // Phase 4: Fade in connectors, labels, CTA
-                    tl.to(connectors, { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.85)
-                      .to(labels,     { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.90)
+                    // Phase 4: Fade in connectors, labels, CTA (the workflow below)
+                    tl.to(connectors, { opacity: 1, y: 0, stagger: 0.02, duration: 0.1, ease: 'power1.out' }, 0.85)
+                      .to(labels,     { opacity: 1, y: 0, stagger: 0.02, duration: 0.1, ease: 'power1.out' }, 0.90)
                       .to(cta,        { opacity: 1, y: 0, duration: 0.1, ease: 'power1.out' }, 0.95);
                 });
             }

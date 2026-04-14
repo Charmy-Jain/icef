@@ -894,6 +894,8 @@ include 'includes/head.php'; ?>
 
         .timeline-inner-container .header-custom {
             margin-bottom: 60px;
+            opacity: 0; /* Hidden by default for JS animation */
+            transform: translateY(-20px);
         }
         .timeline-inner-container .header-custom .section-subtitle {
             text-transform: uppercase;
@@ -1093,21 +1095,26 @@ include 'includes/head.php'; ?>
                     var labels = gsap.utils.toArray('.timeline-scroll-driver .label');
                     var cta = document.getElementById('hiw-explore-btn');
 
+                    var sticky = document.querySelector('.timeline-sticky-container');
                     var vw = window.innerWidth;
                     var vh = window.innerHeight;
 
-                    // Snapshot each card's distance from viewport center
+                    // Snapshot each card's distance from the center of the STICKY container
+                    // This is much safer than viewport-relative bounds which change on scroll
                     var snap = cards.map(function(card) {
-                        var r = card.getBoundingClientRect();
+                        var cr = card.getBoundingClientRect();
+                        var sr = sticky.getBoundingClientRect();
                         return {
-                            xToCenter: (vw / 2) - (r.left + r.width / 2),
-                            yToCenter: (vh / 2) - (r.top + r.height / 2),
-                            width: r.width,
-                            height: r.height
+                            // Distance from card center to sticky container center
+                            xToCenter: (sr.width / 2) - (cr.left - sr.left + cr.width / 2),
+                            yToCenter: (sr.height / 2) - (cr.top - sr.top + cr.height / 2),
+                            width: cr.width,
+                            height: cr.height
                         };
                     });
 
                     // Ensure Full-screen cover for Card 1 (Exactly 100vh/100vw coverage)
+                    // We use the sticky container's dimensions as it is the 100vh view area
                     var coverScale = Math.max(vw / snap[0].width, vh / snap[0].height);
 
                     // Fade out section headers initially so the fullscreen image is the focus
@@ -1154,34 +1161,42 @@ include 'includes/head.php'; ?>
                         }
                     });
 
-                    // Phase 1: Card 1 shrinks and Section Header appears
-                    tl.to(card1, {
+                    // Phase 1: Card 1 shrinks (Zoom Out)
+                    // We use fromTo to ensure GSAP forces the starting state correctly
+                    tl.fromTo(card1, {
+                        scale: coverScale,
+                        borderRadius: '0px'
+                    }, {
                         scale: 1,
-                        borderRadius: '20px',
-                        ease: 'none',
+                        borderRadius: '32px',
+                        ease: 'power2.inOut',
                         duration: 0.4
-                    }, 0)
-                    .to(sectionHeader, {
+                    }, 0);
+
+                    // Phase 2: Section Header fades in AFTER zoom out starts (staggered)
+                    tl.fromTo(sectionHeader, {
+                        opacity: 0,
+                        y: -20
+                    }, {
                         opacity: 1,
                         y: 0,
-                        duration: 0.2
-                    }, 0.2);
+                        duration: 0.2,
+                        ease: 'power1.out'
+                    }, 0.35); // Start slightly before zoom ends for smoothness
 
-                    // Phase 2: Deck becomes visible
-                    tl.set(otherCards, { opacity: 1 }, 0.4);
-
-                    // Phase 3: All cards spread to natural row positions
-                    tl.to(cards, {
+                    // Phase 3: Other 5 cards appear and all cards spread
+                    tl.to(otherCards, { opacity: 1, duration: 0.1 }, 0.55)
+                      .to(cards, {
                         x: 0,
                         y: 0,
                         scale: 1,
                         ease: 'power2.inOut',
-                        duration: 0.5
-                    }, 0.4);
+                        duration: 0.35
+                    }, 0.55);
 
-                    // Phase 4: Fade in connectors, labels, CTA
-                    tl.to(connectors, { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.85)
-                      .to(labels,     { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.90)
+                    // Phase 4: Fade in connectors, labels, CTA (the workflow below)
+                    tl.to(connectors, { opacity: 1, y: 0, stagger: 0.02, duration: 0.1, ease: 'power1.out' }, 0.85)
+                      .to(labels,     { opacity: 1, y: 0, stagger: 0.02, duration: 0.1, ease: 'power1.out' }, 0.90)
                       .to(cta,        { opacity: 1, y: 0, duration: 0.1, ease: 'power1.out' }, 0.95);
                 });
             }
