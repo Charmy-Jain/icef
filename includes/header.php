@@ -162,8 +162,14 @@
 
         /* Submenu adjustments */
         .main-menu .submenu {
-            width: auto !important;
-            min-width: 320px !important;
+            width: max-content !important;
+            min-width: 140px !important;
+            max-width: 350px !important;
+        }
+
+        .main-menu .submenu li {
+            padding-inline-start: 20px !important;
+            padding-inline-end: 15px !important;
         }
 
         .main-menu .submenu li a {
@@ -232,30 +238,42 @@
             position: relative;
         }
 
-        .main-menu .submenu::before,
-        .main-menu .mega-menu::before {
-            content: "";
-            position: absolute;
-            top: -35px; /* Large enough to bridge any gap */
-            left: 0;
-            right: 0;
-            height: 35px;
-            background: transparent;
-            z-index: 1; /* Stay on top of other elements to catch hover */
-        }
-
-        /* Ensure the bridge doesn't block clicks when menu is closed */
         .main-menu .submenu,
         .main-menu .mega-menu {
+            position: absolute;
+            background-color: var(--rs-theme-secondary);
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
             pointer-events: none;
+            /* Professional transition with slight delay for closing to make it more stable and forgiving */
+            transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease !important;
+            transition-delay: 0.2s !important;
         }
 
         .main-menu li:hover > .submenu,
         .main-menu li:hover > .mega-menu {
+            opacity: 1;
+            visibility: visible;
             pointer-events: all;
+            transition-delay: 0s !important;
         }
 
-        /* More persistent hover */
+        /* The Bridge: Invisible pseudo-element to close the physical gap between link and menu */
+        .main-menu .submenu::before,
+        .main-menu .mega-menu::before {
+            content: "";
+            position: absolute;
+            top: -50px; /* Ample space to bridge any gap */
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: transparent;
+            z-index: 10;
+            pointer-events: auto !important; /* Forces hover capture in the gap */
+        }
+
+        /* More persistent hover colors */
         .main-menu ul li:hover > a {
             color: var(--rs-theme-primary) !important;
         }
