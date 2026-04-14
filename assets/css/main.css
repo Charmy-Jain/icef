@@ -954,33 +954,33 @@ textarea:focus {
 	1.1 Default Spacing SCSS
 ---------------------------------*/
 .section-space {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 991px) {
   .section-space {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .section-space {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .section-space {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
 .section-space-top {
-  padding-top: 120px;
+  padding-top: 40px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1002,7 +1002,7 @@ textarea:focus {
 }
 
 .section-space-bottom {
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1024,7 +1024,8 @@ textarea:focus {
 }
 
 .section-title-space {
-  margin-bottom: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*----------------------------------------*/
@@ -5734,6 +5735,7 @@ html.lenis body {
   color: var(--rs-white);
   font-weight: 500;
   line-height: 1.12;
+  font-size: 50px;
 }
 
 .rs-banner-two .rs-banner-desc {
@@ -5801,7 +5803,7 @@ html.lenis body {
 }
 
 .rs-banner-two .rs-banner-feature-wrapper {
-  max-width: 1070px;
+  max-width: 950px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-inline-start: auto;
@@ -5832,11 +5834,11 @@ html.lenis body {
 
 .rs-banner-two .rs-banner-feature-item {
   display: flex;
-  gap: 35px;
-  padding-top: 35px;
-  padding-inline-start: 35px;
-  padding-bottom: 25px;
-  padding-inline-end: 35px;
+  gap: 25px;
+  padding-top: 25px;
+  padding-inline-start: 30px;
+  padding-bottom: 20px;
+  padding-inline-end: 30px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -5867,9 +5869,9 @@ html.lenis body {
 }
 
 .rs-banner-two .rs-banner-feature-icon {
-  width: 70px;
-  min-width: 70px;
-  height: 70px;
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5877,8 +5879,8 @@ html.lenis body {
 }
 
 .rs-banner-two .rs-banner-feature-icon svg {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
 }
 
 .rs-banner-two .rs-banner-feature-icon svg path {
@@ -5919,7 +5921,8 @@ html.lenis body {
 
 .rs-banner-two .rs-banner-feature-desc {
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 35px;
+  font-size: 15px;
+  margin-bottom: 15px;
 }
 
 .rs-banner-two .rs-banner-feature-btn .icon-box svg {
@@ -8065,8 +8068,8 @@ html.lenis body {
 
 .main-menu .submenu li {
   position: relative;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-inline-start: 20px;
   padding-inline-end: 20px;
 }
@@ -8295,8 +8298,8 @@ html.lenis body {
 }
 
 .main-menu .rs-menu-item {
-  padding-top: 30px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 18px;
   padding-inline-start: 30px;
   padding-inline-end: 30px;
 }
@@ -8638,8 +8641,12 @@ html.lenis body {
 /*----------------------------------------*/
 .rs-blog-one .rs-blog-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+.rs-blog-one .rs-blog-wrapper.rs-swiper {
+  display: block;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -8673,7 +8680,7 @@ html.lenis body {
 }
 
 .rs-blog-one .rs-blog-thumb {
-  height: 565px;
+  height: 480px;
   border-radius: 6px;
   overflow: hidden;
   position: relative;
@@ -8783,13 +8790,13 @@ html.lenis body {
 
 .rs-blog-one .rs-blog-content-hover .rs-blog-content {
   position: relative;
-  padding-top: 115px;
+  padding-top: 60px;
   height: 100%;
 }
 
 .rs-blog-one .rs-blog-content-hover .rs-blog-desc {
   color: var(--rs-white);
-  margin-bottom: 153px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -11681,7 +11688,7 @@ html.lenis body {
 }
 
 .rs-about-six {
-  padding-top: 250px;
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -17091,6 +17098,7 @@ html.lenis body {
 }
 
 .rs-feature-thirteen {
+  padding-top: 80px;
   position: relative;
   z-index: 1;
 }
@@ -27158,3 +27166,35 @@ html.lenis body {
 }
 
 /*# sourceMappingURL=main.css.map */
+ / *   C u s t o m   B a n n e r   H e r o   F o r m   S t y l e s   * / 
+ . r s - b a n n e r - c o n t a c t - f o r m   . r s - f o r m - g r o u p   i n p u t , 
+ . r s - b a n n e r - c o n t a c t - f o r m   . r s - f o r m - g r o u p   s e l e c t   { 
+         f o n t - s i z e :   1 2 p x   ! i m p o r t a n t ; 
+         p a d d i n g :   6 p x   1 0 p x   ! i m p o r t a n t ; 
+         h e i g h t :   3 6 p x   ! i m p o r t a n t ; 
+         m i n - h e i g h t :   u n s e t   ! i m p o r t a n t ; 
+         l i n e - h e i g h t :   1   ! i m p o r t a n t ; 
+         b o x - s i z i n g :   b o r d e r - b o x   ! i m p o r t a n t ; 
+ } 
+ . r s - b a n n e r - c o n t a c t - f o r m   . r s - f o r m - g r o u p   t e x t a r e a   { 
+         f o n t - s i z e :   1 2 p x   ! i m p o r t a n t ; 
+         p a d d i n g :   6 p x   1 0 p x   ! i m p o r t a n t ; 
+         h e i g h t :   8 0 p x   ! i m p o r t a n t ; 
+         m i n - h e i g h t :   u n s e t   ! i m p o r t a n t ; 
+         r e s i z e :   n o n e   ! i m p o r t a n t ; 
+         b o x - s i z i n g :   b o r d e r - b o x   ! i m p o r t a n t ; 
+ } 
+ . r s - b a n n e r - c o n t a c t - f o r m   . r s - f o r m - g r o u p   { 
+         m a r g i n - b o t t o m :   8 p x   ! i m p o r t a n t ; 
+ } 
+ . r s - b a n n e r - c o n t a c t - f o r m   . r s - f o r m - r o w   { 
+         g a p :   8 p x   ! i m p o r t a n t ; 
+         m a r g i n - b o t t o m :   0   ! i m p o r t a n t ; 
+ } 
+ . r s - b a n n e r - c o n t a c t - f o r m   . r s - b a n n e r - f o r m - b t n   { 
+         p a d d i n g :   1 0 p x   2 0 p x   ! i m p o r t a n t ; 
+         f o n t - s i z e :   1 3 p x   ! i m p o r t a n t ; 
+ } 
+ 
+ 
+ 

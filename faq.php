@@ -16,9 +16,9 @@ include 'includes/offcanvas.php'; ?>
                         <div class="news-detail">
                             <div class="inner-box">
                                 <div class="lower-content">
-                                    <h1 class="faq-main-title">What Services Does Nova Technosys Offer?</h1>
+                                    <h1 class="faq-main-title">What Services Does ICEF India Offer?</h1>
                                     <div class="faq-main-text">
-                                        Nova Technosys Offers A Wide Range Of Services Including Tally Software Sales, Implementation, Customization, Integration With Other ERP Systems, Training, Support, And Consultancy Services Tailored To Meet The Unique Needs Of Businesses Across Various Industries.
+                                        ICEF India provides a comprehensive suite of services including integrated assessment platforms, recruitment and hiring solutions, workforce development, manpower outsourcing, and exam management services since 2000.
                                     </div>
                                     <br>
                                     <div class="btns-box">
@@ -37,12 +37,11 @@ include 'includes/offcanvas.php'; ?>
                             <ul class="accordion-box">
                                 <!-- Block -->
                                 <li class="accordion block active-block">
-                                    <div class="acc-btn active"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Where Can I Download Or Buy TallyPrime 6.1 With Expert Support?</div>
+                                    <div class="acc-btn active"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>What services does ICEF India offer?</div>
                                     <div class="acc-content current">
                                         <div class="content">
                                             <div class="text">
-                                                <p>You Can Download Or Purchase TallyPrime 6.1 Directly From Nova Technosys, A 5-Star Certified Tally Partner With 25+ Years Of Implementation Expertise.</p>
-                                                <p>Nova Offers Much More Than Just The Software—you Get End-to-end Assistance Including License Activation, Product Customization, Cloud Hosting, And Staff Training.</p>
+                                                <p>ICEF India provides end-to-end solutions in Assessment, Recruitment, and Workforce Development. Our services include high-stakes exam management, proctored online tests, manpower outsourcing, and strategic hiring for both government and corporate sectors.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -50,11 +49,11 @@ include 'includes/offcanvas.php'; ?>
 
                                 <!-- Block -->
                                 <li class="accordion block">
-                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Is TallyPrime 6.1 Suitable For Small And Medium Businesses?</div>
+                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>How experienced is ICEF India in the assessment industry?</div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                                <p>Yes, And It’s Especially Built With MSMEs In Mind. TallyPrime 6.1 Combines The Simplicity Tally Is Known For With Intelligent Automation And Compliance Tools That Small And Medium Businesses Need Today.</p>
+                                                <p>With a legacy starting in 2000, ICEF India has over 26 years of experience. We have successfully completed over 25.5K projects, helping organizations streamline their evaluation processes with precision-driven technology.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -62,11 +61,11 @@ include 'includes/offcanvas.php'; ?>
 
                                 <!-- Block -->
                                 <li class="accordion block">
-                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Does TallyPrime 6.1 Require A Fresh Installation Or Just An Update?</div>
+                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Does ICEF India provide offline assessment support?</div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                                <p>TallyPrime 6.1 Is Designed To Be User-friendly When It Comes To Upgrading. If You're Using An Older Version, You Don't Need To Uninstall Or Start Over.</p>
+                                                <p>Yes, we offer both Online and Offline assessment solutions. Our infrastructure supports large-scale offline examinations, including paper-and-pencil tests, center-based proctoring, and comprehensive result processing.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -74,11 +73,11 @@ include 'includes/offcanvas.php'; ?>
 
                                 <!-- Block -->
                                 <li class="accordion block">
-                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Can I Use TallyPrime 6.1 On Tally On Cloud Or Remote Desktop?</div>
+                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Can ICEF India help with manpower outsourcing?</div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                                <p>Yes! TallyPrime 6.1 Works Flawlessly With Tally On Cloud And Remote Desktop Access Solutions.</p>
+                                                <p>Absolutely. We provide scalable manpower and workforce management solutions, including staffing, background verification, and deployment, ensuring that your organization has the right talent in place.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -86,11 +85,11 @@ include 'includes/offcanvas.php'; ?>
 
                                 <!-- Block -->
                                 <li class="accordion block">
-                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>Is It Worth Upgrading To TallyPrime 6.1 From 6.0 Or Older Versions?</div>
+                                    <div class="acc-btn"><div class="icon-outer"><span class="icon ri-add-line"></span> <span class="icon ri-subtract-line"></span></div>What is your approach to recruitment screening?</div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">
-                                                <p>Absolutely. If You're Currently On TallyPrime 6.0 Or An Even Older Version, Upgrading To 6.1 Offers Powerful Advantages That Go Beyond Regular Accounting.</p>
+                                                <p>We use a data-driven approach that includes cognitive and domain assessments, multi-level screening, and proctored interviews to ensure only the highest quality candidates are shortlisted for your final merit list.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -122,18 +121,18 @@ include 'includes/offcanvas.php'; ?>
                             <div class="sidebar-widget popular-posts">
                                 <div class="widget-content faq-content">
                                     <div class="sidebar-title">
-                                        <h5>Recent FAQs</h5>
+                                        <h5>Recent Questions</h5>
                                     </div>
                                     <article class="post">
-                                        <div class="text"><a href="#">What Is Tally Prime 5.0 And What Makes It Different?</a></div>
+                                        <div class="text"><a href="#">How does ICEF India manage large-scale exams?</a></div>
                                         <hr>
                                     </article>
                                     <article class="post">
-                                        <div class="text"><a href="#">How Does Ensuring Flexibility In Solutions Work?</a></div>
+                                        <div class="text"><a href="#">What makes your proctoring technology unique?</a></div>
                                         <hr>
                                     </article>
                                     <article class="post">
-                                        <div class="text"><a href="#">What Customization Options Are Available?</a></div>
+                                        <div class="text"><a href="#">Do you offer specialized cognitive tests for IT?</a></div>
                                         <hr>
                                     </article>
                                 </div>
@@ -146,10 +145,10 @@ include 'includes/offcanvas.php'; ?>
                                         <h5>Categories</h5>
                                     </div>
                                     <ul class="category-list">
-                                        <li><a href="#">General FAQ <span>(12)</span></a></li>
-                                        <li><a href="#">Tally Prime <span>(8)</span></a></li>
-                                        <li><a href="#">Tally on Cloud <span>(5)</span></a></li>
-                                        <li><a href="#">ERP Solutions <span>(7)</span></a></li>
+                                        <li><a href="#">Assessment <span>(12)</span></a></li>
+                                        <li><a href="#">Recruitment <span>(8)</span></a></li>
+                                        <li><a href="#">Workforce <span>(5)</span></a></li>
+                                        <li><a href="#">Exam Management <span>(7)</span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -285,10 +284,10 @@ include 'includes/offcanvas.php'; ?>
         </style>
 
         <script>
-            $(document).ready(function() {
+            document.addEventListener('DOMContentLoaded', function() {
                 $('.accordion-box .acc-btn').on('click', function() {
-                    var outerBox = $(this).parents('.accordion-box');
-                    var target = $(this).parents('.accordion');
+                    var outerBox = $(this).closest('.accordion-box');
+                    var target = $(this).closest('.accordion');
                     
                     if($(this).hasClass('active')){
                         $(this).removeClass('active');

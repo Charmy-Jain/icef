@@ -17,7 +17,7 @@
                             </div>
                             <div class="rs-footer-widget-content">
                                 <p class="rs-footer-widget-desc">
-                                    ICEF INDIA is a premier organization providing end-to-end solutions in Assessment, Recruitment, and Workforce Development since 1997.
+                                    ICEF INDIA is a premier organization providing end-to-end solutions in Assessment, Recruitment, and Workforce Development since 2000.
                                 </p>
                                 <div class="rs-footer-widget-contact-info">
                                     <div class="rs-footer-content-item">

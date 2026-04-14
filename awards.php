@@ -482,16 +482,12 @@ include 'includes/head.php'; ?>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> &ldquo;The standard chunk of Lorem Ipsum
-                                                    used since the 1500s is reproduced below for those interested.
-                                                    Sections from de Finibus Bonorum et Malorum by Cicero are also
-                                                    reproduced in their exact original form.&rdquo;
+                                                <p class="rs-testimonial-desc"> &ldquo;Being recognized for our excellence in workforce management is a testament to the hard work of our entire team and our partnership with ICEF India. Their support has been vital in achieving this milestone.&rdquo;
                                                 </p>
                                                 <div class="rs-testimonial-avater-wrapper mt-20">
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Abdur Rashid</h6>
-                                                        <span class="rs-testimonial-avater-designation">Founder &
-                                                            CEO</span>
+                                                        <h6 class="rs-testimonial-avater-title">Arjun Mehta</h6>
+                                                        <span class="rs-testimonial-avater-designation">Managing Director</span>
                                                     </div>
                                                 </div>
                                             </div>

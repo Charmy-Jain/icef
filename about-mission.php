@@ -21,8 +21,7 @@ include 'includes/head.php'; ?>
                                     <span class="section-subtitle">
                                         Welcome TO ICEF
                                     </span>
-                                    <h2 class="section-title rs-split-text-enable split-in-left" style="font-size: 38px;">
-India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Assessment and Manpower Deployment</h2>
+                                    <h2 class="section-title rs-split-text-enable split-in-left" style="font-size: 38px;">India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Assessment and Manpower Deployment</h2>
                                 </div>
                                 <div class="rs-about-content-inner">
                                     <div class="rs-about-content-left">
@@ -60,7 +59,7 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                 </div>
                             </div>
                             <div class="rs-about-thumb rs-image scroll_reveal reveal-active" data-dir="reveal_right">
-                                <img decoding="async" src="assets/images/about/image.webp" alt="image">
+                                <img decoding="async" src="assets/images/about/1.webp" alt="image">
                             </div>
                         </div>
                     </div>
@@ -137,273 +136,880 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
         </div>
         <!-- brand area end -->
 
-        <!-- services area start — Timeline Component -->
+        <!-- services area start — Wisk Aero fan scroll -->
+        <div id="servicesFanSection" class="rs-services-fan-scroll">
+            <!-- sticky viewport -->
+            <div class="rs-services-fan-sticky rs-services-two">
+
+                <!-- shape stays as background decoration -->
+                <div class="rs-services-shape rs-services-fan-shape">
+                    <img src="assets/images/shape/services-shape-01.webp" alt="image">
+                </div>
+
+                <!-- heading -->
+                <div class="rs-services-fan-heading">
+                    <span class="section-subtitle is-white">
+                        Your Business Our Expertise
+                    </span>
+                    <h2 class="section-title rs-split-text-enable split-in-left is-white mb-10">Service for your development</h2>
+                    <p class="section-desc">We believe that every business is uniquids our approach is never growth.</p>
+                </div>
+
+                <!-- cards stage: all 4 start stacked center, fan out to row on scroll -->
+                <div class="rs-services-fan-stage" id="servicesFanStage">
+
+                    <div class="rs-services-item rs-services-fan-card" id="svc1">
+                        <div class="rs-services-thumb">
+                            <img src="assets/images/services/services-thumb-03.webp" alt="image">
+                            <div class="rs-services-btn">
+                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
+                                    href="services-details.php">Explore More
+                                    <span class="icon-box">
+                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+
+                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rs-services-content">
+                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
+                                    Marketing
+                                    Consulting</a></h5>
+                            <p class="rs-services-desc"> Complex data into clear and strategic insights that
+                                improve
+                                performance guide growth.</p>
+                            <div class="rs-services-list-wrapper">
+                                <h6 class="rs-services-list-title">Data Analysis</h6>
+                                <div class="rs-services-list-item-wrapper">
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Regulatory Investigations </p>
+                                    </div>
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Anit- Competitive Conduct</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rs-services-item rs-services-fan-card" id="svc2">
+                        <div class="rs-services-thumb">
+                            <img src="assets/images/services/services-thumb-04.webp" alt="image">
+                            <div class="rs-services-btn">
+                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
+                                    href="services-details.php">Explore More
+                                    <span class="icon-box">
+                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+
+                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rs-services-content">
+                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
+                                    Financial
+                                    Insurance</a></h5>
+                            <p class="rs-services-desc"> we analyze structured and unstructured data to help you
+                                optimize
+                                operations.</p>
+                            <div class="rs-services-list-wrapper">
+                                <h6 class="rs-services-list-title">Bank Cost</h6>
+                                <div class="rs-services-list-item-wrapper">
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Save costs for your development </p>
+                                    </div>
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Cancel anytime you want</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rs-services-item rs-services-fan-card" id="svc3">
+                        <div class="rs-services-thumb">
+                            <img src="assets/images/services/services-thumb-05.webp" alt="image">
+                            <div class="rs-services-btn">
+                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
+                                    href="services-details.php">Explore More
+                                    <span class="icon-box">
+                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+
+                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rs-services-content">
+                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
+                                    Portfolio
+                                    Management</a></h5>
+                            <p class="rs-services-desc"> Every number tells a story We analyze your data to
+                                uncover
+                                patterns and highlight</p>
+                            <div class="rs-services-list-wrapper">
+                                <h6 class="rs-services-list-title">CV Solutions</h6>
+                                <div class="rs-services-list-item-wrapper">
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Regulatory Investigations</p>
+                                    </div>
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Management System</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rs-services-item rs-services-fan-card" id="svc4">
+                        <div class="rs-services-thumb">
+                            <img src="assets/images/services/services-thumb-06.webp" alt="image">
+                            <div class="rs-services-btn">
+                                <a class="rs-btn has-icon has-bg-white hover-primary has-md-radius w-100"
+                                    href="services-details.php">Explore More
+                                    <span class="icon-box">
+                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+
+                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rs-services-content">
+                            <h5 class="rs-services-title underline is-white"><a href="services-details.php">
+                                    Business
+                                    Insurances</a></h5>
+                            <p class="rs-services-desc"> We provide the best services ensuring your outstanding
+                                growth
+                                Lorem ipsum dolor.</p>
+                            <div class="rs-services-list-wrapper">
+                                <h6 class="rs-services-list-title">Effective Retail</h6>
+                                <div class="rs-services-list-item-wrapper">
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Conversion Optimization </p>
+                                    </div>
+                                    <div class="rs-services-list-item">
+                                        <div class="rs-services-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Anit- Competitive Conduct</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /fan-stage -->
+            </div><!-- /fan-sticky -->
+        </div>
+        <!-- services area end -->
+
+        <!-- ══ SERVICES FAN SCROLL CSS ══ -->
         <style>
-        .timeline-section-custom {
+        /* ── SCROLL WRAPPER ── */
+        .rs-services-fan-scroll {
+            position: relative;
+            height: 380vh; /* scroll travel = animation length */
+        }
+
+        /* ── STICKY VIEWPORT (pins while scrolling 380vh) ── */
+        .rs-services-fan-sticky {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* exact theme-secondary color from --rs-theme-secondary: #2B3944 */
+            background: var(--rs-theme-secondary, #2B3944);
+        }
+
+        /* ── BACKGROUND SHAPE ── */
+        .rs-services-fan-shape {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .rs-services-fan-shape img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            opacity: 0.18;
+        }
+
+        /* ── HEADING ── */
+        .rs-services-fan-heading {
+            text-align: center;
+            margin-bottom: 32px;
+            position: relative;
+            z-index: 10;
+            padding: 0 20px;
+        }
+        .rs-services-fan-heading .section-subtitle.is-white {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* ── STAGE: the 4-card absolute canvas ── */
+        .rs-services-fan-stage {
+            position: relative;
+            width: 100%;
+            /* auto height — cards are absolute positioned, stage just holds z-context */
+            height: 480px;
+            z-index: 5;
+            flex-shrink: 0;
+        }
+
+        /* ── FAN STAGE: cap image height so full card fits within 100vh ── */
+        .rs-services-fan-stage .rs-services-thumb {
+            height: 160px;
+            overflow: hidden;
+        }
+        .rs-services-fan-stage .rs-services-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* ── FAN CARD base ── */
+        .rs-services-fan-card {
+            position: absolute !important;
+            /* Start stacked center — JS sets width & position */
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            will-change: transform, left, top;
+            margin: 0 !important;
+            float: none !important;
+            transition: none !important; /* CRITICAL: Prevent CSS transitions from fighting GSAP */
+        }
+
+        /* ── MOBILE SIMPLE SET ── */
+        @media (max-width: 991px) {
+            .rs-services-fan-scroll {
+                height: auto !important;
+            }
+            .rs-services-fan-sticky {
+                position: relative !important;
+                top: auto !important;
+                height: auto !important;
+                padding: 60px 0 !important;
+                display: block !important;
+            }
+            .rs-services-fan-stage {
+                height: auto !important;
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 30px !important;
+                padding: 0 15px !important;
+            }
+            .rs-services-fan-card {
+                position: relative !important;
+                left: auto !important;
+                top: auto !important;
+                transform: none !important;
+                width: 100% !important;
+                margin-bottom: 20px !important;
+            }
+            .rs-services-fan-stage .rs-services-thumb {
+                height: auto !important;
+            }
+        }
+        </style>
+
+        <!-- ══ GSAP + ScrollTrigger for fan animation ══ -->
+        <script>
+        (function() {
+            // Wait for GSAP to load (already loaded on page)
+            function initServicesFan() {
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+                    setTimeout(initServicesFan, 100);
+                    return;
+                }
+                gsap.registerPlugin(ScrollTrigger);
+
+                var section = document.getElementById('servicesFanSection');
+                var cards   = [
+                    document.getElementById('svc1'),
+                    document.getElementById('svc2'),
+                    document.getElementById('svc3'),
+                    document.getElementById('svc4')
+                ];
+
+                if (!section || cards.some(function(c){ return !c; })) return;
+
+                // Match original rs-services-two grid:
+                // padding: 75px each side (0px on ≤1600px), gap: 30px
+                var GAP = 30; // same as original grid gap
+
+                function calcCardW() {
+                    var vw = window.innerWidth;
+                    // mirror the responsive padding from the original CSS
+                    var sidePad = vw > 1600 ? 75 : 0;
+                    return Math.floor((vw - sidePad * 2 - GAP * 3) / 4);
+                }
+
+                var tl;
+
+                function build() {
+                    if (tl) tl.kill();
+                    ScrollTrigger.getAll().forEach(function(t) {
+                        if (t.vars && t.vars.id === 'servicesFan') t.kill();
+                    });
+
+                    var vw = window.innerWidth;
+
+                    // Mobile fallback: clear GSAP styles and exit
+                    if (vw < 992) {
+                        cards.forEach(function(c) {
+                            gsap.set(c, { clearProps: "all" });
+                            c.style.width = '100%';
+                        });
+                        return;
+                    }
+
+                    var cardW = calcCardW();
+
+                    // Apply the correct width to every card so they look original
+                    cards.forEach(function(c) {
+                        c.style.width = cardW + 'px';
+                    });
+
+                    // side padding mirrors the original wrapper padding
+                    var sidePad = vw > 1600 ? 75 : 0;
+
+                    // Final X positions for each card (left edge)
+                    var finalX = [0, 1, 2, 3].map(function(i) {
+                        return sidePad + i * (cardW + GAP);
+                    });
+
+                    // Final vertical center of stage
+                    var stageH  = document.querySelector('.rs-services-fan-stage').offsetHeight;
+                    var cardH   = cards[0].offsetHeight;
+                    var finalY  = (stageH - cardH) / 2;
+
+                    // z-index: last card on bottom, first card on top
+                    cards.forEach(function(c, i) {
+                        gsap.set(c, { zIndex: cards.length - i });
+                    });
+
+                    // reset to center stack
+                    cards.forEach(function(c) {
+                        gsap.set(c, {
+                            left: '50%',
+                            top:  '50%',
+                            xPercent: -50,
+                            yPercent: -50
+                        });
+                    });
+
+                    tl = gsap.timeline({
+                        id: 'servicesFan',
+                        scrollTrigger: {
+                            trigger: section,
+                            start:   'top top',
+                            end:     'bottom bottom',
+                            scrub:   1.5
+                        }
+                    });
+
+                    // Fan cards out to their row positions
+                    cards.forEach(function(card, i) {
+                        tl.to(card, {
+                            left:     finalX[i] + 'px',
+                            top:      finalY + 'px',
+                            xPercent: 0,
+                            yPercent: 0,
+                            duration: 1,
+                            ease:     'power2.inOut'
+                        }, i * 0.08);
+                    });
+                }
+
+                build();
+                window.addEventListener('resize', function() {
+                    ScrollTrigger.refresh();
+                    build();
+                });
+            }
+
+            // Delay slightly to ensure GSAP libs are ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initServicesFan);
+            } else {
+                initServicesFan();
+            }
+        })();
+        </script>
+
+        <!-- services area start — Timeline Component (scroll-driven animation) -->
+        <style>
+        /* ── SCROLL WRAPPER ── */
+        .timeline-scroll-driver {
+            height: 400vh;
+            position: relative;
+        }
+
+        /* ── STICKY VIEWPORT ── */
+        .timeline-sticky-container {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: #2B3944;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .timeline-sticky-container .rs-services-fan-shape-bg {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .timeline-sticky-container .rs-services-fan-shape-bg img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            opacity: 0.18;
+        }
+
+        /* ── INNER CONTAINER ── */
+        .timeline-inner-container {
             --primary-bg: #2B3944;
             --accent-theme: #AB052D;
             --accent-hover: #8a0424;
             --text-dark: #FFFFFF;
             --text-muted: rgba(255, 255, 255, 0.7);
             --card-radius: 20px;
-            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            background-color: var(--primary-bg);
-            color: var(--text-dark);
-            padding: 100px 0;
-            font-family: 'Outfit', sans-serif;
-            position: relative;
-        }
-        .timeline-section-custom .container {
             max-width: 1200px;
             width: 100%;
             text-align: center;
-            margin: 0 auto;
+            padding: 40px 20px;
             position: relative;
             z-index: 2;
+            color: #FFFFFF;
         }
-        .timeline-section-custom .header-custom {
+
+        .timeline-inner-container .header-custom {
             margin-bottom: 60px;
         }
-        .timeline-section-custom .section-subtitle {
+        .timeline-inner-container .header-custom .section-subtitle {
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 10px;
             display: inline-block;
             font-weight: 600;
-            color: var(--text-muted);
+            color: rgba(255,255,255,0.7);
             font-size: 14px;
         }
-        .timeline-section-custom .header-custom h2 {
+        .timeline-inner-container .header-custom h2 {
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 20px;
             line-height: 1.2;
             color: #fff;
         }
-        .timeline-section-custom .header-custom p {
+        .timeline-inner-container .header-custom p {
             font-size: 1.1rem;
-            color: var(--text-muted);
+            color: rgba(255,255,255,0.7);
             max-width: 700px;
             margin: 0 auto;
             line-height: 1.6;
-            margin-bottom: 0;
         }
-        .timeline-section-custom .timeline {
+
+        .timeline-inner-container .timeline {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             gap: 15px;
             margin-bottom: 60px;
             position: relative;
+            width: 100%;
         }
-        .timeline-section-custom .timeline-item {
+        .timeline-inner-container .timeline-item {
             flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .timeline-section-custom .card {
+        .timeline-inner-container .card {
             width: 100%;
             aspect-ratio: 4/3;
-            border-radius: var(--card-radius);
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             margin-bottom: 30px;
-            transition: var(--transition);
-            background: rgba(255, 255, 255, 0.05);
-            border: none;
-            padding: 0;
+            background: rgba(255,255,255,0.08);
+            will-change: transform, opacity;
+            position: relative;
         }
-        .timeline-section-custom .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-        }
-        .timeline-section-custom .card img {
+        .timeline-inner-container .card img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: var(--transition);
+            display: block;
         }
-        .timeline-section-custom .card:hover img {
-            scale: 1.05;
-        }
-        .timeline-section-custom .connector {
+        .timeline-inner-container .connector {
             width: 1px;
             height: 80px;
-            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+            background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
             margin-bottom: 20px;
         }
-        .timeline-section-custom .label {
-            text-align: center;
-        }
-        .timeline-section-custom .year {
+        .timeline-inner-container .label { text-align: center; }
+        .timeline-inner-container .year {
             font-size: 0.85rem;
             font-weight: 600;
-            color: var(--text-muted);
+            color: rgba(255,255,255,0.7);
             margin-bottom: 8px;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-        .timeline-section-custom .gen-name {
+        .timeline-inner-container .gen-name {
             font-size: 0.95rem;
             font-weight: 700;
-            color: var(--text-dark);
+            color: #FFFFFF;
             text-transform: uppercase;
             letter-spacing: 1px;
             line-height: 1.3;
         }
-        .timeline-section-custom .cta-button {
+        .timeline-inner-container .cta-button {
             display: inline-flex;
             align-items: center;
-            background-color: var(--accent-theme);
+            background-color: #AB052D;
             color: #ffffff;
             padding: 16px 32px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 700;
             font-size: 1rem;
-            transition: var(--transition);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             border: none;
             cursor: pointer;
-            box-shadow: 0 4px 15px rgba(171, 5, 45, 0.3);
-            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(171,5,45,0.3);
+            opacity: 0;
+            transform: translateY(20px);
         }
-        .timeline-section-custom .cta-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 25px rgba(171, 5, 45, 0.4);
-            background-color: var(--accent-hover);
-            color: #fff;
-        }
-        .timeline-section-custom .cta-button span {
-            margin-right: 10px;
-        }
-        .timeline-section-custom .cta-button i {
-            font-style: normal;
-        }
+        .timeline-inner-container .cta-button span { margin-right: 10px; }
+        .timeline-inner-container .cta-button i { font-style: normal; }
+
         @media (max-width: 1024px) {
-            .timeline-section-custom .timeline {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 40px 20px;
-            }
-            .timeline-section-custom .timeline-item {
-                flex: 0 0 calc(33.333% - 20px);
-            }
+            .timeline-inner-container .timeline { flex-wrap: wrap; justify-content: center; gap: 40px 20px; }
+            .timeline-inner-container .timeline-item { flex: 0 0 calc(33.333% - 20px); }
         }
         @media (max-width: 768px) {
-            .timeline-section-custom .timeline-item {
-                flex: 0 0 calc(50% - 20px);
-            }
-            .timeline-section-custom .header-custom h2 {
-                font-size: 2.5rem;
-            }
+            .timeline-inner-container .timeline-item { flex: 0 0 calc(50% - 20px); }
+            .timeline-inner-container .header-custom h2 { font-size: 2.5rem; }
         }
         @media (max-width: 480px) {
-            .timeline-section-custom .timeline-item {
-                flex: 0 0 100%;
-            }
-            .timeline-section-custom .connector {
-                height: 40px;
-            }
-            .timeline-section-custom .header-custom h2 {
-                font-size: 2rem;
-            }
+            .timeline-inner-container .timeline-item { flex: 0 0 100%; }
+            .timeline-inner-container .connector { height: 40px; }
+            .timeline-inner-container .header-custom h2 { font-size: 2rem; }
         }
         </style>
 
-        <section class="timeline-section-custom theme-secondary" id="how-it-works">
-            <div class="rs-services-shape rs-services-fan-shape" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:1;">
-                <img src="assets/images/shape/services-shape-01.webp" alt="image" style="width:100%; height:100%; object-fit:cover; opacity:0.18;">
-            </div>
-            
-            <div class="container">
-                <header class="header-custom">
-                    <span class="section-subtitle is-white">Your Business Our Expertise</span>
-                    <h2>Service for your development</h2>
-                    <p>We believe that every business is uniquids our approach is never growth.</p>
-                </header>
-
-                <div class="timeline" role="list">
-                    <!-- Gen 1 -->
-                    <div class="timeline-item" role="listitem">
-                        <div class="card">
-                            <img src="assets/images/banner/banner-thumb-02.webp" alt="IT & Emerging Tech Enablement Solution">
-                        </div>
-                        <div class="connector"></div>
-                        <div class="label">
-                            <div class="year">01</div>
-                            <div class="gen-name">IT & Emerging Tech<br>Enablement</div>
-                        </div>
-                    </div>
-
-                    <!-- Gen 2 -->
-                    <div class="timeline-item" role="listitem">
-                        <div class="card">
-                            <img src="assets/images/banner/assessment-testing.webp" alt="Assessment & Testing Solution">
-                        </div>
-                        <div class="connector"></div>
-                        <div class="label">
-                            <div class="year">02</div>
-                            <div class="gen-name">Assessment &<br>Testing</div>
-                        </div>
-                    </div>
-
-                    <!-- Gen 3 -->
-                    <div class="timeline-item" role="listitem">
-                        <div class="card">
-                            <img src="assets/images/banner/recruitment.webp" alt="Recruitment & Hiring Solution">
-                        </div>
-                        <div class="connector"></div>
-                        <div class="label">
-                            <div class="year">03</div>
-                            <div class="gen-name">Recruitment &<br>Hiring</div>
-                        </div>
-                    </div>
-
-                    <!-- Gen 4 -->
-                    <div class="timeline-item" role="listitem">
-                        <div class="card">
-                            <img src="assets/images/banner/exam-management.webp" alt="Exam Management Solution">
-                        </div>
-                        <div class="connector"></div>
-                        <div class="label">
-                            <div class="year">04</div>
-                            <div class="gen-name">Exam<br>Management</div>
-                        </div>
-                    </div>
-
-                    <!-- Gen 5 -->
-                    <div class="timeline-item" role="listitem">
-                        <div class="card">
-                            <img src="assets/images/banner/manpower.webp" alt="Manpower & Workforce Solution">
-                        </div>
-                        <div class="connector"></div>
-                        <div class="label">
-                            <div class="year">05</div>
-                            <div class="gen-name">Manpower &<br>Workforce</div>
-                        </div>
-                    </div>
-
-                    <!-- Gen 6 -->
-                    <div class="timeline-item" role="listitem">
-                        <div class="card">
-                            <img src="assets/images/banner/call-center.webp" alt="Call Center & BPOs Solution">
-                        </div>
-                        <div class="connector"></div>
-                        <div class="label">
-                            <div class="year">06</div>
-                            <div class="gen-name">Call Center &<br>BPOs</div>
-                        </div>
-                    </div>
+        <!-- Timeline Scroll Driver -->
+        <div class="timeline-scroll-driver">
+            <div class="timeline-sticky-container">
+                <!-- background shape -->
+                <div class="rs-services-fan-shape-bg">
+                    <img src="assets/images/shape/services-shape-01.webp" alt="">
                 </div>
 
-                <a href="solutions.php" class="cta-button" id="explore-btn">
-                    <span>Explore our solutions</span>
-                    <i>&rarr;</i>
-                </a>
-            </div>
-        </section>
+                <div class="timeline-inner-container">
+                    <header class="header-custom">
+                        <span class="section-subtitle">How It Works</span>
+                        <h2>Service for your development</h2>
+                        <p>We believe that every business is unique and our approach aims for unparalleled growth. Explore our key offerings below.</p>
+                    </header>
+
+                    <div class="timeline" id="howItWorksTimeline" role="list">
+                        <!-- Card 1 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-1"><img src="assets/images/banner/banner-thumb-02.webp" alt="IT & Emerging Tech Enablement Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">01</div><div class="gen-name">IT & Emerging Tech<br>Enablement</div></div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-2"><img src="assets/images/banner/assessment-testing.webp" alt="Assessment & Testing Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">02</div><div class="gen-name">Assessment &<br>Testing</div></div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-3"><img src="assets/images/banner/recruitment.webp" alt="Recruitment & Hiring Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">03</div><div class="gen-name">Recruitment &<br>Hiring</div></div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-4"><img src="assets/images/banner/exam-management.webp" alt="Exam Management Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">04</div><div class="gen-name">Exam<br>Management</div></div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-5"><img src="assets/images/banner/manpower.webp" alt="Manpower & Workforce Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">05</div><div class="gen-name">Manpower &<br>Workforce</div></div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-6"><img src="assets/images/banner/call-center.webp" alt="Call Center & BPOs Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">06</div><div class="gen-name">Call Center &<br>BPOs</div></div>
+                        </div>
+                    </div><!-- /timeline -->
+
+                    <a href="solutions.php" class="cta-button" id="hiw-explore-btn">
+                        <span>Explore our solutions</span><i>&rarr;</i>
+                    </a>
+                </div><!-- /timeline-inner-container -->
+            </div><!-- /timeline-sticky-container -->
+        </div><!-- /timeline-scroll-driver -->
         <!-- services area end -->
+
+        <!-- GSAP Scroll Animation for How It Works Section -->
+        <script>
+        (function() {
+            function buildHIWAnimation() {
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+                    setTimeout(buildHIWAnimation, 100);
+                    return;
+                }
+
+                if (window._hiwCtx) window._hiwCtx.revert();
+
+                var scrollDriver = document.querySelector('.timeline-scroll-driver');
+                if (!scrollDriver) return;
+
+                window._hiwCtx = gsap.context(function() {
+                    var cards = gsap.utils.toArray('.timeline-scroll-driver .card');
+                    var card1 = cards[0];
+                    var otherCards = cards.slice(1);
+                    var connectors = gsap.utils.toArray('.timeline-scroll-driver .connector');
+                    var labels = gsap.utils.toArray('.timeline-scroll-driver .label');
+                    var cta = document.getElementById('hiw-explore-btn');
+
+                    var vw = window.innerWidth;
+                    var vh = window.innerHeight;
+
+                    // Snapshot each card's distance from viewport center
+                    var snap = cards.map(function(card) {
+                        var r = card.getBoundingClientRect();
+                        return {
+                            xToCenter: (vw / 2) - (r.left + r.width / 2),
+                            yToCenter: (vh / 2) - (r.top + r.height / 2),
+                            width: r.width,
+                            height: r.height
+                        };
+                    });
+
+                    // Ensure Full-screen cover for Card 1 (Exactly 100vh/100vw coverage)
+                    var coverScale = Math.max(vw / snap[0].width, vh / snap[0].height);
+
+                    // Fade out section headers initially so the fullscreen image is the focus
+                    var sectionHeader = document.querySelector('.timeline-inner-container .header-custom');
+                    gsap.set(sectionHeader, { opacity: 0, y: -20 });
+
+                    // Hide connectors, labels, CTA
+                    gsap.set([connectors, labels, cta], { opacity: 0, y: 20 });
+
+                    // Card 1: Fixed starting state (Fullscreen Covering 100vh)
+                    gsap.set(card1, {
+                        x: snap[0].xToCenter,
+                        y: snap[0].yToCenter,
+                        scale: coverScale,
+                        borderRadius: '0px',
+                        zIndex: 100, // Top layer
+                        transformOrigin: '50% 50%'
+                    });
+
+                    // Cards 2-6: stacked deck hidden behind card 1
+                    otherCards.forEach(function(card, index) {
+                        var deckOffsetX = (index + 1) * 6;
+                        var deckOffsetY = (index + 1) * 4;
+                        var deckScale   = 1 - ((index + 1) * 0.03);
+                        gsap.set(card, {
+                            x: snap[index + 1].xToCenter + deckOffsetX,
+                            y: snap[index + 1].yToCenter + deckOffsetY,
+                            scale: deckScale,
+                            opacity: 0,
+                            zIndex: 90 - index,
+                            transformOrigin: '50% 50%'
+                        });
+                    });
+
+                    // Timeline driven by scroll with precise scrub alignment
+                    var tl = gsap.timeline({
+                        scrollTrigger: {
+                            trigger: '.timeline-scroll-driver',
+                            start: 'top top',
+                            end: 'bottom bottom',
+                            scrub: 1.2, // Smoother scrub
+                            invalidateOnRefresh: true, // Handle layout shifts better
+                            anticipatePin: 1
+                        }
+                    });
+
+                    // Phase 1: Card 1 shrinks and Section Header appears
+                    tl.to(card1, {
+                        scale: 1,
+                        borderRadius: '20px',
+                        ease: 'none',
+                        duration: 0.4
+                    }, 0)
+                    .to(sectionHeader, {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.2
+                    }, 0.2);
+
+                    // Phase 2: Deck becomes visible
+                    tl.set(otherCards, { opacity: 1 }, 0.4);
+
+                    // Phase 3: All cards spread to natural row positions
+                    tl.to(cards, {
+                        x: 0,
+                        y: 0,
+                        scale: 1,
+                        ease: 'power2.inOut',
+                        duration: 0.5
+                    }, 0.4);
+
+                    // Phase 4: Fade in connectors, labels, CTA
+                    tl.to(connectors, { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.85)
+                      .to(labels,     { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.90)
+                      .to(cta,        { opacity: 1, y: 0, duration: 0.1, ease: 'power1.out' }, 0.95);
+                });
+            }
+
+            // Execute on load and refresh
+            window.addEventListener('load', function() {
+                buildHIWAnimation();
+                ScrollTrigger.refresh();
+            });
+
+            var _hiwResizeTimer;
+            window.addEventListener('resize', function() {
+                clearTimeout(_hiwResizeTimer);
+                _hiwResizeTimer = setTimeout(function() {
+                    buildHIWAnimation();
+                    ScrollTrigger.refresh();
+                }, 250);
+            });
+        })();
+        </script>
 
 
 
@@ -443,10 +1049,10 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                 </div>
                             </div>
                             <div class="rs-why-choose-thumb">
-                                <img src="assets/images/why-choose/why-choose-thumb-06.webp" alt="image">
+                                <img src="assets/images/about/15.webp" alt="image">
                                 <div class="rs-why-choose-meta">
                                     <div class="rs-why-choose-meta-icon">
-                                        <img src="assets/images/favicon.webp" alt="image">
+                                        <img src="assets/images/logo/favicon-icef.png" alt="ICEF India Logo">
                                     </div>
                                     <p class="rs-why-choose-meta-desc">We ensure fastest management team -work</p>
                                     <div class="rs-why-choose-meta-btn">
@@ -620,7 +1226,7 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                 </div>
                                 <div class="rs-skill-clip rs-text-clip-one">
                                     <h2 class="rs-text-clip-title"
-                                        data-background="assets/images/skill/skill-thumb-02.webp">
+                                        data-background="assets/images/about/12.webp">
                                         Mission</h2>
                                 </div>
                             </div>
@@ -674,7 +1280,7 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                 </div>
                                 <div class="rs-skill-thumb rs-image scroll_reveal reveal-active"
                                     data-dir="reveal_right">
-                                    <img src="assets/images/skill/skill-thumb-02.webp" alt="image">
+                                    <img src="assets/images/about/12.webp" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -700,25 +1306,21 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                         </path>
                                     </svg>
                                 </div>
-                                <h5 class="rs-feature-title"> Cost-Effectiveness</h5>
+                                <h5 class="rs-feature-title"> 26+ Years of Experience</h5>
                                 <span class="rs-feature-line"></span>
-                                <p class="rs-feature-desc"> We provide a antenna base on facts hype, to help improve
-                                    returns
-                                    your.
+                                <p class="rs-feature-desc"> With 26+ years of experience and a legacy of trust since 2000, ICEF India provides cost-effective solutions that streamline assessments and maximize workforce potential.
                                 </p>
                             </div>
                             <div class="rs-feature-item wow fadeIn" data-wow-delay=".5s" data-wow-duration="1s">
                                 <div class="rs-feature-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 38">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5959 36.5456V36.5456Z">
-                                        </path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5959 36.5456C10.0034 36.5456 9.52067 36.0625 9.52067 35.4686C9.52067 34.8755 10.0034 34.3925 10.5959 34.3925C11.1884 34.3925 11.6758 34.8756 11.6758 35.4686C11.6758 36.0626 11.1884 36.5456 10.5959 36.5456ZM10.5959 1.45436C11.1884 1.45436 11.6758 1.93651 11.6758 2.53042C11.6758 3.12345 11.1884 3.60657 10.5959 3.60657C10.0034 3.60657 9.52067 3.12345 9.52067 2.53042C9.52067 1.93651 10.0034 1.45436 10.5959 1.45436ZM10.5959 33.2605C9.97941 33.2605 9.42519 33.5147 9.02373 33.9232L1.98989 29.9241V8.07486L9.02373 4.07676C9.4251 4.48481 9.97941 4.73861 10.5959 4.73861C11.8144 4.73861 12.8035 3.74755 12.8035 2.53051C12.8035 1.3125 11.8144 0.322415 10.5959 0.322415C9.13189 0.322415 8.09401 1.71968 8.45992 3.09248L1.14413 7.25303C1.05726 7.30259 0.985011 7.3742 0.934672 7.46062C0.884332 7.54704 0.857686 7.64521 0.857422 7.74521V30.2539C0.857515 30.354 0.884089 30.4522 0.934446 30.5387C0.984803 30.6251 1.05715 30.6967 1.14413 30.7461L8.45992 34.9067C8.09401 36.2795 9.13215 37.6777 10.5959 37.6777C11.8144 37.6777 12.8035 36.6867 12.8035 35.4687C12.8035 34.2515 11.8143 33.2605 10.5959 33.2605ZM25.3994 36.5456C24.8069 36.5456 24.3242 36.0625 24.3242 35.4686C24.3242 34.8755 24.8068 34.3925 25.3994 34.3925C25.992 34.3925 26.4746 34.8756 26.4746 35.4686C26.4746 36.0626 25.9919 36.5456 25.3994 36.5456ZM25.3994 3.60657C24.8069 3.60657 24.3242 3.12345 24.3242 2.53042C24.3242 1.93651 24.8068 1.45436 25.3994 1.45436C25.992 1.45436 26.4746 1.93651 26.4746 2.53042C26.4746 3.12345 25.9919 3.60657 25.3994 3.60657ZM34.8511 7.25294L27.5353 3.09239C27.9013 1.72012 26.8636 0.322327 25.3994 0.322327C24.1809 0.322327 23.1917 1.31241 23.1917 2.53042C23.1917 3.74746 24.1809 4.73852 25.3994 4.73852C26.0158 4.73852 26.5749 4.48481 26.9763 4.07667L34.0101 8.07477V29.9241L26.9763 33.9232C26.5749 33.5146 26.0158 33.2605 25.3994 33.2605C24.1809 33.2605 23.1917 34.2515 23.1917 35.4686C23.1917 36.6866 24.1809 37.6776 25.3994 37.6776C26.8634 37.6776 27.9013 36.279 27.5353 34.9066L34.8511 30.746C34.9394 30.6977 35.013 30.6265 35.0643 30.5399C35.1155 30.4533 35.1426 30.3545 35.1426 30.2539V7.74513C35.1426 7.54202 35.0327 7.35423 34.8511 7.25294ZM17.9976 30.2194L6.72535 24.6507L11.1693 22.4564L17.7491 25.7063C17.9045 25.785 18.0931 25.7837 18.2509 25.7063L24.826 22.4564L29.2699 24.6507L17.9976 30.2194ZM6.72535 18.9997L11.1693 16.8054L17.7491 20.0547C17.9063 20.1339 18.0918 20.1324 18.2509 20.0547L24.826 16.8054L29.2699 18.9997L17.9976 24.5676L6.72535 18.9997ZM6.72535 13.3483L17.9976 7.78041L29.2699 13.3483L17.9976 18.9161L6.72535 13.3483ZM31.1144 24.6507C31.1144 24.8667 30.9901 25.0626 30.799 25.1587L18.2509 31.3582C18.0922 31.4346 17.9059 31.4361 17.7491 31.3572L5.19617 25.1587C4.77782 24.9503 4.77677 24.3517 5.19617 24.1437L9.8886 21.8252L5.19617 19.5072C4.77756 19.2992 4.77668 18.7008 5.19617 18.4918L9.8886 16.1738L5.19617 13.8553C4.77729 13.6476 4.77729 13.049 5.19617 12.8414L17.7491 6.64187C17.8271 6.60323 17.913 6.58313 18 6.58313C18.087 6.58313 18.1729 6.60323 18.2509 6.64187L30.799 12.8414C31.2179 13.0491 31.2179 13.6476 30.799 13.8553L26.1066 16.1738L30.799 18.4918C31.2185 18.7008 31.2176 19.2992 30.799 19.5072L26.1066 21.8252L30.799 24.1437C30.9901 24.2388 31.1144 24.4356 31.1144 24.6507L22.9224 24.2152V24.2152Z"></path>
                                     </svg>
                                 </div>
-                                <h5 class="rs-feature-title"> Innovative Technology</h5>
+                                <h5 class="rs-feature-title"> 25.5K+ Successful Projects</h5>
                                 <span class="rs-feature-line"></span>
-                                <p class="rs-feature-desc"> Our mission is to empower businesses with the insight
-                                    structure and
-                                    tools.</p>
+                                <p class="rs-feature-desc"> Having completed over 25.5K+ successful projects, we utilize innovative technology to deliver precision-driven insights and advanced evaluation tools for your business.
+                                </p>
                             </div>
                             <div class="rs-feature-item wow fadeIn" data-wow-delay=".7s" data-wow-duration="1s">
                                 <div class="rs-feature-icon">
@@ -1308,7 +1910,7 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                     <div class="col-xl-12">
                         <div class="rs-testimonial-wrapper">
                             <div class="rs-testimonial-thumb rs-image scroll_reveal reveal-active" data-dir="left">
-                                <img src="assets/images/testimonial/testimonial-thumb-03.webp" alt="image">
+                                <img src="assets/images/about/8.webp" alt="image">
                             </div>
                             <div class="rs-testimonial-slider-wrapper">
                                 <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="1500"
@@ -1341,20 +1943,14 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                                         <i class="ri-star-line"></i>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> “The standard chunk of Lorem Ipsum used
-                                                    since the
-                                                    1500s is
-                                                    reproduced below for those interested, Bonorum Malorum Cicero are
-                                                    also their
-                                                    exact
-                                                    original form, accompanied by English versions.”
+                                                <p class="rs-testimonial-desc"> “As a growing business, we needed a partner who understood the complexities of the Indian market. ICEF's strategic consulting and workforce management solutions have been instrumental in our regional expansion.”
                                                 </p>
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-thumb">
-                                                        <img src="assets/images/user/user-thumb-01.webp" alt="image">
+                                                        <img src="assets/images/user/indian-user-01.png" alt="image">
                                                     </div>
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Abdur Rashid</h6>
+                                                        <h6 class="rs-testimonial-avater-title">Vikram Malhotra</h6>
                                                         <span class="rs-testimonial-avater-designation">Founder &
                                                             CEO</span>
                                                     </div>
@@ -1386,20 +1982,14 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                                         <i class="ri-star-line"></i>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> “The standard chunk of Lorem Ipsum used
-                                                    since the
-                                                    1500s is
-                                                    reproduced below for those interested, Bonorum Malorum Cicero are
-                                                    also their
-                                                    exact
-                                                    original form, accompanied by English versions.”
+                                                <p class="rs-testimonial-desc"> “The team at ICEF is professional and results-oriented. Their data-driven approach to assessment and recruitment has improved our operational efficiency by 40% in just one year.”
                                                 </p>
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-thumb">
-                                                        <img src="assets/images/user/user-thumb-02.webp" alt="image">
+                                                        <img src="assets/images/user/indian-user-02.png" alt="image">
                                                     </div>
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Luna Bekar</h6>
+                                                        <h6 class="rs-testimonial-avater-title">Priyanka Rao</h6>
                                                         <span class="rs-testimonial-avater-designation">Project
                                                             Manager</span>
                                                     </div>
@@ -1431,20 +2021,14 @@ India's Leading Consultancy Company Since 2000 for Business Process, Hiring, Ass
                                                         <i class="ri-star-line"></i>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> “The standard chunk of Lorem Ipsum used
-                                                    since the
-                                                    1500s is
-                                                    reproduced below for those interested, Bonorum Malorum Cicero are
-                                                    also their
-                                                    exact
-                                                    original form, accompanied by English versions.”
+                                                <p class="rs-testimonial-desc"> “ICEF provides a highly scalable and secure environment for online examinations. Their expertise in IT enablement has allowed us to transition from offline to digital assessments with complete confidence.”
                                                 </p>
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-thumb">
-                                                        <img src="assets/images/user/user-thumb-03.webp" alt="image">
+                                                        <img src="assets/images/user/indian-user-03.png" alt="image">
                                                     </div>
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Nayeem</h6>
+                                                        <h6 class="rs-testimonial-avater-title">Sameer Deshpande</h6>
                                                         <span class="rs-testimonial-avater-designation">Developer</span>
                                                     </div>
                                                 </div>

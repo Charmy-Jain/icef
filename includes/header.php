@@ -19,17 +19,18 @@
     <style>
         /* Custom Mega Menu for Solutions with Feature Image */
         .main-menu .mega-grid-two {
-            grid-template-columns: repeat(6, 1fr) 350px !important;
+            grid-template-columns: repeat(6, 1fr) 300px !important;
             width: 1550px !important;
             padding: 0 !important;
             overflow: hidden;
             border-radius: 10px !important;
+            background-color: var(--rs-theme-secondary) !important;
         }
 
         @media only screen and (max-width: 1600px) {
             .main-menu .mega-grid-two {
                 width: 1350px !important;
-                grid-template-columns: repeat(6, 1fr) 280px !important;
+                grid-template-columns: repeat(6, 1fr) 250px !important;
             }
         }
 
@@ -45,15 +46,24 @@
 
         .main-menu .mega-grid-one > li, .main-menu .mega-grid-two > li {
             padding: 30px 20px !important;
+            border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+            position: relative;
+        }
+
+        .main-menu .mega-grid-one > li::before, .main-menu .mega-grid-two > li::before {
+            content: none !important;
+        }
+
+        .main-menu .mega-grid-two > li:last-child {
+            border-right: none !important;
         }
 
         .mega-menu-feature {
-            background-color: #f8fafc;
+            background-color: #243039 !important;
             padding: 40px 30px !important;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            border-left: 1px solid #e2e8f0;
         }
 
         .mega-menu-feature h6.title {
@@ -67,7 +77,7 @@
         .mega-menu-feature p {
             font-size: 14px !important;
             line-height: 1.5 !important;
-            color: #64748b !important;
+            color: rgba(255, 255, 255, 0.7) !important;
             margin-bottom: 20px !important;
             white-space: normal !important;
         }
@@ -90,9 +100,65 @@
             transform: scale(1.05);
         }
 
-        .main-menu .mega-grid-two > li:nth-child(6)::before {
-            content: none !important;
+        /* FAQ Section Image Resizing */
+        .rs-faq-two .rs-faq-wrapper {
+            grid-template-columns: 1fr 480px !important;
+            gap: 30px 60px !important;
+            align-items: flex-start !important;
         }
+        .rs-faq-two .rs-faq-thumb {
+            width: 100% !important;
+            max-width: 480px !important;
+        }
+        .rs-faq-two .rs-faq-thumb > img {
+            height: 500px !important;
+            object-fit: cover !important;
+            border-radius: 10px !important;
+        }
+        .rs-faq-two .rs-faq-award {
+            width: auto !important;
+            max-width: 360px !important;
+            padding: 15px 20px !important;
+            bottom: 15px !important;
+            inset-inline-start: auto !important;
+            inset-inline-end: 15px !important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            gap: 8px !important;
+            background: rgba(255, 255, 255, 0.08) !important;
+            background-image: none !important;
+            backdrop-filter: blur(12px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        }
+        .rs-faq-award-thumb {
+            display: none !important;
+        }
+        .rs-faq-two .rs-faq-award-desc {
+            font-size: 13px !important;
+            line-height: 1.4 !important;
+            margin-bottom: 0 !important;
+            border-inline-start: none !important;
+            padding-inline-start: 0 !important;
+            margin-inline-start: 0 !important;
+        }
+        @media only screen and (max-width: 1366px) {
+            .rs-faq-two .rs-faq-wrapper {
+                grid-template-columns: 1fr 400px !important;
+            }
+            .rs-faq-two .rs-faq-thumb > img {
+                height: 450px !important;
+            }
+        }
+        @media only screen and (max-width: 991px) {
+            .rs-faq-two .rs-faq-wrapper {
+                grid-template-columns: 1fr !important;
+            }
+            .rs-faq-two .rs-faq-thumb {
+                max-width: 100% !important;
+            }
+        }
+
+
 
         /* Submenu adjustments */
         .main-menu .submenu {
@@ -102,6 +168,45 @@
 
         .main-menu .submenu li a {
             white-space: nowrap !important;
+        }
+
+        /* Mega menu column titles and links */
+        .main-menu .mega-grid-two > li .title {
+            color: #ffffff !important;
+            margin-bottom: 15px !important;
+            display: block !important;
+        }
+
+        .main-menu .mega-grid-two > li ul li a {
+            color: rgba(255, 255, 255, 0.7) !important;
+            padding: 5px 0 !important;
+        }
+
+        .main-menu .mega-grid-two > li ul li a:hover {
+            color: var(--rs-theme-primary) !important;
+            padding-left: 5px !important;
+        }
+
+        /* Feature Button Styling */
+        .mega-menu-feature .rs-btn {
+            background-color: var(--rs-theme-primary) !important;
+            color: #ffffff !important;
+            padding: 14px 28px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            border-radius: 6px !important;
+            font-size: 14px !important;
+            font-weight: 700 !important;
+            width: fit-content !important;
+            height: auto !important;
+            line-height: 1 !important;
+            margin-bottom: 20px !important;
+        }
+
+        .mega-menu-feature .rs-btn:hover {
+            background-color: #ffffff !important;
+            color: var(--rs-theme-primary) !important;
         }
 
         /* Sticky Header Styles */
@@ -121,6 +226,39 @@
             padding-top: 10px;
             padding-bottom: 10px;
         }
+
+        /* Bridge the gap to prevent dropdown closing when moving mouse from link to menu */
+        .main-menu li {
+            position: relative;
+        }
+
+        .main-menu .submenu::before,
+        .main-menu .mega-menu::before {
+            content: "";
+            position: absolute;
+            top: -35px; /* Large enough to bridge any gap */
+            left: 0;
+            right: 0;
+            height: 35px;
+            background: transparent;
+            z-index: 1; /* Stay on top of other elements to catch hover */
+        }
+
+        /* Ensure the bridge doesn't block clicks when menu is closed */
+        .main-menu .submenu,
+        .main-menu .mega-menu {
+            pointer-events: none;
+        }
+
+        .main-menu li:hover > .submenu,
+        .main-menu li:hover > .mega-menu {
+            pointer-events: all;
+        }
+
+        /* More persistent hover */
+        .main-menu ul li:hover > a {
+            color: var(--rs-theme-primary) !important;
+        }
     </style>
 
     <!-- header area start-->
@@ -137,7 +275,7 @@
                         </svg>
                     </span>
                     <div class="header-top-content">
-                        <p>India's Leading Integrated Assessment & Recruitment Platform Since 2000
+                        <p>India's Leading Integrated Assessment & Recruitment Platform Since 2000.
                             <a href="about-mission.php">Learn More</a>
                         </p>
                     </div>
@@ -224,60 +362,60 @@
                                 <li class="menu-item-has-children rs-mega-menu">
                                     <a href="javascript:void(0)">Solutions</a>
                                     <ul class="mega-menu mega-grid-two">
-                                        <li class="rs-menu-item" data-image="assets/images/banner/banner-thumb-02.webp">
-                                            <a href="it-emerging-tech.php" class="title">IT & Emerging Tech Enablement</a>
+                                        <li class="rs-menu-item" data-image="assets/images/solution/it-emerging.webp">
+                                            <a href="it-emerging-tech-enablement.php" class="title">IT & Emerging Tech Enablement</a>
                                             <ul>
-                                                <li><a href="it-emerging-tech.php">IOT & RFID Based Products</a></li>
-                                                <li><a href="it-emerging-tech.php">Application Development</a></li>
-                                                <li><a href="it-emerging-tech.php">Customized Software Development</a></li>
-                                                <li><a href="it-emerging-tech.php">Emerging Tech</a></li>
+                                                <li data-image="assets/images/solution/iot.webp"><a href="iot-and-rfid.php">IOT & RFID Based Products</a></li>
+                                                <li data-image="assets/images/solution/app-dev.webp"><a href="application-development.php">Application Development</a></li>
+                                                <li data-image="assets/images/solution/software-dev.webp"><a href="customized-software-development.php">Customized Software Development</a></li>
+                                                <li data-image="assets/images/solution/emerging-tech.webp"><a href="emerging-tech.php">Emerging Tech</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item" data-image="assets/images/banner/assessment-testing.webp">
+                                        <li class="rs-menu-item" data-image="assets/images/solution/assessment-testing.webp">
                                             <a href="assessment-and-testing.php" class="title">Assessment & Testing</a>
                                             <ul>
-                                                <li><a href="assessment-and-testing.php">Cognitive/Domain</a></li>
-                                                <li><a href="assessment-and-testing.php">Online/Offline</a></li>
-                                                <li><a href="assessment-and-testing.php">Proctoring</a></li>
+                                                <li data-image="assets/images/solution/cognitive-domain.webp"><a href="cognitive-domain.php">Cognitive/Domain</a></li>
+                                                <li data-image="assets/images/solution/online-offline.webp"><a href="online-offline.php">Online/Offline</a></li>
+                                                <li data-image="assets/images/solution/proctoring.webp"><a href="proctoring.php">Proctoring</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item" data-image="assets/images/banner/recruitment.webp">
-                                            <a href="recruitment-hiring.php" class="title">Recruitment & Hiring</a>
+                                        <li class="rs-menu-item" data-image="assets/images/solution/recruitment.webp">
+                                            <a href="recruitment-and-hiring.php" class="title">Recruitment & Hiring</a>
                                             <ul>
-                                                <li><a href="recruitment-hiring.php">Screening</a></li>
-                                                <li><a href="recruitment-hiring.php">Assessments</a></li>
-                                                <li><a href="recruitment-hiring.php">Merit Lists</a></li>
+                                                <li data-image="assets/images/about/33.webp"><a href="screening.php">Screening</a></li>
+                                                <li data-image="assets/images/about/37.webp"><a href="assessments.php">Assessments</a></li>
+                                                <li data-image="assets/images/solution/merit-list.webp"><a href="merit-lists.php">Merit Lists</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item" data-image="assets/images/banner/exam-management.webp">
+                                        <li class="rs-menu-item" data-image="assets/images/solution/exam-management.webp">
                                             <a href="exam-management.php" class="title">Exam Management</a>
                                             <ul>
-                                                <li><a href="exam-management.php">Question Banks</a></li>
-                                                <li><a href="exam-management.php">Conduct</a></li>
-                                                <li><a href="exam-management.php">Processing</a></li>
+                                                <li data-image="assets/images/solution/question-banks.webp"><a href="question-banks.php">Question Banks</a></li>
+                                                <li data-image="assets/images/solution/exam-conduct.webp"><a href="exam-conduct.php">Conduct</a></li>
+                                                <li data-image="assets/images/solution/processing.webp"><a href="exam-processing.php">Processing</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item" data-image="assets/images/banner/manpower.webp">
-                                            <a href="manpower-workforce.php" class="title">Manpower & Workforce</a>
+                                        <li class="rs-menu-item" data-image="assets/images/solution/manpower-workforce.webp">
+                                            <a href="manpower-and-workforce.php" class="title">Manpower & Workforce</a>
                                             <ul>
-                                                <li><a href="manpower-workforce.php">Outsourcing</a></li>
-                                                <li><a href="manpower-workforce.php">Staffing</a></li>
-                                                <li><a href="manpower-workforce.php">Deployment</a></li>
+                                                <li data-image="assets/images/solution/outsourcing.webp"><a href="outsourcing.php">Outsourcing</a></li>
+                                                <li data-image="assets/images/about/31.webp"><a href="staffing.php">Staffing</a></li>
+                                                <li data-image="assets/images/solution/deployment.webp"><a href="deployment.php">Deployment</a></li>
                                             </ul>
                                         </li>
-                                        <li class="rs-menu-item" data-image="assets/images/banner/call-center.webp">
+                                        <li class="rs-menu-item" data-image="assets/images/solution/call-center.webp">
                                             <a href="call-center-and-bpos.php" class="title">Call Center & BPOs</a>
                                             <ul>
-                                                <li><a href="call-center-and-bpos.php">Inbound/Outbound</a></li>
-                                                <li><a href="call-center-and-bpos.php">Support</a></li>
-                                                <li><a href="call-center-and-bpos.php">Tele-Calling</a></li>
+                                                <li data-image="assets/images/solution/inbound.webp"><a href="inbound-outbound.php">Inbound/Outbound</a></li>
+                                                <li data-image="assets/images/solution/support.webp"><a href="support.php">Support</a></li>
+                                                <li data-image="assets/images/solution/telecalling.webp"><a href="tele-calling.php">Tele-Calling</a></li>
                                             </ul>
                                         </li>
                                         <li class="mega-menu-feature">
                                             <div class="mega-feature-content">
                                                 <h6 class="title">Let's Talk Business</h6>
                                                 <p>Empowering businesses with smart IT solutions since 2000.</p>
-                                                <a href="contact.php" class="rs-btn has-icon has-md-radius hover-primary">Request Quote</a>
+                                                <a href="support.php" class="rs-btn has-icon has-md-radius hover-primary">Request Quote</a>
                                                 <div class="feature-thumb mt-20">
                                                     <img id="mega-menu-target-img" src="assets/images/mega-menu-feature.png" alt="Consultation">
                                                 </div>
@@ -296,13 +434,13 @@
                                 </li>
                                 
                                 
-                                <li><a href="support.php">Support</a></li>
+                                <li><a href="contact.php">Support</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="header-content">
                         <div class="header-btn">
-                            <a class="rs-btn has-icon is-transparent hover-primary border-hover-primary" href="support.php">Get Free Quote</a>
+                            <a class="rs-btn has-icon is-transparent hover-primary border-hover-primary" href="contact.php">Get Free Quote</a>
                         </div>
                         <div class="header-search-wrapper">
                             <div class="header-search-icon"><i class="ri-search-line"></i></div>
@@ -335,16 +473,16 @@
 
             const globalDefaultImg = targetImg.getAttribute('src');
             let defaultImg = globalDefaultImg;
-            const menuItems = document.querySelectorAll('.rs-mega-menu .mega-menu .rs-menu-item');
+            const menuItems = document.querySelectorAll('.rs-mega-menu .mega-menu [data-image]');
 
             // Detect active page and set its image as default
             const currentPath = window.location.pathname;
-            menuItems.forEach(item => {
+            document.querySelectorAll('.rs-mega-menu .mega-menu .rs-menu-item').forEach(item => {
                 const links = item.querySelectorAll('a');
                 links.forEach(link => {
                     const href = link.getAttribute('href');
                     if (href && href !== '#' && currentPath.endsWith(href)) {
-                        const activeImg = item.getAttribute('data-image');
+                        const activeImg = link.parentElement.getAttribute('data-image') || item.getAttribute('data-image');
                         if (activeImg) {
                             defaultImg = activeImg;
                             targetImg.setAttribute('src', activeImg);
@@ -354,9 +492,10 @@
             });
 
             menuItems.forEach(item => {
-                item.addEventListener('mouseenter', function() {
+                item.addEventListener('mouseenter', function(e) {
+                    e.stopPropagation();
                     const newImg = this.getAttribute('data-image');
-                    if (newImg) {
+                    if (newImg && targetImg.getAttribute('src') !== newImg) {
                         targetImg.style.opacity = '0';
                         setTimeout(() => {
                             targetImg.setAttribute('src', newImg);

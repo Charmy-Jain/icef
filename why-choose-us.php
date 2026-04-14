@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="rs-about-thumb rs-image scroll_reveal reveal-active" data-dir="reveal_right">
-                            <img decoding="async" src="assets/images/about/about-thumb-01.webp" alt="image">
+                            <img decoding="async" src="assets/images/about/11.webp" alt="image">
                         </div>
                     </div>
                 </div>
@@ -363,7 +363,7 @@
                 <div class="col-xl-12">
                     <div class="rs-working-wrapper">
                         <div class="rs-working-thumb is-large-thumb rs-image scroll_reveal reveal-active" data-dir="left">
-                            <img decoding="async" src="assets/images/work/working-thumb-01.webp" alt="image">
+                            <img decoding="async" src="assets/images/about/34.webp" alt="image">
                         </div>
                         <div class="rs-working-content-wrapper">
                             <div class="section-title-wrapper section-title-space">
@@ -413,7 +413,7 @@
                                 <div class="rs-working-list-item wow fadeIn" data-wow-delay=".7s" data-wow-duration="1s">
                                     <div class="rs-working-list-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.9059 19.3622L30.0736 23.1145H25.7383L27.9059 19.3622ZM24.7116 24.3005H31.1001C31.5435 24.3005 31.8415 23.8062 31.6084 23.4134L28.4192 17.8821C28.1977 17.4949 27.6195 17.4859 27.3927 17.8821L24.1984 23.4134C23.9679 23.8107 24.2684 24.3005 24.7116 24.3005ZM26.396 10.243C26.5938 10.0439 26.8291 9.88597 27.0882 9.77817C27.3473 9.67037 27.6252 9.61487 27.9059 9.61487C28.1865 9.61487 28.4644 9.67037 28.7235 9.77817C28.9827 9.88597 29.2179 10.0439 29.4158 10.243C30.248 11.0752 30.248 12.4257 29.4158 13.2578C28.5836 14.09 27.2282 14.09 26.396 13.2578C25.5638 12.4256 25.5638 11.0751 26.396 10.243ZM27.9059 15.0666C28.753 15.0666 29.6052 14.7427 30.2529 14.0949C31.5435 12.8043 31.5435 10.6965 30.2529 9.40577C28.9573 8.11015 26.8544 8.11015 25.5588 9.40577C24.2682 10.6964 24.2682 12.8043 25.5588 14.0949C26.2066 14.7428 27.0538 15.0666 27.9059 15.0666ZM20.755 13.8458H16.5692V9.65499H20.755V13.8458ZM21.348 8.47394H15.9762C15.8982 8.47371 15.821 8.48889 15.749 8.5186C15.6769 8.54832 15.6115 8.59199 15.5564 8.64709C15.5013 8.7022 15.4576 8.76766 15.4279 8.8397C15.3982 8.91175 15.383 8.98895 15.3832 9.06689V14.4337C15.383 14.5117 15.3982 14.5889 15.4279 14.6609C15.4576 14.733 15.5013 14.7984 15.5564 14.8535C15.6115 14.9086 15.6769 14.9523 15.749 14.982C15.821 15.0117 15.8982 15.0269 15.9762 15.0267H21.348C21.672 15.0267 21.941 14.7626 21.941 14.4337V9.06689C21.941 8.73803 21.6719 8.47394 21.348 8.47394ZM0.926918 9.95393C0.926918 10.2779 1.19101 10.5419 1.51995 10.5419C1.84388 10.5419 2.10797 10.2779 2.10797 9.95393V1.91108H29.1218C29.1997 1.91131 29.2769 1.89613 29.349 1.86642C29.421 1.8367 29.4865 1.79304 29.5416 1.73793C29.5967 1.68283 29.6404 1.61737 29.6701 1.54532C29.6998 1.47328 29.715 1.39607 29.7148 1.31813C29.715 1.24019 29.6999 1.16296 29.6702 1.0909C29.6404 1.01884 29.5968 0.953368 29.5416 0.898252C29.4865 0.843135 29.4211 0.799462 29.349 0.769745C29.2769 0.740029 29.1997 0.724857 29.1218 0.725101H1.51995C1.442 0.724857 1.36478 0.740029 1.29272 0.769745C1.22066 0.799462 1.15519 0.843135 1.10007 0.898252C1.04495 0.953368 1.00128 1.01884 0.971563 1.0909C0.941847 1.16296 0.926674 1.24019 0.926918 1.31813V9.95393ZM39.5166 6.02226C39.5166 5.69332 39.2475 5.42923 38.9236 5.42923C38.8457 5.42898 38.7685 5.44416 38.6964 5.47387C38.6244 5.50359 38.5589 5.54726 38.5038 5.60238C38.4487 5.6575 38.405 5.72297 38.3753 5.79503C38.3455 5.86709 38.3304 5.94431 38.3306 6.02226V33.031H25.8927C25.5688 33.031 25.3047 33.3002 25.3047 33.6241C25.3047 33.9529 25.5688 34.2171 25.8927 34.2171H38.9236C39.2476 34.2171 39.5166 33.953 39.5166 33.6241V6.02226ZM20.7351 25.5014C21.8065 25.5014 22.6736 26.4283 22.6736 27.5645V29.1491H32.5303C33.7512 29.1491 34.7478 28.1525 34.7478 26.9316V7.74143C34.7478 6.52052 33.7512 5.52392 32.5303 5.52392H7.48987C6.26896 5.52392 5.27236 6.52052 5.27236 7.74143V12.5901H10.9083C11.9548 12.5901 12.8069 13.4422 12.8069 14.4887V15.4554C13.8035 15.5402 14.5859 16.4321 14.5859 17.5135V23.0697C15.6844 22.5789 16.8969 23.2318 17.2071 24.4052C18.2857 23.8553 19.579 24.4826 19.903 25.7008C20.1607 25.5695 20.4459 25.5011 20.7351 25.5014ZM21.4476 30.7786C21.2034 36.29 19.6636 38.1387 15.3382 38.0889C10.8832 38.0441 10.5993 35.6124 10.1707 31.9347C10.1258 31.5511 10.081 31.1524 10.0312 30.7537C10.0312 30.7437 10.0262 30.7387 10.0262 30.7288C9.72718 28.9698 8.86514 27.7438 7.39509 26.9814C5.52861 26.0116 5.70708 24.7888 6.93661 24.7888C7.25051 24.7888 7.61932 24.8735 8.01796 25.0678L10.9979 26.7222C11.3983 26.9416 11.8799 26.6444 11.8799 26.204L11.8899 17.5134C11.8899 17.0350 12.2387 16.6314 12.6473 16.6314C13.0609 16.6314 13.4047 17.0350 13.4047 17.5134V24.9732C13.4047 25.2971 13.6688 25.5612 13.9976 25.5612C14.3216 25.5612 14.5857 25.2971 14.5857 24.9732C14.5857 24.4948 14.9345 24.0911 15.3431 24.0911C15.7567 24.0911 16.1005 24.4948 16.1005 24.9732V26.2688C16.1003 26.3467 16.1154 26.4239 16.1452 26.496C16.1749 26.568 16.2186 26.6335 16.2737 26.6886C16.3288 26.7437 16.3943 26.7874 16.4663 26.8171C16.5384 26.8468 16.6156 26.862 16.6935 26.8617C17.0175 26.8617 17.2815 26.5976 17.2815 26.2688C17.2815 25.7904 17.6304 25.3868 18.039 25.3868C18.4526 25.3868 18.7964 25.7904 18.7964 26.2688V27.5644C18.7961 27.6423 18.8113 27.7195 18.841 27.7916C18.8708 27.8636 18.9144 27.9291 18.9695 27.9842C19.0246 28.0393 19.0901 28.083 19.1621 28.1127C19.2342 28.1424 19.3114 28.1576 19.3893 28.1573C19.7132 28.1573 19.9773 27.8933 19.9773 27.5644C19.9773 27.086 20.3262 26.6824 20.7348 26.6824C21.1433 26.6824 21.4922 27.086 21.4922 27.5644C21.4925 28.5383 21.5079 29.423 21.4476 30.7786ZM2.382 33.9629C1.98837 33.9629 1.66445 33.639 1.66445 33.2403V14.4887C1.66445 14.0949 1.98837 13.7711 2.382 13.7711H10.9082C11.3019 13.7711 11.6258 14.095 11.6258 14.4887V15.7594C11.0776 16.1281 10.7089 16.7759 10.7089 17.5135L10.694 25.2025L8.58107 24.0264C8.57113 24.0214 8.56611 24.0214 8.55617 24.0165C6.88179 23.1893 5.48153 23.7324 5.00818 24.6644C4.5248 25.6162 4.90848 27.0213 6.84694 28.028C7.98311 28.6209 8.62094 29.5379 8.86012 30.9183C8.90993 31.307 8.95481 31.6956 8.9996 32.0694C9.06938 32.7122 9.14409 33.35 9.2438 33.963L2.382 33.9629ZM32.5302 30.3351C34.4039 30.3351 35.9287 28.8053 35.9287 26.9316V7.74143C35.9287 5.86773 34.4039 4.34287 32.5302 4.34287H7.48978C5.61609 4.34287 4.09122 5.86773 4.09122 7.74143V12.5901H2.382C1.3355 12.5901 0.483398 13.4422 0.483398 14.4887V33.2403C0.483398 34.2917 1.3355 35.1439 2.382 35.1439H9.488C10.1145 37.567 11.5138 39.275 15.4728 39.275C21.3509 39.275 22.4911 35.5511 22.6486 30.3352L32.5302 30.3351Z"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.9059 19.3622L30.0736 23.1145H25.7383L27.9059 19.3622ZM24.7116 24.3005H31.1001C31.5435 24.3005 31.8415 23.8062 31.6084 23.4134L28.4192 17.8821C28.1977 17.4949 27.6195 17.4859 27.3927 17.8821L24.1984 23.4134C23.9679 23.8107 24.2684 24.3005 24.7116 24.3005ZM26.396 10.243C26.5938 10.0439 26.8291 9.88597 27.0882 9.77817C27.3473 9.67037 27.6252 9.61487 27.9059 9.61487C28.1865 9.61487 28.4644 9.67037 28.7235 9.77817C28.9827 9.88597 29.2179 10.0439 29.4158 10.243C30.248 11.0752 30.248 12.4257 29.4158 13.2578C28.5836 14.09 27.2282 14.09 26.396 13.2578C25.5638 12.4256 25.5638 11.0751 26.396 10.243ZM27.9059 15.0666C28.753 15.0666 29.6052 14.7427 30.2529 14.0949C31.5435 12.8043 31.5435 10.6965 30.2529 9.40577C28.9573 8.11015 26.8544 8.11015 25.5588 9.40577C24.2682 10.6964 24.2682 12.8043 25.5588 14.0949C26.2066 14.7428 27.0538 15.0666 27.9059 15.0666ZM20.755 13.8458H16.5692V9.65499H20.755V13.8458ZM21.348 8.47394H15.9762C15.8982 8.47371 15.821 8.48889 15.749 8.5186C15.6769 8.54832 15.6115 8.59199 15.5564 8.64709C15.5013 8.7022 15.4576 8.76766 15.4279 8.8397C15.3982 8.91175 15.383 8.98895 15.3832 9.06689V14.4337C15.383 14.5117 15.3982 14.5889 15.4279 14.6609C15.4576 14.733 15.5013 14.7984 15.5564 14.8535C15.6115 14.9086 15.6769 14.9523 15.749 14.982C15.821 15.0117 15.8982 15.0269 15.9762 15.0267H21.348C21.672 15.0267 21.941 14.7626 21.941 14.4337V9.06689C21.941 8.73803 21.6719 8.47394 21.348 8.47394ZM0.926918 9.95393C0.926918 10.2779 1.19101 10.5419 1.51995 10.5419C1.84388 10.5419 2.10797 10.2779 2.10797 9.95393V1.91108H29.1218C29.2000 1.91131 29.2769 1.89613 29.349 1.86642C29.421 1.8367 29.4865 1.79304 29.5416 1.73793C29.5967 1.68283 29.6404 1.61737 29.6701 1.54532C29.6998 1.47328 29.715 1.39607 29.7148 1.31813C29.715 1.24019 29.6999 1.16296 29.6702 1.0909C29.6404 1.01884 29.5968 0.953368 29.5416 0.898252C29.4865 0.843135 29.4211 0.799462 29.349 0.769745C29.2769 0.740029 29.2000 0.724857 29.1218 0.725101H1.51995C1.442 0.724857 1.36478 0.740029 1.29272 0.769745C1.22066 0.799462 1.15519 0.843135 1.10007 0.898252C1.04495 0.953368 1.00128 1.01884 0.971563 1.0909C0.941847 1.16296 0.926674 1.24019 0.926918 1.31813V9.95393ZM39.5166 6.02226C39.5166 5.69332 39.2475 5.42923 38.9236 5.42923C38.8457 5.42898 38.7685 5.44416 38.6964 5.47387C38.6244 5.50359 38.5589 5.54726 38.5038 5.60238C38.4487 5.6575 38.405 5.72297 38.3753 5.79503C38.3455 5.86709 38.3304 5.94431 38.3306 6.02226V33.031H25.8927C25.5688 33.031 25.3047 33.3002 25.3047 33.6241C25.3047 33.9529 25.5688 34.2171 25.8927 34.2171H38.9236C39.2476 34.2171 39.5166 33.953 39.5166 33.6241V6.02226ZM20.7351 25.5014C21.8065 25.5014 22.6736 26.4283 22.6736 27.5645V29.1491H32.5303C33.7512 29.1491 34.7478 28.1525 34.7478 26.9316V7.74143C34.7478 6.52052 33.7512 5.52392 32.5303 5.52392H7.48987C6.26896 5.52392 5.27236 6.52052 5.27236 7.74143V12.5901H10.9083C11.9548 12.5901 12.8069 13.4422 12.8069 14.4887V15.4554C13.8035 15.5402 14.5859 16.4321 14.5859 17.5135V23.0697C15.6844 22.5789 16.8969 23.2318 17.2071 24.4052C18.2857 23.8553 19.579 24.4826 19.903 25.7008C20.1607 25.5695 20.4459 25.5011 20.7351 25.5014ZM21.4476 30.7786C21.2034 36.29 19.6636 38.1387 15.3382 38.0889C10.8832 38.0441 10.5993 35.6124 10.1707 31.9347C10.1258 31.5511 10.081 31.1524 10.0312 30.7537C10.0312 30.7437 10.0262 30.7387 10.0262 30.7288C9.72718 28.9698 8.86514 27.7438 7.39509 26.9814C5.52861 26.0116 5.70708 24.7888 6.93661 24.7888C7.25051 24.7888 7.61932 24.8735 8.01796 25.0678L10.9979 26.7222C11.3983 26.9416 11.8799 26.6444 11.8799 26.204L11.8899 17.5134C11.8899 17.0350 12.2387 16.6314 12.6473 16.6314C13.0609 16.6314 13.4047 17.0350 13.4047 17.5134V24.9732C13.4047 25.2971 13.6688 25.5612 13.9976 25.5612C14.3216 25.5612 14.5857 25.2971 14.5857 24.9732C14.5857 24.4948 14.9345 24.0911 15.3431 24.0911C15.7567 24.0911 16.1005 24.4948 16.1005 24.9732V26.2688C16.1003 26.3467 16.1154 26.4239 16.1452 26.496C16.1749 26.568 16.2186 26.6335 16.2737 26.6886C16.3288 26.7437 16.3943 26.7874 16.4663 26.8171C16.5384 26.8468 16.6156 26.862 16.6935 26.8617C17.0175 26.8617 17.2815 26.5976 17.2815 26.2688C17.2815 25.7904 17.6304 25.3868 18.039 25.3868C18.4526 25.3868 18.7964 25.7904 18.7964 26.2688V27.5644C18.7961 27.6423 18.8113 27.7195 18.841 27.7916C18.8708 27.8636 18.9144 27.9291 18.9695 27.9842C19.0246 28.0393 19.0901 28.083 19.1621 28.1127C19.2342 28.1424 19.3114 28.1576 19.3893 28.1573C19.7132 28.1573 19.9773 27.8933 19.9773 27.5644C19.9773 27.086 20.3262 26.6824 20.7348 26.6824C21.1433 26.6824 21.4922 27.086 21.4922 27.5644C21.4925 28.5383 21.5079 29.423 21.4476 30.7786ZM2.382 33.9629C1.98837 33.9629 1.66445 33.639 1.66445 33.2403V14.4887C1.66445 14.0949 1.98837 13.7711 2.382 13.7711H10.9082C11.3019 13.7711 11.6258 14.095 11.6258 14.4887V15.7594C11.0776 16.1281 10.7089 16.7759 10.7089 17.5135L10.694 25.2025L8.58107 24.0264C8.57113 24.0214 8.56611 24.0214 8.55617 24.0165C6.88179 23.1893 5.48153 23.7324 5.00818 24.6644C4.5248 25.6162 4.90848 27.0213 6.84694 28.028C7.98311 28.6209 8.62094 29.5379 8.86012 30.9183C8.90993 31.307 8.95481 31.6956 8.9996 32.0694C9.06938 32.7122 9.14409 33.35 9.2438 33.963L2.382 33.9629ZM32.5302 30.3351C34.4039 30.3351 35.9287 28.8053 35.9287 26.9316V7.74143C35.9287 5.86773 34.4039 4.34287 32.5302 4.34287H7.48978C5.61609 4.34287 4.09122 5.86773 4.09122 7.74143V12.5901H2.382C1.3355 12.5901 0.483398 13.4422 0.483398 14.4887V33.2403C0.483398 34.2917 1.3355 35.1439 2.382 35.1439H9.488C10.1145 37.567 11.5138 39.275 15.4728 39.275C21.3509 39.275 22.4911 35.5511 22.6486 30.3352L32.5302 30.3351Z"></path>
                                         </svg>
                                     </div>
                                     <div class="rs-working-list-content">
@@ -1001,6 +1001,369 @@
     })();
     </script>
 
+    <!-- services area start — Timeline Component (scroll-driven animation) -->
+        <style>
+        /* ── SCROLL WRAPPER ── */
+        .timeline-scroll-driver {
+            height: 400vh;
+            position: relative;
+        }
+
+        /* ── STICKY VIEWPORT ── */
+        .timeline-sticky-container {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: #2B3944;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .timeline-sticky-container .rs-services-fan-shape-bg {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .timeline-sticky-container .rs-services-fan-shape-bg img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            opacity: 0.18;
+        }
+
+        /* ── INNER CONTAINER ── */
+        .timeline-inner-container {
+            --primary-bg: #2B3944;
+            --accent-theme: #AB052D;
+            --accent-hover: #8a0424;
+            --text-dark: #FFFFFF;
+            --text-muted: rgba(255, 255, 255, 0.7);
+            --card-radius: 20px;
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 2;
+            color: #FFFFFF;
+        }
+
+        .timeline-inner-container .header-custom {
+            margin-bottom: 60px;
+        }
+        .timeline-inner-container .header-custom .section-subtitle {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: inline-block;
+            font-weight: 600;
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+        }
+        .timeline-inner-container .header-custom h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            color: #fff;
+        }
+        .timeline-inner-container .header-custom p {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.7);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .timeline-inner-container .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 60px;
+            position: relative;
+            width: 100%;
+        }
+        .timeline-inner-container .timeline-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .timeline-inner-container .card {
+            width: 100%;
+            aspect-ratio: 4/3;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+            background: rgba(255,255,255,0.08);
+            will-change: transform, opacity;
+            position: relative;
+        }
+        .timeline-inner-container .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .timeline-inner-container .connector {
+            width: 1px;
+            height: 80px;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.05));
+            margin-bottom: 20px;
+        }
+        .timeline-inner-container .label { text-align: center; }
+        .timeline-inner-container .year {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .timeline-inner-container .gen-name {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.3;
+        }
+        .timeline-inner-container .cta-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #AB052D;
+            color: #ffffff;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(171,5,45,0.3);
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        .timeline-inner-container .cta-button span { margin-right: 10px; }
+        .timeline-inner-container .cta-button i { font-style: normal; }
+
+        @media (max-width: 1024px) {
+            .timeline-inner-container .timeline { flex-wrap: wrap; justify-content: center; gap: 40px 20px; }
+            .timeline-inner-container .timeline-item { flex: 0 0 calc(33.333% - 20px); }
+        }
+        @media (max-width: 768px) {
+            .timeline-inner-container .timeline-item { flex: 0 0 calc(50% - 20px); }
+            .timeline-inner-container .header-custom h2 { font-size: 2.5rem; }
+        }
+        @media (max-width: 480px) {
+            .timeline-inner-container .timeline-item { flex: 0 0 100%; }
+            .timeline-inner-container .connector { height: 40px; }
+            .timeline-inner-container .header-custom h2 { font-size: 2rem; }
+        }
+        </style>
+
+        <!-- Timeline Scroll Driver -->
+        <div class="timeline-scroll-driver">
+            <div class="timeline-sticky-container">
+                <!-- background shape -->
+                <div class="rs-services-fan-shape-bg">
+                    <img src="assets/images/shape/services-shape-01.webp" alt="">
+                </div>
+
+                <div class="timeline-inner-container">
+                    <header class="header-custom">
+                        <span class="section-subtitle">How It Works</span>
+                        <h2>Service for your development</h2>
+                        <p>We believe that every business is unique and our approach aims for unparalleled growth. Explore our key offerings below.</p>
+                    </header>
+
+                    <div class="timeline" id="howItWorksTimeline" role="list">
+                        <!-- Card 1 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-1"><img src="assets/images/banner/banner-thumb-02.webp" alt="IT & Emerging Tech Enablement Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">01</div><div class="gen-name">IT & Emerging Tech<br>Enablement</div></div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-2"><img src="assets/images/banner/assessment-testing.webp" alt="Assessment & Testing Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">02</div><div class="gen-name">Assessment &<br>Testing</div></div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-3"><img src="assets/images/banner/recruitment.webp" alt="Recruitment & Hiring Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">03</div><div class="gen-name">Recruitment &<br>Hiring</div></div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-4"><img src="assets/images/banner/exam-management.webp" alt="Exam Management Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">04</div><div class="gen-name">Exam<br>Management</div></div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-5"><img src="assets/images/banner/manpower.webp" alt="Manpower & Workforce Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">05</div><div class="gen-name">Manpower &<br>Workforce</div></div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="timeline-item" role="listitem">
+                            <div class="card" id="hiw-card-6"><img src="assets/images/banner/call-center.webp" alt="Call Center & BPOs Solution"></div>
+                            <div class="connector"></div>
+                            <div class="label"><div class="year">06</div><div class="gen-name">Call Center &<br>BPOs</div></div>
+                        </div>
+                    </div><!-- /timeline -->
+
+                    <a href="solutions.php" class="cta-button" id="hiw-explore-btn">
+                        <span>Explore our solutions</span><i>&rarr;</i>
+                    </a>
+                </div><!-- /timeline-inner-container -->
+            </div><!-- /timeline-sticky-container -->
+        </div><!-- /timeline-scroll-driver -->
+        <!-- services area end -->
+
+        <!-- GSAP Scroll Animation for How It Works Section -->
+        <script>
+        (function() {
+            function buildHIWAnimation() {
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+                    setTimeout(buildHIWAnimation, 100);
+                    return;
+                }
+
+                if (window._hiwCtx) window._hiwCtx.revert();
+
+                var scrollDriver = document.querySelector('.timeline-scroll-driver');
+                if (!scrollDriver) return;
+
+                window._hiwCtx = gsap.context(function() {
+                    var cards = gsap.utils.toArray('.timeline-scroll-driver .card');
+                    var card1 = cards[0];
+                    var otherCards = cards.slice(1);
+                    var connectors = gsap.utils.toArray('.timeline-scroll-driver .connector');
+                    var labels = gsap.utils.toArray('.timeline-scroll-driver .label');
+                    var cta = document.getElementById('hiw-explore-btn');
+
+                    var vw = window.innerWidth;
+                    var vh = window.innerHeight;
+
+                    // Snapshot each card's distance from viewport center
+                    var snap = cards.map(function(card) {
+                        var r = card.getBoundingClientRect();
+                        return {
+                            xToCenter: (vw / 2) - (r.left + r.width / 2),
+                            yToCenter: (vh / 2) - (r.top + r.height / 2),
+                            width: r.width,
+                            height: r.height
+                        };
+                    });
+
+                    // Ensure Full-screen cover for Card 1 (Exactly 100vh/100vw coverage)
+                    var coverScale = Math.max(vw / snap[0].width, vh / snap[0].height);
+
+                    // Fade out section headers initially so the fullscreen image is the focus
+                    var sectionHeader = document.querySelector('.timeline-inner-container .header-custom');
+                    gsap.set(sectionHeader, { opacity: 0, y: -20 });
+
+                    // Hide connectors, labels, CTA
+                    gsap.set([connectors, labels, cta], { opacity: 0, y: 20 });
+
+                    // Card 1: Fixed starting state (Fullscreen Covering 100vh)
+                    gsap.set(card1, {
+                        x: snap[0].xToCenter,
+                        y: snap[0].yToCenter,
+                        scale: coverScale,
+                        borderRadius: '0px',
+                        zIndex: 100, // Top layer
+                        transformOrigin: '50% 50%'
+                    });
+
+                    // Cards 2-6: stacked deck hidden behind card 1
+                    otherCards.forEach(function(card, index) {
+                        var deckOffsetX = (index + 1) * 6;
+                        var deckOffsetY = (index + 1) * 4;
+                        var deckScale   = 1 - ((index + 1) * 0.03);
+                        gsap.set(card, {
+                            x: snap[index + 1].xToCenter + deckOffsetX,
+                            y: snap[index + 1].yToCenter + deckOffsetY,
+                            scale: deckScale,
+                            opacity: 0,
+                            zIndex: 90 - index,
+                            transformOrigin: '50% 50%'
+                        });
+                    });
+
+                    // Timeline driven by scroll with precise scrub alignment
+                    var tl = gsap.timeline({
+                        scrollTrigger: {
+                            trigger: '.timeline-scroll-driver',
+                            start: 'top top',
+                            end: 'bottom bottom',
+                            scrub: 1.2, // Smoother scrub
+                            invalidateOnRefresh: true, // Handle layout shifts better
+                            anticipatePin: 1
+                        }
+                    });
+
+                    // Phase 1: Card 1 shrinks and Section Header appears
+                    tl.to(card1, {
+                        scale: 1,
+                        borderRadius: '20px',
+                        ease: 'none',
+                        duration: 0.4
+                    }, 0)
+                    .to(sectionHeader, {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.2
+                    }, 0.2);
+
+                    // Phase 2: Deck becomes visible
+                    tl.set(otherCards, { opacity: 1 }, 0.4);
+
+                    // Phase 3: All cards spread to natural row positions
+                    tl.to(cards, {
+                        x: 0,
+                        y: 0,
+                        scale: 1,
+                        ease: 'power2.inOut',
+                        duration: 0.5
+                    }, 0.4);
+
+                    // Phase 4: Fade in connectors, labels, CTA
+                    tl.to(connectors, { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.85)
+                      .to(labels,     { opacity: 1, y: 0, stagger: 0.03, duration: 0.1, ease: 'power1.out' }, 0.90)
+                      .to(cta,        { opacity: 1, y: 0, duration: 0.1, ease: 'power1.out' }, 0.95);
+                });
+            }
+
+            // Execute on load and refresh
+            window.addEventListener('load', function() {
+                buildHIWAnimation();
+                ScrollTrigger.refresh();
+            });
+
+            var _hiwResizeTimer;
+            window.addEventListener('resize', function() {
+                clearTimeout(_hiwResizeTimer);
+                _hiwResizeTimer = setTimeout(function() {
+                    buildHIWAnimation();
+                    ScrollTrigger.refresh();
+                }, 250);
+            });
+        })();
+        </script>
+
     <!-- feature area start -->
     <section class="rs-feature-area rs-feature-two section-space">
         <div class="rs-feature-bg-thumb include-bg" data-background="assets/images/bg/feature-bg-thumb-02.webp">
@@ -1085,10 +1448,6 @@
 
     <!-- blog area style override -->
     <style>
-        .rs-blog-one .rs-blog-wrapper {
-            grid-template-columns: repeat(4, 1fr) !important;
-            gap: 20px !important;
-        }
         .rs-blog-one .rs-blog-thumb {
             height: 450px !important; 
         }
@@ -1146,237 +1505,185 @@
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="rs-blog-wrapper">
-                        <div class="rs-blog-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <div class="rs-blog-thumb">
-                                <img src="assets/images/blog/blog-thumb-01.webp" alt="image">
-                            </div>
+                    <div class="rs-blog-wrapper rs-swiper">
+                        <div class="swiper" data-item="3" data-item-lg="3" data-item-md="2" data-item-sm="1" data-loop="true" data-autoplay="true" data-speed="1000">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+                                        <div class="rs-blog-thumb">
+                                            <img src="assets/images/blog/blog-thumb-01.webp" alt="image">
+                                        </div>
 
-                            <div class="rs-blog-content-wrapper">
-                                <div class="rs-blog-tag">
-                                    <a href="blog-details.php" class="post-tag">September 23, 2025 </a>
-                                </div>
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
+                                        <div class="rs-blog-content-wrapper">
+                                            <div class="rs-blog-tag">
+                                                <a href="blog-details.php" class="post-tag">September 23, 2025 </a>
+                                            </div>
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Corporate</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> Insights That Driven Business Smarter
+                                                        Forward</a>
+                                                </h5>
+                                            </div>
                                         </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Corporate</span>
-                                        </div>
-                                    </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> Insights That Driven Business Smarter
-                                            Forward</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="rs-blog-content-hover">
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
-                                        </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Corporate</span>
+                                        <div class="rs-blog-content-hover">
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Corporate</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> Insights That Driven Business Smarter
+                                                        Forward</a>
+                                                </h5>
+                                                <p class="rs-blog-desc">Consulting empowers businesses with data-driven
+                                                    strategies and
+                                                    innovative solutions to achieve sustainable...</p>
+                                                <div class="rs-blog-btn">
+                                                    <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> Insights That Driven Business Smarter
-                                            Forward</a>
-                                    </h5>
-                                    <p class="rs-blog-desc">Consulting empowers businesses with data-driven
-                                        strategies and
-                                        innovative solutions to achieve sustainable...</p>
-                                    <div class="rs-blog-btn">
-                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                        </a>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="rs-blog-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                            <div class="rs-blog-thumb">
-                                <img src="assets/images/blog/blog-thumb-02.webp" alt="image">
-                            </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1s">
+                                        <div class="rs-blog-thumb">
+                                            <img src="assets/images/blog/blog-thumb-02.webp" alt="image">
+                                        </div>
 
-                            <div class="rs-blog-content-wrapper">
-                                <div class="rs-blog-tag">
-                                    <a href="blog-details.php" class="post-tag">August 26, 2025</a>
-                                </div>
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
+                                        <div class="rs-blog-content-wrapper">
+                                            <div class="rs-blog-tag">
+                                                <a href="blog-details.php" class="post-tag">August 26, 2025</a>
+                                            </div>
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Consulting</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> How Strategic Planning Drives Business
+                                                        Success</a>
+                                                </h5>
+                                            </div>
                                         </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Consulting</span>
-                                        </div>
-                                    </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> How Strategic Planning Drives Business
-                                            Success</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="rs-blog-content-hover">
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
-                                        </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Corporate</span>
+                                        <div class="rs-blog-content-hover">
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Corporate</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> How Strategic Planning Drives Business
+                                                        Success</a>
+                                                </h5>
+                                                <p class="rs-blog-desc">From insights to execution, we guide businesses to
+                                                    smarter
+                                                    decisions and better...</p>
+                                                <div class="rs-blog-btn">
+                                                    <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> How Strategic Planning Drives Business
-                                            Success</a>
-                                    </h5>
-                                    <p class="rs-blog-desc">From insights to execution, we guide businesses to
-                                        smarter
-                                        decisions and better...</p>
-                                    <div class="rs-blog-btn">
-                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                        </a>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="rs-blog-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                            <div class="rs-blog-thumb">
-                                <img src="assets/images/blog/blog-thumb-03.webp" alt="image">
-                            </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".7s" data-wow-duration="1s">
+                                        <div class="rs-blog-thumb">
+                                            <img src="assets/images/blog/blog-thumb-03.webp" alt="image">
+                                        </div>
 
-                            <div class="rs-blog-content-wrapper">
-                                <div class="rs-blog-tag">
-                                    <a href="blog-details.php" class="post-tag">Feb 17, 2025</a>
-                                </div>
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
+                                        <div class="rs-blog-content-wrapper">
+                                            <div class="rs-blog-tag">
+                                                <a href="blog-details.php" class="post-tag">Feb 17, 2025</a>
+                                            </div>
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Corporate</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
+                                                </h5>
+                                            </div>
                                         </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Corporate</span>
-                                        </div>
-                                    </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="rs-blog-content-hover">
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
-                                        </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Corporate</span>
+                                        <div class="rs-blog-content-hover">
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Corporate</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
+                                                </h5>
+                                                <p class="rs-blog-desc">Consulting transforms challenges into opportunities with
+                                                    tailored
+                                                    solutions and proven expertise.</p>
+                                                <div class="rs-blog-btn">
+                                                    <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
-                                    </h5>
-                                    <p class="rs-blog-desc">Consulting transforms challenges into opportunities with
-                                        tailored
-                                        solutions and proven expertise.</p>
-                                    <div class="rs-blog-btn">
-                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                        </a>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="rs-blog-item wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
-                            <div class="rs-blog-thumb">
-                                <img src="assets/images/blog/blog-thumb-04.webp" alt="image">
-                            </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".9s" data-wow-duration="1s">
+                                        <div class="rs-blog-thumb">
+                                            <img src="assets/images/blog/blog-thumb-04.webp" alt="image">
+                                        </div>
 
-                            <div class="rs-blog-content-wrapper">
-                                <div class="rs-blog-tag">
-                                    <a href="blog-details.php" class="post-tag">Jan 10, 2025</a>
-                                </div>
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
+                                        <div class="rs-blog-content-wrapper">
+                                            <div class="rs-blog-tag">
+                                                <a href="blog-details.php" class="post-tag">Jan 10, 2025</a>
+                                            </div>
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Analysis</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
+                                                </h5>
+                                            </div>
                                         </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Analysis</span>
+                                        <div class="rs-blog-content-hover">
+                                            <div class="rs-blog-content">
+                                                <div class="rs-blog-meta-wrapper">
+                                                    <div class="rs-blog-meta-item">
+                                                        <span> <i class="ri-price-tag-3-line"></i>
+                                                            Analysis</span>
+                                                    </div>
+                                                </div>
+                                                <h5 class="rs-blog-title">
+                                                    <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
+                                                </h5>
+                                                <p class="rs-blog-desc">Understand your competitors and market trends to stay ahead of the curve and grow.</p>
+                                                <div class="rs-blog-btn">
+                                                    <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="rs-blog-content-hover">
-                                <div class="rs-blog-content">
-                                    <div class="rs-blog-meta-wrapper">
-                                        <div class="rs-blog-meta-item">
-                                            <span>
-                                                <i class="ri-user-line"></i>
-                                                <a href="#">
-                                                    Bustar
-                                                </a>
-                                            </span>
-                                        </div>
-                                        <div class="rs-blog-meta-item">
-                                            <span> <i class="ri-price-tag-3-line"></i>
-                                                Analysis</span>
-                                        </div>
-                                    </div>
-                                    <h5 class="rs-blog-title">
-                                        <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
-                                    </h5>
-                                    <p class="rs-blog-desc">Understand your competitors and market trends to stay ahead of the curve and grow.</p>
-                                    <div class="rs-blog-btn">
-                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1415,7 +1722,7 @@
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Abdur Rashid</h5>
+                                                    <h5 class="rs-testimonial-avater-title">Rahul Sharma</h5>
                                                     <span class="rs-testimonial-avater-designation">Founder & CEO</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
@@ -1445,7 +1752,7 @@
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Ronald Richards</h5>
+                                                    <h5 class="rs-testimonial-avater-title">Priya Patel</h5>
                                                     <span class="rs-testimonial-avater-designation">Project Manager</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
@@ -1475,7 +1782,7 @@
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Leslie Alexander</h5>
+                                                    <h5 class="rs-testimonial-avater-title">Vikram Singh</h5>
                                                     <span class="rs-testimonial-avater-designation">President of Sales</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
@@ -1505,7 +1812,7 @@
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Nayeem</h5>
+                                                    <h5 class="rs-testimonial-avater-title">Amit Kumar</h5>
                                                     <span class="rs-testimonial-avater-designation">HR Manager</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
@@ -1822,7 +2129,7 @@
                                 </div>
                             </div>
                             <div class="rs-faq-thumb">
-                                <img src="assets/images/faq/faq-thumb-01.webp" alt="image">
+                                <img src="assets/images/about/20.webp" alt="image">
                                 <div class="rs-faq-award">
                                     <div class="rs-faq-award-thumb">
                                         <img src="assets/images/shape/award-shape.webp" alt="image">
@@ -1865,7 +2172,7 @@
                     <div class="col-xl-12">
                         <div class="rs-testimonial-wrapper">
                             <div class="rs-testimonial-thumb rs-image scroll_reveal reveal-active" data-dir="left">
-                                <img src="assets/images/testimonial/testimonial-thumb-02.webp" alt="image">
+                                <img src="assets/images/about/8.webp" alt="image">
                             </div>
                             <div class="rs-testimonial-slider-wrapper">
                                 <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="1500" data-autoplay="true" data-dots-dynamic="false" data-effect="false" data-delay="2000" data-item="1" data-item-xl="1" data-item-lg="1" data-item-md="1" data-item-sm="1" data-item-xs="1" data-item-mobile="1" data-margin="30">
@@ -1874,19 +2181,19 @@
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-top">
                                                     <div class="rs-testimonial-title-info">
-                                                        <h6 class="rs-testimonial-title">Business Consulting</h6>
+                                                        <h6 class="rs-testimonial-title">Digital Transformation</h6>
                                                     </div>
                                                     <div class="rs-testimonial-rating-icon">
                                                         <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> “The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested, Bonorum Malorum Cicero are also their exact original form, accompanied by English versions.”</p>
+                                                <p class="rs-testimonial-desc"> “The technology solutions recommended by the consulting team were perfectly tailored to our needs. They provided actionable, scalable strategies that brought real value to our organization.”</p>
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-thumb">
-                                                        <img src="assets/images/user/user-thumb-03.webp" alt="image">
+                                                        <img src="assets/images/user/indian-user-03.png" alt="image">
                                                     </div>
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Nayeem</h6>
+                                                        <h6 class="rs-testimonial-avater-title">Amit Kumar</h6>
                                                         <span class="rs-testimonial-avater-designation">Developer</span>
                                                     </div>
                                                 </div>
@@ -1896,19 +2203,19 @@
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-top">
                                                     <div class="rs-testimonial-title-info">
-                                                        <h6 class="rs-testimonial-title">Business Consulting</h6>
+                                                        <h6 class="rs-testimonial-title">Strategic Advisory</h6>
                                                     </div>
                                                     <div class="rs-testimonial-rating-icon">
                                                         <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> “The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested, Bonorum Malorum Cicero are also their exact original form, accompanied by English versions.”</p>
+                                                <p class="rs-testimonial-desc"> “ICEF's team provided exceptional consulting services that truly transformed our business operations. Their strategic insights and dedication helped us achieve our goals faster than we ever anticipated.”</p>
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-thumb">
-                                                        <img src="assets/images/user/user-thumb-01.webp" alt="image">
+                                                        <img src="assets/images/user/indian-user-01.png" alt="image">
                                                     </div>
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Abdur Rashid</h6>
+                                                        <h6 class="rs-testimonial-avater-title">Rahul Sharma</h6>
                                                         <span class="rs-testimonial-avater-designation">Founder & CEO</span>
                                                     </div>
                                                 </div>
@@ -1918,19 +2225,19 @@
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-top">
                                                     <div class="rs-testimonial-title-info">
-                                                        <h6 class="rs-testimonial-title">Business Consulting</h6>
+                                                        <h6 class="rs-testimonial-title">Project Management</h6>
                                                     </div>
                                                     <div class="rs-testimonial-rating-icon">
                                                         <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i>
                                                     </div>
                                                 </div>
-                                                <p class="rs-testimonial-desc"> “The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested, Bonorum Malorum Cicero are also their exact original form, accompanied by English versions.”</p>
+                                                <p class="rs-testimonial-desc"> “Working with this consulting agency has been a game-changer for our projects. Their attention to detail, proactive approach, and deep understanding of the market dynamics have been invaluable.”</p>
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-thumb">
-                                                        <img src="assets/images/user/user-thumb-02.webp" alt="image">
+                                                        <img src="assets/images/user/indian-user-02.png" alt="image">
                                                     </div>
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h6 class="rs-testimonial-avater-title">Luna Bekar</h6>
+                                                        <h6 class="rs-testimonial-avater-title">Priya Patel</h6>
                                                         <span class="rs-testimonial-avater-designation">Project Manager</span>
                                                     </div>
                                                 </div>
@@ -2019,11 +2326,11 @@
                                     <div class="rs-rotate-btn"
                                         data-background="assets/images/shape/half-rotate-shape.webp">
                                         <div class="rs-meta-shape">
-                                            <img src="assets/images/favicon.webp" alt="image">
+                                            <img src="assets/images/logo/favicon-icef.png" alt="image">
                                         </div>
                                         <div class="rs-circle-title rs-text-circle-wrapper">
                                             <div class="rs-text-circle" data-rotate-degree="8.5">
-                                                Corporate Consulting!
+                                                ICEF India!
                                             </div>
                                         </div>
                                     </div>

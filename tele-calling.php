@@ -1,0 +1,3713 @@
+<?php $pageTitle = "Tele-Calling";
+include 'includes/head.php'; ?>
+
+<body class="rs-smoother-yes">
+
+    <?php $header_class = "";
+    include 'includes/header.php'; ?>
+
+    <?php include 'includes/offcanvas.php'; ?>
+
+    <!-- Body main wrapper start -->
+    <main>
+
+        <!-- banner area start -->
+        <section id="home" class="rs-banner-area rs-banner-one">
+            <div class="rs-banner-bg-thumb include-bg" data-background="assets/images/solution/telecalling.webp"></div>
+            <div class="rs-banner-bg-thumb-two include-bg" data-background="assets/images/bg/noise-thumb.webp"></div>
+            <div class="rs-banner-scroll-btn">
+                <a class="rs-btn has-icon is-transparent hover-primary border-hover-primary wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.3s" href="#about">Scroll Now
+                    <span class="icon-box">
+                  <svg class="icon-first" width="20" height="16" viewBox="0 0 20 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M12.8787 15.8392H11.6863C11.458 11.5303 14.0517 9.27028 15.3623 8.6095L0 8.6095L0 7.28824L15.3623 7.28824C12.2169 5.51604 11.4417 2.08514 11.6879 -1.71661e-05H12.8687C12.3579 5.1427 17.617 7.28167 19.8664 7.28824V8.59723C13.3406 9.37014 12.6195 14.1959 12.8787 15.8392Z"
+                        fill="white" />
+                  </svg>
+                  <svg class="icon-second" width="20" height="16" viewBox="0 0 20 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M12.8787 15.8392H11.6863C11.458 11.5303 14.0517 9.27028 15.3623 8.6095L0 8.6095L0 7.28824L15.3623 7.28824C12.2169 5.51604 11.4417 2.08514 11.6879 -1.71661e-05H12.8687C12.3579 5.1427 17.617 7.28167 19.8664 7.28824V8.59723C13.3406 9.37014 12.6195 14.1959 12.8787 15.8392Z"
+                        fill="white" />
+                  </svg>
+
+               </span>
+                </a>
+            </div>
+            <div class="container-fluid g-0">
+                <div class="row align-items-center">
+                    <div class="col-xxl-6 col-xl-7 col-lg-7">
+                        <div class="rs-banner-wrapper">
+                            <div class="rs-banner-content-wrapper">
+                                <span class="rs-banner-subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
+                                    Direct & Effective Outreach
+                                </span>
+                                <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s" style="font-size: 54px; line-height: 1.3;">
+                                    High-Performance &amp; <br><span id="demo-typed-text" style="color:#AB052D;"></span><span class="demo-typed-cursor" style="color:#AB052D; font-weight:300;">|</span>
+                                </h1>
+                                <span class="rs-banner-line"></span>
+                                <p class="rs-banner-desc wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".9s">Boost your sales and lead generation with our professional tele-calling services, tailored to your business goals.</p>
+                                <div class="rs-banner-btn wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1.1s">
+                                    <a class="rs-btn has-icon has-bg-white hover-primary" href="contact.php">Schedule a Consultation
+                                        <span class="icon-box">
+                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                       fill="white" />
+                                 </svg>
+
+                                 <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                       fill="white" />
+                                 </svg>
+                              </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 offset-xxl-1" style="margin-top: -210px;">
+                        <div class="rs-banner-thumb rs-banner-form-wrap wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.3s">
+                            <div class="rs-banner-contact-form" style="padding: 24px;">
+                                <h3 class="rs-form-title" style="font-size: 18px; margin-bottom: 4px;">Complete the form below.</h3>
+                                <p class="rs-form-subtitle" style="font-size: 12px; margin-bottom: 12px;">We will respond as soon as possible.</p>
+                                <?php 
+                                    $selected_service = "call_center_bpo";
+                                    $selected_sub_service = "tele_calling";
+                                    $is_sub_service_page = true;
+                                    include 'includes/banner-form.php'; 
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner area end -->
+
+        <!-- Compact Banner Form Styles (Inherited from banner-form.php if needed, but keeping inline for compatibility) -->
+        <style>
+            .rs-banner-contact-form .rs-form-group input,
+            .rs-banner-contact-form .rs-form-group select {
+                font-size: 12px !important;
+                padding: 6px 10px !important;
+                height: 36px !important;
+                min-height: unset !important;
+                line-height: 1 !important;
+                box-sizing: border-box !important;
+            }
+            .rs-banner-contact-form .rs-form-group textarea {
+                font-size: 12px !important;
+                padding: 6px 10px !important;
+                height: 80px !important;
+                min-height: unset !important;
+                resize: none;
+                box-sizing: border-box !important;
+            }
+            .rs-banner-contact-form .rs-form-group {
+                margin-bottom: 8px !important;
+            }
+            .rs-banner-contact-form .rs-form-row {
+                gap: 8px !important;
+                margin-bottom: 0 !important;
+            }
+            .rs-banner-contact-form .rs-banner-form-btn {
+                padding: 10px 20px !important;
+                font-size: 13px !important;
+            }
+        </style>
+
+        <!-- Banner Typing Animation -->
+        <script>
+        (function() {
+            var text = "Tele-Calling Services";
+            var el = document.getElementById('demo-typed-text');
+            var cursor = document.querySelector('.demo-typed-cursor');
+            var i = 0;
+            var blinkInterval = setInterval(function() {
+                if (cursor) cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            }, 500);
+            setTimeout(function type() {
+                if (!el) return;
+                if (i < text.length) {
+                    el.textContent += text[i];
+                    i++;
+                    setTimeout(type, 75);
+                } else {
+                    clearInterval(blinkInterval);
+                    if (cursor) cursor.style.opacity = '0';
+                }
+            }, 1400);
+        })();
+        </script>
+
+        <!-- feature area start -->
+        <div class="rs-feature-area rs-feature-fourteen">
+            <div class="container-fluid g-0">
+                <div class="row justify-content-xl-end">
+                    <div class="col-xxl-7 col-xl-8">
+                        <div class="rs-feature-info-wrapper wow fadeInUp" data-wow-delay="1.3s" data-wow-duration="1.5s">
+                            <div class="rs-feature-info-list-wrapper">
+                                <a href="inbound-outbound.php" class="rs-feature-info-list-item">
+                                    <div class="rs-feature-info-content">
+                                        <span class="rs-feature-info-number">01</span>
+                                        <h6 class="rs-feature-info-title">
+                                            Inbound/Outbound
+                                        </h6>
+                                    </div>
+                                    <div class="rs-feature-info-btn">
+                                        <div class="rs-square-btn has-icon has-transparent is-white">
+                                            <span class="icon-box">
+                                    <svg class="icon-first" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                    <svg class="icon-second" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="support.php" class="rs-feature-info-list-item">
+                                    <div class="rs-feature-info-content">
+                                        <span class="rs-feature-info-number">02</span>
+                                        <h6 class="rs-feature-info-title">
+                                            Support
+                                        </h6>
+                                    </div>
+                                    <div class="rs-feature-info-btn">
+                                        <div class="rs-square-btn has-icon has-transparent is-white">
+                                            <span class="icon-box">
+                                    <svg class="icon-first" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                    <svg class="icon-second" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="call-center-and-bpos.php" class="rs-feature-info-list-item">
+                                    <div class="rs-feature-info-content">
+                                        <span class="rs-feature-info-number">03</span>
+                                        <h6 class="rs-feature-info-title">
+                                            Call Center & BPOs
+                                        </h6>
+                                    </div>
+                                    <div class="rs-feature-info-btn">
+                                        <div class="rs-square-btn has-icon has-transparent is-white">
+                                            <span class="icon-box">
+                                    <svg class="icon-first" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+
+
+                                    <svg class="icon-second" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="rs-feature-info-counter">
+                                <h5 class="rs-feature-info-desc">Unlock Your Potential Growth With Strategic Consulting
+                                    Help</h5>
+                                <div class="rs-counter-item">
+                                    <div class="rs-counter-inner">
+                                        <div class="rs-counter-number-wrapper">
+                                            <span class="rs-counter-number odometer" data-count="98">00</span>
+                                            <span class="prefix">%</span>
+                                        </div>
+                                        <span class="rs-counter-title">Business Growth Rate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feature area end -->
+
+        <!-- feature area start -->
+        <section class="rs-feature-area rs-feature-thirteen section-space-bottom">
+            <div class="rs-feature-bg-thumb include-bg" data-background="assets/images/bg/feature-bg-thumb-05.webp">
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-9 col-lg-10">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                                Cutting-Edge IT Solutions
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Digital Transformation & AI Integration
+                            </h2>
+                            <p class="section-desc">Future-proof your business with our expertise in emerging technologies. From cloud infrastructure to AI-driven automation, we build the systems of tomorrow.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-feature-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <?php
+                            $features = [
+                                ["thumb" => "05", "title" => "Cloud Infrastructure"],
+                                ["thumb" => "06", "title" => "Artificial Intelligence"],
+                                ["thumb" => "07", "title" => "Cybersecurity Solutions"],
+                                ["thumb" => "08", "title" => "Data Analytics"],
+                                ["thumb" => "09", "title" => "Software Development"],
+                                ["thumb" => "13", "title" => "IT Managed Services"],
+                                ["thumb" => "14", "title" => "Digital Transformation"],
+                                ["thumb" => "10", "title" => "IoT Implementations"],
+                                ["thumb" => "15", "title" => "Blockchain Tech"],
+                                ["thumb" => "16", "title" => "Enterprise ERP"],
+                                ["thumb" => "17", "title" => "DevOps Consulting"],
+                                ["thumb" => "11", "title" => "Mobile App Dev"],
+                                ["thumb" => "12", "title" => "Network Security"]
+                            ];
+                            foreach ($features as $feature): ?>
+                                <div class="rs-feature-item">
+                                    <div class="rs-feature-info">
+                                        <div class="rs-feature-thumb">
+                                            <img src="assets/images/feature/feature-thumb-<?php echo $feature['thumb']; ?>.webp"
+                                                alt="image">
+                                        </div>
+                                        <h6 class="rs-feature-title"><a
+                                                href="financial-services.php"><?php echo $feature['title']; ?></a></h6>
+                                    </div>
+                                    <div class="rs-feature-btn">
+                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white"></path>
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature area end -->
+
+        <!-- about area start -->
+        <section class="rs-about-area section-space-bottom rs-about-six theme-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-about-wrapper">
+                            <div class="rs-about-thumb-wrapper">
+                                <div class="rs-about-thumb">
+                                    <img src="assets/images/about/9.webp" alt="image">
+                                    <div class="rs-about-rotate-btn">
+                                        <div class="rs-rotate-btn"
+                                            data-background="assets/images/shape/half-rotate-shape-white-02.webp">
+                                            <div class="rs-counter-wrapper">
+                                                <div class="rs-counter-number-wrapper">
+                                                    <span class="rs-counter-number odometer" data-count="10.5">00</span>
+                                                    <span class="prefix">K</span>
+                                                </div>
+                                                <span class="rs-counter-title">Successful Projects</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rs-about-content-wrapper">
+                                <div class="section-title-wrapper">
+                                    <span class="section-subtitle is-white">
+                                        Advanced Tech Consultancy
+                                    </span>
+                                    <h2 class="section-title rs-split-text-enable split-in-left is-white mb-20">Empowering Organizations Through Innovation</h2>
+                                    <p class="section-desc is-white">At ICEF India, we specialize in bridging the gap between traditional business operations and the latest technological advancements. Our tech experts help you navigate the complexities of digital evolution with confidence and scale.</p>
+                                </div>
+                                <div class="rs-about-list-wrapper">
+                                    <div class="rs-about-list-item">
+                                        <div class="rs-about-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> 5000+ Successful Applications</p>
+                                    </div>
+                                    <div class="rs-about-list-item">
+                                        <div class="rs-about-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> 25+ Years of Service</p>
+                                    </div>
+                                    <div class="rs-about-list-item">
+                                        <div class="rs-about-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p>Certified Solutions Experts</p>
+                                    </div>
+                                    <div class="rs-about-list-item">
+                                        <div class="rs-about-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p> Clients from 30+ Countries</p>
+                                    </div>
+                                </div>
+                                <div class="rs-about-btn">
+                                    <a class="rs-btn has-icon hover-white border-hover-primary" href="about.php">Get
+                                        Start
+                                        Now
+                                        <span class="icon-box">
+                                            <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about area end -->
+
+        <!-- work area start -->
+        <section class="rs-working-area rs-working-five section-space">
+            <div class="rs-working-bg-thumb include-bg" data-background="assets/images/bg/work-bg-thumb-01.webp"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-working-wrapper">
+                            <div class="rs-working-content-wrapper">
+                                <div class="section-title-wrapper">
+                                    <span class="section-subtitle">
+                                        Future-Ready Strategy
+                                    </span>
+                                    <h2 class="section-title rs-split-text-enable split-in-left mb-20">Harnessing the power of scalable cloud and AI</h2>
+                                    <p class="rs-section-desc">Our technology consulting is designed to help businesses leverage data and automation to gain a competitive edge. We provide clear roadmaps for implementing complex IT ecosystems and emerging tech stacks.</p>
+                                </div>
+                                <div class="rs-working-list-wrapper">
+                                    <div class="rs-working-list-item">
+                                        <div class="rs-working-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-working-list-desc"> Regulatory Investigations </p>
+                                    </div>
+                                    <div class="rs-working-list-item">
+                                        <div class="rs-working-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-working-list-desc"> Competitive Work Analysis </p>
+                                    </div>
+                                    <div class="rs-working-list-item">
+                                        <div class="rs-working-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-working-list-desc"> Anti-Competitive Conduct </p>
+                                    </div>
+                                    <div class="rs-working-list-item">
+                                        <div class="rs-working-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-working-list-desc"> Innovation. Strategy. Success. </p>
+                                    </div>
+                                </div>
+                                <div class="rs-working-btn">
+                                    <a class="rs-btn has-icon hover-secondary border-hover-primary"
+                                        href="contact.php">Get Start
+                                        Now
+                                        <span class="icon-box">
+                                            <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="rs-working-thumb-wrapper wow fadeInRight" data-wow-delay=".3s"
+                                data-wow-duration="1s">
+                                <div class="rs-working-thumb">
+                                    <img src="assets/images/about/17.webp" alt="image">
+                                </div>
+                                <div class="rs-working-progress-wrapper">
+                                    <div class="rs-progress-wrapper">
+                                        <h5 class="rs-progress-sec-title">ICEF Achieve Goals</h5>
+                                        <div class="rs-progress-item-wrapper">
+                                            <div class="single-progress">
+                                                <div class="progress-top">
+                                                    <h6 class="progress-title">Human Resources</h6>
+                                                    <span class="progress-number">95%</span>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="1s"
+                                                        data-wow-delay=".3s" role="progressbar" style="width: 95%"
+                                                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="single-progress">
+                                                <div class="progress-top">
+                                                    <h6 class="progress-title">Development</h6>
+                                                    <span class="progress-number">90%</span>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar wow fadeInLeft" data-wow-duration="1s"
+                                                        data-wow-delay=".5s" role="progressbar" style="width: 90%"
+                                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- work area end -->
+
+        <!-- services area start -->
+        <section class="rs-services-area rs-services-four section-space has-bg-none">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                                 Problems We Solve
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Our corporate consulting
+                                services
+                            </h2>
+                            <p class="section-desc">Focus on serving mid-size to enterprise-level companies looking for
+                                scalable strategic.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-services-wrapper">
+                            <div class="rs-services-item">
+                                <div class="rs-services-thumb">
+                                    <a href="services-details.php"><img
+                                            src="assets/images/services/services-thumb-10.webp" alt="image"></a>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.php">Financial Insurance</a>
+                                    </h5>
+                                    <p class="rs-services-desc">Complex data into clear and strategic insights that
+                                        improve
+                                        performance guide growth.</p>
+                                    <div class="rs-services-list-wrapper">
+                                        <div class="rs-services-list-item">
+                                            <div class="rs-services-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                    viewBox="0 0 12 10" fill="none">
+                                                    <path
+                                                        d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                        fill="black"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="rs-services-list-desc"> Tailored Business Strategies </p>
+                                        </div>
+                                        <div class="rs-services-list-item">
+                                            <div class="rs-services-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                    viewBox="0 0 12 10" fill="none">
+                                                    <path
+                                                        d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                        fill="black"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="rs-services-list-desc"> Industry-Specific Expertise </p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon hover-primary has-theme-secondary w-100 has-md-radius"
+                                            href="services-details.php">Explore More
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rs-services-item">
+                                <div class="rs-services-thumb">
+                                    <a href="services-details.php"><img
+                                            src="assets/images/services/services-thumb-11.webp" alt="image"></a>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.php">Risk Management</a>
+                                    </h5>
+                                    <p class="rs-services-desc">Mitigation strategies and regulatory growth compliance
+                                        for secure
+                                        operations.</p>
+                                    <div class="rs-services-list-wrapper">
+                                        <div class="rs-services-list-item">
+                                            <div class="rs-services-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                    viewBox="0 0 12 10" fill="none">
+                                                    <path
+                                                        d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                        fill="black"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="rs-services-list-desc"> Change Management Support </p>
+                                        </div>
+                                        <div class="rs-services-list-item">
+                                            <div class="rs-services-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                    viewBox="0 0 12 10" fill="none">
+                                                    <path
+                                                        d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                        fill="black"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="rs-services-list-desc"> Performance Optimization </p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon hover-primary has-theme-secondary w-100 has-md-radius"
+                                            href="services-details.php">Explore More
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rs-services-item">
+                                <div class="rs-services-thumb">
+                                    <a href="services-details.php"><img
+                                            src="assets/images/services/services-thumb-12.webp" alt="image"></a>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h5 class="rs-services-title"><a href="services-details.php"> Portfolio
+                                            Management</a></h5>
+                                    <p class="rs-services-desc"> Complex data into clear and strategic insights that
+                                        improve
+                                        performance guide growth.</p>
+                                    <div class="rs-services-list-wrapper">
+                                        <div class="rs-services-list-item">
+                                            <div class="rs-services-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                    viewBox="0 0 12 10" fill="none">
+                                                    <path
+                                                        d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                        fill="black"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="rs-services-list-desc"> Scalable Growth Planning </p>
+                                        </div>
+                                        <div class="rs-services-list-item">
+                                            <div class="rs-services-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                    viewBox="0 0 12 10" fill="none">
+                                                    <path
+                                                        d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                        fill="black"></path>
+                                                </svg>
+                                            </div>
+                                            <p class="rs-services-list-desc"> Anti-Competitive Conduct </p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon hover-primary has-theme-secondary w-100 has-md-radius"
+                                            href="services-details.php">Explore More
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services area end -->
+
+        <!-- services area start -->
+        <section class="rs-services-area rs-services-five section-space">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                                 What We Offer
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Career services we
+                                provide
+                            </h2>
+                            <p class="section-desc">Optimized CVs that pass Applicant Tracking Systems and reach
+                                recruiters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12">
+                        <div class="rs-services-wrapper gsap-fixed-yes" data-stop-under="tablet">
+                            <div class="rs-services-item">
+                                <div class="rs-services-number">
+                                    <span>
+                                        01
+                                    </span>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h4 class="rs-services-title"><a href="services-details.php">Employee Training &
+                                            Development</a></h4>
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.3556 18.2501C21.3556 18.0791 21.4235 17.9152 21.5444 17.7943C21.6652 17.6734 21.8292 17.6055 22.0001 17.6055C22.1711 17.6055 22.335 17.6734 22.4559 17.7943C22.5767 17.9152 22.6447 18.0791 22.6447 18.2501V21.3556H25.7502C25.9211 21.3556 26.0851 21.4235 26.2059 21.5444C26.3268 21.6652 26.3947 21.8292 26.3947 22.0001C26.3947 22.1711 26.3268 22.335 26.2059 22.4559C26.0851 22.5767 25.9211 22.6447 25.7502 22.6447H22.6447V25.7502C22.6447 25.9211 22.5767 26.0851 22.4559 26.2059C22.335 26.3268 22.1711 26.3947 22.0001 26.3947C21.8292 26.3947 21.6652 26.3268 21.5444 26.2059C21.4235 26.0851 21.3556 25.9211 21.3556 25.7502V22.6447H18.2501C18.0791 22.6447 17.9152 22.5767 17.7943 22.4559C17.6734 22.335 17.6055 22.1711 17.6055 22.0001C17.6055 21.8292 17.6734 21.6652 17.7943 21.5444C17.9152 21.4235 18.0791 21.3556 18.2501 21.3556H21.3556V18.2501ZM1.37512 14.9197C1.01461 14.9197 0.730591 15.2033 0.730591 15.5863H0.732137C0.731928 15.75 0.794411 15.9077 0.906763 16.0269L6.53876 22.0001L0.937614 27.9407C0.501653 28.3726 0.800114 29.0804 1.37512 29.0804H6.91972C8.57376 32.5972 11.4031 35.4265 14.9198 37.0805V42.6251C14.9198 42.9856 15.2034 43.2697 15.5863 43.2697V43.2681C15.7501 43.2683 15.9078 43.2058 16.027 43.0935L22.0001 37.4615L27.9407 43.0626C28.3726 43.4986 29.0804 43.2001 29.0804 42.6251V37.0806C32.5972 35.4266 35.4265 32.5972 37.0805 29.0805H42.6251C42.9856 29.0805 43.2697 28.7969 43.2697 28.414H43.2681C43.2683 28.2502 43.2058 28.0925 43.0935 27.9734L37.4615 22.0001L43.0626 16.0595C43.4986 15.6277 43.2001 14.9198 42.6251 14.9198H37.0806C35.4266 11.4031 32.5972 8.57376 29.0805 6.91972V1.37512C29.0805 1.01461 28.7969 0.730591 28.414 0.730591V0.732137C28.2502 0.731916 28.0925 0.794435 27.9734 0.906848L22.0001 6.53876L16.0595 0.937614C15.6277 0.501653 14.9198 0.800114 14.9198 1.37512V6.91972C11.4031 8.57376 8.57376 11.4031 6.91972 14.9198L1.37512 14.9197ZM8.3535 14.9197C9.81109 12.1179 12.118 9.811 14.9198 8.3535V9.46588H14.9214C14.9212 9.55362 14.9391 9.64046 14.9739 9.721C15.0087 9.80155 15.0597 9.8741 15.1237 9.93415L17.3897 12.0707C15.0452 13.1614 13.1613 15.0453 12.0706 17.3897L9.96423 15.1557C9.90383 15.0819 9.82778 15.0224 9.74157 14.9816C9.65537 14.9408 9.56117 14.9197 9.46579 14.9198L8.3535 14.9197ZM13.0315 18.4087L16.0023 21.5595C16.1145 21.6788 16.1769 21.8364 16.1769 22.0001C16.1769 22.1639 16.1145 22.3215 16.0023 22.4407L13.0316 25.5915C14.0107 28.0338 15.9666 29.9897 18.4088 30.9688L21.5596 27.998C21.6789 27.8859 21.8365 27.8234 22.0002 27.8234C22.164 27.8234 22.3215 27.8859 22.4408 27.998L25.5916 30.9688C28.0338 29.9898 29.9898 28.0338 30.9689 25.5916L27.9981 22.4408C27.8859 22.3215 27.8235 22.164 27.8235 22.0002C27.8235 21.8365 27.8859 21.6789 27.9981 21.5596L30.9689 18.4088C29.9899 15.9666 28.0339 14.0106 25.5917 13.0315L22.4409 16.0023C22.3216 16.1145 22.164 16.1769 22.0003 16.1769C21.8365 16.1769 21.679 16.1145 21.5597 16.0023L18.4089 13.0315C15.9665 14.0105 14.0105 15.9666 13.0315 18.4087ZM12.0707 26.6105C13.1614 28.955 15.0453 30.8388 17.3897 31.9295L15.1557 34.0359C15.0819 34.0963 15.0224 34.1724 14.9816 34.2586C14.9408 34.3448 14.9197 34.439 14.9198 34.5344V35.6467C12.118 34.1892 9.81118 31.8823 8.35359 29.0805H9.46597V29.079C9.55371 29.0791 9.64054 29.0612 9.72109 29.0264C9.80164 28.9916 9.87418 28.9406 9.93424 28.8767L12.0707 26.6105ZM9.18985 16.2088L14.6502 22.0001L9.18985 27.7915H2.84577L7.89073 22.4407C8.00292 22.3215 8.06539 22.1639 8.06539 22.0001C8.06539 21.8364 8.00292 21.6788 7.89073 21.5595L2.84577 16.2088H9.18985ZM29.0805 8.3535C31.8824 9.81118 34.1892 12.1178 35.6467 14.9197H34.5344V14.9213C34.4466 14.9212 34.3598 14.9391 34.2792 14.9738C34.1987 15.0086 34.1261 15.0596 34.0661 15.1236L31.9295 17.3897C30.8388 15.0452 28.955 13.1613 26.6105 12.0706L28.8445 9.96423C28.9183 9.90383 28.9778 9.82778 29.0186 9.74157C29.0594 9.65537 29.0805 9.56117 29.0804 9.46579L29.0805 8.3535ZM27.7915 9.18985L22.0001 14.6503L16.2088 9.18993V2.84577L21.5595 7.89073C21.6788 8.00292 21.8364 8.06539 22.0001 8.06539C22.1639 8.06539 22.3215 8.00292 22.4407 7.89073L27.7915 2.84577V9.18985ZM35.6467 29.0805C34.1892 31.8824 31.8823 34.1892 29.0805 35.6467V34.5344H29.079C29.0791 34.4466 29.0612 34.3598 29.0264 34.2792C28.9916 34.1987 28.9406 34.1261 28.8767 34.0661L26.6106 31.9295C28.955 30.8388 30.8389 28.955 31.9296 26.6105L34.036 28.8445C34.0964 28.9183 34.1725 28.9778 34.2587 29.0186C34.3449 29.0594 34.4391 29.0805 34.5345 29.0804L35.6467 29.0805ZM34.8104 27.7915L29.35 22.0001L34.8104 16.2088H41.1546L36.1096 21.5595C35.9974 21.6788 35.9349 21.8364 35.9349 22.0001C35.9349 22.1639 35.9974 22.3215 36.1096 22.4407L41.1546 27.7915H34.8104ZM16.2088 34.8104L22.0001 29.35L27.7915 34.8104V41.1546L22.4407 36.1096C22.3215 35.9974 22.1639 35.9349 22.0001 35.9349C21.8364 35.9349 21.6788 35.9974 21.5595 36.1096L16.2088 41.1546V34.8104Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <p class="rs-services-desc"> With years of experience in recruitment and HR, our
+                                        team knows
+                                        exactly what employers look for. We transform your story into a powerful resume
+                                        that makes
+                                        a lasting impression. </p>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-bg-white hover-primary"
+                                            href="services-details.php">Explore
+                                            More
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="rs-services-thumb">
+                                    <img src="assets/images/services/services-thumb-14.webp" alt="image">
+                                </div>
+                            </div>
+                            <div class="rs-services-item">
+                                <div class="rs-services-number">
+                                    <span>
+                                        03
+                                    </span>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h4 class="rs-services-title"><a href="services-details.php">Payroll & Benefits
+                                            Management</a></h4>
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 47">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M41.7038 37.3384V44.1181C41.7038 44.5469 41.3829 44.8953 40.9804 44.8953H34.6332C34.2306 44.8953 33.9039 44.5469 33.9039 44.1181C33.9039 43.6892 34.2306 43.341 34.6332 43.341H40.2512V37.3384C40.2512 36.9084 40.5779 36.5612 40.9804 36.5612C41.3829 36.5612 41.7038 36.9084 41.7038 37.3384ZM45.7057 22.7985L46.4525 10.2961L36.6925 17.2367L38.9152 18.6085C39.2716 18.8301 39.3884 19.3231 39.166 19.6985C34.6448 27.2873 29.1144 33.4312 22.7379 37.9586C18.351 41.0698 13.4797 43.4769 8.1885 45.1502C23.0238 43.5908 34.5397 35.7261 42.4971 21.6966C42.7012 21.3352 43.1388 21.2148 43.483 21.4267L45.7057 22.7985ZM9.95619 20.7075C9.95619 20.202 10.3412 19.7895 10.8196 19.7895H17.3242C17.7968 19.7895 18.1818 20.202 18.1818 20.7075V39.0486C15.5799 40.5707 12.838 41.8577 9.95619 42.911V20.7075ZM16.7817 14.2662C16.7817 13.7607 17.1667 13.3488 17.6393 13.3488H24.144C24.6223 13.3488 25.0073 13.7607 25.0073 14.2662V34.2651C23.2963 35.6863 21.5016 36.9889 19.6344 38.1647V20.7075C19.6344 19.345 18.6019 18.2357 17.3242 18.2357H16.7817V14.2662ZM23.6073 7.82555C23.6073 7.31883 23.9923 6.90752 24.4648 6.90752H30.9695C31.4421 6.90752 31.8271 7.31883 31.8271 7.82555V27.478C30.1353 29.4786 28.3443 31.3229 26.46 33.0106V14.2663C26.46 12.9032 25.4216 11.7945 24.144 11.7945H23.6073V7.82555ZM30.427 2.47183C30.427 1.96573 30.812 1.55442 31.2845 1.55442H37.7892C38.2676 1.55442 38.6526 1.96573 38.6526 2.47183V13.9752L34.9074 16.6371C34.4593 16.9545 34.486 17.6706 34.9482 17.9571L37.5268 19.5464C36.1967 21.724 34.779 23.7702 33.2856 25.6868V7.82555C33.2856 6.46196 32.2473 5.3531 30.9696 5.3531H30.4271L30.427 2.47183ZM47.6368 8.10731C47.5187 8.03501 47.3842 7.99917 47.2482 8.00379C47.1123 8.00841 46.9802 8.05331 46.8667 8.13347L40.1052 12.9412V2.47183C40.1052 1.10874 39.0669 0 37.7892 0H31.2845C30.0069 0 28.9743 1.10874 28.9743 2.47183V5.3531H24.4648C23.1872 5.3531 22.1488 6.46183 22.1488 7.82555V11.7944H17.6393C16.3675 11.7944 15.3291 12.9031 15.3291 14.2662V18.2357H10.8196C9.54193 18.2357 8.50354 19.345 8.50354 20.7075V43.4194C5.97169 44.264 3.3348 44.9314 0.598681 45.4213C-0.255255 45.5745 -0.173872 46.9372 0.703733 46.9645C9.88413 47.2499 18.3096 45.4607 25.509 41.4431C32.5913 37.4917 38.6001 31.3396 43.3663 23.1507L45.9973 24.7699C46.4589 25.0559 47.046 24.7284 47.0825 24.1473L47.9983 8.82903C48.0068 8.68471 47.9775 8.54073 47.9136 8.41324C47.8497 8.28575 47.7539 8.17981 47.6368 8.10731Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <p class="rs-services-desc"> We are a team of career experts, resume, and HR
+                                        dedicated to
+                                        creating CVs that help you stand out and secure your dream job
+                                        professionals transform. </p>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-bg-white hover-primary"
+                                            href="services-details.php">Explore
+                                            More
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="rs-services-thumb">
+                                    <img src="assets/images/services/services-thumb-15.webp" alt="image">
+                                </div>
+                            </div>
+                            <div class="rs-services-item">
+                                <div class="rs-services-number">
+                                    <span>
+                                        04
+                                    </span>
+                                </div>
+                                <div class="rs-services-content">
+                                    <h4 class="rs-services-title"><a href="services-details.php">Performance Management
+                                        </a>
+                                    </h4>
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                            <path
+                                                d="M43.1959 20.4138C43.5649 20.2819 43.9698 20.4641 44.1185 20.8219L44.1321 20.8571L49.9573 37.1608C50.0827 37.5117 49.9246 37.9008 49.59 38.0649L36.4875 44.4887C36.2841 44.5884 36.046 44.5884 35.8426 44.4886L29.8875 41.5688L29.8541 41.5513C29.5153 41.3633 29.3798 40.9405 29.5524 40.5887C29.7249 40.2369 30.142 40.085 30.4981 40.2377L30.5325 40.2536L36.165 43.0153L48.3577 37.0375L42.7526 21.3499C42.6166 20.969 42.815 20.5499 43.1959 20.4138ZM0 22.6328C2.7374e-06 18.7596 1.33391 15.1962 3.56665 12.3799L3.59087 12.351C3.84667 12.0599 4.2886 12.0176 4.59566 12.261C4.91262 12.5123 4.96585 12.973 4.71458 13.2899L4.61979 13.4108C2.64207 15.958 1.46485 19.1568 1.46484 22.6328C1.46484 27.8922 4.16242 32.5225 8.25214 35.2135L8.34904 35.2767L8.38022 35.298C8.69444 35.5247 8.77896 35.9605 8.56609 36.2895C8.35321 36.6185 7.92099 36.72 7.58543 36.5262L7.55329 36.5066L7.44705 36.4372C2.96288 33.4867 0 28.4057 0 22.6328ZM16.5166 6.11621C23.0946 6.11621 28.7736 9.96286 31.4286 15.5263C31.6028 15.8914 31.4481 16.3286 31.083 16.5028C30.7179 16.677 30.2808 16.5223 30.1065 16.1573C27.6854 11.084 22.5089 7.58105 16.5166 7.58105C12.9055 7.58106 9.5933 8.85179 6.99959 10.9715C6.68639 11.2274 6.22502 11.181 5.96905 10.8678C5.71308 10.5546 5.75942 10.0931 6.07262 9.83716C8.91835 7.51153 12.5554 6.11621 16.5166 6.11621Z">
+                                            </path>
+                                            <path
+                                                d="M7.21973 30.4365C7.21973 30.032 7.54765 29.7041 7.95215 29.7041C8.35665 29.7041 8.68457 30.032 8.68457 30.4365V43.3736L19.0811 48.4524L22.5204 46.7726L23.1633 48.0887L19.4025 49.9257C19.2000 50.0248 18.9624 50.0248 18.7596 49.9257L7.63066 44.4892C7.37921 44.3664 7.21973 44.1109 7.21973 43.8311V30.4365ZM22.5204 46.7726C22.8838 46.5951 23.3224 46.7458 23.4999 47.1092C23.6774 47.4727 23.5267 47.9112 23.1633 48.0887L22.5204 46.7726ZM29.4775 30.4365C29.4775 30.032 29.8055 29.7041 30.21 29.7041C30.6145 29.7041 30.9424 30.032 30.9424 30.4365V43.8311C30.9424 44.1109 30.7829 44.3664 30.5314 44.4892L26.2346 46.5878L26.2002 46.6035C25.8439 46.7557 25.4269 46.6032 25.2549 46.2511C25.0774 45.8876 25.2282 45.4491 25.5917 45.2716L29.4775 43.3737V30.4365ZM35.4329 43.8309V4.95872L26.9348 28.7464C26.7988 29.1273 26.3796 29.3258 25.9987 29.1897C25.6178 29.0536 25.4193 28.6345 25.5554 28.2536L35.4753 0.485992L35.4856 0.459003C35.4868 0.455933 35.4881 0.452896 35.4894 0.449848C35.4901 0.448115 35.4909 0.446425 35.4917 0.444698C35.5525 0.302195 35.6555 0.18573 35.7829 0.107765C35.7843 0.106958 35.7855 0.106084 35.7868 0.105286C35.8046 0.0945549 35.8229 0.0846355 35.8416 0.0754356C35.8467 0.0729128 35.8519 0.0704986 35.857 0.0680923C35.8622 0.0657155 35.8673 0.0633903 35.8725 0.0611305C35.8762 0.0594953 35.88 0.0578409 35.8837 0.0562668C35.8913 0.0531151 35.8989 0.0501072 35.9066 0.0472069C35.9238 0.0407386 35.9412 0.0349487 35.9589 0.0297546C35.9645 0.0281095 35.9701 0.0264992 35.9758 0.0249863C35.9797 0.0239439 35.9836 0.0229139 35.9875 0.0219345C35.9945 0.0201889 36.0015 0.0186128 36.0086 0.0170708C36.0131 0.0160939 36.0175 0.0150089 36.022 0.0141144C36.026 0.0133158 36.0301 0.0127485 36.0341 0.0120163C36.0444 0.0101529 36.0548 0.00838966 36.0652 0.00696182C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0894 0.00400366 36.0929 0.00376557 36.0965 0.00343323C36.1044 0.00269731 36.1122 0.00200936 36.1202 0.00152588C36.1238 0.00130186 36.1275 0.00112312 36.1312 0.000953674C36.1424 0.000438638 36.1537 8.68102e-07 36.165 0C36.1654 1.77271e-08 36.1663 9.45556e-05 36.1667 9.53674e-05C36.1773 0.000119189 36.1878 0.000382343 36.1984 0.000858307C36.203 0.00106637 36.2077 0.00142084 36.2124 0.00171661C36.2187 0.00212351 36.225 0.00257946 36.2313 0.00314713C36.2364 0.00360818 36.2416 0.00410522 36.2467 0.004673C36.251 0.00515448 36.2553 0.00573777 36.2596 0.00629425C36.2744 0.0082044 36.2892 0.0104688 36.3037 0.0132561C36.305 0.0135074 36.3063 0.0137608 36.3077 0.014019C36.3149 0.0154374 36.322 0.0170642 36.3291 0.018692C36.3317 0.0192985 36.3344 0.0198688 36.337 0.020504C36.3451 0.0224513 36.3532 0.024584 36.3612 0.0267982C36.3618 0.0269655 36.3624 0.0271063 36.363 0.0272751C36.5984 0.0931353 36.7859 0.273525 36.8615 0.50478L42.9827 17.6373L42.9944 17.6732C43.1062 18.0442 42.9084 18.4416 42.5394 18.5735C42.1585 18.7096 41.7393 18.5111 41.6032 18.1302L36.8978 4.96025V43.8309C36.8978 44.2354 36.5699 44.5633 36.1654 44.5633C35.7609 44.5633 35.4329 44.2354 35.4329 43.8309Z">
+                                            </path>
+                                            <path
+                                                d="M18.3486 49.2676V36.3308L7.63027 31.0948C7.37882 30.972 7.21973 30.7164 7.21973 30.4365C7.21973 30.1567 7.37882 29.9014 7.63027 29.7786L18.7596 24.3419L18.798 24.3245C18.9919 24.2432 19.2123 24.249 19.4025 24.3419L30.5318 29.7786C30.7833 29.9014 30.9424 30.1567 30.9424 30.4365C30.9424 30.7164 30.7833 30.972 30.5318 31.0948L19.8135 36.3308V49.2676C19.8135 49.6721 19.4855 50 19.081 50C18.6765 50 18.3486 49.6721 18.3486 49.2676ZM9.62031 30.4367L19.081 35.0584L28.5417 30.4367L19.081 25.8151L9.62031 30.4367Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <p class="rs-services-desc"> Publish articles, guides, checklists, and HR news
+                                        updates.
+                                        Position yourself as a thought leader while helping visitors with valuable
+                                        resources.sum
+                                        dolor sit amet consectetur. </p>
+                                    <div class="rs-services-btn">
+                                        <a class="rs-btn has-icon has-bg-white hover-primary"
+                                            href="services-details.php">Explore
+                                            More
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="rs-services-thumb">
+                                    <img src="assets/images/services/services-thumb-16.webp" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services area end -->
+
+        <!-- services area start -->
+        <section class="rs-services-area rs-services-six section-space-top theme-secondary">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-8 col-md-9">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle is-white">
+                                Key Features And Capabilities
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left is-white mb-10">Service for your
+                                development</h2>
+                            <p class="section-desc is-white">We believe that every business is unique; our approach is
+                                never one-size-fits-all. We focus on sustainable
+                                growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid g-0">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-services-wrapper active-item-wrapper">
+                            <div class="rs-services-item active-item active wow fadeIn" data-wow-delay=".1s"
+                                data-wow-duration="1s">
+                                <div class="rs-services-bg-thumb"
+                                    data-background="assets/images/services/services-thumb-17.webp">
+                                </div>
+                                <div class="rs-services-info">
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 47">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M41.7038 37.3384V44.1181C41.7038 44.5469 41.3829 44.8953 40.9804 44.8953H34.6332C34.2306 44.8953 33.9039 44.5469 33.9039 44.1181C33.9039 43.6892 34.2306 43.341 34.6332 43.341H40.2512V37.3384C40.2512 36.9084 40.5779 36.5612 40.9804 36.5612C41.3829 36.5612 41.7038 36.9084 41.7038 37.3384ZM45.7057 22.7985L46.4525 10.2961L36.6925 17.2367L38.9152 18.6085C39.2716 18.8301 39.3884 19.3231 39.166 19.6985C34.6448 27.2873 29.1144 33.4312 22.7379 37.9586C18.351 41.0698 13.4797 43.4769 8.1885 45.1502C23.0238 43.5908 34.5397 35.7261 42.4971 21.6966C42.7012 21.3352 43.1388 21.2148 43.483 21.4267L45.7057 22.7985ZM9.95619 20.7075C9.95619 20.202 10.3412 19.7895 10.8196 19.7895H17.3242C17.7968 19.7895 18.1818 20.202 18.1818 20.7075V39.0486C15.5799 40.5707 12.838 41.8577 9.95619 42.911V20.7075ZM16.7817 14.2662C16.7817 13.7607 17.1667 13.3488 17.6393 13.3488H24.144C24.6223 13.3488 25.0073 13.7607 25.0073 14.2662V34.2651C23.2963 35.6863 21.5016 36.9889 19.6344 38.1647V20.7075C19.6344 19.345 18.6019 18.2357 17.3242 18.2357H16.7817V14.2662ZM23.6073 7.82555C23.6073 7.31883 23.9923 6.90752 24.4648 6.90752H30.9695C31.4421 6.90752 31.8271 7.31883 31.8271 7.82555V27.478C30.1353 29.4786 28.3443 31.3229 26.46 33.0106V14.2663C26.46 12.9032 25.4216 11.7945 24.144 11.7945H23.6073V7.82555ZM30.427 2.47183C30.427 1.96573 30.812 1.55442 31.2845 1.55442H37.7892C38.2676 1.55442 38.6526 1.96573 38.6526 2.47183V13.9752L34.9074 16.6371C34.4593 16.9545 34.486 17.6706 34.9482 17.9571L37.5268 19.5464C36.1967 21.724 34.779 23.7702 33.2856 25.6868V7.82555C33.2856 6.46196 32.2473 5.3531 30.9696 5.3531H30.4271L30.427 2.47183ZM47.6368 8.10731C47.5187 8.03501 47.3842 7.99917 47.2482 8.00379C47.1123 8.00841 46.9802 8.05331 46.8667 8.13347L40.1052 12.9412V2.47183C40.1052 1.10874 39.0669 0 37.7892 0H31.2845C30.0069 0 28.9743 1.10874 28.9743 2.47183V5.3531H24.4648C23.1872 5.3531 22.1488 6.46183 22.1488 7.82555V11.7944H17.6393C16.3675 11.7944 15.3291 12.9031 15.3291 14.2662V18.2357H10.8196C9.54193 18.2357 8.50354 19.345 8.50354 20.7075V43.4194C5.97169 44.264 3.3348 44.9314 0.598681 45.4213C-0.255255 45.5745 -0.173872 46.9372 0.703733 46.9645C9.88413 47.2499 18.3096 45.4607 25.509 41.4431C32.5913 37.4917 38.6001 31.3396 43.3663 23.1507L45.9973 24.7699C46.4589 25.0559 47.046 24.7284 47.0825 24.1473L47.9983 8.82903C48.0068 8.68471 47.9775 8.54073 47.9136 8.41324C47.8497 8.28575 47.7539 8.17981 47.6368 8.10731Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="rs-services-content">
+                                        <h5 class="rs-services-title "><a href="services-details.php">Investment
+                                                Management</a>
+                                        </h5>
+                                        <p class="rs-services-desc"> Strategic investment advice to grow your
+                                            capital and secure your organization's financial future. </p>
+                                    </div>
+                                </div>
+                                <span class="rs-services-number">01</span>
+                            </div>
+                            <div class="rs-services-item active-item wow fadeIn" data-wow-delay=".2s"
+                                data-wow-duration="1s">
+                                <div class="rs-services-bg-thumb"
+                                    data-background="assets/images/services/services-thumb-18.webp">
+                                </div>
+                                <div class="rs-services-info">
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 44">
+                                            <path
+                                                d="M38.1299 14.3499L34.8829 14.2568C34.5257 13.0258 33.9981 11.8432 33.3134 10.7387L35.5382 8.53967C35.6992 8.38203 35.7873 8.17191 35.7837 7.95445C35.78 7.737 35.6848 7.52956 35.5186 7.3767L31.0581 3.2333C30.8937 3.07921 30.6711 2.99104 30.4378 2.98763C30.2044 2.98422 29.9789 3.06584 29.8094 3.21505L27.4414 5.28264C26.2515 4.64564 24.9776 4.15529 23.6519 3.82391L23.5509 0.80879C23.5445 0.591567 23.447 0.385291 23.2793 0.234128C23.1115 0.0829643 22.8868 -0.00107223 22.6533 1.03308e-05H16.3447C15.8572 1.03308e-05 15.4629 0.355107 15.4472 0.80879L15.3461 3.82391C14.0199 4.15528 12.7466 4.64639 11.5537 5.28446L9.18865 3.21596C9.01936 3.06641 8.79387 2.98449 8.56047 2.98773C8.32707 2.99097 8.10431 3.07912 7.93989 3.2333L3.48143 7.3767C3.3151 7.52957 3.21995 7.73712 3.21646 7.95464C3.21298 8.17216 3.30144 8.38225 3.46279 8.53967L5.68859 10.7351C5.00192 11.8423 4.47318 13.0263 4.11611 14.2595L0.8711 14.3499C0.637453 14.3552 0.415362 14.4456 0.2525 14.6016C0.0896384 14.7576 -0.00101154 14.9668 8.51627e-06 15.1843V21.0429C8.51627e-06 21.4975 0.382582 21.8635 0.8711 21.8772L4.11611 21.9676C4.47318 23.1999 5.00094 24.3839 5.68859 25.4921L3.46181 27.6875C3.30046 27.8449 3.212 28.055 3.21548 28.2725C3.21897 28.49 3.31412 28.6976 3.48045 28.8504L7.94087 32.9929C8.10531 33.1471 8.32806 33.2352 8.56145 33.2385C8.79484 33.2417 9.02032 33.1598 9.18963 33.0103L11.5547 30.9418C11.9255 31.1399 12.3071 31.3252 12.6946 31.4959L10.9495 38.3048H10.6777C8.9905 38.3048 7.61814 39.5818 7.61814 41.1519V43.4523C7.61814 43.7544 7.88201 44 8.20671 44H30.7923C31.117 44 31.3809 43.7544 31.3809 43.4523V41.1528C31.3809 39.5827 30.0085 38.3057 28.3213 38.3057H28.0515L26.3397 31.4803C26.7135 31.3151 27.0813 31.1362 27.4404 30.9445L29.8084 33.0121C29.9777 33.1616 30.2032 33.2435 30.4366 33.2403C30.67 33.237 30.8927 33.1489 31.0572 32.9948L35.5186 28.8514C35.8639 28.53 35.8727 28.0198 35.5382 27.6893L33.3134 25.4903C33.9985 24.3859 34.5261 23.2033 34.8829 21.9722L38.1299 21.8781C38.3633 21.8725 38.5851 21.782 38.7477 21.626C38.9103 21.4701 39.0009 21.2611 39 21.0438V15.1843C39 14.7306 38.6174 14.3645 38.1299 14.3499ZM30.2037 41.1528V42.9046H8.79529V41.1528C8.79529 40.187 9.63989 39.4011 10.6777 39.4011H28.3213C29.3591 39.4011 30.2037 40.187 30.2037 41.1528ZM12.16 38.3057L15.3775 25.7495H23.6941L26.842 38.3057H12.16ZM15.2029 24.6541L12.5504 21.45H26.4643L23.8677 24.6541H15.2029ZM14.4201 18.779H18.1262C18.4509 18.779 18.7147 18.5335 18.7147 18.2313V16.643H20.4765V18.2313C20.4765 18.5335 20.7404 18.779 21.0651 18.779H24.7712C25.0959 18.779 25.3598 18.5335 25.3598 18.2313V16.643H27.0578V20.3546H11.9422V16.6421H13.8315V18.2304C13.8315 18.5335 14.0954 18.779 14.4201 18.779ZM24.7977 25.3269L28.1163 21.2318C28.1908 21.1406 28.234 21.0265 28.234 20.9023V16.0944C28.234 15.7922 27.9701 15.5467 27.6454 15.5467H24.7702C24.4455 15.5467 24.1816 15.7922 24.1816 16.0944V17.6827H21.6527V16.0944C21.6527 15.7922 21.3888 15.5467 21.0641 15.5467H18.1262C17.8015 15.5467 17.5376 15.7922 17.5376 16.0944V17.6827H15.0087V16.0944C15.0087 15.7922 14.7448 15.5467 14.4201 15.5467H11.3536C11.0289 15.5467 10.7651 15.7922 10.7651 16.0944V20.9014C10.7651 21.0274 10.8112 21.1433 10.8877 21.2355L14.2759 25.3287L14.0101 26.3666C10.1431 24.1456 8.21946 19.7348 9.41133 15.6042C10.9014 10.4375 16.64 7.36027 22.204 8.74506C24.8987 9.416 27.151 11.0208 28.5459 13.2645C29.9408 15.5083 30.3107 18.1218 29.5897 20.6248C28.9069 22.99 27.2716 25.0348 25.0508 26.331L24.7977 25.3269ZM37.8228 20.7909L34.6377 20.8822C34.2335 20.8941 33.8961 21.146 33.796 21.5103C33.4494 22.7719 32.91 23.9807 32.1941 25.0996C31.9871 25.4227 32.0352 25.8244 32.3118 26.0982L34.4935 28.2544L30.4166 32.0408L28.0927 30.0125C27.7984 29.756 27.3678 29.7122 27.0205 29.903C26.7096 30.0746 26.3888 30.2343 26.0641 30.3849L25.3284 27.4511C27.975 26.0234 29.9291 23.6609 30.7236 20.9078C31.5271 18.1218 31.115 15.2126 29.5622 12.715C28.0103 10.2184 25.504 8.43195 22.5052 7.68524C16.3153 6.14436 9.93025 9.56935 8.27145 15.3184C7.58282 17.7064 7.80059 20.2633 8.88553 22.5162C9.89102 24.6048 11.5989 26.3538 13.7207 27.483L12.9722 30.4041C12.6318 30.248 12.2963 30.081 11.9716 29.9011C11.6244 29.7094 11.1937 29.7542 10.8985 30.0107L8.57849 32.0399L4.50261 28.2544L6.68524 26.1019C6.96285 25.828 7.01092 25.4264 6.80394 25.1023C6.08663 23.9815 5.54615 22.7705 5.19909 21.5066C5.09903 21.1424 4.7606 20.8895 4.35645 20.8786L1.17324 20.79V15.4371L4.35645 15.3486C4.7606 15.3376 5.09903 15.0857 5.19909 14.7205C5.54537 13.4572 6.08588 12.2467 6.80394 11.1248C7.01092 10.8017 6.96285 10.4 6.68524 10.1253L4.50261 7.97279L8.57849 4.18723L10.8975 6.21556C11.1918 6.47299 11.6234 6.51772 11.9706 6.32602C13.1792 5.65964 14.4799 5.15849 15.8386 4.83626C16.23 4.74315 16.5017 4.42913 16.5145 4.05304L16.6135 1.09542H22.3796L22.4787 4.05304C22.4914 4.42822 22.7632 4.74315 23.1546 4.83534C24.5132 5.15758 25.813 5.65782 27.0195 6.32328C27.3668 6.51406 27.7974 6.47025 28.0917 6.21374L30.4146 4.1854L34.4915 7.97188L32.3099 10.128C32.0332 10.4019 31.9852 10.8035 32.1921 11.1267C32.9092 12.2476 33.4478 13.4553 33.794 14.716C33.8941 15.0793 34.2325 15.3321 34.6357 15.344L37.8209 15.4353V20.7909H37.8228Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="rs-services-content">
+                                        <h5 class="rs-services-title "><a href="services-details.php">Financial
+                                                Management</a>
+                                        </h5>
+                                        <p class="rs-services-desc"> Comprehensive financial planning and analysis
+                                            to optimize your cash flow and budget management. </p>
+                                    </div>
+                                </div>
+                                <span class="rs-services-number">02</span>
+                            </div>
+                            <div class="rs-services-item active-item wow fadeIn" data-wow-delay=".3s"
+                                data-wow-duration="1s">
+                                <div class="rs-services-bg-thumb"
+                                    data-background="assets/images/services/services-thumb-19.webp">
+                                </div>
+                                <div class="rs-services-info">
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                            <path
+                                                d="M43.1959 20.4138C43.5649 20.2819 43.9698 20.4641 44.1185 20.8219L44.1321 20.8571L49.9573 37.1608C50.0827 37.5117 49.9246 37.9008 49.59 38.0649L36.4875 44.4887C36.2841 44.5884 36.046 44.5884 35.8426 44.4886L29.8875 41.5688L29.8541 41.5513C29.5153 41.3633 29.3798 40.9405 29.5524 40.5887C29.7249 40.2369 30.142 40.085 30.4981 40.2377L30.5325 40.2536L36.165 43.0153L48.3577 37.0375L42.7526 21.3499C42.6166 20.969 42.815 20.5499 43.1959 20.4138ZM0 22.6328C2.7374e-06 18.7596 1.33391 15.1962 3.56665 12.3799L3.59087 12.351C3.84667 12.0599 4.2886 12.0176 4.59566 12.261C4.91262 12.5123 4.96585 12.973 4.71458 13.2899L4.61979 13.4108C2.64207 15.958 1.46485 19.1568 1.46484 22.6328C1.46484 27.8922 4.16242 32.5225 8.25214 35.2135L8.34904 35.2767L8.38022 35.298C8.69444 35.5247 8.77896 35.9605 8.56609 36.2895C8.35321 36.6185 7.92099 36.72 7.58543 36.5262L7.55329 36.5066L7.44705 36.4372C2.96288 33.4867 0 28.4057 0 22.6328ZM16.5166 6.11621C23.0946 6.11621 28.7736 9.96286 31.4286 15.5263C31.6028 15.8914 31.4481 16.3286 31.083 16.5028C30.7179 16.677 30.2808 16.5223 30.1065 16.1573C27.6854 11.084 22.5089 7.58105 16.5166 7.58105C12.9055 7.58106 9.5933 8.85179 6.99959 10.9715C6.68639 11.2274 6.22502 11.181 5.96905 10.8678C5.71308 10.5546 5.75942 10.0931 6.07262 9.83716C8.91835 7.51153 12.5554 6.11621 16.5166 6.11621Z">
+                                            </path>
+                                            <path
+                                                d="M7.21973 30.4365C7.21973 30.032 7.54765 29.7041 7.95215 29.7041C8.35665 29.7041 8.68457 30.032 8.68457 30.4365V43.3736L19.0811 48.4524L22.5204 46.7726L23.1633 48.0887L19.4025 49.9257C19.2000 50.0248 18.9624 50.0248 18.7596 49.9257L7.63066 44.4892C7.37921 44.3664 7.21973 44.1109 7.21973 43.8311V30.4365ZM22.5204 46.7726C22.8838 46.5951 23.3224 46.7458 23.4999 47.1092C23.6774 47.4727 23.5267 47.9112 23.1633 48.0887L22.5204 46.7726ZM29.4775 30.4365C29.4775 30.032 29.8055 29.7041 30.21 29.7041C30.6145 29.7041 30.9424 30.032 30.9424 30.4365V43.8311C30.9424 44.1109 30.7829 44.3664 30.5314 44.4892L26.2346 46.5878L26.2002 46.6035C25.8439 46.7557 25.4269 46.6032 25.2549 46.2511C25.0774 45.8876 25.2282 45.4491 25.5917 45.2716L29.4775 43.3737V30.4365ZM35.4329 43.8309V4.95872L26.9348 28.7464C26.7988 29.1273 26.3796 29.3258 25.9987 29.1897C25.6178 29.0536 25.4193 28.6345 25.5554 28.2536L35.4753 0.485992L35.4856 0.459003C35.4868 0.455933 35.4881 0.452896 35.4894 0.449848C35.4901 0.448115 35.4909 0.446425 35.4917 0.444698C35.5525 0.302195 35.6555 0.18573 35.7829 0.107765C35.7843 0.106958 35.7855 0.106084 35.7868 0.105286C35.8046 0.0945549 35.8229 0.0846355 35.8416 0.0754356C35.8467 0.0729128 35.8519 0.0704986 35.857 0.0680923C35.8622 0.0657155 35.8673 0.0633903 35.8725 0.0611305C35.8762 0.0594953 35.88 0.0578409 35.8837 0.0562668C35.8913 0.0531151 35.8989 0.0501072 35.9066 0.0472069C35.9238 0.0407386 35.9412 0.0349487 35.9589 0.0297546C35.9645 0.0281095 35.9701 0.0264992 35.9758 0.0249863C35.9797 0.0239439 35.9836 0.0229139 35.9875 0.0219345C35.9945 0.0201889 36.0015 0.0186128 36.0086 0.0170708C36.0131 0.0160939 36.0175 0.0150089 36.022 0.0141144C36.026 0.0133158 36.0301 0.0120163C36.0444 0.0101529 36.0548 0.00838966 36.0652 0.00696182C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0894 0.00400366 36.0929 0.00376557 36.0965 0.00343323C36.1044 0.00269731 36.1122 0.00200936 36.1202 0.00152588C36.1238 0.00130186 36.1275 0.00112312 36.1312 0.000953674C36.1424 0.000438638 36.1537 8.68102e-07 36.165 0C36.1654 1.77271e-08 36.1663 9.45556e-05 36.1667 9.53674e-05C36.1773 0.000119189 36.1878 0.000382343 36.1984 0.000858307C36.203 0.00106637 36.2077 0.00142084 36.2124 0.00171661C36.2187 0.00212351 36.225 0.00257946 36.2313 0.00314713C36.2364 0.00360818 36.2416 0.00410522 36.2467 0.004673C36.251 0.00515448 36.2553 0.00573777 36.2596 0.00629425C36.2744 0.0082044 36.2892 0.0104688 36.3037 0.0132561C36.305 0.0135074 36.3063 0.0137608 36.3077 0.014019C36.3149 0.0154374 36.322 0.0170642 36.3291 0.018692C36.3317 0.0192985 36.3344 0.0198688 36.337 0.020504C36.3451 0.0224513 36.3532 0.024584 36.3612 0.0267982C36.3618 0.0269655 36.3624 0.0271063 36.363 0.0272751C36.5984 0.0931353 36.7859 0.273525 36.8615 0.50478L42.9827 17.6373L42.9944 17.6732C43.1062 18.0442 42.9084 18.4416 42.5394 18.5735C42.1585 18.7096 41.7393 18.5111 41.6032 18.1302L36.8978 4.96025V43.8309C36.8978 44.2354 36.5699 44.5633 36.1654 44.5633C35.7609 44.5633 35.4329 44.2354 35.4329 43.8309Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="rs-services-content">
+                                        <h5 class="rs-services-title "><a href="services-details.php">Insurance
+                                                Solutions</a>
+                                        </h5>
+                                        <p class="rs-services-desc"> tailored insurance strategies to mitigate risks
+                                            and protect your business assets against unforeseen events. </p>
+                                    </div>
+                                </div>
+                                <span class="rs-services-number">03</span>
+                            </div>
+                            <div class="rs-services-item active-item wow fadeIn" data-wow-delay=".4s"
+                                data-wow-duration="1s">
+                                <div class="rs-services-bg-thumb"
+                                    data-background="assets/images/services/services-thumb-20.webp">
+                                </div>
+                                <div class="rs-services-info">
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 38">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M10.6632 36.5455C10.0707 36.5455 9.58805 36.0624 9.58805 35.4685C9.58805 34.8755 10.0707 34.3924 10.6632 34.3924C11.2557 34.3924 11.7432 34.8756 11.7432 35.4685C11.7432 36.0625 11.2557 36.5455 10.6632 36.5455ZM10.6632 1.4543C11.2557 1.4543 11.7432 1.93645 11.7432 2.53036C11.7432 3.12339 11.2557 3.60651 10.6632 3.60651C10.0707 3.60651 9.58805 3.12339 9.58805 2.53036C9.58805 1.93645 10.0707 1.4543 10.6632 1.4543ZM10.6632 33.2604C10.0468 33.2604 9.49257 33.5146 9.09112 33.9231L2.05728 29.9241V8.0748L9.09112 4.0767C9.49249 4.48475 10.0468 4.73855 10.6632 4.73855C11.8818 4.73855 12.8709 3.74749 12.8709 2.53045C12.8709 1.31244 11.8818 0.322354 10.6632 0.322354C9.19927 0.322354 8.1614 1.71962 8.5273 3.09242L1.21151 7.25297C1.12464 7.30253 1.05239 7.37414 1.00205 7.46056C0.951715 7.54697 0.925068 7.64514 0.924805 7.74515V30.2539C0.924897 30.3539 0.951472 30.4522 1.00183 30.5386C1.05219 30.6251 1.12453 30.6966 1.21151 30.7461L8.5273 34.9066C8.1614 36.2794 9.19953 37.6777 10.6632 37.6777C11.8818 37.6777 12.8709 36.6866 12.8709 35.4686C12.8709 34.2515 11.8817 33.2604 10.6632 33.2604ZM25.4668 36.5455C24.8743 36.5455 24.3916 36.0624 24.3916 35.4685C24.3916 34.8755 24.8742 34.3924 25.4668 34.3924C26.0594 34.3924 26.542 34.8756 26.542 35.4685C26.542 36.0625 26.0593 36.5455 25.4668 36.5455ZM25.4668 3.60651C24.8743 3.60651 24.3916 3.12339 24.3916 2.53036C24.3916 1.93645 24.8742 1.4543 25.4668 1.4543C26.0594 1.4543 26.542 1.93645 26.542 2.53036C26.542 3.12339 26.0593 3.60651 25.4668 3.60651ZM34.9185 7.25288L27.6027 3.09233C27.9687 1.72006 26.931 0.322266 25.4668 0.322266C24.2483 0.322266 23.2591 1.31235 23.2591 2.53036C23.2591 3.7474 24.2482 4.73846 25.4668 4.73846C26.0832 4.73846 26.6423 4.48475 27.0436 4.07661L34.0775 8.07471V29.9241L27.0436 33.9231C26.6423 33.5145 26.0832 33.2604 25.4668 33.2604C24.2483 33.2604 23.2591 34.2515 23.2591 35.4685C23.2591 36.6865 24.2482 37.6776 25.4668 37.6776C26.9307 37.6776 27.9687 36.2789 27.6027 34.9065L34.9185 30.746C35.0067 30.6976 35.0804 30.6264 35.1316 30.5398C35.1829 30.4532 35.21 30.3544 35.21 30.2538V7.74507C35.21 7.54196 35.1 7.35417 34.9185 7.25288ZM18.065 30.2194L6.79273 24.6507L11.2366 22.4564L17.8165 25.7062C17.9719 25.7849 18.1605 25.7837 18.3183 25.7062L24.8934 22.4564L29.3373 24.6507L18.065 30.2194ZM6.79273 18.9997L11.2366 16.8054L17.8165 20.0547C17.9737 20.1338 18.1592 20.1324 18.3183 20.0547L24.8934 16.8054L29.3373 18.9997L18.065 24.5675L6.79273 18.9997ZM6.79273 13.3482L18.065 7.78035L29.3373 13.3482L18.065 18.9161L6.79273 13.3482ZM31.1818 24.6507C31.1818 24.8666 31.0575 25.0626 30.8664 25.1586L18.3183 31.3581C18.1596 31.4346 17.9733 31.4361 17.8165 31.3571L5.26356 25.1586C4.8452 24.9502 4.84415 24.3516 5.26356 24.1436L9.95598 21.8252L5.26356 19.5071C4.84494 19.2991 4.84406 18.7007 5.26356 18.4917L9.95598 16.1737L5.26356 13.8553C4.84468 13.6476 4.84468 13.0489 5.26356 12.8413L17.8165 6.64181C17.8945 6.60317 17.9803 6.58307 18.0674 6.58307C18.1544 6.58307 18.2403 6.60317 18.3183 6.64181L30.8664 12.8413C31.2852 13.049 31.2852 13.6476 30.8664 13.8553L26.1739 16.1737L30.8664 18.4917C31.2859 18.7007 31.285 19.2991 30.8664 19.5071L26.1739 21.8252L30.8664 24.1436C31.0575 24.2387 31.1818 24.4356 31.1818 24.6507Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="rs-services-content">
+                                        <h5 class="rs-services-title "><a href="services-details.php">Retirement
+                                                Planning</a>
+                                        </h5>
+                                        <p class="rs-services-desc"> Expert guidance on retirement fund management
+                                            to ensure a stable and comfortable transition for your team. </p>
+                                    </div>
+                                </div>
+                                <span class="rs-services-number">04</span>
+                            </div>
+                            <div class="rs-services-item active-item wow fadeIn" data-wow-delay=".5s"
+                                data-wow-duration="1s">
+                                <div class="rs-services-bg-thumb"
+                                    data-background="assets/images/services/services-thumb-21.webp">
+                                </div>
+                                <div class="rs-services-info">
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M24.2669 20.7386C24.2669 20.5444 24.344 20.3581 24.4814 20.2207C24.6188 20.0833 24.805 20.0062 24.9993 20.0062C25.1935 20.0062 25.3798 20.0833 25.5172 20.2207C25.6546 20.3581 25.7317 20.5444 25.7317 20.7386V24.2676H29.2607C29.455 24.2676 29.6413 24.3448 29.7786 24.4821C29.916 24.6195 29.9931 24.8058 29.9931 25C29.9931 25.1943 29.916 25.3806 29.7786 25.5179C29.6413 25.6553 29.455 25.7325 29.2607 25.7325H25.7317V29.2615C25.7317 29.4557 25.6546 29.642 25.5172 29.7794C25.3798 29.9167 25.1935 29.9939 24.9993 29.9939C24.805 29.9939 24.6188 29.9167 24.4814 29.7794C24.344 29.642 24.2669 29.4557 24.2669 29.2615V25.7325H20.7379C20.5436 25.7325 20.3573 25.6553 20.22 25.5179C20.0826 25.3806 20.0054 25.1943 20.0054 25C20.0054 24.8058 20.0826 24.6195 20.22 24.4821C20.3573 24.3448 20.5436 24.2676 20.7379 24.2676H24.2669V20.7386ZM1.5618 16.9541C1.15213 16.9541 0.829373 17.2764 0.829373 17.7116H0.831131C0.830893 17.8977 0.901896 18.0768 1.02957 18.2122L7.42957 25L1.06463 31.7507C0.569217 32.2414 0.908377 33.0458 1.5618 33.0458H7.86248C9.74206 37.0421 12.9572 40.2573 16.9535 42.1368V48.4375C16.9535 48.8472 17.2758 49.1699 17.7109 49.1699V49.1682C17.897 49.1684 18.0762 49.0974 18.2116 48.9698L24.9993 42.5698L31.75 48.9347C32.2407 49.4301 33.0451 49.0909 33.0451 48.4375V42.1369C37.0414 40.2574 40.2565 37.0422 42.1361 33.0459H48.4368C48.8465 33.0459 49.1692 32.7237 49.1692 32.2885H49.1675C49.1677 32.1024 49.0967 31.9232 48.969 31.7878L42.569 25L48.934 18.2493C49.4294 17.7586 49.0902 16.9542 48.4368 16.9542H42.1362C40.2566 12.9579 37.0415 9.74279 33.0452 7.86321V1.56253C33.0452 1.15286 32.7229 0.830106 32.2878 0.830106V0.831863C32.1016 0.831612 31.9225 0.902656 31.7871 1.0304L24.9993 7.4303L18.2486 1.06536C17.7579 0.569949 16.9535 0.90911 16.9535 1.56253V7.86321C12.9572 9.74279 9.74206 12.9579 7.86248 16.9542L1.5618 16.9541ZM9.49178 16.9541C11.1481 13.7702 13.7696 11.1488 16.9535 9.49251V10.7566H16.9553C16.9551 10.8563 16.9754 10.955 17.015 11.0465C17.0545 11.138 17.1124 11.2205 17.1851 11.2887L19.7601 13.7166C17.096 14.9561 14.9552 17.0968 13.7158 19.761L11.3221 17.2223C11.2535 17.1384 11.1671 17.0708 11.0691 17.0245C10.9712 16.9781 10.8641 16.9541 10.7557 16.9542L9.49178 16.9541ZM14.8077 20.9189L18.1836 24.4993C18.3111 24.6349 18.382 24.814 18.382 25C18.382 25.1861 18.3111 25.3652 18.1836 25.5007L14.8078 29.0812C15.9204 31.8565 18.143 34.0791 20.9182 35.1917L24.4987 31.8158C24.6342 31.6884 24.8133 31.6174 24.9994 31.6174C25.1855 31.6174 25.3645 31.6884 25.5001 31.8158L29.0805 35.1917C31.8557 34.0792 34.0785 31.8565 35.1911 29.0813L31.8152 25.5008C31.6877 25.3653 31.6167 25.1862 31.6167 25.0001C31.6167 24.814 31.6877 24.635 31.8152 24.4994L35.1911 20.919C34.0786 18.1438 31.8558 15.921 29.0806 14.8084L25.5002 18.1843C25.3646 18.3118 25.1856 18.3828 24.9995 18.3828C24.8134 18.3828 24.6343 18.3118 24.4988 18.1843L20.9183 14.8084C18.1429 15.9209 15.9202 18.1438 14.8077 20.9189ZM13.7159 30.2391C14.9553 32.9033 17.096 35.044 19.7602 36.2834L17.2216 38.6771C17.1377 38.7457 17.0701 38.8321 17.0238 38.9301C16.9774 39.0281 16.9534 39.1351 16.9535 39.2435V40.5075C13.7696 38.8512 11.1482 36.2298 9.49187 33.0459H10.7559V33.0442C10.8556 33.0443 10.9543 33.024 11.0458 32.9844C11.1374 32.9449 11.2198 32.887 11.2881 32.8143L13.7159 30.2391ZM10.4422 18.419L16.6471 25L10.4422 31.5811H3.23299L8.9659 25.5007C9.09339 25.3652 9.16437 25.1861 9.16437 25C9.16437 24.814 9.09339 24.6349 8.9659 24.4993L3.23299 18.419H10.4422ZM33.0452 9.49251C36.2292 11.149 38.8505 13.7701 40.5068 16.9541H39.2428V16.9559C39.143 16.9558 39.0444 16.9761 38.9528 17.0156C38.8613 17.0552 38.7789 17.1131 38.7106 17.1858L36.2827 19.7609C35.0433 17.0967 32.9025 14.956 30.2384 13.7165L32.777 11.3229C32.8609 11.2542 32.9285 11.1678 32.9748 11.0699C33.0212 10.9719 33.0452 10.8649 33.0451 10.7565L33.0452 9.49251ZM31.5804 10.4429L24.9993 16.648L18.4182 10.443V3.23372L24.4986 8.96663C24.6341 9.09412 24.8132 9.1651 24.9993 9.1651C25.1854 9.1651 25.3644 9.09412 25.5 8.96663L31.5804 3.23372V10.4429ZM40.5068 33.0459C38.8505 36.2299 36.2291 38.8512 33.0452 40.5075V39.2435H33.0434C33.0436 39.1438 33.0232 39.0451 32.9837 38.9536C32.9442 38.862 32.8862 38.7796 32.8136 38.7114L30.2385 36.2834C32.9026 35.044 35.0433 32.9033 36.2828 30.2391L38.6764 32.7778C38.7451 32.8616 38.8315 32.9292 38.9295 32.9756C39.0274 33.0219 39.1345 33.0459 39.2429 33.0458L40.5068 33.0459ZM39.5564 31.5811L33.3514 25L39.5564 18.419H46.7657L41.0328 24.4993C40.9053 24.6349 40.8343 24.814 40.8343 25C40.8343 25.1861 40.9053 25.3652 41.0328 25.5007L46.7657 31.5811H39.5564ZM18.4182 39.5572L24.9993 33.3522L31.5804 39.5572V46.7664L25.5 41.0335C25.3644 40.906 25.1854 40.835 24.9993 40.835C24.8132 40.835 24.6341 40.906 24.4986 41.0335L18.4182 46.7664V39.5572Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="rs-services-content">
+                                        <h5 class="rs-services-title "><a href="services-details.php">Portfolio
+                                                Management</a>
+                                        </h5>
+                                        <p class="rs-services-desc"> Holistic portfolio optimization using data-driven
+                                            insights to maximize returns and diversify reach. </p>
+                                    </div>
+                                </div>
+                                <span class="rs-services-number">05</span>
+                            </div>
+                            <div class="rs-services-item active-item wow fadeIn" data-wow-delay=".6s"
+                                data-wow-duration="1s">
+                                <div class="rs-services-bg-thumb"
+                                    data-background="assets/images/services/services-thumb-22.webp">
+                                </div>
+                                <div class="rs-services-info">
+                                    <div class="rs-services-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                            <path
+                                                d="M32.1852 24.9574C28.1952 24.9574 24.9607 28.1919 24.9607 32.1819C24.9607 36.1719 28.1952 39.4063 32.1852 39.4063C36.1752 39.4063 39.4096 36.1719 39.4096 32.1819C39.4048 28.1938 36.1733 24.9623 32.1852 24.9574ZM32.1852 38.0928C28.9206 38.0928 26.2743 35.4465 26.2743 32.1819C26.2743 28.9173 28.9206 26.271 32.1852 26.271C35.4498 26.271 38.0961 28.9173 38.0961 32.1819C38.0926 35.4449 35.4482 38.0893 32.1852 38.0928ZM13.7957 24.9574H7.88475V18.0049L9.82238 19.9422C10.0798 20.1914 10.4897 20.1876 10.743 19.9342C10.8648 19.8125 10.9339 19.6478 10.9354 19.4757C10.9369 19.3035 10.8707 19.1376 10.7511 19.0138L7.69232 15.955C7.56912 15.832 7.40211 15.7629 7.22798 15.7629C7.05386 15.7629 6.88685 15.832 6.76365 15.955L3.70524 19.0137C3.58564 19.1376 3.51945 19.3034 3.52094 19.4755C3.52243 19.6477 3.59147 19.8123 3.71321 19.934C3.83494 20.0559 3.99968 20.125 4.17191 20.1265C4.34414 20.128 4.51007 20.0618 4.63391 19.9421L6.57122 18.0049V24.9573H0.660299C0.486113 24.9573 0.319061 25.0265 0.195893 25.1497C0.0727252 25.2729 0.00353013 25.4399 0.00353013 25.6141V38.7495C0.00353013 38.9237 0.0727252 39.0907 0.195893 39.2139C0.319061 39.3371 0.486113 39.4062 0.660299 39.4062H13.7957C13.9699 39.4062 14.1369 39.3371 14.2601 39.2139C14.3832 39.0907 14.4524 38.9237 14.4524 38.7495V25.6141C14.4524 25.4399 14.3832 25.2729 14.2601 25.1497C14.1369 25.0265 13.9699 24.9574 13.7957 24.9574ZM13.1389 38.0928H1.31707V26.271H13.1389V38.0928ZM19.7396 3.7016C19.6585 3.61782 19.5567 3.55711 19.4444 3.5257C19.3321 3.49428 19.2135 3.49329 19.1008 3.52283C18.988 3.55237 18.8851 3.61137 18.8027 3.69378C18.7202 3.77619 18.6612 3.87905 18.6316 3.99181C18.6021 4.10457 18.6032 4.22317 18.6347 4.33539C18.6662 4.44762 18.727 4.54943 18.8109 4.63035L20.7481 6.5679H14.4191C14.0679 2.72194 10.7539 -0.168084 6.89582 0.00760134C3.03772 0.183287 0 3.36262 0 7.22467C0 11.0867 3.03756 14.266 6.89574 14.4417C10.7539 14.6174 14.0679 11.7275 14.419 7.88144H20.7481L18.8109 9.81907C18.727 9.89998 18.6662 10.0018 18.6347 10.114C18.6032 10.2262 18.6021 10.3448 18.6316 10.4575C18.6612 10.5703 18.7203 10.6732 18.8027 10.7556C18.8852 10.8381 18.988 10.8971 19.1008 10.9267C19.2136 10.9562 19.3322 10.9551 19.4445 10.9236C19.5567 10.8921 19.6586 10.8313 19.7396 10.7474L22.7981 7.689C22.8591 7.62804 22.9075 7.55565 22.9405 7.47598C22.9735 7.3963 22.9905 7.31091 22.9905 7.22467C22.9905 7.13843 22.9735 7.05303 22.9405 6.97336C22.9075 6.89369 22.8591 6.8213 22.7981 6.76033L19.7396 3.7016ZM7.22798 13.1356C3.96335 13.1356 1.31707 10.4893 1.31707 7.22467C1.31707 3.96012 3.96335 1.31375 7.22798 1.31375C10.4926 1.31375 13.1389 3.96012 13.1389 7.22467C13.1354 10.4877 10.491 13.1321 7.22798 13.1356ZM39.7591 6.71641L32.6002 0.87117C32.4829 0.775205 32.3361 0.722773 32.1846 0.722773C32.0331 0.722773 31.8862 0.775205 31.769 0.87117L24.6102 6.71641C24.5348 6.77797 24.4741 6.8555 24.4324 6.94341C24.3907 7.03131 24.3691 7.12738 24.3691 7.22467C24.3691 7.32197 24.3907 7.41806 24.4324 7.50597C24.4741 7.59389 24.5348 7.67144 24.6102 7.73301L31.5284 13.3812V21.4017L29.5911 19.464C29.4674 19.3439 29.3013 19.2772 29.1287 19.2785C28.9562 19.2797 28.7911 19.3488 28.6691 19.4708C28.5472 19.5928 28.4781 19.7579 28.4768 19.9304C28.4756 20.103 28.5422 20.269 28.6624 20.3928L31.7209 23.4515C31.8441 23.5745 32.0111 23.6436 32.1852 23.6436C32.3593 23.6436 32.5263 23.5745 32.6495 23.4515L35.7083 20.3928C35.8285 20.269 35.8951 20.103 35.8939 19.9304C35.8926 19.7579 35.8236 19.5928 35.7016 19.4708C35.5796 19.3488 35.4145 19.2797 35.242 19.2785C35.0695 19.2772 34.9034 19.3439 34.7796 19.464L32.842 21.4017V13.3812L39.7592 7.73301C39.8345 7.67137 39.8951 7.5938 39.9367 7.5059C39.9784 7.41799 40 7.32194 40 7.22467C40 7.12741 39.9784 7.03137 39.9367 6.94348C39.8951 6.85559 39.8344 6.77804 39.7591 6.71641ZM32.1852 12.2213L26.0655 7.22467L32.1852 2.22805L38.3049 7.22467L32.1852 12.2213Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="rs-services-content">
+                                        <h5 class="rs-services-title "><a href="services-details.php">Debt & Credit
+                                                Management
+                                            </a>
+                                        </h5>
+                                        <p class="rs-services-desc"> Analysis of debt structures and credit facilities
+                                            to improve your leverage and overall creditworthiness. </p>
+                                    </div>
+                                </div>
+                                <span class="rs-services-number">06</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services area end -->
+
+         <!-- work area start -->
+        <section class="rs-working-area rs-working-six section-space">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                         How It Works (Process + Technology)
+                     </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Work process how we help
+                            </h2>
+                            <p class="section-desc">read and update the latest news from us. donec eu magna quis felis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-working-wrapper">
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/14.webp" alt="image">
+                                </div>
+                                <span class="rs-working-number">
+                           01
+                        </span>
+                                <h5 class="rs-working-title">Quick Solutions</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
+                            </div>
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/5.webp" alt="image">
+                                </div>
+                                <span class="rs-working-number">
+                           02
+                        </span>
+                                <h5 class="rs-working-title">Expert Advice</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
+                            </div>
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/22.webp" alt="image">
+                                </div>
+                                <span class="rs-working-number">
+                           03
+                        </span>
+                                <h5 class="rs-working-title">Strategic Planning</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
+                            </div>
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/6.webp" alt="image">
+                                </div>
+                                <span class="rs-working-number">
+                           04
+                        </span>
+                                <h5 class="rs-working-title">Efficient Operations</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- work area end -->
+
+        <!-- portfolio area start -->
+        <section class="rs-portfolio-area rs-portfolio-two section-space rs-swiper has-tab-black">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                                Solution Use Cases and Packages
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left">Case studies & highlights
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="rs-portfolio-tab-wrapper g-0">
+                        <div class="rs-portfolio-tab">
+                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-item-four-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-item-four" type="button" role="tab"
+                                        aria-controls="pills-item-four" aria-selected="true">
+                                        All Projects
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-item-five-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-item-five" type="button" role="tab"
+                                        aria-controls="pills-item-five" aria-selected="false"> Business (04)
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-item-six-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-item-six" type="button" role="tab"
+                                        aria-controls="pills-item-six" aria-selected="false">
+                                        Compliance (05)
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-item-seven-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-item-seven" type="button" role="tab"
+                                        aria-controls="pills-item-seven" aria-selected="false">
+                                        Expansion (04)
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-item-eight-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-item-eight" type="button" role="tab"
+                                        aria-controls="pills-item-eight" aria-selected="false">
+                                        Startups (05)
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="rs-portfolio-tab-content-wrapper">
+                            <div class="tab-content rs-portfolio-tab-anim" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-item-four" role="tabpanel"
+                                    aria-labelledby="pills-item-four-tab" tabindex="0">
+                                    <div class="rs-portfolio-tab-slider portfolio-slide-active p-relative fix">
+                                        <div class=" swiper" data-clone-slides="false" data-loop="false"
+                                            data-speed="1500" data-autoplay="true" data-dots-dynamic="false"
+                                            data-center-mode="false" data-no-gap="true" data-delay="2000" data-item="4"
+                                            data-item-xl="3" data-item-lg="2" data-item-md="2" data-item-sm="1"
+                                            data-item-xs="1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/banner/banner-5.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Bank Credit
+                                                                    Collection System</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">Transforming complex IT landscapes into scalable,
+                                                                high-performance environments for your business.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/about/37.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Business</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Business
+                                                                    Development Planning</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">Empowering organizations with strategic insights
+                                                                and data-driven solutions for digital growth.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/about/32.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startup</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Integrated
+                                                                    Innovations</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/about/35.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Differentiated
+                                                                    Performance</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/about/15.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">FinTech
+                                                                    Revolution</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/about/24.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Digital
+                                                                    Transformation</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-item-five" role="tabpanel"
+                                    aria-labelledby="pills-item-five-tab" tabindex="0">
+                                    <div class="rs-portfolio-tab-slider portfolio-slide-active p-relative fix">
+                                        <div class=" swiper" data-clone-slides="false" data-loop="false"
+                                            data-speed="1500" data-autoplay="true" data-dots-dynamic="false"
+                                            data-center-mode="false" data-no-gap="true" data-delay="2000" data-item="4"
+                                            data-item-xl="3" data-item-lg="2" data-item-md="2" data-item-sm="1"
+                                            data-item-xs="1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-16.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Bank Credit
+                                                                    Collection System</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-24.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Business</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Green Energy
+                                                                    Hub</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-23.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startup</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Smart
+                                                                    Irrigation Systems</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-19.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Differentiated
+                                                                    Performance</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-item-six" role="tabpanel"
+                                    aria-labelledby="pills-item-six-tab" tabindex="0">
+                                    <div class="rs-portfolio-tab-slider portfolio-slide-active p-relative fix">
+                                        <div class=" swiper" data-clone-slides="false" data-loop="false"
+                                            data-speed="1500" data-autoplay="true" data-dots-dynamic="false"
+                                            data-center-mode="false" data-no-gap="true" data-delay="2000" data-item="4"
+                                            data-item-xl="3" data-item-lg="2" data-item-md="2" data-item-sm="1"
+                                            data-item-xs="1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-20.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Bank Credit
+                                                                    Collection System</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-24.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Business</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Green Energy
+                                                                    Hub</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-23.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startup</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Smart
+                                                                    Irrigation Systems</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-19.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Differentiated
+                                                                    Performance</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-20.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">FinTech
+                                                                    Revolution</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-21.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Digital
+                                                                    Transformation</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-item-seven" role="tabpanel"
+                                    aria-labelledby="pills-item-seven-tab" tabindex="0">
+                                    <div class="rs-portfolio-tab-slider portfolio-slide-active p-relative fix">
+                                        <div class=" swiper" data-clone-slides="false" data-loop="false"
+                                            data-speed="1500" data-autoplay="true" data-dots-dynamic="false"
+                                            data-center-mode="false" data-no-gap="true" data-delay="2000" data-item="4"
+                                            data-item-xl="3" data-item-lg="2" data-item-md="2" data-item-sm="1"
+                                            data-item-xs="1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-16.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Bank Credit
+                                                                    Collection System</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-24.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Business</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Green Energy
+                                                                    Hub</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-23.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startup</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Smart
+                                                                    Irrigation Systems</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-19.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Differentiated
+                                                                    Performance</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-20.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">FinTech
+                                                                    Revolution</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-21.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Digital
+                                                                    Transformation</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-item-eight" role="tabpanel"
+                                    aria-labelledby="pills-item-eight-tab" tabindex="0">
+                                    <div class="rs-portfolio-tab-slider portfolio-slide-active p-relative fix">
+                                        <div class=" swiper" data-clone-slides="false" data-loop="false"
+                                            data-speed="1500" data-autoplay="true" data-dots-dynamic="false"
+                                            data-center-mode="false" data-no-gap="true" data-delay="2000" data-item="4"
+                                            data-item-xl="3" data-item-lg="2" data-item-md="2" data-item-sm="1"
+                                            data-item-xs="1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-17.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Bank Credit
+                                                                    Collection System</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-18.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Business</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Green Energy
+                                                                    Hub</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-23.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startup</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Smart
+                                                                    Irrigation Systems</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-19.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Differentiated
+                                                                    Performance</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-20.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">FinTech
+                                                                    Revolution</a></h5>
+                                                            <span class="rs-banner-line"></span>
+
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide"
+                                                    data-bg="assets/images/portfolio/portfolio-thumb-21.webp">
+                                                    <div class="rs-portfolio-tab-item">
+                                                        <div class="rs-portfolio-tab-content">
+                                                            <div class="rs-portfolio-tag-wrapper">
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Expansion</a>
+                                                                </div>
+                                                                <div class="rs-portfolio-tag">
+                                                                    <a href="portfolio.php">Startups</a>
+                                                                </div>
+                                                            </div>
+                                                            <h5 class="rs-portfolio-tab-title"><a
+                                                                    href="portfolio-details.php">Digital
+                                                                    Transformation</a></h5>
+                                                            <span class="rs-banner-line"></span>
+                                                            <p class="rs-desc-height">collaborations cultivating a
+                                                                global community
+                                                                diverse individuals who are your dedicated.</p>
+                                                            <div class="rs-portfolio-tab-btn">
+                                                                <a class="rs-btn has-icon has-text is-white"
+                                                                    href="portfolio-details.php">More
+                                                                    Details
+                                                                    <span class="icon-box">
+                                                                        <svg class="icon-first" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+
+                                                                        <svg class="icon-second" width="16" height="16"
+                                                                            viewBox="0 0 16 16" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                                                fill="white"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose area start -->
+        <section class="rs-why-choose-area section-space rs-why-choose-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-why-choose-wrapper">
+                            <div class="rs-why-choose-content-wrapper">
+                                <div class="section-title-wrapper">
+                                    <span class="section-subtitle">
+                                        Why Choose Us
+                                    </span>
+                                    <h2 class="section-title rs-split-text-enable split-in-left mb-20">Scaling new
+                                        heights with
+                                        strategic excellence.</h2>
+                                    <p class="rs-section-desc">We provide the best services, ensuring your outstanding
+                                        growth,
+                                        lorem ipsum dolor sit amet. Nulla ultrices vitae neque non sodales.</p>
+                                </div>
+                                <div class="rs-why-choose-list-wrapper">
+                                    <div class="rs-why-choose-list-item">
+                                        <div class="rs-why-choose-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-why-choose-list-desc"> Regulatory Investigations </p>
+                                    </div>
+                                    <div class="rs-why-choose-list-item">
+                                        <div class="rs-why-choose-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-why-choose-list-desc"> Competitive Work Analysis </p>
+                                    </div>
+                                    <div class="rs-why-choose-list-item">
+                                        <div class="rs-why-choose-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-why-choose-list-desc"> Anti-Competitive Conduct </p>
+                                    </div>
+                                    <div class="rs-why-choose-list-item">
+                                        <div class="rs-why-choose-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                viewBox="0 0 12 10" fill="none">
+                                                <path
+                                                    d="M5.53798 9.63481C5.50614 9.6348 5.47466 9.62821 5.4455 9.61545C5.41633 9.60269 5.39013 9.58404 5.36852 9.56066L0.799591 4.61839C0.769134 4.58544 0.748942 4.54433 0.741488 4.50008C0.734034 4.45584 0.73964 4.41038 0.757622 4.36927C0.775603 4.32816 0.805178 4.29318 0.842729 4.26862C0.880279 4.24406 0.924175 4.23098 0.969045 4.23098H3.16828C3.2013 4.23098 3.23393 4.23807 3.26398 4.25176C3.29403 4.26545 3.32079 4.28542 3.34246 4.31034L4.86941 6.06705C5.03444 5.71429 5.35389 5.12694 5.91448 4.41123C6.74321 3.35315 8.28471 1.79705 10.922 0.392315C10.973 0.36517 11.0323 0.358125 11.0882 0.372571C11.1441 0.387016 11.1926 0.421903 11.2241 0.470342C11.2555 0.51878 11.2676 0.57725 11.2581 0.634205C11.2485 0.69116 11.218 0.742461 11.1724 0.777976C11.1624 0.785846 10.1455 1.58662 8.97521 3.05336C7.89817 4.40313 6.46643 6.61021 5.76191 9.45951C5.74954 9.50957 5.72075 9.55404 5.68015 9.58583C5.63955 9.61762 5.58947 9.6349 5.53791 9.6349L5.53798 9.63481Z"
+                                                    fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="rs-why-choose-list-desc"> Innovation. Strategy. Success. </p>
+                                    </div>
+                                </div>
+                                <div class="rs-why-choose-btn">
+                                    <a class="rs-btn has-icon hover-secondary border-hover-primary" href="about.php">Get
+                                        Start Now
+                                        <span class="icon-box">
+                                            <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                            <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="rs-why-choose-progress">
+                                    <div class="single-progress">
+                                        <div class="progress-top">
+                                            <h6 class="progress-title">Consulting</h6>
+                                            <span class="progress-number">90%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s"
+                                                data-wow-delay=".3s" role="progressbar" style="width: 90%"
+                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rs-why-choose-thumb">
+                                <img src="assets/images/about/15.webp" alt="image">
+                                <div class="rs-why-choose-meta">
+                                    <div class="rs-why-choose-meta-icon">
+                                        <img src="assets/images/logo/favicon-icef.png" alt="image">
+                                    </div>
+                                    <p class="rs-why-choose-meta-desc">We ensure fastest management team -work</p>
+                                    <div class="rs-why-choose-meta-btn">
+                                        <a class="rs-btn has-icon has-text is-text-primary" href="contact.php">Join Now
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white"></path>
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose area end -->
+
+        <!-- brand area start -->
+        <div class="rs-brand-area rs-brand-three section-space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-brand-wrapper">
+                            <?php
+                            $brands = ["01", "02", "03", "04", "05", "06", "10", "11", "13", "14", "15", "16"];
+                            foreach ($brands as $brand): ?>
+                                <div class="rs-brand-item">
+                                    <div class="rs-brand-thumb">
+                                        <img src="assets/images/brand/brand-thumb-<?php echo $brand; ?>.webp" alt="image">
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- brand area end -->
+
+        <!-- testimonial area start -->
+        <section class="rs-testimonial-area rs-testimonial-one section-space-top rs-swiper mt-120">
+            <div class="rs-testimonial-bg-thumb include-bg"
+                data-background="assets/images/bg/testimonial-bg-thumb-01.webp">
+            </div>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xxl-4 col-xl-5 col-lg-5">
+                        <div class="rs-testimonial-thumb">
+                            <img src="assets/images/testimonial/testimonial-thumb-01.webp" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-xxl-8 col-xl-7 col-lg-7">
+                        <div class="rs-testimonial-wrapper">
+                            <div class="section-title-wrapper section-title-space">
+                                <span class="section-subtitle is-white">
+                                    Our Clients testimonials
+                                </span>
+                                <h2 class="section-title rs-split-text-enable split-in-left is-white">What our customers
+                                    say?
+                                </h2>
+                            </div>
+                            <div class="rs-testimonial-slider-wrapper">
+                                <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="1500"
+                                    data-autoplay="true" data-dots-dynamic="false" data-effect="false" data-delay="2000"
+                                    data-item="3" data-item-xl="2" data-item-lg="2" data-item-md="2" data-item-sm="1"
+                                    data-item-xs="1" data-margin="30" data-margin-xl="30">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="rs-testimonial-item">
+                                                <div class="rs-testimonial-avater-wrapper">
+                                                    <div class="rs-testimonial-avater-info">
+                                                        <h5 class="rs-testimonial-avater-title">Arjun Mehta</h5>
+                                                        <span class="rs-testimonial-avater-designation">Founder &
+                                                            CEO</span>
+                                                    </div>
+                                                    <div class="rs-testimonial-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
+                                                            viewBox="0 0 60 44" fill="none">
+                                                            <path
+                                                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                            <path
+                                                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-rating-wrapper">
+                                                    <span class="rs-testimonial-rating">5.0</span>
+                                                    <div class="rs-testimonial-rating-icon">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-line"></i>
+                                                    </div>
+                                                </div>
+                                                <p class="rs-testimonial-desc"> Outstanding support and expertise! Our
+                                                    startup
+                                                    achieved
+                                                    significant growth thanks to their guidance. Truly professional.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="rs-testimonial-item">
+                                                <div class="rs-testimonial-avater-wrapper">
+                                                    <div class="rs-testimonial-avater-info">
+                                                        <h5 class="rs-testimonial-avater-title">Aditya Verma</h5>
+                                                        <span class="rs-testimonial-avater-designation">Project
+                                                            Manager</span>
+                                                    </div>
+                                                    <div class="rs-testimonial-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
+                                                            viewBox="0 0 60 44" fill="none">
+                                                            <path
+                                                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                            <path
+                                                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-rating-wrapper">
+                                                    <span class="rs-testimonial-rating">4.5</span>
+                                                    <div class="rs-testimonial-rating-icon">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-line"></i>
+                                                    </div>
+                                                </div>
+                                                <p class="rs-testimonial-desc"> Exceptional service from start to
+                                                    finish. They
+                                                    understood our needs, delivered on time, and exceeded expectations.
+                                                    Highly
+                                                    recommend!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="rs-testimonial-item">
+                                                <div class="rs-testimonial-avater-wrapper">
+                                                    <div class="rs-testimonial-avater-info">
+                                                        <h5 class="rs-testimonial-avater-title">Priyanka Singh</h5>
+                                                        <span class="rs-testimonial-avater-designation">President of
+                                                            Sales</span>
+                                                    </div>
+                                                    <div class="rs-testimonial-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
+                                                            viewBox="0 0 60 44" fill="none">
+                                                            <path
+                                                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                            <path
+                                                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-rating-wrapper">
+                                                    <span class="rs-testimonial-rating">5.0</span>
+                                                    <div class="rs-testimonial-rating-icon">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-line"></i>
+                                                    </div>
+                                                </div>
+                                                <p class="rs-testimonial-desc"> We believe that every business is
+                                                    uniquids our
+                                                    approach never one size fits all. We tailor our strategies to fit
+                                                    your goals is
+                                                    and industry.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="rs-testimonial-item">
+                                                <div class="rs-testimonial-avater-wrapper">
+                                                    <div class="rs-testimonial-avater-info">
+                                                        <h5 class="rs-testimonial-avater-title">Vikram Malhotra</h5>
+                                                        <span class="rs-testimonial-avater-designation">HR
+                                                            Manager</span>
+                                                    </div>
+                                                    <div class="rs-testimonial-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
+                                                            viewBox="0 0 60 44" fill="none">
+                                                            <path
+                                                                d="M12.7244 28.0195C11.6004 34.2343 9.70513 38.7081 8.20652 41.485C7.61148 42.5648 8.82362 43.777 9.88146 43.1599C22.4434 35.8431 27.953 25.1765 28.6362 16.6036C29.2312 9.22068 24.1844 1.61742 16.5591 0.229C8.9338 -1.15942 1.61704 3.90943 0.228614 11.5347C-1.22592 19.5347 4.41591 27.2261 12.7244 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                            <path
+                                                                d="M44.0406 28.0195C42.9166 34.2343 41.0213 38.7081 39.5227 41.485C38.9277 42.5648 40.1398 43.777 41.1976 43.1599C53.7595 35.8431 59.2692 25.1765 59.9524 16.6036C60.5474 9.22068 55.5006 1.61742 47.8753 0.229C40.25 -1.15942 32.9332 3.90943 31.5448 11.5347C30.0902 19.5347 35.7321 27.2261 44.0406 28.0195Z"
+                                                                fill="#3D4C57"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="rs-testimonial-rating-wrapper">
+                                                    <span class="rs-testimonial-rating">4.5</span>
+                                                    <div class="rs-testimonial-rating-icon">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-line"></i>
+                                                    </div>
+                                                </div>
+                                                <p class="rs-testimonial-desc"> Professional, knowledgeable, and
+                                                    responsive. Their
+                                                    solutions transformed our operations, making our workflows seamless.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial area end -->
+
+        <!-- work area start -->
+        <section class="rs-work-area section rs-working-four section-space-top">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-9 col-lg-10">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                                 Security and Compliance
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">How we help your business
+                                succeed
+                            </h2>
+                            <p class="section-desc">Focus on serving mid-size to enterprise-level companies looking for
+                                scalable strategic.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="rs-working-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="rs-working-item item-one">
+                            <div class="rs-video-wrapper">
+                                <div class="rs-video-bg-thumb include-bg"
+                                    data-background="assets/images/about/30.webp">
+                                </div>
+                                <div class="rs-video-wrapper text-center">
+                                    <div class="rs-video-play-btn">
+                                        <a href="https://youtube.com/shorts/70lTRs3ItFQ?si=7nICpybp9XLRHvHl"
+                                            class="rs-play-btn popup-video is-medium has-transparent-btn has-blur hover-primary"><i
+                                                class="ri-play-large-fill"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rs-working-item item-two">
+                            <div class="rs-counter-shape">
+                                <img src="assets/images/shape/squre-shape.webp" alt="image">
+                            </div>
+                            <div class="rs-counter-content">
+                                <div class="rs-counter-number-wrapper">
+                                    <span class="rs-counter-number odometer" data-count="25.5">00</span>
+                                    <span class="prefix">K</span>
+                                </div>
+                                <span class="rs-counter-title">Years of experience on sg consulting service</span>
+                            </div>
+                            <div class="rs-counter-btn">
+                                <a href="contact.php" class="rs-btn has-icon has-bg-secondary has-sm-radius">
+                                    Let’s Talk
+                                    <span class="icon-box">
+                                        <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white"></path>
+                                        </svg>
+
+                                        <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                fill="white"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rs-working-item item-three">
+                            <div class="rs-progress-wrapper">
+                                <h5 class="rs-progress-sec-title">ICEF Achieve Goals</h5>
+                                <div class="rs-progress-item-wrapper">
+                                    <div class="single-progress">
+                                        <div class="progress-top">
+                                            <h6 class="progress-title">Consulting</h6>
+                                            <span class="progress-number">86%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s"
+                                                data-wow-delay=".3s" role="progressbar" style="width: 86%"
+                                                aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-progress">
+                                        <div class="progress-top">
+                                            <h6 class="progress-title">Strategic Planning</h6>
+                                            <span class="progress-number">95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s"
+                                                data-wow-delay=".5s" role="progressbar" style="width: 95%"
+                                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-progress">
+                                        <div class="progress-top">
+                                            <h6 class="progress-title">Sales Strategy</h6>
+                                            <span class="progress-number">70%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s"
+                                                data-wow-delay=".7s" role="progressbar" style="width: 70%"
+                                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- work area end -->
+
+        <!-- feature area start -->
+        <section class="rs-feature-area rs-feature-four  section-space-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-feature-wrapper">
+                            <div class="rs-feature-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                                <div class="rs-feature-top">
+                                    <div class="rs-feature-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.3556 18.2501C21.3556 18.0791 21.4235 17.9152 21.5444 17.7943C21.6652 17.6734 21.8292 17.6055 22.0001 17.6055C22.1711 17.6055 22.335 17.6734 22.4559 17.7943C22.5767 17.9152 22.6447 18.0791 22.6447 18.2501V21.3556H25.7502C25.9211 21.3556 26.0851 21.4235 26.2059 21.5444C26.3268 21.6652 26.3947 21.8292 26.3947 22.0001C26.3947 22.1711 26.3268 22.335 26.2059 22.4559C26.0851 22.5767 25.9211 22.6447 25.7502 22.6447H22.6447V25.7502C22.6447 25.9211 22.5767 26.0851 22.4559 26.2059C22.335 26.3268 22.1711 26.3947 22.0001 26.3947C21.8292 26.3947 21.6652 26.3268 21.5444 26.2059C21.4235 26.0851 21.3556 25.9211 21.3556 25.7502V22.6447H18.2501C18.0791 22.6447 17.9152 22.5767 17.7943 22.4559C17.6734 22.335 17.6055 22.1711 17.6055 22.0001C17.6055 21.8292 17.6734 21.6652 17.7943 21.5444C17.9152 21.4235 18.0791 21.3556 18.2501 21.3556H21.3556V18.2501ZM1.37512 14.9197C1.01461 14.9197 0.730591 15.2033 0.730591 15.5863H0.732137C0.731928 15.75 0.794411 15.9077 0.906763 16.0269L6.53876 22.0001L0.937614 27.9407C0.501653 28.3726 0.800114 29.0804 1.37512 29.0804H6.91972C8.57376 32.5972 11.4031 35.4265 14.9198 37.0805V42.6251C14.9198 42.9856 15.2034 43.2697 15.5863 43.2697V43.2681C15.7501 43.2683 15.9078 43.2058 16.027 43.0935L22.0001 37.4615L27.9407 43.0626C28.3726 43.4986 29.0804 43.2001 29.0804 42.6251V37.0806C32.5972 35.4266 35.4265 32.5972 37.0805 29.0805H42.6251C42.9856 29.0805 43.2697 28.7969 43.2697 28.414H43.2681C43.2683 28.2502 43.2058 28.0925 43.0935 27.9734L37.4615 22.0001L43.0626 16.0595C43.4986 15.6277 43.2001 14.9198 42.6251 14.9198H37.0806C35.4266 11.4031 32.5972 8.57376 29.0805 6.91972V1.37512C29.0805 1.01461 28.7969 0.730591 28.414 0.730591V0.732137C28.2502 0.731916 28.0925 0.794435 27.9734 0.906848L22.0001 6.53876L16.0595 0.937614C15.6277 0.501653 14.9198 0.800114 14.9198 1.37512V6.91972C11.4031 8.57376 8.57376 11.4031 6.91972 14.9198L1.37512 14.9197ZM8.3535 14.9197C9.81109 12.1179 12.118 9.811 14.9198 8.3535V9.46588H14.9214C14.9212 9.55362 14.9391 9.64046 14.9739 9.721C15.0087 9.80155 15.0597 9.8741 15.1237 9.93415L17.3897 12.0707C15.0452 13.1614 13.1613 15.0453 12.0706 17.3897L9.96423 15.1557C9.90383 15.0819 9.82778 15.0224 9.74157 14.9816C9.65537 14.9408 9.56117 14.9197 9.46579 14.9198L8.3535 14.9197ZM13.0315 18.4087L16.0023 21.5595C16.1145 21.6788 16.1769 21.8364 16.1769 22.0001C16.1769 22.1639 16.1145 22.3215 16.0023 22.4407L13.0316 25.5915C14.0107 28.0338 15.9666 29.9897 18.4088 30.9688L21.5596 27.998C21.6789 27.8859 21.8365 27.8234 22.0002 27.8234C22.164 27.8234 22.3215 27.8859 22.4408 27.998L25.5916 30.9688C28.0338 29.9898 29.9898 28.0338 30.9689 25.5916L27.9981 22.4408C27.8859 22.3215 27.8235 22.164 27.8235 22.0002C27.8235 21.8365 27.8859 21.6789 27.9981 21.5596L30.9689 18.4088C29.9899 15.9666 28.0339 14.0106 25.5917 13.0315L22.4409 16.0023C22.3216 16.1145 22.164 16.1769 22.0003 16.1769C21.8365 16.1769 21.679 16.1145 21.5597 16.0023L18.4089 13.0315C15.9665 14.0105 14.0105 15.9666 13.0315 18.4087ZM12.0707 26.6105C13.1614 28.955 15.0453 30.8388 17.3897 31.9295L15.1557 34.0359C15.0819 34.0963 15.0224 34.1724 14.9816 34.2586C14.9408 34.3448 14.9197 34.439 14.9198 34.5344V35.6467C12.118 34.1892 9.81118 31.8823 8.35359 29.0805H9.46597V29.079C9.55371 29.0791 9.64054 29.0612 9.72109 29.0264C9.80164 28.9916 9.87418 28.9406 9.93424 28.8767L12.0707 26.6105ZM9.18985 16.2088L14.6502 22.0001L9.18985 27.7915H2.84577L7.89073 22.4407C8.00292 22.3215 8.06539 22.1639 8.06539 22.0001C8.06539 21.8364 8.00292 21.6788 7.89073 21.5595L2.84577 16.2088H9.18985ZM29.0805 8.3535C31.8824 9.81118 34.1892 12.1178 35.6467 14.9197H34.5344V14.9213C34.4466 14.9212 34.3598 14.9391 34.2792 14.9738C34.1987 15.0086 34.1261 15.0596 34.0661 15.1236L31.9295 17.3897C30.8388 15.0452 28.955 13.1613 26.6105 12.0706L28.8445 9.96423C28.9183 9.90383 28.9778 9.82778 29.0186 9.74157C29.0594 9.65537 29.0805 9.56117 29.0804 9.46579L29.0805 8.3535ZM27.7915 9.18985L22.0001 14.6503L16.2088 9.18993V2.84577L21.5595 7.89073C21.6788 8.00292 21.8364 8.06539 22.0001 8.06539C22.1639 8.06539 22.3215 8.00292 22.4407 7.89073L27.7915 2.84577V9.18985ZM35.6467 29.0805C34.1892 31.8824 31.8823 34.1892 29.0805 35.6467V34.5344H29.079C29.0791 34.4466 29.0612 34.3598 29.0264 34.2792C28.9916 34.1987 28.9406 34.1261 28.8767 34.0661L26.6106 31.9295C28.955 30.8388 30.8389 28.955 31.9296 26.6105L34.036 28.8445C34.0964 28.9183 34.1725 28.9778 34.2587 29.0186C34.3449 29.0594 34.4391 29.0805 34.5345 29.0804L35.6467 29.0805ZM34.8104 27.7915L29.35 22.0001L34.8104 16.2088H41.1546L36.1096 21.5595C35.9974 21.6788 35.9349 21.8364 35.9349 22.0001C35.9349 22.1639 35.9974 22.3215 36.1096 22.4407L41.1546 27.7915H34.8104ZM16.2088 34.8104L22.0001 29.35L27.7915 34.8104V41.1546L22.4407 36.1096C22.3215 35.9974 22.1639 35.9349 22.0001 35.9349C21.8364 35.9349 21.6788 35.9974 21.5595 36.1096L16.2088 41.1546V34.8104Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <span class="rs-feature-number">01</span>
+                                </div>
+                                <h5 class="rs-feature-title">We Approach</h5>
+                                <span class="rs-feature-line"></span>
+                                <p class="rs-feature-desc"> We begin by understanding your current with state goals and
+                                    challenges.</p>
+                            </div>
+                            <div class="rs-feature-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                <div class="rs-feature-top">
+                                    <div class="rs-feature-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 38">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M10.6632 36.5455C10.0707 36.5455 9.58805 36.0624 9.58805 35.4685C9.58805 34.8755 10.0707 34.3924 10.6632 34.3924C11.2557 34.3924 11.7432 34.8756 11.7432 35.4685C11.7432 36.0625 11.2557 36.5455 10.6632 36.5455ZM10.6632 1.4543C11.2557 1.4543 11.7432 1.93645 11.7432 2.53036C11.7432 3.12339 11.2557 3.60651 10.6632 3.60651C10.0707 3.60651 9.58805 3.12339 9.58805 2.53036C9.58805 1.93645 10.0707 1.4543 10.6632 1.4543ZM10.6632 33.2604C10.0468 33.2604 9.49257 33.5146 9.09112 33.9231L2.05728 29.9241V8.0748L9.09112 4.0767C9.49249 4.48475 10.0468 4.73855 10.6632 4.73855C11.8818 4.73855 12.8709 3.74749 12.8709 2.53045C12.8709 1.31244 11.8818 0.322354 10.6632 0.322354C9.19927 0.322354 8.1614 1.71962 8.5273 3.09242L1.21151 7.25297C1.12464 7.30253 1.05239 7.37414 1.00205 7.46056C0.951715 7.54697 0.925068 7.64514 0.924805 7.74515V30.2539C0.924897 30.3539 0.951472 30.4522 1.00183 30.5386C1.05219 30.6251 1.12453 30.6966 1.21151 30.7461L8.5273 34.9066C8.1614 36.2794 9.19953 37.6777 10.6632 37.6777C11.8818 37.6777 12.8709 36.6866 12.8709 35.4686C12.8709 34.2515 11.8817 33.2604 10.6632 33.2604ZM25.4668 36.5455C24.8743 36.5455 24.3916 36.0624 24.3916 35.4685C24.3916 34.8755 24.8742 34.3924 25.4668 34.3924C26.0594 34.3924 26.542 34.8756 26.542 35.4685C26.542 36.0625 26.0593 36.5455 25.4668 36.5455ZM25.4668 3.60651C24.8743 3.60651 24.3916 3.12339 24.3916 2.53036C24.3916 1.93645 24.8742 1.4543 25.4668 1.4543C26.0594 1.4543 26.542 1.93645 26.542 2.53036C26.542 3.12339 26.0593 3.60651 25.4668 3.60651ZM34.9185 7.25288L27.6027 3.09233C27.9687 1.72006 26.931 0.322266 25.4668 0.322266C24.2483 0.322266 23.2591 1.31235 23.2591 2.53036C23.2591 3.7474 24.2482 4.73846 25.4668 4.73846C26.0832 4.73846 26.6423 4.48475 27.0436 4.07661L34.0775 8.07471V29.9241L27.0436 33.9231C26.6423 33.5145 26.0832 33.2604 25.4668 33.2604C24.2483 33.2604 23.2591 34.2515 23.2591 35.4685C23.2591 36.6865 24.2482 37.6776 25.4668 37.6776C26.9307 37.6776 27.9687 36.2789 27.6027 34.9065L34.9185 30.746C35.0067 30.6976 35.0804 30.6264 35.1316 30.5398C35.1829 30.4532 35.21 30.3544 35.21 30.2538V7.74507C35.21 7.54196 35.1 7.35417 34.9185 7.25288ZM18.065 30.2194L6.79273 24.6507L11.2366 22.4564L17.8165 25.7062C17.9719 25.7849 18.1605 25.7837 18.3183 25.7062L24.8934 22.4564L29.3373 24.6507L18.065 30.2194ZM6.79273 18.9997L11.2366 16.8054L17.8165 20.0547C17.9737 20.1338 18.1592 20.1324 18.3183 20.0547L24.8934 16.8054L29.3373 18.9997L18.065 24.5675L6.79273 18.9997ZM6.79273 13.3482L18.065 7.78035L29.3373 13.3482L18.065 18.9161L6.79273 13.3482ZM31.1818 24.6507C31.1818 24.8666 31.0575 25.0626 30.8664 25.1586L18.3183 31.3581C18.1596 31.4346 17.9733 31.4361 17.8165 31.3571L5.26356 25.1586C4.8452 24.9502 4.84415 24.3516 5.26356 24.1436L9.95598 21.8252L5.26356 19.5071C4.84494 19.2991 4.84406 18.7007 5.26356 18.4917L9.95598 16.1737L5.26356 13.8553C4.84468 13.6476 4.84468 13.0489 5.26356 12.8413L17.8165 6.64181C17.8945 6.60317 17.9803 6.58307 18.0674 6.58307C18.1544 6.58307 18.2403 6.60317 18.3183 6.64181L30.8664 12.8413C31.2852 13.049 31.2852 13.6476 30.8664 13.8553L26.1739 16.1737L30.8664 18.4917C31.2859 18.7007 31.285 19.2991 30.8664 19.5071L26.1739 21.8252L30.8664 24.1436C31.0575 24.2387 31.1818 24.4356 31.1818 24.6507Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <span class="rs-feature-number">02</span>
+                                </div>
+                                <h5 class="rs-feature-title">Collect Information</h5>
+                                <span class="rs-feature-line"></span>
+                                <p class="rs-feature-desc"> Our mission is to empower businesses with the insight
+                                    structure and
+                                    tools needed</p>
+                            </div>
+                            <div class="rs-feature-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                                <div class="rs-feature-top">
+                                    <div class="rs-feature-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 38">
+                                            <path
+                                                d="M28.7586 31.3881C27.724 31.9585 26.6291 32.4122 25.4941 32.7407C25.4779 32.7454 25.4637 32.7552 25.4537 32.7688C25.4437 32.7824 25.4385 32.799 25.4389 32.8158V37.2317C25.4385 37.3764 25.3808 37.515 25.2785 37.6173C25.1761 37.7195 25.0374 37.7771 24.8927 37.7773H17.1068C16.9621 37.777 16.8234 37.7194 16.7211 37.6171C16.6188 37.5148 16.5612 37.3761 16.5608 37.2314V32.8158C16.5613 32.799 16.5561 32.7824 16.5461 32.7688C16.5361 32.7553 16.5219 32.7454 16.5057 32.7407C15.3707 32.4122 14.2758 31.9585 13.2412 31.3881C13.2264 31.3797 13.2093 31.3765 13.1925 31.3789C13.1757 31.3813 13.1602 31.3892 13.1483 31.4013L10.0254 34.5243C9.92242 34.6261 9.78346 34.6832 9.63866 34.6832C9.49386 34.6832 9.3549 34.6261 9.25194 34.5243L3.74601 29.0188C3.6441 28.9163 3.58689 28.7776 3.58689 28.6331C3.58689 28.4885 3.6441 28.3499 3.74601 28.2474L6.87164 25.1244C6.88331 25.1123 6.89086 25.0968 6.89324 25.0802C6.89562 25.0635 6.89269 25.0465 6.88488 25.0316C6.31336 23.9974 5.8595 22.9024 5.53179 21.7672C5.52738 21.7507 5.51762 21.7361 5.50403 21.7257C5.49044 21.7153 5.47379 21.7097 5.45668 21.7098H1.03855C0.966856 21.7098 0.895857 21.6957 0.829613 21.6683C0.76337 21.6409 0.703179 21.6007 0.652483 21.55C0.601787 21.4993 0.56158 21.4391 0.534159 21.3728C0.506738 21.3066 0.492642 21.2356 0.492676 21.1639V17.2716C0.492994 17.1269 0.550607 16.9883 0.65291 16.886C0.755213 16.7837 0.893874 16.7261 1.03855 16.7257H4.67654C4.69706 16.7257 4.71673 16.7176 4.73123 16.7031C4.74574 16.6886 4.75389 16.6689 4.75389 16.6484V14.0979C4.75731 12.9221 5.22607 11.7955 6.05769 10.9643C6.88931 10.133 8.01617 9.66487 9.19196 9.66203H12.894C13.4984 9.66327 14.0962 9.78802 14.6507 10.0286C15.2052 10.2692 15.7047 10.6205 16.1185 11.0611C16.1318 11.0742 16.1492 11.0822 16.1678 11.0837C16.1864 11.0853 16.2049 11.0803 16.2202 11.0697C17.0238 10.5188 17.9755 10.2245 18.9497 10.2254H23.0496C24.0239 10.2245 24.9756 10.5188 25.7792 11.0697C25.7945 11.0803 25.813 11.0852 25.8316 11.0836C25.8501 11.0821 25.8675 11.0741 25.8808 11.0611C26.2947 10.6205 26.7942 10.2691 27.3487 10.0286C27.9032 9.78797 28.501 9.66324 29.1055 9.66203H32.8076C33.9833 9.66491 35.1102 10.1331 35.9418 10.9643C36.7734 11.7955 37.2421 12.9221 37.2456 14.0979V16.6484C37.2456 16.6689 37.2537 16.6886 37.2682 16.7031C37.2827 16.7176 37.3024 16.7257 37.3229 16.7257H40.9609C41.1056 16.7261 41.2442 16.7837 41.3465 16.886C41.4488 16.9883 41.5065 17.1269 41.5068 17.2716V21.1638C41.5068 21.2355 41.4927 21.3065 41.4653 21.3728C41.4379 21.439 41.3977 21.4992 41.347 21.5499C41.2963 21.6006 41.2361 21.6408 41.1698 21.6682C41.1036 21.6956 41.0326 21.7097 40.9609 21.7097H36.5429C36.5257 21.7096 36.5091 21.7152 36.4955 21.7256C36.4818 21.7359 36.4721 21.7506 36.4677 21.7671C36.1402 22.9024 35.6865 23.9974 35.1151 25.0316C35.1073 25.0465 35.1043 25.0635 35.1067 25.0802C35.1091 25.0968 35.1166 25.1123 35.1283 25.1244L38.2513 28.2474C38.3022 28.2979 38.3427 28.3579 38.3703 28.4241C38.3979 28.4903 38.4121 28.5614 38.4121 28.6331C38.4121 28.7048 38.3979 28.7758 38.3703 28.842C38.3427 28.9082 38.3022 28.9683 38.2513 29.0188L32.7479 34.5243C32.645 34.6261 32.506 34.6832 32.3612 34.6832C32.2164 34.6832 32.0775 34.6261 31.9745 34.5243L28.8515 31.4013C28.8397 31.3892 28.8242 31.3813 28.8074 31.3789C28.7906 31.3765 28.7734 31.3797 28.7586 31.3881ZM5.92521 16.7257H14.0189C14.0393 16.7255 14.0589 16.7173 14.0733 16.7028C14.0878 16.6884 14.096 16.6688 14.0962 16.6484V15.0792C14.0955 13.9031 14.5247 12.7672 15.3031 11.8855C15.3156 11.8705 15.3222 11.8515 15.3218 11.832C15.3214 11.8125 15.3139 11.7938 15.3008 11.7794C14.99 11.4541 14.6165 11.1953 14.2027 11.0187C13.789 10.842 13.3437 10.7512 12.8939 10.7516H9.19196C8.30544 10.7548 7.45613 11.1083 6.82926 11.7352C6.2024 12.362 5.84885 13.2114 5.84572 14.0979V16.6484C5.84611 16.6692 5.85468 16.689 5.86959 16.7035C5.88449 16.7179 5.90443 16.726 5.92521 16.7257ZM26.6963 11.8855C27.4746 12.7672 27.9038 13.9031 27.903 15.0792V16.6484C27.9033 16.6688 27.9115 16.6884 27.926 16.7028C27.9404 16.7172 27.96 16.7255 27.9804 16.7257H36.074C36.0948 16.726 36.1148 16.7179 36.1297 16.7035C36.1446 16.689 36.1532 16.6692 36.1536 16.6484V14.0979C36.1505 13.2114 35.7969 12.3621 35.1701 11.7352C34.5433 11.1084 33.6941 10.7548 32.8076 10.7516H29.1056C28.6557 10.7512 28.2105 10.842 27.7968 11.0187C27.383 11.1953 27.0095 11.4541 26.6987 11.7794C26.6851 11.7935 26.6772 11.8123 26.6768 11.832C26.6764 11.8517 26.6833 11.8708 26.6963 11.8855ZM30.9554 0.659992C31.71 0.659788 32.4478 0.883373 33.0754 1.30247C33.703 1.72157 34.1922 2.31737 34.4812 3.01451C34.7702 3.71165 34.8459 4.47883 34.6989 5.21903C34.5519 5.95923 34.1886 6.63921 33.6552 7.17297C33.1217 7.70674 32.4419 8.07032 31.7018 8.21774C30.9616 8.36515 30.1944 8.28978 29.4971 8.00116C28.7998 7.71254 28.2038 7.22363 27.7844 6.59626C27.3649 5.96889 27.141 5.23123 27.1408 4.47656C27.1406 3.46458 27.5424 2.49396 28.2578 1.77818C28.9732 1.0624 29.9434 0.660402 30.9554 0.659992ZM32.8826 2.54967C32.5016 2.16864 32.0162 1.90914 31.4878 1.80399C30.9593 1.69884 30.4115 1.75276 29.9137 1.95894C29.4159 2.16512 28.9904 2.51429 28.6911 2.96229C28.3917 3.4103 28.2319 3.93701 28.2319 4.47583C28.2319 5.01465 28.3917 5.54137 28.6911 5.98937C28.9904 6.43738 29.4159 6.78655 29.9137 6.99272C30.4115 7.1989 30.9593 7.25282 31.4878 7.14767C32.0162 7.04252 32.5016 6.78302 32.8826 6.40199C33.3932 5.89099 33.68 5.19819 33.68 4.47583C33.68 3.75348 33.3932 3.06067 32.8826 2.54967ZM11.044 0.659992C11.7986 0.660264 12.5361 0.884254 13.1634 1.30364C13.7906 1.72303 14.2795 2.31899 14.5681 3.01618C14.8567 3.71336 14.9321 4.48046 14.7848 5.2205C14.6375 5.96055 14.2741 6.6403 13.7405 7.17382C13.2069 7.70735 12.5271 8.07069 11.7871 8.21791C11.047 8.36513 10.2799 8.28963 9.58278 8.00094C8.88563 7.71224 8.28973 7.22333 7.87041 6.59601C7.45109 5.96869 7.22718 5.23112 7.227 4.47656C7.22683 3.97526 7.32544 3.47884 7.5172 3.01567C7.70897 2.5525 7.99012 2.13166 8.3446 1.77719C8.69907 1.42272 9.11992 1.14158 9.5831 0.949824C10.0463 0.758071 10.5427 0.659812 11.044 0.659992ZM12.969 2.54967C12.588 2.16864 12.1026 1.90914 11.5742 1.80399C11.0457 1.69884 10.4979 1.75276 10.0001 1.95894C9.5023 2.16512 9.07681 2.51429 8.77745 2.96229C8.47809 3.4103 8.31831 3.93701 8.31831 4.47583C8.31831 5.01465 8.47809 5.54137 8.77745 5.98937C9.07681 6.43738 9.5023 6.78655 10.0001 6.99272C10.4979 7.1989 11.0457 7.25282 11.5742 7.14767C12.1026 7.04252 12.588 6.78302 12.969 6.40199C13.4796 5.89099 13.7664 5.19819 13.7664 4.47583C13.7664 3.75348 13.4796 3.06067 12.969 2.54967ZM15.2654 16.7257H26.734C26.7545 16.7255 26.774 16.7172 26.7884 16.7028C26.8029 16.6884 26.8111 16.6688 26.8114 16.6484V15.0792C26.8081 14.0825 26.4107 13.1276 25.706 12.4228C25.0013 11.718 24.0464 11.3206 23.0497 11.3172H18.9498C17.9531 11.3202 16.998 11.7175 16.2932 12.4223C15.5884 13.1271 15.1911 14.0822 15.1881 15.0789V16.6481C15.1883 16.6686 15.1966 16.6881 15.211 16.7025C15.2255 16.717 15.245 16.7255 15.2654 16.7257ZM20.9987 0.222656C21.8555 0.222656 22.693 0.476737 23.4054 0.952767C24.1178 1.4288 24.6731 2.10539 25.0009 2.89699C25.3288 3.68859 25.4145 4.55963 25.2473 5.39997C25.0801 6.2403 24.6675 7.01217 24.0616 7.61798C23.4557 8.22378 22.6837 8.63631 21.8434 8.80338C21.003 8.97045 20.132 8.88456 19.3404 8.55659C18.5489 8.22861 17.8724 7.67326 17.3964 6.96079C16.9205 6.24832 16.6666 5.41071 16.6667 4.55391C16.6674 3.40528 17.124 2.3039 17.9363 1.49176C18.7486 0.679623 19.85 0.223157 20.9987 0.222656ZM23.2906 2.26487C22.8375 1.81176 22.2602 1.50319 21.6318 1.37817C21.0033 1.25315 20.3519 1.31731 19.7598 1.56252C19.1678 1.80773 18.6618 2.22299 18.3058 2.75578C17.9498 3.28857 17.7598 3.91497 17.7598 4.55575C17.7598 5.19654 17.9498 5.82293 18.3058 6.35573C18.6618 6.88852 19.1678 7.30378 19.7598 7.54899C20.3519 7.7942 21.0033 7.85836 21.6318 7.73334C22.2602 7.60832 22.8375 7.29974 23.2906 6.84663C23.5917 6.54595 23.8306 6.18885 23.9936 5.79576C24.1566 5.40266 24.2405 4.9813 24.2405 4.55575C24.2405 4.13021 24.1566 3.70884 23.9936 3.31575C23.8306 2.92266 23.5917 2.56556 23.2906 2.26487ZM1.58443 17.8949V20.5405C1.58442 20.5509 1.58649 20.5611 1.59052 20.5706C1.59455 20.5802 1.60044 20.5888 1.60786 20.596C1.61528 20.6032 1.62408 20.6089 1.63372 20.6126C1.64336 20.6164 1.65366 20.6182 1.664 20.6179H5.92968C6.05879 20.6182 6.18365 20.664 6.28229 20.7474C6.38092 20.8307 6.44702 20.9461 6.46894 21.0733V21.0819C6.81858 22.4097 7.34804 23.6835 8.04263 24.868C8.17961 25.1023 8.17523 25.363 7.97852 25.5597L4.95936 28.5789C4.95203 28.5859 4.94619 28.5943 4.94221 28.6036C4.93822 28.6129 4.93616 28.623 4.93616 28.6331C4.93616 28.6432 4.93822 28.6532 4.94221 28.6625C4.94619 28.6718 4.95203 28.6802 4.95936 28.6872L9.5828 33.3107C9.59 33.318 9.5986 33.3239 9.60809 33.3278C9.61758 33.3318 9.62777 33.3339 9.63806 33.3339C9.64835 33.3339 9.65854 33.3318 9.66803 33.3278C9.67752 33.3239 9.68611 33.318 9.69332 33.3107L12.7102 30.2937C12.9069 30.097 13.1699 30.0904 13.4043 30.2275C14.5881 30.9233 15.862 31.4528 17.1902 31.8011C17.1925 31.8011 17.1947 31.8033 17.1969 31.8033C17.3242 31.8244 17.4398 31.8899 17.5232 31.9883C17.6067 32.0867 17.6524 32.2114 17.6524 32.3404V36.6086C17.6527 36.629 17.6609 36.6486 17.6753 36.663C17.6898 36.6775 17.7093 36.6857 17.7298 36.6859H24.2696C24.29 36.6857 24.3096 36.6775 24.324 36.663C24.3385 36.6486 24.3467 36.629 24.3469 36.6086V32.3407H24.3491C24.3493 32.2201 24.3896 32.103 24.4636 32.0078C24.5377 31.9126 24.6412 31.8446 24.758 31.8147C26.1044 31.4663 27.3957 30.9322 28.5948 30.2277C28.8291 30.0907 29.0899 30.0973 29.2866 30.294L32.3058 33.3109C32.313 33.3183 32.3216 33.3241 32.3311 33.3281C32.3405 33.332 32.3507 33.3341 32.361 33.3341C32.3713 33.3341 32.3815 33.332 32.3909 33.3281C32.4004 33.3241 32.409 33.3183 32.4162 33.3109L37.0397 28.6875C37.0535 28.6729 37.0613 28.6535 37.0613 28.6333C37.0613 28.6132 37.0535 28.5938 37.0397 28.5792L34.021 25.5598C33.8243 25.3631 33.8198 25.1023 33.9548 24.8681C34.6517 23.6837 35.182 22.4089 35.5306 21.0797V21.0731C35.5525 20.9458 35.6186 20.8304 35.7173 20.7471C35.8159 20.6638 35.9407 20.6179 36.0699 20.6176H40.3357C40.3461 20.6179 40.3563 20.6161 40.366 20.6124C40.3756 20.6086 40.3844 20.603 40.3918 20.5958C40.3993 20.5885 40.4052 20.5799 40.4092 20.5704C40.4132 20.5608 40.4153 20.5506 40.4153 20.5403V17.8949C40.4149 17.8741 40.4064 17.8543 40.3914 17.8398C40.3765 17.8254 40.3565 17.8174 40.3357 17.8176H32.1957C32.1761 17.818 32.1573 17.8256 32.143 17.8391C32.1287 17.8526 32.1199 17.8709 32.1184 17.8905C31.9601 20.7322 30.7197 23.4054 28.652 25.3612C26.5843 27.317 23.8462 28.4068 21.0001 28.4068C18.1539 28.4068 15.4158 27.317 13.3481 25.3612C11.2804 23.4054 10.04 20.7322 9.88178 17.8905C9.88026 17.8709 9.8715 17.8525 9.8572 17.8391C9.84289 17.8256 9.82408 17.8179 9.80443 17.8176H1.66383C1.64305 17.8174 1.62303 17.8254 1.60812 17.8399C1.59322 17.8544 1.58481 17.8741 1.58443 17.8949ZM30.9467 17.8176H11.0528C11.0423 17.8176 11.0319 17.8198 11.0223 17.824C11.0126 17.8282 11.0039 17.8343 10.9967 17.8419C10.9895 17.8496 10.9839 17.8586 10.9802 17.8684C10.9766 17.8783 10.975 17.8888 10.9755 17.8993C11.1347 20.4498 12.2601 22.8437 14.1225 24.5935C15.9849 26.3433 18.4443 27.3174 20.9998 27.3174C23.5552 27.3174 26.0146 26.3433 27.877 24.5935C29.7394 22.8437 30.8648 20.4498 31.024 17.8993C31.0246 17.8888 31.0229 17.8783 31.0193 17.8684C31.0157 17.8586 31.01 17.8496 31.0028 17.8419C30.9956 17.8343 30.9869 17.8282 30.9772 17.824C30.9676 17.8198 30.9572 17.8176 30.9467 17.8176Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <span class="rs-feature-number">03</span>
+                                </div>
+                                <h5 class="rs-feature-title">Achieve Goal</h5>
+                                <span class="rs-feature-line"></span>
+                                <p class="rs-feature-desc"> We provide a antenna base on facts hype to help with improve
+                                    returns
+                                    your. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature area end -->
+
+        <!-- counter area start -->
+        <div class="rs-counter-area section-space rs-counter-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-counter-wrapper">
+                            <div class="rs-counter-item wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">
+                                <div class="rs-counter-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 38">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.5959 36.5456C10.0034 36.5456 9.52067 36.0625 9.52067 35.4686C9.52067 34.8755 10.0034 34.3925 10.5959 34.3925C11.1884 34.3925 11.6758 34.8756 11.6758 35.4686C11.6758 36.0626 11.1884 36.5456 10.5959 36.5456ZM10.5959 1.45436C11.1884 1.45436 11.6758 1.93651 11.6758 2.53042C11.6758 3.12345 11.1884 3.60657 10.5959 3.60657C10.0034 3.60657 9.52067 3.12345 9.52067 2.53042C9.52067 1.93651 10.0034 1.45436 10.5959 1.45436ZM10.5959 33.2605C9.97941 33.2605 9.42519 33.5147 9.02373 33.9232L1.98989 29.9241V8.07486L9.02373 4.07676C9.4251 4.48481 9.97941 4.73861 10.5959 4.73861C11.8144 4.73861 12.8035 3.74755 12.8035 2.53051C12.8035 1.3125 11.8144 0.322415 10.5959 0.322415C9.13189 0.322415 8.09401 1.71968 8.45992 3.09248L1.14413 7.25303C1.05726 7.30259 0.985011 7.3742 0.934672 7.46062C0.884332 7.54704 0.857686 7.64521 0.857422 7.74521V30.2539C0.857515 30.354 0.884089 30.4522 0.934446 30.5387C0.984803 30.6251 1.05715 30.6967 1.14413 30.7461L8.45992 34.9067C8.09401 36.2795 9.13215 37.6777 10.5959 37.6777C11.8144 37.6777 12.8035 36.6867 12.8035 35.4687C12.8035 34.2515 11.8143 33.2605 10.5959 33.2605ZM25.3994 36.5456C24.8069 36.5456 24.3242 36.0625 24.3242 35.4686C24.3242 34.8755 24.8068 34.3925 25.3994 34.3925C25.992 34.3925 26.4746 34.8756 26.4746 35.4686C26.4746 36.0626 25.9919 36.5456 25.3994 36.5456ZM25.3994 3.60657C24.8069 3.60657 24.3242 3.12345 24.3242 2.53042C24.3242 1.93651 24.8068 1.45436 25.3994 1.45436C25.992 1.45436 26.4746 1.93651 26.4746 2.53042C26.4746 3.12345 25.9919 3.60657 25.3994 3.60657ZM34.8511 7.25294L27.5353 3.09239C27.9013 1.72012 26.8636 0.322327 25.3994 0.322327C24.1809 0.322327 23.1917 1.31241 23.1917 2.53042C23.1917 3.74746 24.1809 4.73852 25.3994 4.73852C26.0158 4.73852 26.5749 4.48481 26.9763 4.07667L34.0101 8.07477V29.9241L26.9763 33.9232C26.5749 33.5146 26.0158 33.2605 25.3994 33.2605C24.1809 33.2605 23.1917 34.2515 23.1917 35.4686C23.1917 36.6866 24.1809 37.6776 25.3994 37.6776C26.8634 37.6776 27.9013 36.279 27.5353 34.9066L34.8511 30.746C34.9394 30.6977 35.013 30.6265 35.0643 30.5399C35.1155 30.4533 35.1426 30.3545 35.1426 30.2539V7.74513C35.1426 7.54202 35.0327 7.35423 34.8511 7.25294ZM17.9976 30.2194L6.72535 24.6507L11.1693 22.4564L17.7491 25.7063C17.9045 25.785 18.0931 25.7837 18.2509 25.7063L24.826 22.4564L29.2699 24.6507L17.9976 30.2194ZM6.72535 18.9997L11.1693 16.8054L17.7491 20.0547C17.9063 20.1339 18.0918 20.1324 18.2509 20.0547L24.826 16.8054L29.2699 18.9997L17.9976 24.5676L6.72535 18.9997ZM6.72535 13.3483L17.9976 7.78041L29.2699 13.3483L17.9976 18.9161L6.72535 13.3483ZM31.1144 24.6507C31.1144 24.8667 30.9901 25.0626 30.799 25.1587L18.2509 31.3582C18.0922 31.4346 17.9059 31.4361 17.7491 31.3572L5.19617 25.1587C4.77782 24.9503 4.77677 24.3517 5.19617 24.1437L9.8886 21.8252L5.19617 19.5072C4.77756 19.2992 4.77668 18.7008 5.19617 18.4918L9.8886 16.1738L5.19617 13.8553C4.77729 13.6476 4.77729 13.049 5.19617 12.8414L17.7491 6.64187C17.8271 6.60323 17.913 6.58313 18 6.58313C18.087 6.58313 18.1729 6.60323 18.2509 6.64187L30.799 12.8414C31.2179 13.0491 31.2179 13.6476 30.799 13.8553L26.1066 16.1738L30.799 18.4918C31.2185 18.7008 31.2176 19.2992 30.799 19.5072L26.1066 21.8252L30.799 24.1437C30.9901 24.2388 31.1144 24.4356 31.1144 24.6507Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rs-counter-content">
+                                    <div class="rs-counter-number-wrapper">
+                                        <span class="rs-counter-number odometer" data-count="25.5">00</span>
+                                        <span class="prefix">K</span>
+                                    </div>
+                                    <span class="rs-counter-title">Projects Completed</span>
+                                </div>
+                            </div>
+                            <div class="rs-counter-item wow fadeIn" data-wow-delay=".5s" data-wow-duration="1s">
+                                <div class="rs-counter-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 42">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.2804 37.4735C10.3637 37.5929 10.3963 37.7405 10.3708 37.8839C10.3454 38.0272 10.2641 38.1546 10.1447 38.238C10.0253 38.3214 9.87774 38.3539 9.73438 38.3285C9.59101 38.3031 9.46363 38.2217 9.38024 38.1023L9.34698 38.0548C9.26515 37.9354 9.2338 37.7885 9.25974 37.6461C9.28568 37.5037 9.36681 37.3772 9.48549 37.2943C9.60417 37.2114 9.75078 37.1788 9.89343 37.2034C10.0361 37.2281 10.1632 37.3081 10.2472 37.426L10.2804 37.4735ZM17.1957 31.0585C17.0552 31.0191 16.9361 30.9255 16.8647 30.7982C16.7932 30.671 16.7752 30.5206 16.8146 30.3801C16.854 30.2396 16.9476 30.1205 17.0748 30.0491C17.202 29.9776 17.3524 29.9595 17.4929 29.999L24.5166 31.9891C24.9679 32.1176 25.4516 32.0646 25.8644 31.8415C26.0649 31.7338 26.2421 31.5876 26.3858 31.4112C26.5295 31.2348 26.6369 31.0317 26.7017 30.8136C26.7174 30.7609 26.7304 30.708 26.7409 30.6551C26.7421 30.6478 26.7435 30.6405 26.745 30.6333C26.8221 30.2087 26.7402 29.7706 26.515 29.4026C26.2898 29.0345 25.937 28.7622 25.5239 28.6375C23.522 28.0418 21.5543 27.3344 19.6314 26.5187C16.1449 25.0778 15.9232 24.9873 8.99232 28.6527L13.501 35.1588L13.5879 35.0284L13.5895 35.0295L13.5901 35.0284C13.7665 34.7602 14.0256 34.5569 14.3281 34.4495C14.6306 34.342 14.9599 34.3363 15.2659 34.4332L23.6119 37.0182C25.8737 37.719 31.0783 33.8692 34.6205 31.2492C35.6292 30.5031 36.5085 29.8527 37.1512 29.4312C37.7487 29.0392 37.9579 28.6163 37.8999 28.2408C37.8609 28.0287 37.7658 27.831 37.6245 27.6682C37.4375 27.4493 37.2111 27.2675 36.957 27.1322C36.4282 26.8491 35.8325 26.7146 35.2333 26.7431C34.6341 26.7716 34.0539 26.9621 33.5544 27.2942L27.7686 31.0891C27.7649 31.1022 27.7612 31.1153 27.7573 31.1283C27.651 31.4854 27.4751 31.8179 27.2397 32.1067C27.0044 32.3954 26.7142 32.6348 26.3859 32.8109C25.7224 33.1698 24.9449 33.255 24.2194 33.0484L17.1957 31.0585ZM8.36137 27.7413L8.01031 27.2343C7.78531 26.9105 7.44116 26.689 7.05322 26.6184C6.66529 26.5478 6.26518 26.6338 5.94051 26.8575L1.62533 29.8481C1.30152 30.0731 1.08006 30.4173 1.00945 30.8052C0.93884 31.1932 1.02482 31.5933 1.24858 31.9179L7.59163 41.0713C7.81666 41.3951 8.16084 41.6166 8.5488 41.6872C8.93677 41.7578 9.3369 41.6718 9.6616 41.4481L13.9768 38.4574C14.3006 38.2324 14.5221 37.8883 14.5927 37.5003C14.6633 37.1123 14.5773 36.7122 14.3534 36.3875L14.1766 36.1324L14.5056 35.639L14.504 35.638C14.5497 35.5671 14.6177 35.5135 14.6973 35.4855C14.7768 35.4575 14.8635 35.4567 14.9435 35.4833L23.2894 38.0684C26.0802 38.933 31.5518 34.8858 35.2755 32.1313C36.2531 31.4082 37.1052 30.7779 37.7546 30.3524C38.7717 29.6853 39.1118 28.8617 38.9899 28.0723C38.9198 27.6652 38.7414 27.2844 38.4733 26.9701C38.198 26.6427 37.8634 26.3702 37.487 26.167C36.9023 25.8497 36.2526 25.6703 35.5878 25.6428C37.3848 23.2549 38.4701 20.4076 38.7185 17.4294C38.967 14.4513 38.3685 11.4635 36.992 8.81085C35.6156 6.15819 33.5173 3.94867 30.9392 2.43716C28.3611 0.925658 25.4083 0.173748 22.4212 0.26817C19.4342 0.362591 16.5347 1.2995 14.0573 2.97081C11.5798 4.64212 9.62523 6.97976 8.41907 9.71406C7.21292 12.4484 6.80431 15.4679 7.24036 18.4245C7.67641 21.381 8.93937 24.154 10.8835 26.4237C10.1445 26.801 9.31081 27.2387 8.36137 27.7413ZM11.8986 25.9144C10.0116 23.7915 8.77776 21.1687 8.34542 18.3614C7.91308 15.5541 8.30063 12.6816 9.46149 10.0892C10.6223 7.49686 12.5071 5.29487 14.8893 3.74789C17.2715 2.20091 20.0497 1.37476 22.8902 1.36872C25.7306 1.36269 28.5123 2.17703 30.901 3.71387C33.2898 5.25072 35.1839 7.44468 36.3558 10.0321C37.5276 12.6195 37.9274 15.4903 37.507 18.2994C37.0866 21.1086 35.8639 23.7365 33.9859 25.8675C33.621 25.9907 33.2734 26.1602 32.9517 26.3719L27.8152 29.7406C27.7102 29.2363 27.4711 28.7696 27.1232 28.3897C26.7753 28.0098 26.3313 27.7307 25.8381 27.5819C23.8711 26.9972 21.9383 26.3027 20.049 25.5015C16.8364 24.1739 16.0803 23.8622 11.8986 25.9144ZM13.0854 36.4877L13.0768 36.4773L13.0742 36.4734C13.0595 36.4543 13.046 36.4342 13.034 36.4132L7.10591 27.8589C7.07705 27.8173 7.04024 27.7817 6.99761 27.7543C6.95497 27.7269 6.90735 27.7082 6.85746 27.6993C6.80701 27.69 6.75523 27.6908 6.70509 27.7016C6.65495 27.7125 6.60744 27.7331 6.56527 27.7623L2.25009 30.7529C2.20842 30.7817 2.17286 30.8185 2.14544 30.8612C2.11803 30.9038 2.0993 30.9514 2.09034 31.0013C2.0811 31.0518 2.0819 31.1036 2.09271 31.1537C2.10352 31.2038 2.12412 31.2514 2.15333 31.2935L8.49689 40.4477C8.52577 40.4893 8.56257 40.5248 8.60519 40.5521C8.64781 40.5795 8.6954 40.5982 8.74525 40.6072C8.7957 40.6164 8.84748 40.6156 8.89762 40.6048C8.94776 40.594 8.99527 40.5734 9.03744 40.5442L13.3527 37.5535C13.3944 37.5247 13.4299 37.4879 13.4573 37.4453C13.4847 37.4026 13.5034 37.355 13.5124 37.3051C13.5216 37.2547 13.5208 37.2029 13.51 37.1527C13.4992 37.1026 13.4787 37.0551 13.4495 37.0129L13.0854 36.4877ZM27.7782 9.34516C28.2816 9.34509 28.7695 9.51957 29.1587 9.83889C29.5479 10.1582 29.8143 10.6026 29.9126 11.0964C30.0109 11.5901 29.9349 12.1026 29.6976 12.5466C29.4603 12.9907 29.0764 13.3387 28.6114 13.5313C28.1463 13.724 27.6287 13.7495 27.147 13.6034C26.6652 13.4573 26.249 13.1486 25.9693 12.7301C25.6896 12.3115 25.5637 11.8089 25.613 11.3079C25.6624 10.8069 25.8839 10.3385 26.2399 9.98248C26.4417 9.78015 26.6814 9.61969 26.9454 9.51032C27.2094 9.40095 27.4924 9.34482 27.7782 9.34516ZM28.5373 10.762C28.713 10.9376 28.8224 11.1688 28.8468 11.416C28.8712 11.6632 28.8091 11.9113 28.6712 12.1179C28.5332 12.3245 28.3278 12.4769 28.0901 12.549C27.8524 12.6212 27.597 12.6087 27.3675 12.5137C27.1379 12.4186 26.9484 12.2469 26.8313 12.0278C26.7141 11.8088 26.6766 11.5558 26.725 11.3122C26.7735 11.0685 26.9049 10.8491 27.0969 10.6915C27.289 10.5339 27.5297 10.4478 27.7782 10.4477C27.9192 10.4475 28.0588 10.4752 28.1891 10.5291C28.3193 10.5831 28.4377 10.6622 28.5373 10.762ZM17.5659 9.34516C18.0693 9.34509 18.5572 9.51957 18.9464 9.83889C19.3356 10.1582 19.602 10.6026 19.7003 11.0964C19.7986 11.5901 19.7226 12.1026 19.4853 12.5466C19.248 12.9907 18.8641 13.3387 18.3991 13.5313C17.934 13.724 17.4164 13.7495 16.9347 13.6034C16.4529 13.4573 16.0367 13.1486 15.757 12.7301C15.4773 12.3115 15.3514 11.8089 15.4007 11.3079C15.4501 10.8069 15.6716 10.3385 16.0276 9.98248C16.2294 9.78016 16.4692 9.6197 16.7331 9.51033C16.9971 9.40096 17.2801 9.34483 17.5659 9.34516ZM18.3249 10.762C18.5006 10.9376 18.61 11.1687 18.6344 11.4159C18.6588 11.6632 18.5967 11.9112 18.4587 12.1178C18.3208 12.3244 18.1154 12.4767 17.8777 12.5489C17.64 12.621 17.3846 12.6085 17.1551 12.5135C16.9256 12.4184 16.7361 12.2467 16.619 12.0277C16.5019 11.8086 16.4643 11.5557 16.5128 11.312C16.5612 11.0684 16.6927 10.8491 16.8847 10.6915C17.0767 10.5339 17.3175 10.4477 17.5659 10.4477C17.7069 10.4475 17.8465 10.4752 17.9767 10.5291C18.107 10.5831 18.2253 10.6622 18.3249 10.762ZM30.1032 19.2377C30.1832 19.116 30.3082 19.0311 30.4507 19.0016C30.5933 18.9722 30.7417 19.0005 30.8634 19.0805C30.985 19.1604 31.0699 19.2854 31.0994 19.428C31.1289 19.5705 31.1005 19.719 31.0206 19.8406C30.1397 21.1845 28.9383 22.288 27.5245 23.0517C26.1108 23.8154 24.5293 24.2152 22.9224 24.2152C21.3156 24.2152 19.7341 23.8154 18.3203 23.0517C16.9066 22.288 15.7052 21.1845 14.8243 19.8406C14.7443 19.719 14.716 19.5705 14.7455 19.428C14.775 19.2854 14.8599 19.1604 14.9815 19.0805C15.1032 19.0005 15.2516 18.9722 15.3942 19.0016C15.5367 19.0311 15.6617 19.116 15.7417 19.2377C16.5233 20.4286 17.5888 21.4064 18.8423 22.083C20.0958 22.7597 21.498 23.114 22.9224 23.114C24.3469 23.114 25.749 22.7597 27.0026 22.083C28.2561 21.4064 29.3216 20.4286 30.1032 19.2377Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rs-counter-content">
+                                    <div class="rs-counter-number-wrapper">
+                                        <span class="rs-counter-number odometer" data-count="10.5">00</span>
+                                        <span class="prefix">K</span>
+                                    </div>
+                                    <span class="rs-counter-title">Customer Satisfaction</span>
+                                </div>
+                            </div>
+                            <div class="rs-counter-item wow fadeIn" data-wow-delay=".7s" data-wow-duration="1s">
+                                <div class="rs-counter-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 44">
+                                        <path
+                                            d="M34.3153 13.6218C35.6433 12.327 34.9107 10.0681 33.0762 9.79935L25.8828 8.74077C25.7429 8.72011 25.6101 8.66588 25.4958 8.58274C25.3814 8.49959 25.2889 8.38999 25.2261 8.26331L22.0103 1.74469C21.1881 0.0786182 18.8118 0.0792197 17.9899 1.74469L14.7727 8.26331C14.7103 8.3899 14.6182 8.49948 14.5041 8.58264C14.3901 8.6658 14.2576 8.72006 14.118 8.74077L6.92393 9.79935C5.089 10.0681 4.35707 12.3272 5.6848 13.6218L10.8901 18.698C10.9916 18.7967 11.0675 18.9185 11.1113 19.0531C11.1551 19.1877 11.1655 19.3309 11.1416 19.4704L9.9125 26.6076C9.5953 28.4413 11.5237 29.8327 13.1611 28.9742L17.5488 26.6773C17.4082 29.8743 16.9644 32.9448 14.9519 35.6373H14.0659C12.5552 35.6373 11.3268 36.8658 11.3268 38.3764V42.1352H9.43838C9.05991 42.1352 8.75363 42.4415 8.75363 42.82C8.75363 43.1984 9.05991 43.5047 9.43838 43.5047H30.5618C30.9403 43.5047 31.2466 43.1984 31.2466 42.82C31.2466 42.4415 30.9403 42.1352 30.5618 42.1352H28.6733V38.3764C28.6733 36.8658 27.445 35.6373 25.9343 35.6373H25.0482C23.0358 32.9448 22.5919 29.8743 22.4513 26.6773L26.839 28.9742C28.4822 29.8371 30.404 28.4364 30.0876 26.6076L28.8591 19.4704C28.8351 19.331 28.8453 19.1878 28.889 19.0532C28.9327 18.9186 29.0085 18.7967 29.1099 18.698L34.3153 13.6218ZM27.3038 38.3764V42.1352H12.6964V38.3764C12.6964 37.6214 13.3109 37.0069 14.0659 37.0069H25.9343C26.6893 37.0068 27.3038 37.6214 27.3038 38.3764ZM23.3785 35.6373H16.6217C18.525 32.6335 18.8411 29.3388 18.9474 25.9452L19.5955 25.6059C19.7204 25.5407 19.8592 25.5066 20.0001 25.5066C20.141 25.5066 20.2798 25.5407 20.4047 25.6059L21.0528 25.9452C21.1591 29.3388 21.4752 32.6335 23.3785 35.6373ZM27.5098 19.7031L28.7383 26.8403C28.8606 27.5515 28.1211 28.0966 27.4744 27.7612L21.0393 24.3928C20.7186 24.2248 20.3619 24.137 19.9998 24.137C19.6378 24.137 19.2811 24.2248 18.9603 24.3928L12.5259 27.7612C11.8807 28.0973 11.1397 27.5518 11.2621 26.8403L12.4911 19.7031C12.5529 19.3447 12.5264 18.9767 12.4141 18.6308C12.3018 18.2849 12.107 17.9715 11.8465 17.7177L6.64111 12.6415C6.12317 12.1363 6.40762 11.2598 7.12322 11.1542L14.318 10.0957C14.6769 10.0427 15.0175 9.90346 15.3107 9.68984C15.6039 9.47622 15.8408 9.19463 16.0012 8.86925L19.2177 2.35063C19.5388 1.70138 20.4612 1.70077 20.7826 2.35063L23.9984 8.86994C24.1593 9.1951 24.3966 9.47645 24.69 9.68991C24.9833 9.90337 25.324 10.0426 25.6829 10.0957L32.877 11.1542C33.5929 11.2598 33.8769 12.1365 33.3591 12.6415L28.1538 17.7177C27.8934 17.9716 27.6988 18.285 27.5866 18.6309C27.4744 18.9768 27.4481 19.3448 27.5098 19.7031Z">
+                                        </path>
+                                        <path
+                                            d="M22.7037 38.8866H17.2965C16.918 38.8866 16.6118 39.1929 16.6118 39.5714C16.6118 39.9498 16.918 40.2561 17.2965 40.2561H22.7038C23.0822 40.2561 23.3885 39.9498 23.3885 39.5714C23.3885 39.1929 23.0822 38.8866 22.7037 38.8866ZM36.6645 8.1069L35.8915 9.11529C35.6614 9.41556 35.7189 9.8449 36.0192 10.0749C36.3183 10.3044 36.7496 10.2482 36.9788 9.94717L37.7518 8.93878C37.9818 8.63851 37.9243 8.20917 37.6241 7.9792C37.3253 7.74974 36.8933 7.80663 36.6645 8.1069ZM36.9394 11.946C36.9394 12.0359 36.957 12.125 36.9914 12.2081C37.0258 12.2912 37.0763 12.3667 37.1399 12.4303C37.2035 12.4939 37.279 12.5443 37.3621 12.5787C37.4452 12.6131 37.5342 12.6308 37.6242 12.6307H38.8941C39.2725 12.6307 39.5788 12.3245 39.5788 11.946C39.5788 11.5675 39.2725 11.2612 38.8941 11.2612H37.6242C37.5342 11.2612 37.4452 11.2789 37.3621 11.3133C37.279 11.3477 37.2035 11.3981 37.1399 11.4617C37.0763 11.5253 37.0258 11.6008 36.9914 11.6839C36.957 11.767 36.9394 11.8561 36.9394 11.946ZM35.8915 14.776L36.6645 15.7844C36.8936 16.0853 37.3248 16.1418 37.6241 15.9121C37.9243 15.682 37.9818 15.2527 37.7518 14.9525L36.9788 13.9441C36.7501 13.6439 36.3188 13.587 36.0192 13.8164C35.719 14.0465 35.6614 14.4757 35.8915 14.776ZM4.10871 9.11529L3.3357 8.1069C3.10702 7.80663 2.6763 7.74983 2.37612 7.9792C2.07586 8.20925 2.01836 8.63851 2.24842 8.93878L3.02143 9.94717C3.25054 10.248 3.68177 10.3046 3.981 10.0749C4.28118 9.8449 4.33876 9.41556 4.10871 9.11529ZM0.421387 11.946C0.421342 12.0359 0.439022 12.125 0.473418 12.2081C0.507814 12.2912 0.558251 12.3667 0.621845 12.4303C0.685439 12.4939 0.760943 12.5443 0.844041 12.5787C0.927139 12.6131 1.0162 12.6308 1.10614 12.6307H2.37604C2.7545 12.6307 3.06079 12.3245 3.06079 11.946C3.06079 11.5675 2.7545 11.2612 2.37604 11.2612H1.10614C1.0162 11.2612 0.927139 11.2789 0.844041 11.3133C0.760943 11.3477 0.685439 11.3981 0.621845 11.4617C0.558251 11.5253 0.507814 11.6008 0.473418 11.6839C0.439022 11.767 0.421342 11.8561 0.421387 11.946ZM3.02134 13.9441L2.24833 14.9525C2.01828 15.2528 2.07577 15.6821 2.37604 15.9121C2.6751 16.1416 3.10642 16.0854 3.33561 15.7844L4.10862 14.776C4.33868 14.4757 4.28118 14.0464 3.98092 13.8164C3.68271 13.587 3.25071 13.6439 3.02134 13.9441Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rs-counter-content">
+                                    <div class="rs-counter-number-wrapper">
+                                        <span class="rs-counter-number odometer" data-count="1.5">00</span>
+                                        <span class="prefix">K</span>
+                                    </div>
+                                    <span class="rs-counter-title">Consulting Award</span>
+                                </div>
+                            </div>
+                            <div class="rs-counter-item wow fadeIn" data-wow-delay=".9s" data-wow-duration="1s">
+                                <div class="rs-counter-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 38">
+                                        <path
+                                            d="M28.7586 31.3881C27.724 31.9585 26.6291 32.4122 25.4941 32.7407C25.4779 32.7454 25.4637 32.7552 25.4537 32.7688C25.4437 32.7824 25.4385 32.799 25.4389 32.8158V37.2317C25.4385 37.3764 25.3808 37.515 25.2785 37.6173C25.1761 37.7195 25.0374 37.7771 24.8927 37.7773H17.1068C16.9621 37.777 16.8234 37.7194 16.7211 37.6171C16.6188 37.5148 16.5612 37.3761 16.5608 37.2314V32.8158C16.5613 32.799 16.5561 32.7824 16.5461 32.7688C16.5361 32.7553 16.5219 32.7454 16.5057 32.7407C15.3707 32.4122 14.2758 31.9585 13.2412 31.3881C13.2264 31.3797 13.2093 31.3765 13.1925 31.3789C13.1757 31.3813 13.1602 31.3892 13.1483 31.4013L10.0254 34.5243C9.92242 34.6261 9.78346 34.6832 9.63866 34.6832C9.49386 34.6832 9.3549 34.6261 9.25194 34.5243L3.74601 29.0188C3.6441 28.9163 3.58689 28.7776 3.58689 28.6331C3.58689 28.4885 3.6441 28.3499 3.74601 28.2474L6.87164 25.1244C6.88331 25.1123 6.89086 25.0968 6.89324 25.0802C6.89562 25.0635 6.89269 25.0465 6.88488 25.0316C6.31336 23.9974 5.8595 22.9024 5.53179 21.7672C5.52738 21.7507 5.51762 21.7361 5.50403 21.7257C5.49044 21.7153 5.47379 21.7097 5.45668 21.7098H1.03855C0.966856 21.7098 0.895857 21.6957 0.829613 21.6683C0.76337 21.6409 0.703179 21.6007 0.652483 21.55C0.601787 21.4993 0.56158 21.4391 0.534159 21.3728C0.506738 21.3066 0.492642 21.2356 0.492676 21.1639V17.2716C0.492994 17.1269 0.550607 16.9883 0.65291 16.886C0.755213 16.7837 0.893874 16.7261 1.03855 16.7257H4.67654C4.69706 16.7257 4.71673 16.7176 4.73123 16.7031C4.74574 16.6886 4.75389 16.6689 4.75389 16.6484V14.0979C4.75731 12.9221 5.22607 11.7955 6.05769 10.9643C6.88931 10.133 8.01617 9.66487 9.19196 9.66203H12.894C13.4984 9.66327 14.0962 9.78802 14.6507 10.0286C15.2052 10.2692 15.7047 10.6205 16.1185 11.0611C16.1318 11.0742 16.1492 11.0822 16.1678 11.0837C16.1864 11.0853 16.2049 11.0803 16.2202 11.0697C17.0238 10.5188 17.9755 10.2245 18.9497 10.2254H23.0496C24.0239 10.2245 24.9756 10.5188 25.7792 11.0697C25.7945 11.0803 25.813 11.0852 25.8316 11.0836C25.8501 11.0821 25.8675 11.0741 25.8808 11.0611C26.2947 10.6205 26.7942 10.2691 27.3487 10.0286C27.9032 9.78797 28.501 9.66324 29.1055 9.66203H32.8076C33.9833 9.66491 35.1102 10.1331 35.9418 10.9643C36.7734 11.7955 37.2421 12.9221 37.2456 14.0979V16.6484C37.2456 16.6689 37.2537 16.6886 37.2682 16.7031C37.2827 16.7176 37.3024 16.7257 37.3229 16.7257H40.9609C41.1056 16.7261 41.2442 16.7837 41.3465 16.886C41.4488 16.9883 41.5065 17.1269 41.5068 17.2716V21.1638C41.5068 21.2355 41.4927 21.3065 41.4653 21.3728C41.4379 21.439 41.3977 21.4992 41.347 21.5499C41.2963 21.6006 41.2361 21.6408 41.1698 21.6682C41.1036 21.6956 41.0326 21.7097 40.9609 21.7097H36.5429C36.5257 21.7096 36.5091 21.7152 36.4955 21.7256C36.4818 21.7359 36.4721 21.7506 36.4677 21.7671C36.1402 22.9024 35.6865 23.9974 35.1151 25.0316C35.1073 25.0465 35.1043 25.0635 35.1067 25.0802C35.1091 25.0968 35.1166 25.1123 35.1283 25.1244L38.2513 28.2474C38.3022 28.2979 38.3427 28.3579 38.3703 28.4241C38.3979 28.4903 38.4121 28.5614 38.4121 28.6331C38.4121 28.7048 38.3979 28.7758 38.3703 28.842C38.3427 28.9082 38.3022 28.9683 38.2513 29.0188L32.7479 34.5243C32.645 34.6261 32.506 34.6832 32.3612 34.6832C32.2164 34.6832 32.0775 34.6261 31.9745 34.5243L28.8515 31.4013C28.8397 31.3892 28.8242 31.3813 28.8074 31.3789C28.7906 31.3765 28.7734 31.3797 28.7586 31.3881ZM5.92521 16.7257H14.0189C14.0393 16.7255 14.0589 16.7173 14.0733 16.7028C14.0878 16.6884 14.096 16.6688 14.0962 16.6484V15.0792C14.0955 13.9031 14.5247 12.7672 15.3031 11.8855C15.3156 11.8705 15.3222 11.8515 15.3218 11.832C15.3214 11.8125 15.3139 11.7938 15.3008 11.7794C14.99 11.4541 14.6165 11.1953 14.2027 11.0187C13.789 10.842 13.3437 10.7512 12.8939 10.7516H9.19196C8.30544 10.7548 7.45613 11.1083 6.82926 11.7352C6.2024 12.362 5.84885 13.2114 5.84572 14.0979V16.6484C5.84611 16.6692 5.85468 16.689 5.86959 16.7035C5.88449 16.7179 5.90443 16.726 5.92521 16.7257ZM26.6963 11.8855C27.4746 12.7672 27.9038 13.9031 27.903 15.0792V16.6484C27.9033 16.6688 27.9115 16.6884 27.926 16.7028C27.9404 16.7172 27.96 16.7255 27.9804 16.7257H36.074C36.0948 16.726 36.1148 16.7179 36.1297 16.7035C36.1446 16.689 36.1532 16.6692 36.1536 16.6484V14.0979C36.1505 13.2114 35.7969 12.3621 35.1701 11.7352C34.5433 11.1084 33.6941 10.7548 32.8076 10.7516H29.1056C28.6557 10.7512 28.2105 10.842 27.7968 11.0187C27.383 11.1953 27.0095 11.4541 26.6987 11.7794C26.6851 11.7935 26.6772 11.8123 26.6768 11.832C26.6764 11.8517 26.6833 11.8708 26.6963 11.8855ZM30.9554 0.659992C31.71 0.659788 32.4478 0.883373 33.0754 1.30247C33.703 1.72157 34.1922 2.31737 34.4812 3.01451C34.7702 3.71165 34.8459 4.47883 34.6989 5.21903C34.5519 5.95923 34.1886 6.63921 33.6552 7.17297C33.1217 7.70674 32.4419 8.07032 31.7018 8.21774C30.9616 8.36515 30.1944 8.28978 29.4971 8.00116C28.7998 7.71254 28.2038 7.22363 27.7844 6.59626C27.3649 5.96889 27.141 5.23123 27.1408 4.47656C27.1406 3.46458 27.5424 2.49396 28.2578 1.77818C28.9732 1.0624 29.9434 0.660402 30.9554 0.659992ZM32.8826 2.54967C32.5016 2.16864 32.0162 1.90914 31.4878 1.80399C30.9593 1.69884 30.4115 1.75276 29.9137 1.95894C29.4159 2.16512 28.9904 2.51429 28.6911 2.96229C28.3917 3.4103 28.2319 3.93701 28.2319 4.47583C28.2319 5.01465 28.3917 5.54137 28.6911 5.98937C28.9904 6.43738 29.4159 6.78655 29.9137 6.99272C30.4115 7.1989 30.9593 7.25282 31.4878 7.14767C32.0162 7.04252 32.5016 6.78302 32.8826 6.40199C33.3932 5.89099 33.68 5.19819 33.68 4.47583C33.68 3.75348 33.3932 3.06067 32.8826 2.54967ZM11.044 0.659992C11.7986 0.660264 12.5361 0.884254 13.1634 1.30364C13.7906 1.72303 14.2795 2.31899 14.5681 3.01618C14.8567 3.71336 14.9321 4.48046 14.7848 5.2205C14.6375 5.96055 14.2741 6.6403 13.7405 7.17382C13.2069 7.70735 12.5271 8.07069 11.7871 8.21791C11.047 8.36513 10.2799 8.28963 9.58278 8.00094C8.88563 7.71224 8.28973 7.22333 7.87041 6.59601C7.45109 5.96869 7.22718 5.23112 7.227 4.47656C7.22683 3.97526 7.32544 3.47884 7.5172 3.01567C7.70897 2.5525 7.99012 2.13166 8.3446 1.77719C8.69907 1.42272 9.11992 1.14158 9.5831 0.949824C10.0463 0.758071 10.5427 0.659812 11.044 0.659992ZM12.969 2.54967C12.588 2.16864 12.1026 1.90914 11.5742 1.80399C11.0457 1.69884 10.4979 1.75276 10.0001 1.95894C9.5023 2.16512 9.07681 2.51429 8.77745 2.96229C8.47809 3.4103 8.31831 3.93701 8.31831 4.47583C8.31831 5.01465 8.47809 5.54137 8.77745 5.98937C9.07681 6.43738 9.5023 6.78655 10.0001 6.99272C10.4979 7.1989 11.0457 7.25282 11.5742 7.14767C12.1026 7.04252 12.588 6.78302 12.969 6.40199C13.4796 5.89099 13.7664 5.19819 13.7664 4.47583C13.7664 3.75348 13.4796 3.06067 12.969 2.54967ZM15.2654 16.7257H26.734C26.7545 16.7255 26.774 16.7172 26.7884 16.7028C26.8029 16.6884 26.8111 16.6688 26.8114 16.6484V15.0792C26.8081 14.0825 26.4107 13.1276 25.706 12.4228C25.0013 11.718 24.0464 11.3206 23.0497 11.3172H18.9498C17.9531 11.3202 16.998 11.7175 16.2932 12.4223C15.5884 13.1271 15.1911 14.0822 15.1881 15.0789V16.6481C15.1883 16.6686 15.1966 16.6881 15.211 16.7025C15.2255 16.717 15.245 16.7255 15.2654 16.7257ZM20.9987 0.222656C21.8555 0.222656 22.693 0.476737 23.4054 0.952767C24.1178 1.4288 24.6731 2.10539 25.0009 2.89699C25.3288 3.68859 25.4145 4.55963 25.2473 5.39997C25.0801 6.2403 24.6675 7.01217 24.0616 7.61798C23.4557 8.22378 22.6837 8.63631 21.8434 8.80338C21.003 8.97045 20.132 8.88456 19.3404 8.55659C18.5489 8.22861 17.8724 7.67326 17.3964 6.96079C16.9205 6.24832 16.6666 5.41071 16.6667 4.55391C16.6674 3.40528 17.124 2.3039 17.9363 1.49176C18.7486 0.679623 19.85 0.223157 20.9987 0.222656ZM23.2906 2.26487C22.8375 1.81176 22.2602 1.50319 21.6318 1.37817C21.0033 1.25315 20.3519 1.31731 19.7598 1.56252C19.1678 1.80773 18.6618 2.22299 18.3058 2.75578C17.9498 3.28857 17.7598 3.91497 17.7598 4.55575C17.7598 5.19654 17.9498 5.82293 18.3058 6.35573C18.6618 6.88852 19.1678 7.30378 19.7598 7.54899C20.3519 7.7942 21.0033 7.85836 21.6318 7.73334C22.2602 7.60832 22.8375 7.29974 23.2906 6.84663C23.5917 6.54595 23.8306 6.18885 23.9936 5.79576C24.1566 5.40266 24.2405 4.9813 24.2405 4.55575C24.2405 4.13021 24.1566 3.70884 23.9936 3.31575C23.8306 2.92266 23.5917 2.56556 23.2906 2.26487ZM1.58443 17.8949V20.5405C1.58442 20.5509 1.58649 20.5611 1.59052 20.5706C1.59455 20.5802 1.60044 20.5888 1.60786 20.596C1.61528 20.6032 1.62408 20.6089 1.63372 20.6126C1.64336 20.6164 1.65366 20.6182 1.664 20.6179H5.92968C6.05879 20.6182 6.18365 20.664 6.28229 20.7474C6.38092 20.8307 6.44702 20.9461 6.46894 21.0733V21.0819C6.81858 22.4097 7.34804 23.6835 8.04263 24.868C8.17961 25.1023 8.17523 25.363 7.97852 25.5597L4.95936 28.5789C4.95203 28.5859 4.94619 28.5943 4.94221 28.6036C4.93822 28.6129 4.93616 28.623 4.93616 28.6331C4.93616 28.6432 4.93822 28.6532 4.94221 28.6625C4.94619 28.6718 4.95203 28.6802 4.95936 28.6872L9.5828 33.3107C9.59 33.318 9.5986 33.3239 9.60809 33.3278C9.61758 33.3318 9.62777 33.3339 9.63806 33.3339C9.64835 33.3339 9.65854 33.3318 9.66803 33.3278C9.67752 33.3239 9.68611 33.318 9.69332 33.3107L12.7102 30.2937C12.9069 30.097 13.1699 30.0904 13.4043 30.2275C14.5881 30.9233 15.862 31.4528 17.1902 31.8011C17.1925 31.8011 17.1947 31.8033 17.1969 31.8033C17.3242 31.8244 17.4398 31.8899 17.5232 31.9883C17.6067 32.0867 17.6524 32.2114 17.6524 32.3404V36.6086C17.6527 36.629 17.6609 36.6486 17.6753 36.663C17.6898 36.6775 17.7093 36.6857 17.7298 36.6859H24.2696C24.29 36.6857 24.3096 36.6775 24.324 36.663C24.3385 36.6486 24.3467 36.629 24.3469 36.6086V32.3407H24.3491C24.3493 32.2201 24.3896 32.103 24.4636 32.0078C24.5377 31.9126 24.6412 31.8446 24.758 31.8147C26.1044 31.4663 27.3957 30.9322 28.5948 30.2277C28.8291 30.0907 29.0899 30.0973 29.2866 30.294L32.3058 33.3109C32.313 33.3183 32.3216 33.3241 32.3311 33.3281C32.3405 33.332 32.3507 33.3341 32.361 33.3341C32.3713 33.3341 32.3815 33.332 32.3909 33.3281C32.4004 33.3241 32.409 33.3183 32.4162 33.3109L37.0397 28.6875C37.0535 28.6729 37.0613 28.6535 37.0613 28.6333C37.0613 28.6132 37.0535 28.5938 37.0397 28.5792L34.021 25.5598C33.8243 25.3631 33.8198 25.1023 33.9548 24.8681C34.6517 23.6837 35.182 22.4089 35.5306 21.0797V21.0731C35.5525 20.9458 35.6186 20.8304 35.7173 20.7471C35.8159 20.6638 35.9407 20.6179 36.0699 20.6176H40.3357C40.3461 20.6179 40.3563 20.6161 40.366 20.6124C40.3756 20.6086 40.3844 20.603 40.3918 20.5958C40.3993 20.5885 40.4052 20.5799 40.4092 20.5704C40.4132 20.5608 40.4153 20.5506 40.4153 20.5403V17.8949C40.4149 17.8741 40.4064 17.8543 40.3914 17.8398C40.3765 17.8254 40.3565 17.8174 40.3357 17.8176H32.1957C32.1761 17.818 32.1573 17.8256 32.143 17.8391C32.1287 17.8526 32.1199 17.8709 32.1184 17.8905C31.9601 20.7322 30.7197 23.4054 28.652 25.3612C26.5843 27.317 23.8462 28.4068 21.0001 28.4068C18.1539 28.4068 15.4158 27.317 13.3481 25.3612C11.2804 23.4054 10.04 20.7322 9.88178 17.8905C9.88026 17.8709 9.8715 17.8525 9.8572 17.8391C9.84289 17.8256 9.82408 17.8179 9.80443 17.8176H1.66383C1.64305 17.8174 1.62303 17.8254 1.60812 17.8399C1.59322 17.8544 1.58481 17.8741 1.58443 17.8949ZM30.9467 17.8176H11.0528C11.0423 17.8176 11.0319 17.8198 11.0223 17.824C11.0126 17.8282 11.0039 17.8343 10.9967 17.8419C10.9895 17.8496 10.9839 17.8586 10.9802 17.8684C10.9766 17.8783 10.975 17.8888 10.9755 17.8993C11.1347 20.4498 12.2601 22.8437 14.1225 24.5935C15.9849 26.3433 18.4443 27.3174 20.9998 27.3174C23.5552 27.3174 26.0146 26.3433 27.877 24.5935C29.7394 22.8437 30.8648 20.4498 31.024 17.8993C31.0246 17.8888 31.0229 17.8783 31.0193 17.8684C31.0157 17.8586 31.01 17.8496 31.0028 17.8419C30.9956 17.8343 30.9869 17.8282 30.9772 17.824C30.9676 17.8198 30.9572 17.8176 30.9467 17.8176Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="rs-counter-content">
+                                    <div class="rs-counter-number-wrapper">
+                                        <span class="rs-counter-number odometer" data-count="4.5">00</span>
+                                        <span class="prefix">K</span>
+                                    </div>
+                                    <span class="rs-counter-title">Strategic Partners</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- counter area end -->
+
+        <!-- blog area start -->
+        <section class="rs-blog-area rs-blog-one section-space">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                                Read Our Blog & News
+                            </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Featured news and
+                                insights</h2>
+                            <p class="section-desc">Stay updated with our latest industry insights, expert strategies, and company news tailored for your success.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-blog-wrapper rs-swiper">
+                            <div class="swiper" data-item="3" data-item-lg="3" data-item-md="2" data-item-sm="1" data-loop="true" data-autoplay="true" data-speed="1000">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-01.webp" alt="image">
+                                            </div>
+
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">September 23, 2025 </a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">                                            
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Insights That Driven Business Smarter
+                                                            Forward</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Insights That Driven Business Smarter
+                                                            Forward</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">Consulting empowers businesses with data-driven
+                                                        strategies and
+                                                        innovative solutions to achieve sustainable...</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-02.webp" alt="image">
+                                            </div>
+
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">August 26, 2025</a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Consulting</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> How Strategic Planning Drives Business
+                                                            Success</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> How Strategic Planning Drives Business
+                                                            Success</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">From insights to execution, we guide businesses to
+                                                        smarter
+                                                        decisions and better...</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".7s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-03.webp" alt="image">
+                                            </div>
+
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">Feb 17, 2025</a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        
+                                                        
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">Consulting transforms challenges into opportunities with
+                                                        tailored
+                                                        solutions and proven expertise.</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".9s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-04.webp" alt="image">
+                                            </div>
+
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">Jan 10, 2025</a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">                                            
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Analysis</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Analysis</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">Understand your competitors and market trends to stay
+                                                        ahead of the curve and grow.</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog area end -->
+
+        <!-- faq area start -->
+        <section class="rs-faq-area section-space rs-faq-one theme-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-faq-wrapper">
+                            <div class="rs-faq-left">
+                                <div class="section-title-wrapper">
+                                    <span class="section-subtitle is-white">
+                                        Frequently asked questions
+                                    </span>
+                                    <h2 class="section-title rs-split-text-enable split-in-left is-white mb-20">
+                                        Frequently Asked
+                                        Question</h2>
+                                    <p class="rs-section-desc">Find answers to our question about our consulting
+                                        coverage
+                                        options.</p>
+                                </div>
+                                <div class="rs-faq-contact">
+                                    <div class="rs-faq-contact-info">
+                                        <h5 class="rs-faq-contact-title">Still Have Questions?</h5>
+                                        <p class="rs-faq-contact-desc">We're here to help you!</p>
+                                    </div>
+                                    <div class="rs-faq-contact-btn">
+                                        <a class="rs-btn has-icon has-bg-white has-bg-secondary"
+                                            href="contact.php">Contact Us
+                                            <span class="icon-box">
+                                                <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+
+                                                <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rs-faq-right">
+                                <div class="rs-faq-content rs-accordion-one">
+                                    <div class="accordion-wrapper">
+                                        <div class="accordion" id="accordionExampleOne">
+                                            <div class="rs-accordion-item has-bg-active active">
+                                                <h4 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        How do your startups with product
+                                                        <span class="accordion-btn"></span>
+                                                    </button>
+                                                </h4>
+                                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                                    data-bs-parent="#accordionExampleOne">
+                                                    <div class="accordion-body">Launching a startup begins with more
+                                                        than just an
+                                                        idea it starts with creating a product that solves a real
+                                                        problem.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rs-accordion-item has-bg-active">
+                                                <h6 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        Can your with fundraising investor
+                                                        <span class="accordion-btn"></span>
+                                                    </button>
+                                                </h6>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExampleOne">
+                                                    <div class="accordion-body">Securing the right investment is
+                                                        essential for
+                                                        fueling growth and scaling a business. Our fundraising approach
+                                                        is designed
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rs-accordion-item has-bg-active">
+                                                <h6 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="false" aria-controls="collapseThree">
+                                                        What makes startup consulting
+                                                        <span class="accordion-btn"></span>
+                                                    </button>
+                                                </h6>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExampleOne">
+                                                    <div class="accordion-body">Startup consulting helps entrepreneurs
+                                                        turn ideas
+                                                        into thriving businesses. By combining market insights,
+                                                        strategy, and
+                                                        execution</div>
+                                                </div>
+                                            </div>
+                                            <div class="rs-accordion-item has-bg-active">
+                                                <h6 class="accordion-header" id="headingFour">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                        aria-expanded="false" aria-controls="collapseFour">
+                                                        Do you provide financial planning
+                                                        <span class="accordion-btn"></span>
+                                                    </button>
+                                                </h6>
+                                                <div id="collapseFour" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionExampleOne">
+                                                    <div class="accordion-body">Financial planning is the foundation of
+                                                        long-term
+                                                        stability and growth. It helps businesses and individuals make
+                                                        informed</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq area end -->
+
+        <!-- Section 1: Easy step to get success -->
+        <section class="rs-working-area section-space rs-working-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-working-wrapper">
+                            <div class="rs-working-thumb is-large-thumb rs-image scroll_reveal reveal-active"
+                                data-dir="left">
+                                <img decoding="async" src="assets/images/about/34.webp" alt="image">
+                            </div>
+                            <div class="rs-working-content-wrapper">
+                                <div class="section-title-wrapper section-title-space">
+                                    <span class="section-subtitle">
+                                        Easy step to get success
+                                    </span>
+                                    <h2 class="section-title rs-split-text-enable split-in-left">Transforming challenges
+                                        into
+                                        opportunities for growth</h2>
+                                </div>
+                                <div class="rs-working-list-wrapper">
+                                    <div class="rs-working-list-item wow fadeIn" data-wow-delay=".1s"
+                                        data-wow-duration="1s">
+                                        <div class="rs-working-list-icon">
+                                            <i class="ri-medal-line"></i>
+                                        </div>
+                                        <div class="rs-working-list-content">
+                                            <h5 class="rs-working-list-title">Marketing Strategy</h5>
+                                            <p class="rs-working-list-desc"> Our marketing strategy focuses on building
+                                                brand
+                                                awareness </p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-working-list-item wow fadeIn" data-wow-delay=".3s"
+                                        data-wow-duration="1s">
+                                        <div class="rs-working-list-icon">
+                                            <i class="ri-trophy-line"></i>
+                                        </div>
+                                        <div class="rs-working-list-content">
+                                            <h5 class="rs-working-list-title"> Workflow Optimization</h5>
+                                            <p class="rs-working-list-desc"> Workflow optimization is the process of
+                                                analyzing,
+                                                redesigning </p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-working-list-item wow fadeIn" data-wow-delay=".5s"
+                                        data-wow-duration="1s">
+                                        <div class="rs-working-list-icon">
+                                            <i class="ri-bar-chart-line"></i>
+                                        </div>
+                                        <div class="rs-working-list-content">
+                                            <h5 class="rs-working-list-title">Growth Planning</h5>
+                                            <p class="rs-working-list-desc"> Growth planning is the strategic process of
+                                                setting
+                                                clear </p>
+                                        </div>
+                                    </div>
+                                    <div class="rs-working-list-item wow fadeIn" data-wow-delay=".7s"
+                                        data-wow-duration="1s">
+                                        <div class="rs-working-list-icon">
+                                            <i class="ri-briefcase-line"></i>
+                                        </div>
+                                        <div class="rs-working-list-content">
+                                            <h5 class="rs-working-list-title">Brand Development</h5>
+                                            <p class="rs-working-list-desc"> Brand development is the strategic process
+                                                of
+                                                creating, defining </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cta area start -->
+        <section class="rs-cta-area rs-cta-three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="rs-cta-wrapper">
+                            <div class="rs-cta-shape">
+                                <img src="assets/images/shape/cta-shape-01.webp" alt="image">
+                            </div>
+                            <div class="rs-cta-shape-two">
+                                <img src="assets/images/shape/squre-shape.webp" alt="image">
+                            </div>
+                            <div class="rs-cta-thumb">
+                                <img src="assets/images/cta/cta-thumb-01.webp" alt="image">
+                            </div>
+                            <div class="rs-cta-content-wrapper">
+                                <div class="rs-cta-rotate-btn">
+                                    <div class="rs-rotate-btn"
+                                        data-background="assets/images/shape/half-rotate-shape.webp">
+                                        <div class="rs-meta-shape">
+                                            <img src="assets/images/logo/favicon-icef.png" alt="image">
+                                        </div>
+                                        <div class="rs-circle-title rs-text-circle-wrapper">
+                                            <div class="rs-text-circle" data-rotate-degree="8.5">
+                                                ICEF India!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section-title-wrapper">
+                                    <span class="section-subtitle is-white">
+                                        Best Business Strategy
+                                    </span>
+                                    <h2 class="section-title rs-split-text-enable split-in-left is-white">Navigate the
+                                        complex
+                                        world of business!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta area end -->
+        <!-- video area start -->
+        <div class="rs-video-area rs-video-three">
+            <div class="rs-video-bg-thumb include-bg" data-background="assets/images/bg/testimonial-bg-thumb-02.webp">
+            </div>
+        </div>
+        <!-- video area end -->
+
+        <!-- brand area start -->
+        <div class="rs-brand-area rs-brand-two rs-swiper">
+            <div class="container-fluid g-0">
+                <div class="row">
+                    <div class="brand-slider">
+                        <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="1500"
+                            data-autoplay="true" data-dots-dynamic="false" data-center-mode="false" data-effect="false"
+                            data-no-gap="true" data-delay="1500" data-item="6" data-item-xl="4" data-item-lg="4"
+                            data-item-md="3" data-item-sm="2" data-item-xs="2" data-item-mobile="1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-01.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-02.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-03.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-04.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-05.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-06.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="rs-brand-item">
+                                        <div class="rs-brand-thumb">
+                                            <img src="assets/images/brand/brand-thumb-01.webp" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- brand area end -->
+
+        <!-- Body main wrapper end -->
+
+        <?php include 'includes/footer.php'; ?>
+        <!-- footer area end -->
+
+        <?php include 'includes/scripts.php'; ?>
+</body>
+
+</html>

@@ -5,8 +5,8 @@
                 <div class="offcanvas-content">
                     <div class="offcanvas-top d-flex justify-content-between align-items-center mb-20">
                         <div class="offcanvas-logo">
-                            <a class="logo-black" href="index.php"><img src="assets/images/logo/logo-black.webp" alt="logo"></a>
-                            <a class="logo-white" href="index.php"><img src="assets/images/logo/logo-white.webp" alt="logo"></a>
+                            <a class="logo-black" href="index.php"><img src="assets/images/logo/logo-icef.png" alt="logo"></a>
+                            <a class="logo-white" href="index.php"><img src="assets/images/logo/logo-icef.png" alt="logo"></a>
                         </div>
                         <div class="offcanvas-close">
                             <button class="offcanvas-close-icon animation--flip" style="background: var(--rs-theme-primary); color: white; border: none; padding: 10px; border-radius: 4px; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px;">
@@ -16,7 +16,7 @@
                     </div>
                     <div class="offcanvas-about mb-30 d-none d-xl-block">
                         <p>
-                            Bustar specializes in helping startups and enterprises craft strategic.
+                            ICEF INDIA is a premier organization providing end-to-end solutions in Assessment, Recruitment, and Workforce Development since 2000.
                         </p>
                     </div>
                     <div class="offcanvas-gallery d-none d-xl-block">
@@ -69,7 +69,7 @@
                                     </svg>
                                 </div>
                                 <div class="offcanvas-contact-text">
-                                    <a href="#"> 374 William S Canning Blvd, Fall River MA Road 2721, USA</a>
+                                    <a href="#"> Noida, Uttar Pradesh, India</a>
                                 </div>
                             </li>
                             <li class="d-flex gap-15">
@@ -80,7 +80,7 @@
                                     </svg>
                                 </div>
                                 <div class="offcanvas-contact-text">
-                                    <a href="tel:+12346691234"> +123-4669-1234 </a>
+                                    <a href="tel:+911204221735"> +91 120 422 1735 </a>
                                 </div>
                             </li>
                             <li class="d-flex gap-15">
@@ -91,7 +91,7 @@
                                     </svg>
                                 </div>
                                 <div class="offcanvas-contact-text">
-                                    <a href="mailto:consulting@gmail.com">consulting@gmail.com</a>
+                                    <a href="mailto:sales@icefindia.in">sales@icefindia.in</a>
                                 </div>
                             </li>
                         </ul>

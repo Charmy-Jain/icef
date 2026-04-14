@@ -1,9 +1,9 @@
-<?php $pageTitle = "Assessment & Testing";
+<?php $pageTitle = "Assessment & Testing Services";
 include 'includes/head.php'; ?>
 
 <body class="rs-smoother-yes">
 
-    <?php $header_class = "header-transparent";
+    <?php $header_class = "";
     include 'includes/header.php'; ?>
 
     <?php include 'includes/offcanvas.php'; ?>
@@ -12,153 +12,73 @@ include 'includes/head.php'; ?>
     <main>
 
         <!-- banner area start -->
-        <section class="rs-banner-area rs-banner-eight">
-            <div class="banner-shape-one">
-                <img src="assets/images/shape/half-house-shape.webp" alt="image">
-            </div>
-            <div class="rs-banner-scroll-btn wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1.4s">
-                <a class="rs-btn has-icon is-transparent hover-primary border-hover-primary" href="#about">Scroll Now
+        <section id="home" class="rs-banner-area rs-banner-one">
+            <div class="rs-banner-bg-thumb include-bg" data-background="assets/images/solution/assessment-testing.webp"></div>
+            <div class="rs-banner-bg-thumb-two include-bg" data-background="assets/images/bg/noise-thumb.webp"></div>
+            <div class="rs-banner-scroll-btn">
+                <a class="rs-btn has-icon is-transparent hover-primary border-hover-primary wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.3s" href="#about">Scroll Now
                     <span class="icon-box">
-                        <svg class="icon-first" width="20" height="16" viewBox="0 0 20 16" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12.8787 15.8392H11.6863C11.458 11.5303 14.0517 9.27028 15.3623 8.6095L0 8.6095L0 7.28824L15.3623 7.28824C12.2169 5.51604 11.4417 2.08514 11.6879 -1.71661e-05H12.8687C12.3579 5.1427 17.617 7.28167 19.8664 7.28824V8.59723C13.3406 9.37014 12.6195 14.1959 12.8787 15.8392Z"
-                                fill="white" />
-                        </svg>
-                        <svg class="icon-second" width="20" height="16" viewBox="0 0 20 16" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12.8787 15.8392H11.6863C11.458 11.5303 14.0517 9.27028 15.3623 8.6095L0 8.6095L0 7.28824L15.3623 7.28824C12.2169 5.51604 11.4417 2.08514 11.6879 -1.71661e-05H12.8687C12.3579 5.1427 17.617 7.28167 19.8664 7.28824V8.59723C13.3406 9.37014 12.6195 14.1959 12.8787 15.8392Z"
-                                fill="white" />
-                        </svg>
+                  <svg class="icon-first" width="20" height="16" viewBox="0 0 20 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M12.8787 15.8392H11.6863C11.458 11.5303 14.0517 9.27028 15.3623 8.6095L0 8.6095L0 7.28824L15.3623 7.28824C12.2169 5.51604 11.4417 2.08514 11.6879 -1.71661e-05H12.8687C12.3579 5.1427 17.617 7.28167 19.8664 7.28824V8.59723C13.3406 9.37014 12.6195 14.1959 12.8787 15.8392Z"
+                        fill="white" />
+                  </svg>
+                  <svg class="icon-second" width="20" height="16" viewBox="0 0 20 16" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M12.8787 15.8392H11.6863C11.458 11.5303 14.0517 9.27028 15.3623 8.6095L0 8.6095L0 7.28824L15.3623 7.28824C12.2169 5.51604 11.4417 2.08514 11.6879 -1.71661e-05H12.8687C12.3579 5.1427 17.617 7.28167 19.8664 7.28824V8.59723C13.3406 9.37014 12.6195 14.1959 12.8787 15.8392Z"
+                        fill="white" />
+                  </svg>
 
-                    </span>
+               </span>
                 </a>
             </div>
             <div class="container-fluid g-0">
-                <div class="row g-0">
-                    <div class="col-xl-12">
+                <div class="row align-items-center">
+                    <div class="col-xxl-6 col-xl-7 col-lg-7">
                         <div class="rs-banner-wrapper">
-                            <div class="rs-banner-content">
-                                <span class="rs-banner-subtitle wow fadeInUp" data-wow-delay=".3s"
-                                    data-wow-duration=".5s">
-                                    Measuring Potential with Precision
+                            <div class="rs-banner-content-wrapper">
+                                <span class="rs-banner-subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
+                                    Precision in Evaluation
                                 </span>
-                                <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">
-                                    Scientifically-Backed Assessment & Psychometric Testing
+                                <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s" style="font-size: 54px; line-height: 1.3;">
+                                    Comprehensive Assessments &amp; <br><span id="demo-typed-text" style="color:#AB052D;"></span><span class="demo-typed-cursor" style="color:#AB052D; font-weight:300;">|</span>
                                 </h1>
                                 <span class="rs-banner-line"></span>
-                                <p class="rs-banner-desc wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".9s">Identify talent and evaluate performance with our comprehensive testing modules designed for academic and corporate excellence.</p>
+                                <p class="rs-banner-desc wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".9s">Achieve higher accuracy and integrity in your evaluations with our end-to-end cognitive, domain-specific, and proctored testing solutions.</p>
                                 <div class="rs-banner-btn wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1.1s">
-                                    <a class="rs-btn has-icon" href="contact.php">Schedule a Consultation
+                                    <a class="rs-btn has-icon has-bg-white hover-primary" href="contact.php">Schedule a Consultation
                                         <span class="icon-box">
-                                            <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                    fill="white" />
-                                            </svg>
+                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                       fill="white" />
+                                 </svg>
 
-                                            <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                    fill="white" />
-                                            </svg>
-                                        </span>
+                                 <svg class="icon-second" width="16" height="16" viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
+                                       fill="white" />
+                                 </svg>
+                              </span>
                                     </a>
                                 </div>
                             </div>
-                            <div class="rs-banner-thumb rs-banner-form-wrap wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.3s">
-                                <div class="banner-shape-two">
-                                    <img src="assets/images/shape/group-triangle-shape.webp" alt="image">
-                                </div>
-                                <img src="assets/images/banner/assessment-testing.webp" alt="image" class="rs-banner-bg-img">
-                                <div class="rs-banner-contact-form">
-                                    <h3 class="rs-form-title">Complete the form below.</h3>
-                                    <p class="rs-form-subtitle">We will respond as soon as possible.</p>
-                                    <form action="#" method="POST" class="rs-contact-form-banner">
-                                        <div class="rs-form-row">
-                                            <div class="rs-form-group">
-                                                <input type="text" name="first_name" placeholder="First Name" required>
-                                            </div>
-                                            <div class="rs-form-group">
-                                                <input type="text" name="last_name" placeholder="Last Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="rs-form-row">
-                                            <div class="rs-form-group">
-                                                <input type="email" name="email" placeholder="Email Address" required>
-                                            </div>
-                                            <div class="rs-form-group">
-                                                <input type="tel" name="phone" placeholder="Phone Number" required>
-                                            </div>
-                                        </div>
-                                        <div class="rs-form-row">
-                                            <div class="rs-form-group">
-                                                <select name="service">
-                                                    <option value="" disabled selected>Assessment Type</option>
-                                                    <option value="psychometric">Psychometric Testing</option>
-                                                    <option value="academic">Academic Evaluation</option>
-                                                    <option value="corporate">Corporate Appraisal</option>
-                                                    <option value="skill_gap">Skill Gap Analysis</option>
-                                                </select>
-                                            </div>
-                                            <div class="rs-form-group">
-                                                <select name="sub_service">
-                                                    <option value="" disabled selected>Delivery Mode</option>
-                                                    <option value="online">Online/Remote</option>
-                                                    <option value="on_site">On-Site Testing</option>
-                                                    <option value="proctored">AI Proctored</option>
-                                                    <option value="paper">Paper-Based</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="rs-form-row">
-                                            <div class="rs-form-group rs-form-group-full">
-                                                <textarea name="message" placeholder="Enquiry Description" rows="4"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="rs-form-row">
-                                            <div class="rs-form-group rs-form-group-full">
-                                                <button type="submit" class="rs-banner-form-btn">GET IN TOUCH</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="rs-banner-feature">
-                                    <div class="rs-banner-feature-inner">
-                                        <div class="rs-banner-feature-thumb">
-                                            <img src="assets/images/banner/assessment-testing.webp" alt="image">
-                                        </div>
-                                        <div class="rs-banner-feature-content">
-                                            <h5 class="rs-banner-feature-title">Precision Testing</h5>
-                                            <p class="rs-banner-feature-desc">State-of-the-art evaluation systems for identifying and nurturing top-tier talent.</p>
-                                            <div class="rs-banner-feature-btn">
-                                                <a class="rs-btn has-icon has-text is-text-white has-border has-border-white"
-                                                    href="services.php">Get Start Now
-                                                    <span class="icon-box">
-                                                        <svg class="icon-first" width="16" height="16"
-                                                            viewBox="0 0 16 16" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                                fill="white"></path>
-                                                        </svg>
-
-                                                        <svg class="icon-second" width="16" height="16"
-                                                            viewBox="0 0 16 16" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M12.0743 8.70831L0.916528 8.70831L0.916528 6.87526L12.0737 6.87461L7.15722 1.95816L8.45358 0.661793L15.5836 7.79179L8.45358 14.9218L7.15722 13.6254L12.0743 8.70831Z"
-                                                                fill="white"></path>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 offset-xxl-1" style="margin-top: -210px;">
+                        <div class="rs-banner-thumb rs-banner-form-wrap wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.3s">
+                            <div class="rs-banner-contact-form" style="padding: 24px;">
+                                <h3 class="rs-form-title" style="font-size: 18px; margin-bottom: 4px;">Complete the form below.</h3>
+                                <p class="rs-form-subtitle" style="font-size: 12px; margin-bottom: 12px;">We will respond as soon as possible.</p>
+                                <?php 
+                                    $selected_service = "assessment_testing";
+                                    $is_sub_service_page = false;
+                                    include 'includes/banner-form.php'; 
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -166,6 +86,176 @@ include 'includes/head.php'; ?>
             </div>
         </section>
         <!-- banner area end -->
+
+        <!-- Compact Banner Form Styles -->
+        <style>
+            .rs-banner-contact-form .rs-form-group input,
+            .rs-banner-contact-form .rs-form-group select {
+                font-size: 12px !important;
+                padding: 6px 10px !important;
+                height: 36px !important;
+                min-height: unset !important;
+                line-height: 1 !important;
+                box-sizing: border-box !important;
+            }
+            .rs-banner-contact-form .rs-form-group textarea {
+                font-size: 12px !important;
+                padding: 6px 10px !important;
+                height: 80px !important;
+                min-height: unset !important;
+                resize: none;
+                box-sizing: border-box !important;
+            }
+            .rs-banner-contact-form .rs-form-group {
+                margin-bottom: 8px !important;
+            }
+            .rs-banner-contact-form .rs-form-row {
+                gap: 8px !important;
+                margin-bottom: 0 !important;
+            }
+            .rs-banner-contact-form .rs-banner-form-btn {
+                padding: 10px 20px !important;
+                font-size: 13px !important;
+            }
+        </style>
+
+        <!-- Banner Typing Animation -->
+        <script>
+        (function() {
+            var text = "Advanced Testing Solutions";
+            var el = document.getElementById('demo-typed-text');
+            var cursor = document.querySelector('.demo-typed-cursor');
+            var i = 0;
+            var blinkInterval = setInterval(function() {
+                if (cursor) cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            }, 500);
+            setTimeout(function type() {
+                if (!el) return;
+                if (i < text.length) {
+                    el.textContent += text[i];
+                    i++;
+                    setTimeout(type, 75);
+                } else {
+                    clearInterval(blinkInterval);
+                    if (cursor) cursor.style.opacity = '0';
+                }
+            }, 1400);
+        })();
+        </script>
+
+        <!-- feature area start -->
+        <div class="rs-feature-area rs-feature-fourteen">
+            <div class="container-fluid g-0">
+                <div class="row justify-content-xl-end">
+                    <div class="col-xxl-7 col-xl-8">
+                        <div class="rs-feature-info-wrapper wow fadeInUp" data-wow-delay="1.3s" data-wow-duration="1.5s">
+                            <div class="rs-feature-info-list-wrapper">
+                                <a href="cognitive-domain.php" class="rs-feature-info-list-item">
+                                    <div class="rs-feature-info-content">
+                                        <span class="rs-feature-info-number">01</span>
+                                        <h6 class="rs-feature-info-title">
+                                            Cognitive Assessment
+                                        </h6>
+                                    </div>
+                                    <div class="rs-feature-info-btn">
+                                        <div class="rs-square-btn has-icon has-transparent is-white">
+                                            <span class="icon-box">
+                                    <svg class="icon-first" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                    <svg class="icon-second" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="online-offline.php" class="rs-feature-info-list-item">
+                                    <div class="rs-feature-info-content">
+                                        <span class="rs-feature-info-number">02</span>
+                                        <h6 class="rs-feature-info-title">
+                                            Online/Offline Assessment
+                                        </h6>
+                                    </div>
+                                    <div class="rs-feature-info-btn">
+                                        <div class="rs-square-btn has-icon has-transparent is-white">
+                                            <span class="icon-box">
+                                    <svg class="icon-first" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                    <svg class="icon-second" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="proctoring.php" class="rs-feature-info-list-item">
+                                    <div class="rs-feature-info-content">
+                                        <span class="rs-feature-info-number">03</span>
+                                        <h6 class="rs-feature-info-title">
+                                            Proctoring
+                                        </h6>
+                                    </div>
+                                    <div class="rs-feature-info-btn">
+                                        <div class="rs-square-btn has-icon has-transparent is-white">
+                                            <span class="icon-box">
+                                    <svg class="icon-first" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+
+
+                                    <svg class="icon-second" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path
+                                             d="M17.532 12.6445L1.33082 12.6445L1.33081 9.98291L17.531 9.98196L10.3923 2.84325L12.2746 0.960927L22.6274 11.3137L12.2746 21.6665L10.3923 19.7842L17.532 12.6445Z" />
+                                       </g>
+                                    </svg>
+                                 </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="rs-feature-info-counter">
+                                <h5 class="rs-feature-info-desc">Unlock Your Potential Growth With Strategic Consulting
+                                    Help</h5>
+                                <div class="rs-counter-item">
+                                    <div class="rs-counter-inner">
+                                        <div class="rs-counter-number-wrapper">
+                                            <span class="rs-counter-number odometer" data-count="98">00</span>
+                                            <span class="prefix">%</span>
+                                        </div>
+                                        <span class="rs-counter-title">Business Growth Rate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feature area end -->
 
         <!-- feature area start -->
         <section class="rs-feature-area rs-feature-thirteen section-space-bottom">
@@ -176,15 +266,11 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-9 col-lg-10">
                         <div class="section-title-wrapper text-center section-title-space">
                             <span class="section-subtitle">
-                                Precise Assessment Solutions
+                                Cutting-Edge IT Solutions
                             </span>
-                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Advanced Testing
-                                Methodologies
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Digital Transformation & AI Integration
                             </h2>
-                            <p class="section-desc">Position your agency as the bridge between a
-                                client's big-picture
-                                vision
-                                and achievable
+                            <p class="section-desc">Future-proof your business with our expertise in emerging technologies. From cloud infrastructure to AI-driven automation, we build the systems of tomorrow.
                             </p>
                         </div>
                     </div>
@@ -194,19 +280,19 @@ include 'includes/head.php'; ?>
                         <div class="rs-feature-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <?php
                             $features = [
-                                ["thumb" => "05", "title" => "Psychometric Testing"],
-                                ["thumb" => "06", "title" => "Academic Assessments"],
-                                ["thumb" => "07", "title" => "Corporate Appraisals"],
-                                ["thumb" => "08", "title" => "Skill Gap Analysis"],
-                                ["thumb" => "09", "title" => "Entrance Exams"],
-                                ["thumb" => "13", "title" => "Certification Testing"],
-                                ["thumb" => "14", "title" => "Language Proficiency"],
-                                ["thumb" => "10", "title" => "Cognitive Evaluation"],
-                                ["thumb" => "15", "title" => "Behavioral Profiling"],
-                                ["thumb" => "16", "title" => "Online Proctoring"],
-                                ["thumb" => "17", "title" => "Survey Solutions"],
-                                ["thumb" => "11", "title" => "Government Testing"],
-                                ["thumb" => "12", "title" => "School Board Exams"]
+                                ["thumb" => "05", "title" => "Cloud Infrastructure"],
+                                ["thumb" => "06", "title" => "Artificial Intelligence"],
+                                ["thumb" => "07", "title" => "Cybersecurity Solutions"],
+                                ["thumb" => "08", "title" => "Data Analytics"],
+                                ["thumb" => "09", "title" => "Software Development"],
+                                ["thumb" => "13", "title" => "IT Managed Services"],
+                                ["thumb" => "14", "title" => "Digital Transformation"],
+                                ["thumb" => "10", "title" => "IoT Implementations"],
+                                ["thumb" => "15", "title" => "Blockchain Tech"],
+                                ["thumb" => "16", "title" => "Enterprise ERP"],
+                                ["thumb" => "17", "title" => "DevOps Consulting"],
+                                ["thumb" => "11", "title" => "Mobile App Dev"],
+                                ["thumb" => "12", "title" => "Network Security"]
                             ];
                             foreach ($features as $feature): ?>
                                 <div class="rs-feature-item">
@@ -254,7 +340,7 @@ include 'includes/head.php'; ?>
                         <div class="rs-about-wrapper">
                             <div class="rs-about-thumb-wrapper">
                                 <div class="rs-about-thumb">
-                                    <img src="assets/images/about/about-thumb-06.webp" alt="image">
+                                    <img src="assets/images/about/9.webp" alt="image">
                                     <div class="rs-about-rotate-btn">
                                         <div class="rs-rotate-btn"
                                             data-background="assets/images/shape/half-rotate-shape-white-02.webp">
@@ -272,10 +358,10 @@ include 'includes/head.php'; ?>
                             <div class="rs-about-content-wrapper">
                                 <div class="section-title-wrapper">
                                     <span class="section-subtitle is-white">
-                                        Holistic Assessment Services
+                                        Advanced Tech Consultancy
                                     </span>
-                                    <h2 class="section-title rs-split-text-enable split-in-left is-white mb-20">Empowering Decisions Through Accurate Testing</h2>
-                                    <p class="section-desc is-white">ICEF India is a pioneer in structured assessment and psychometric testing. We help schools, universities, and corporations evaluate potential and performance with scientifically-backed methodologies and secure examination frameworks.</p>
+                                    <h2 class="section-title rs-split-text-enable split-in-left is-white mb-20">Empowering Organizations Through Innovation</h2>
+                                    <p class="section-desc is-white">At ICEF India, we specialize in bridging the gap between traditional business operations and the latest technological advancements. Our tech experts help you navigate the complexities of digital evolution with confidence and scale.</p>
                                 </div>
                                 <div class="rs-about-list-wrapper">
                                     <div class="rs-about-list-item">
@@ -362,10 +448,10 @@ include 'includes/head.php'; ?>
                             <div class="rs-working-content-wrapper">
                                 <div class="section-title-wrapper">
                                     <span class="section-subtitle">
-                                        Data-Driven Evaluation
+                                        Future-Ready Strategy
                                     </span>
-                                    <h2 class="section-title rs-split-text-enable split-in-left mb-20">Transforming capability into concrete results</h2>
-                                    <p class="rs-section-desc">Our assessment consulting provides the tools needed to measure growth, talent, and aptitude accurately. We work closely with institutions to design customized testing modules that meet specific learning or hiring objectives.</p>
+                                    <h2 class="section-title rs-split-text-enable split-in-left mb-20">Harnessing the power of scalable cloud and AI</h2>
+                                    <p class="rs-section-desc">Our technology consulting is designed to help businesses leverage data and automation to gain a competitive edge. We provide clear roadmaps for implementing complex IT ecosystems and emerging tech stacks.</p>
                                 </div>
                                 <div class="rs-working-list-wrapper">
                                     <div class="rs-working-list-item">
@@ -438,11 +524,11 @@ include 'includes/head.php'; ?>
                             <div class="rs-working-thumb-wrapper wow fadeInRight" data-wow-delay=".3s"
                                 data-wow-duration="1s">
                                 <div class="rs-working-thumb">
-                                    <img src="assets/images/work/working-thumb-04.webp" alt="image">
+                                    <img src="assets/images/about/17.webp" alt="image">
                                 </div>
                                 <div class="rs-working-progress-wrapper">
                                     <div class="rs-progress-wrapper">
-                                        <h5 class="rs-progress-sec-title">Bustar Achieve Goals</h5>
+                                        <h5 class="rs-progress-sec-title">ICEF Achieve Goals</h5>
                                         <div class="rs-progress-item-wrapper">
                                             <div class="single-progress">
                                                 <div class="progress-top">
@@ -486,7 +572,7 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-8 col-lg-8">
                         <div class="section-title-wrapper text-center section-title-space">
                             <span class="section-subtitle">
-                                Our Corporate Services
+                                 Problems We Solve
                             </span>
                             <h2 class="section-title rs-split-text-enable split-in-left mb-15">Our corporate consulting
                                 services
@@ -684,7 +770,7 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-8 col-lg-10">
                         <div class="section-title-wrapper text-center section-title-space">
                             <span class="section-subtitle">
-                                Our Corporate Services
+                                 What We Offer
                             </span>
                             <h2 class="section-title rs-split-text-enable split-in-left mb-15">Career services we
                                 provide
@@ -807,7 +893,7 @@ include 'includes/head.php'; ?>
                                                 d="M43.1959 20.4138C43.5649 20.2819 43.9698 20.4641 44.1185 20.8219L44.1321 20.8571L49.9573 37.1608C50.0827 37.5117 49.9246 37.9008 49.59 38.0649L36.4875 44.4887C36.2841 44.5884 36.046 44.5884 35.8426 44.4886L29.8875 41.5688L29.8541 41.5513C29.5153 41.3633 29.3798 40.9405 29.5524 40.5887C29.7249 40.2369 30.142 40.085 30.4981 40.2377L30.5325 40.2536L36.165 43.0153L48.3577 37.0375L42.7526 21.3499C42.6166 20.969 42.815 20.5499 43.1959 20.4138ZM0 22.6328C2.7374e-06 18.7596 1.33391 15.1962 3.56665 12.3799L3.59087 12.351C3.84667 12.0599 4.2886 12.0176 4.59566 12.261C4.91262 12.5123 4.96585 12.973 4.71458 13.2899L4.61979 13.4108C2.64207 15.958 1.46485 19.1568 1.46484 22.6328C1.46484 27.8922 4.16242 32.5225 8.25214 35.2135L8.34904 35.2767L8.38022 35.298C8.69444 35.5247 8.77896 35.9605 8.56609 36.2895C8.35321 36.6185 7.92099 36.72 7.58543 36.5262L7.55329 36.5066L7.44705 36.4372C2.96288 33.4867 0 28.4057 0 22.6328ZM16.5166 6.11621C23.0946 6.11621 28.7736 9.96286 31.4286 15.5263C31.6028 15.8914 31.4481 16.3286 31.083 16.5028C30.7179 16.677 30.2808 16.5223 30.1065 16.1573C27.6854 11.084 22.5089 7.58105 16.5166 7.58105C12.9055 7.58106 9.5933 8.85179 6.99959 10.9715C6.68639 11.2274 6.22502 11.181 5.96905 10.8678C5.71308 10.5546 5.75942 10.0931 6.07262 9.83716C8.91835 7.51153 12.5554 6.11621 16.5166 6.11621Z">
                                             </path>
                                             <path
-                                                d="M7.21973 30.4365C7.21973 30.032 7.54765 29.7041 7.95215 29.7041C8.35665 29.7041 8.68457 30.032 8.68457 30.4365V43.3736L19.0811 48.4524L22.5204 46.7726L23.1633 48.0887L19.4025 49.9257C19.1997 50.0248 18.9624 50.0248 18.7596 49.9257L7.63066 44.4892C7.37921 44.3664 7.21973 44.1109 7.21973 43.8311V30.4365ZM22.5204 46.7726C22.8838 46.5951 23.3224 46.7458 23.4999 47.1092C23.6774 47.4727 23.5267 47.9112 23.1633 48.0887L22.5204 46.7726ZM29.4775 30.4365C29.4775 30.032 29.8055 29.7041 30.21 29.7041C30.6145 29.7041 30.9424 30.032 30.9424 30.4365V43.8311C30.9424 44.1109 30.7829 44.3664 30.5314 44.4892L26.2346 46.5878L26.2002 46.6035C25.8439 46.7557 25.4269 46.6032 25.2549 46.2511C25.0774 45.8876 25.2282 45.4491 25.5917 45.2716L29.4775 43.3737V30.4365ZM35.4329 43.8309V4.95872L26.9348 28.7464C26.7988 29.1273 26.3796 29.3258 25.9987 29.1897C25.6178 29.0536 25.4193 28.6345 25.5554 28.2536L35.4753 0.485992L35.4856 0.459003C35.4868 0.455933 35.4881 0.452896 35.4894 0.449848C35.4901 0.448115 35.4909 0.446425 35.4917 0.444698C35.5525 0.302195 35.6555 0.18573 35.7829 0.107765C35.7843 0.106958 35.7855 0.106084 35.7868 0.105286C35.8046 0.0945549 35.8229 0.0846355 35.8416 0.0754356C35.8467 0.0729128 35.8519 0.0704986 35.857 0.0680923C35.8622 0.0657155 35.8673 0.0633903 35.8725 0.0611305C35.8762 0.0594953 35.88 0.0578409 35.8837 0.0562668C35.8913 0.0531151 35.8989 0.0501072 35.9066 0.0472069C35.9238 0.0407386 35.9412 0.0349487 35.9589 0.0297546C35.9645 0.0281095 35.9701 0.0264992 35.9758 0.0249863C35.9797 0.0239439 35.9836 0.0229139 35.9875 0.0219345C35.9945 0.0201889 36.0015 0.0186128 36.0086 0.0170708C36.0131 0.0160939 36.0175 0.0150089 36.022 0.0141144C36.026 0.0133158 36.0301 0.0127485 36.0341 0.0120163C36.0444 0.0101529 36.0548 0.00838966 36.0652 0.00696182C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0894 0.00400366 36.0929 0.00376557 36.0965 0.00343323C36.1044 0.00269731 36.1122 0.00200936 36.1202 0.00152588C36.1238 0.00130186 36.1275 0.00112312 36.1312 0.000953674C36.1424 0.000438638 36.1537 8.68102e-07 36.165 0C36.1654 1.77271e-08 36.1663 9.45556e-05 36.1667 9.53674e-05C36.1773 0.000119189 36.1878 0.000382343 36.1984 0.000858307C36.203 0.00106637 36.2077 0.00142084 36.2124 0.00171661C36.2187 0.00212351 36.225 0.00257946 36.2313 0.00314713C36.2364 0.00360818 36.2416 0.00410522 36.2467 0.004673C36.251 0.00515448 36.2553 0.00573777 36.2596 0.00629425C36.2744 0.0082044 36.2892 0.0104688 36.3037 0.0132561C36.305 0.0135074 36.3063 0.0137608 36.3077 0.014019C36.3149 0.0154374 36.322 0.0170642 36.3291 0.018692C36.3317 0.0192985 36.3344 0.0198688 36.337 0.020504C36.3451 0.0224513 36.3532 0.024584 36.3612 0.0267982C36.3618 0.0269655 36.3624 0.0271063 36.363 0.0272751C36.5984 0.0931353 36.7859 0.273525 36.8615 0.50478L42.9827 17.6373L42.9944 17.6732C43.1062 18.0442 42.9084 18.4416 42.5394 18.5735C42.1585 18.7096 41.7393 18.5111 41.6032 18.1302L36.8978 4.96025V43.8309C36.8978 44.2354 36.5699 44.5633 36.1654 44.5633C35.7609 44.5633 35.4329 44.2354 35.4329 43.8309Z">
+                                                d="M7.21973 30.4365C7.21973 30.032 7.54765 29.7041 7.95215 29.7041C8.35665 29.7041 8.68457 30.032 8.68457 30.4365V43.3736L19.0811 48.4524L22.5204 46.7726L23.1633 48.0887L19.4025 49.9257C19.2000 50.0248 18.9624 50.0248 18.7596 49.9257L7.63066 44.4892C7.37921 44.3664 7.21973 44.1109 7.21973 43.8311V30.4365ZM22.5204 46.7726C22.8838 46.5951 23.3224 46.7458 23.4999 47.1092C23.6774 47.4727 23.5267 47.9112 23.1633 48.0887L22.5204 46.7726ZM29.4775 30.4365C29.4775 30.032 29.8055 29.7041 30.21 29.7041C30.6145 29.7041 30.9424 30.032 30.9424 30.4365V43.8311C30.9424 44.1109 30.7829 44.3664 30.5314 44.4892L26.2346 46.5878L26.2002 46.6035C25.8439 46.7557 25.4269 46.6032 25.2549 46.2511C25.0774 45.8876 25.2282 45.4491 25.5917 45.2716L29.4775 43.3737V30.4365ZM35.4329 43.8309V4.95872L26.9348 28.7464C26.7988 29.1273 26.3796 29.3258 25.9987 29.1897C25.6178 29.0536 25.4193 28.6345 25.5554 28.2536L35.4753 0.485992L35.4856 0.459003C35.4868 0.455933 35.4881 0.452896 35.4894 0.449848C35.4901 0.448115 35.4909 0.446425 35.4917 0.444698C35.5525 0.302195 35.6555 0.18573 35.7829 0.107765C35.7843 0.106958 35.7855 0.106084 35.7868 0.105286C35.8046 0.0945549 35.8229 0.0846355 35.8416 0.0754356C35.8467 0.0729128 35.8519 0.0704986 35.857 0.0680923C35.8622 0.0657155 35.8673 0.0633903 35.8725 0.0611305C35.8762 0.0594953 35.88 0.0578409 35.8837 0.0562668C35.8913 0.0531151 35.8989 0.0501072 35.9066 0.0472069C35.9238 0.0407386 35.9412 0.0349487 35.9589 0.0297546C35.9645 0.0281095 35.9701 0.0264992 35.9758 0.0249863C35.9797 0.0239439 35.9836 0.0229139 35.9875 0.0219345C35.9945 0.0201889 36.0015 0.0186128 36.0086 0.0170708C36.0131 0.0160939 36.0175 0.0150089 36.022 0.0141144C36.026 0.0133158 36.0301 0.0127485 36.0341 0.0120163C36.0444 0.0101529 36.0548 0.00838966 36.0652 0.00696182C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0894 0.00400366 36.0929 0.00376557 36.0965 0.00343323C36.1044 0.00269731 36.1122 0.00200936 36.1202 0.00152588C36.1238 0.00130186 36.1275 0.00112312 36.1312 0.000953674C36.1424 0.000438638 36.1537 8.68102e-07 36.165 0C36.1654 1.77271e-08 36.1663 9.45556e-05 36.1667 9.53674e-05C36.1773 0.000119189 36.1878 0.000382343 36.1984 0.000858307C36.203 0.00106637 36.2077 0.00142084 36.2124 0.00171661C36.2187 0.00212351 36.225 0.00257946 36.2313 0.00314713C36.2364 0.00360818 36.2416 0.00410522 36.2467 0.004673C36.251 0.00515448 36.2553 0.00573777 36.2596 0.00629425C36.2744 0.0082044 36.2892 0.0104688 36.3037 0.0132561C36.305 0.0135074 36.3063 0.0137608 36.3077 0.014019C36.3149 0.0154374 36.322 0.0170642 36.3291 0.018692C36.3317 0.0192985 36.3344 0.0198688 36.337 0.020504C36.3451 0.0224513 36.3532 0.024584 36.3612 0.0267982C36.3618 0.0269655 36.3624 0.0271063 36.363 0.0272751C36.5984 0.0931353 36.7859 0.273525 36.8615 0.50478L42.9827 17.6373L42.9944 17.6732C43.1062 18.0442 42.9084 18.4416 42.5394 18.5735C42.1585 18.7096 41.7393 18.5111 41.6032 18.1302L36.8978 4.96025V43.8309C36.8978 44.2354 36.5699 44.5633 36.1654 44.5633C35.7609 44.5633 35.4329 44.2354 35.4329 43.8309Z">
                                             </path>
                                             <path
                                                 d="M18.3486 49.2676V36.3308L7.63027 31.0948C7.37882 30.972 7.21973 30.7164 7.21973 30.4365C7.21973 30.1567 7.37882 29.9014 7.63027 29.7786L18.7596 24.3419L18.798 24.3245C18.9919 24.2432 19.2123 24.249 19.4025 24.3419L30.5318 29.7786C30.7833 29.9014 30.9424 30.1567 30.9424 30.4365C30.9424 30.7164 30.7833 30.972 30.5318 31.0948L19.8135 36.3308V49.2676C19.8135 49.6721 19.4855 50 19.081 50C18.6765 50 18.3486 49.6721 18.3486 49.2676ZM9.62031 30.4367L19.081 35.0584L28.5417 30.4367L19.081 25.8151L9.62031 30.4367Z">
@@ -859,7 +945,7 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-8 col-lg-8 col-md-9">
                         <div class="section-title-wrapper text-center section-title-space">
                             <span class="section-subtitle is-white">
-                                Your Business Our Expertise
+                                Key Features And Capabilities
                             </span>
                             <h2 class="section-title rs-split-text-enable split-in-left is-white mb-10">Service for your
                                 development</h2>
@@ -933,7 +1019,7 @@ include 'includes/head.php'; ?>
                                                 d="M43.1959 20.4138C43.5649 20.2819 43.9698 20.4641 44.1185 20.8219L44.1321 20.8571L49.9573 37.1608C50.0827 37.5117 49.9246 37.9008 49.59 38.0649L36.4875 44.4887C36.2841 44.5884 36.046 44.5884 35.8426 44.4886L29.8875 41.5688L29.8541 41.5513C29.5153 41.3633 29.3798 40.9405 29.5524 40.5887C29.7249 40.2369 30.142 40.085 30.4981 40.2377L30.5325 40.2536L36.165 43.0153L48.3577 37.0375L42.7526 21.3499C42.6166 20.969 42.815 20.5499 43.1959 20.4138ZM0 22.6328C2.7374e-06 18.7596 1.33391 15.1962 3.56665 12.3799L3.59087 12.351C3.84667 12.0599 4.2886 12.0176 4.59566 12.261C4.91262 12.5123 4.96585 12.973 4.71458 13.2899L4.61979 13.4108C2.64207 15.958 1.46485 19.1568 1.46484 22.6328C1.46484 27.8922 4.16242 32.5225 8.25214 35.2135L8.34904 35.2767L8.38022 35.298C8.69444 35.5247 8.77896 35.9605 8.56609 36.2895C8.35321 36.6185 7.92099 36.72 7.58543 36.5262L7.55329 36.5066L7.44705 36.4372C2.96288 33.4867 0 28.4057 0 22.6328ZM16.5166 6.11621C23.0946 6.11621 28.7736 9.96286 31.4286 15.5263C31.6028 15.8914 31.4481 16.3286 31.083 16.5028C30.7179 16.677 30.2808 16.5223 30.1065 16.1573C27.6854 11.084 22.5089 7.58105 16.5166 7.58105C12.9055 7.58106 9.5933 8.85179 6.99959 10.9715C6.68639 11.2274 6.22502 11.181 5.96905 10.8678C5.71308 10.5546 5.75942 10.0931 6.07262 9.83716C8.91835 7.51153 12.5554 6.11621 16.5166 6.11621Z">
                                             </path>
                                             <path
-                                                d="M7.21973 30.4365C7.21973 30.032 7.54765 29.7041 7.95215 29.7041C8.35665 29.7041 8.68457 30.032 8.68457 30.4365V43.3736L19.0811 48.4524L22.5204 46.7726L23.1633 48.0887L19.4025 49.9257C19.1997 50.0248 18.9624 50.0248 18.7596 49.9257L7.63066 44.4892C7.37921 44.3664 7.21973 44.1109 7.21973 43.8311V30.4365ZM22.5204 46.7726C22.8838 46.5951 23.3224 46.7458 23.4999 47.1092C23.6774 47.4727 23.5267 47.9112 23.1633 48.0887L22.5204 46.7726ZM29.4775 30.4365C29.4775 30.032 29.8055 29.7041 30.21 29.7041C30.6145 29.7041 30.9424 30.032 30.9424 30.4365V43.8311C30.9424 44.1109 30.7829 44.3664 30.5314 44.4892L26.2346 46.5878L26.2002 46.6035C25.8439 46.7557 25.4269 46.6032 25.2549 46.2511C25.0774 45.8876 25.2282 45.4491 25.5917 45.2716L29.4775 43.3737V30.4365ZM35.4329 43.8309V4.95872L26.9348 28.7464C26.7988 29.1273 26.3796 29.3258 25.9987 29.1897C25.6178 29.0536 25.4193 28.6345 25.5554 28.2536L35.4753 0.485992L35.4856 0.459003C35.4868 0.455933 35.4881 0.452896 35.4894 0.449848C35.4901 0.448115 35.4909 0.446425 35.4917 0.444698C35.5525 0.302195 35.6555 0.18573 35.7829 0.107765C35.7843 0.106958 35.7855 0.106084 35.7868 0.105286C35.8046 0.0945549 35.8229 0.0846355 35.8416 0.0754356C35.8467 0.0729128 35.8519 0.0704986 35.857 0.0680923C35.8622 0.0657155 35.8673 0.0633903 35.8725 0.0611305C35.8762 0.0594953 35.88 0.0578409 35.8837 0.0562668C35.8913 0.0531151 35.8989 0.0501072 35.9066 0.0472069C35.9238 0.0407386 35.9412 0.0349487 35.9589 0.0297546C35.9645 0.0281095 35.9701 0.0264992 35.9758 0.0249863C35.9797 0.0239439 35.9836 0.0229139 35.9875 0.0219345C35.9945 0.0201889 36.0015 0.0186128 36.0086 0.0170708C36.0131 0.0160939 36.0175 0.0150089 36.022 0.0141144C36.026 0.0133158 36.0301 0.0120163C36.0444 0.0101529 36.0548 0.00838966 36.0652 0.00696182C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0894 0.00400366 36.0929 0.00376557 36.0965 0.00343323C36.1044 0.00269731 36.1122 0.00200936 36.1202 0.00152588C36.1238 0.00130186 36.1275 0.00112312 36.1312 0.000953674C36.1424 0.000438638 36.1537 8.68102e-07 36.165 0C36.1654 1.77271e-08 36.1663 9.45556e-05 36.1667 9.53674e-05C36.1773 0.000119189 36.1878 0.000382343 36.1984 0.000858307C36.203 0.00106637 36.2077 0.00142084 36.2124 0.00171661C36.2187 0.00212351 36.225 0.00257946 36.2313 0.00314713C36.2364 0.00360818 36.2416 0.00410522 36.2467 0.004673C36.251 0.00515448 36.2553 0.00573777 36.2596 0.00629425C36.2744 0.0082044 36.2892 0.0104688 36.3037 0.0132561C36.305 0.0135074 36.3063 0.0137608 36.3077 0.014019C36.3149 0.0154374 36.322 0.0170642 36.3291 0.018692C36.3317 0.0192985 36.3344 0.0198688 36.337 0.020504C36.3451 0.0224513 36.3532 0.024584 36.3612 0.0267982C36.3618 0.0269655 36.3624 0.0271063 36.363 0.0272751C36.5984 0.0931353 36.7859 0.273525 36.8615 0.50478L42.9827 17.6373L42.9944 17.6732C43.1062 18.0442 42.9084 18.4416 42.5394 18.5735C42.1585 18.7096 41.7393 18.5111 41.6032 18.1302L36.8978 4.96025V43.8309C36.8978 44.2354 36.5699 44.5633 36.1654 44.5633C35.7609 44.5633 35.4329 44.2354 35.4329 43.8309Z">
+                                                d="M7.21973 30.4365C7.21973 30.032 7.54765 29.7041 7.95215 29.7041C8.35665 29.7041 8.68457 30.032 8.68457 30.4365V43.3736L19.0811 48.4524L22.5204 46.7726L23.1633 48.0887L19.4025 49.9257C19.2000 50.0248 18.9624 50.0248 18.7596 49.9257L7.63066 44.4892C7.37921 44.3664 7.21973 44.1109 7.21973 43.8311V30.4365ZM22.5204 46.7726C22.8838 46.5951 23.3224 46.7458 23.4999 47.1092C23.6774 47.4727 23.5267 47.9112 23.1633 48.0887L22.5204 46.7726ZM29.4775 30.4365C29.4775 30.032 29.8055 29.7041 30.21 29.7041C30.6145 29.7041 30.9424 30.032 30.9424 30.4365V43.8311C30.9424 44.1109 30.7829 44.3664 30.5314 44.4892L26.2346 46.5878L26.2002 46.6035C25.8439 46.7557 25.4269 46.6032 25.2549 46.2511C25.0774 45.8876 25.2282 45.4491 25.5917 45.2716L29.4775 43.3737V30.4365ZM35.4329 43.8309V4.95872L26.9348 28.7464C26.7988 29.1273 26.3796 29.3258 25.9987 29.1897C25.6178 29.0536 25.4193 28.6345 25.5554 28.2536L35.4753 0.485992L35.4856 0.459003C35.4868 0.455933 35.4881 0.452896 35.4894 0.449848C35.4901 0.448115 35.4909 0.446425 35.4917 0.444698C35.5525 0.302195 35.6555 0.18573 35.7829 0.107765C35.7843 0.106958 35.7855 0.106084 35.7868 0.105286C35.8046 0.0945549 35.8229 0.0846355 35.8416 0.0754356C35.8467 0.0729128 35.8519 0.0704986 35.857 0.0680923C35.8622 0.0657155 35.8673 0.0633903 35.8725 0.0611305C35.8762 0.0594953 35.88 0.0578409 35.8837 0.0562668C35.8913 0.0531151 35.8989 0.0501072 35.9066 0.0472069C35.9238 0.0407386 35.9412 0.0349487 35.9589 0.0297546C35.9645 0.0281095 35.9701 0.0264992 35.9758 0.0249863C35.9797 0.0239439 35.9836 0.0229139 35.9875 0.0219345C35.9945 0.0201889 36.0015 0.0186128 36.0086 0.0170708C36.0131 0.0160939 36.0175 0.0150089 36.022 0.0141144C36.026 0.0133158 36.0301 0.0120163C36.0444 0.0101529 36.0548 0.00838966 36.0652 0.00696182C36.0721 0.00602246 36.0789 0.00513436 36.0858 0.0043869C36.0894 0.00400366 36.0929 0.00376557 36.0965 0.00343323C36.1044 0.00269731 36.1122 0.00200936 36.1202 0.00152588C36.1238 0.00130186 36.1275 0.00112312 36.1312 0.000953674C36.1424 0.000438638 36.1537 8.68102e-07 36.165 0C36.1654 1.77271e-08 36.1663 9.45556e-05 36.1667 9.53674e-05C36.1773 0.000119189 36.1878 0.000382343 36.1984 0.000858307C36.203 0.00106637 36.2077 0.00142084 36.2124 0.00171661C36.2187 0.00212351 36.225 0.00257946 36.2313 0.00314713C36.2364 0.00360818 36.2416 0.00410522 36.2467 0.004673C36.251 0.00515448 36.2553 0.00573777 36.2596 0.00629425C36.2744 0.0082044 36.2892 0.0104688 36.3037 0.0132561C36.305 0.0135074 36.3063 0.0137608 36.3077 0.014019C36.3149 0.0154374 36.322 0.0170642 36.3291 0.018692C36.3317 0.0192985 36.3344 0.0198688 36.337 0.020504C36.3451 0.0224513 36.3532 0.024584 36.3612 0.0267982C36.3618 0.0269655 36.3624 0.0271063 36.363 0.0272751C36.5984 0.0931353 36.7859 0.273525 36.8615 0.50478L42.9827 17.6373L42.9944 17.6732C43.1062 18.0442 42.9084 18.4416 42.5394 18.5735C42.1585 18.7096 41.7393 18.5111 41.6032 18.1302L36.8978 4.96025V43.8309C36.8978 44.2354 36.5699 44.5633 36.1654 44.5633C35.7609 44.5633 35.4329 44.2354 35.4329 43.8309Z">
                                             </path>
                                         </svg>
                                     </div>
@@ -1024,53 +1110,71 @@ include 'includes/head.php'; ?>
         </section>
         <!-- services area end -->
 
-        <!-- contact area start -->
-        <section class="rs-contact-area rs-contact-three section-space">
+         <!-- work area start -->
+        <section class="rs-working-area rs-working-six section-space">
             <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="section-title-wrapper text-center section-title-space">
+                            <span class="section-subtitle">
+                         How It Works (Process + Technology)
+                     </span>
+                            <h2 class="section-title rs-split-text-enable split-in-left mb-15">Work process how we help
+                            </h2>
+                            <p class="section-desc">read and update the latest news from us. donec eu magna quis felis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="rs-contact-wrapper">
-                            <div class="rs-contact-item">
-                                <div class="rs-contact-thumb">
-                                    <img src="assets/images/contact/contact-thumb-09.webp" alt="image">
+                        <div class="rs-working-wrapper">
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/14.webp" alt="image">
                                 </div>
-                                <h5 class="rs-contact-title">California</h5>
-                                <div class="rs-contact-info">
-                                    <span><a href="#">Madison Avenue, new york</a></span>
-                                    <span><a href="tel:990123456789">+990 123 456 789</a></span>
-                                    <span><a
-                                            href="mailto:bustarconsulting@gmail.com">bustarconsulting@gmail.com</a></span>
-                                </div>
+                                <span class="rs-working-number">
+                           01
+                        </span>
+                                <h5 class="rs-working-title">Quick Solutions</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
                             </div>
-                            <div class="rs-contact-item">
-                                <div class="rs-contact-thumb">
-                                    <img src="assets/images/contact/contact-thumb-06.webp" alt="image">
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/5.webp" alt="image">
                                 </div>
-                                <h5 class="rs-contact-title">New York City</h5>
-                                <div class="rs-contact-info">
-                                    <span><a href="#">Washington Ave. Manchester, Kentucky </a></span>
-                                    <span><a href="tel:893085550121">+89 (308) 555-0121</a></span>
-                                    <span><a
-                                            href="mailto:bustarconsulting@gmail.com">bustarconsulting@gmail.com</a></span>
-                                </div>
+                                <span class="rs-working-number">
+                           02
+                        </span>
+                                <h5 class="rs-working-title">Expert Advice</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
                             </div>
-                            <div class="rs-contact-item">
-                                <div class="rs-contact-thumb">
-                                    <img src="assets/images/contact/contact-thumb-02.webp" alt="image">
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/22.webp" alt="image">
                                 </div>
-                                <h5 class="rs-contact-title">New Hampshire</h5>
-                                <div class="rs-contact-info">
-                                    <span><a href="#"> Parker Rd. Allentown, New Mexico</a></span>
-                                    <span><a href="tel:9075550101">(907) 555-0101</a></span>
-                                    <span><a href="mailto:consulting@gmail.com">consulting@gmail.com</a></span>
+                                <span class="rs-working-number">
+                           03
+                        </span>
+                                <h5 class="rs-working-title">Strategic Planning</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
+                            </div>
+                            <div class="rs-working-item wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                                <div class="rs-working-thumb has-radius">
+                                    <img src="assets/images/about/6.webp" alt="image">
                                 </div>
+                                <span class="rs-working-number">
+                           04
+                        </span>
+                                <h5 class="rs-working-title">Efficient Operations</h5>
+                                <p class="rs-working-desc">We aim to help businesses sustainable growth through</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- contact area end -->
+        <!-- work area end -->
 
         <!-- portfolio area start -->
         <section class="rs-portfolio-area rs-portfolio-two section-space rs-swiper has-tab-black">
@@ -1079,7 +1183,7 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-8 col-lg-9">
                         <div class="section-title-wrapper text-center section-title-space">
                             <span class="section-subtitle">
-                                OUR FEATURED PROJECTS
+                                Solution Use Cases and Packages
                             </span>
                             <h2 class="section-title rs-split-text-enable split-in-left">Case studies & highlights
                             </h2>
@@ -1138,7 +1242,7 @@ include 'includes/head.php'; ?>
                                             data-item-xs="1">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide"
-                                                    data-bg="assets/images/portfolio/portfolio-thumb-21.webp">
+                                                    data-bg="assets/images/banner/banner-5.webp">
                                                     <div class="rs-portfolio-tab-item">
                                                         <div class="rs-portfolio-tab-content">
                                                             <div class="rs-portfolio-tag-wrapper">
@@ -1182,7 +1286,7 @@ include 'includes/head.php'; ?>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide"
-                                                    data-bg="assets/images/portfolio/portfolio-thumb-17.webp">
+                                                    data-bg="assets/images/about/37.webp">
                                                     <div class="rs-portfolio-tab-item">
                                                         <div class="rs-portfolio-tab-content">
                                                             <div class="rs-portfolio-tag-wrapper">
@@ -1228,7 +1332,7 @@ include 'includes/head.php'; ?>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide"
-                                                    data-bg="assets/images/portfolio/portfolio-thumb-18.webp">
+                                                    data-bg="assets/images/about/32.webp">
                                                     <div class="rs-portfolio-tab-item">
                                                         <div class="rs-portfolio-tab-content">
                                                             <div class="rs-portfolio-tag-wrapper">
@@ -1273,7 +1377,7 @@ include 'includes/head.php'; ?>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide"
-                                                    data-bg="assets/images/portfolio/portfolio-thumb-19.webp">
+                                                    data-bg="assets/images/about/35.webp">
                                                     <div class="rs-portfolio-tab-item">
                                                         <div class="rs-portfolio-tab-content">
                                                             <div class="rs-portfolio-tag-wrapper">
@@ -1317,7 +1421,7 @@ include 'includes/head.php'; ?>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide"
-                                                    data-bg="assets/images/portfolio/portfolio-thumb-20.webp">
+                                                    data-bg="assets/images/about/15.webp">
                                                     <div class="rs-portfolio-tab-item">
                                                         <div class="rs-portfolio-tab-content">
                                                             <div class="rs-portfolio-tag-wrapper">
@@ -1364,7 +1468,7 @@ include 'includes/head.php'; ?>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide"
-                                                    data-bg="assets/images/portfolio/portfolio-thumb-16.webp">
+                                                    data-bg="assets/images/about/24.webp">
                                                     <div class="rs-portfolio-tab-item">
                                                         <div class="rs-portfolio-tab-content">
                                                             <div class="rs-portfolio-tag-wrapper">
@@ -2561,10 +2665,10 @@ include 'includes/head.php'; ?>
                                 </div>
                             </div>
                             <div class="rs-why-choose-thumb">
-                                <img src="assets/images/why-choose/why-choose-thumb-06.webp" alt="image">
+                                <img src="assets/images/about/15.webp" alt="image">
                                 <div class="rs-why-choose-meta">
                                     <div class="rs-why-choose-meta-icon">
-                                        <img src="assets/images/favicon.webp" alt="image">
+                                        <img src="assets/images/logo/favicon-icef.png" alt="image">
                                     </div>
                                     <p class="rs-why-choose-meta-desc">We ensure fastest management team -work</p>
                                     <div class="rs-why-choose-meta-btn">
@@ -2649,7 +2753,7 @@ include 'includes/head.php'; ?>
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h5 class="rs-testimonial-avater-title">Abdur Rashid</h5>
+                                                        <h5 class="rs-testimonial-avater-title">Arjun Mehta</h5>
                                                         <span class="rs-testimonial-avater-designation">Founder &
                                                             CEO</span>
                                                     </div>
@@ -2686,7 +2790,7 @@ include 'includes/head.php'; ?>
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h5 class="rs-testimonial-avater-title">Ronald Richards</h5>
+                                                        <h5 class="rs-testimonial-avater-title">Aditya Verma</h5>
                                                         <span class="rs-testimonial-avater-designation">Project
                                                             Manager</span>
                                                     </div>
@@ -2724,7 +2828,7 @@ include 'includes/head.php'; ?>
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h5 class="rs-testimonial-avater-title">Leslie Alexander</h5>
+                                                        <h5 class="rs-testimonial-avater-title">Priyanka Singh</h5>
                                                         <span class="rs-testimonial-avater-designation">President of
                                                             Sales</span>
                                                     </div>
@@ -2762,7 +2866,7 @@ include 'includes/head.php'; ?>
                                             <div class="rs-testimonial-item">
                                                 <div class="rs-testimonial-avater-wrapper">
                                                     <div class="rs-testimonial-avater-info">
-                                                        <h5 class="rs-testimonial-avater-title">Nayeem</h5>
+                                                        <h5 class="rs-testimonial-avater-title">Vikram Malhotra</h5>
                                                         <span class="rs-testimonial-avater-designation">HR
                                                             Manager</span>
                                                     </div>
@@ -2811,7 +2915,7 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-9 col-lg-10">
                         <div class="section-title-wrapper text-center section-title-space">
                             <span class="section-subtitle">
-                                Powerful Steps TO Success
+                                 Security and Compliance
                             </span>
                             <h2 class="section-title rs-split-text-enable split-in-left mb-15">How we help your business
                                 succeed
@@ -2826,11 +2930,11 @@ include 'includes/head.php'; ?>
                         <div class="rs-working-item item-one">
                             <div class="rs-video-wrapper">
                                 <div class="rs-video-bg-thumb include-bg"
-                                    data-background="assets/images/video/video-thumb-01.webp">
+                                    data-background="assets/images/about/30.webp">
                                 </div>
                                 <div class="rs-video-wrapper text-center">
                                     <div class="rs-video-play-btn">
-                                        <a href="https://www.youtube.com/watch?v=go7QYaQR494"
+                                        <a href="https://youtube.com/shorts/70lTRs3ItFQ?si=7nICpybp9XLRHvHl"
                                             class="rs-play-btn popup-video is-medium has-transparent-btn has-blur hover-primary"><i
                                                 class="ri-play-large-fill"></i></a>
                                     </div>
@@ -2871,7 +2975,7 @@ include 'includes/head.php'; ?>
                         </div>
                         <div class="rs-working-item item-three">
                             <div class="rs-progress-wrapper">
-                                <h5 class="rs-progress-sec-title">Bustar Achieve Goals</h5>
+                                <h5 class="rs-progress-sec-title">ICEF Achieve Goals</h5>
                                 <div class="rs-progress-item-wrapper">
                                     <div class="single-progress">
                                         <div class="progress-top">
@@ -3072,251 +3176,200 @@ include 'includes/head.php'; ?>
                             </span>
                             <h2 class="section-title rs-split-text-enable split-in-left mb-15">Featured news and
                                 insights</h2>
-                            <p class="section-desc">Read and update the latest news from us. donec eu magna quis felis.
+                            <p class="section-desc">Stay updated with our latest industry insights, expert strategies, and company news tailored for your success.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="rs-blog-wrapper">
-                            <div class="rs-blog-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                <div class="rs-blog-thumb">
-                                    <img src="assets/images/blog/blog-thumb-01.webp" alt="image">
-                                </div>
+                        <div class="rs-blog-wrapper rs-swiper">
+                            <div class="swiper" data-item="3" data-item-lg="3" data-item-md="2" data-item-sm="1" data-loop="true" data-autoplay="true" data-speed="1000">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-01.webp" alt="image">
+                                            </div>
 
-                                <div class="rs-blog-content-wrapper">
-                                    <div class="rs-blog-tag">
-                                        <a href="blog-details.php" class="post-tag">September 23, 2025 </a>
-                                    </div>
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">September 23, 2025 </a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">                                            
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Insights That Driven Business Smarter
+                                                            Forward</a>
+                                                    </h5>
+                                                </div>
                                             </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Corporate</span>
-                                            </div>
-                                        </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> Insights That Driven Business Smarter
-                                                Forward</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="rs-blog-content-hover">
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
-                                            </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Corporate</span>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Insights That Driven Business Smarter
+                                                            Forward</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">Consulting empowers businesses with data-driven
+                                                        strategies and
+                                                        innovative solutions to achieve sustainable...</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> Insights That Driven Business Smarter
-                                                Forward</a>
-                                        </h5>
-                                        <p class="rs-blog-desc">Consulting empowers businesses with data-driven
-                                            strategies and
-                                            innovative solutions to achieve sustainable...</p>
-                                        <div class="rs-blog-btn">
-                                            <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                            </a>
-                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="rs-blog-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                                <div class="rs-blog-thumb">
-                                    <img src="assets/images/blog/blog-thumb-02.webp" alt="image">
-                                </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-02.webp" alt="image">
+                                            </div>
 
-                                <div class="rs-blog-content-wrapper">
-                                    <div class="rs-blog-tag">
-                                        <a href="blog-details.php" class="post-tag">August 26, 2025</a>
-                                    </div>
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">August 26, 2025</a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Consulting</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> How Strategic Planning Drives Business
+                                                            Success</a>
+                                                    </h5>
+                                                </div>
                                             </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Consulting</span>
-                                            </div>
-                                        </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> How Strategic Planning Drives Business
-                                                Success</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="rs-blog-content-hover">
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
-                                            </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Corporate</span>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> How Strategic Planning Drives Business
+                                                            Success</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">From insights to execution, we guide businesses to
+                                                        smarter
+                                                        decisions and better...</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> How Strategic Planning Drives Business
-                                                Success</a>
-                                        </h5>
-                                        <p class="rs-blog-desc">From insights to execution, we guide businesses to
-                                            smarter
-                                            decisions and better...</p>
-                                        <div class="rs-blog-btn">
-                                            <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                            </a>
-                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="rs-blog-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                                <div class="rs-blog-thumb">
-                                    <img src="assets/images/blog/blog-thumb-03.webp" alt="image">
-                                </div>
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".7s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-03.webp" alt="image">
+                                            </div>
 
-                                <div class="rs-blog-content-wrapper">
-                                    <div class="rs-blog-tag">
-                                        <a href="blog-details.php" class="post-tag">Feb 17, 2025</a>
-                                    </div>
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">Feb 17, 2025</a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        
+                                                        
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
+                                                    </h5>
+                                                </div>
                                             </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Corporate</span>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Corporate</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">Consulting transforms challenges into opportunities with
+                                                        tailored
+                                                        solutions and proven expertise.</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
-                                        </h5>
                                     </div>
-                                </div>
-                                <div class="rs-blog-content-hover">
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
+                                    <div class="swiper-slide">
+                                        <div class="rs-blog-item wow fadeInLeft" data-wow-delay=".9s" data-wow-duration="1s">
+                                            <div class="rs-blog-thumb">
+                                                <img src="assets/images/blog/blog-thumb-04.webp" alt="image">
                                             </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Corporate</span>
-                                            </div>
-                                        </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> Planning Your Business for Long-Term Growth</a>
-                                        </h5>
-                                        <p class="rs-blog-desc">Consulting transforms challenges into opportunities with
-                                            tailored
-                                            solutions and proven expertise.</p>
-                                        <div class="rs-blog-btn">
-                                            <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rs-blog-item wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
-                                <div class="rs-blog-thumb">
-                                    <img src="assets/images/blog/blog-thumb-04.webp" alt="image">
-                                </div>
 
-                                <div class="rs-blog-content-wrapper">
-                                    <div class="rs-blog-tag">
-                                        <a href="blog-details.php" class="post-tag">Jan 10, 2025</a>
-                                    </div>
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
+                                            <div class="rs-blog-content-wrapper">
+                                                <div class="rs-blog-tag">
+                                                    <a href="blog-details.php" class="post-tag">Jan 10, 2025</a>
+                                                </div>
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">                                            
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Analysis</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
+                                                    </h5>
+                                                </div>
                                             </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Analysis</span>
+                                            <div class="rs-blog-content-hover">
+                                                <div class="rs-blog-content">
+                                                    <div class="rs-blog-meta-wrapper">
+                                                        <div class="rs-blog-meta-item">
+                                                            <span> <i class="ri-price-tag-3-line"></i>
+                                                                Analysis</span>
+                                                        </div>
+                                                    </div>
+                                                    <h5 class="rs-blog-title">
+                                                        <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
+                                                    </h5>
+                                                    <p class="rs-blog-desc">Understand your competitors and market trends to stay
+                                                        ahead of the curve and grow.</p>
+                                                    <div class="rs-blog-btn">
+                                                        <a class="rs-btn has-text is-white" href="blog-details.php">Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div class="rs-blog-content-hover">
-                                    <div class="rs-blog-content">
-                                        <div class="rs-blog-meta-wrapper">
-                                            <div class="rs-blog-meta-item">
-                                                <span>
-                                                    <i class="ri-user-line"></i>
-                                                    <a href="#">
-                                                        Bustar
-                                                    </a>
-                                                </span>
-                                            </div>
-                                            <div class="rs-blog-meta-item">
-                                                <span> <i class="ri-price-tag-3-line"></i>
-                                                    Analysis</span>
-                                            </div>
-                                        </div>
-                                        <h5 class="rs-blog-title">
-                                            <a href="blog-details.php"> Mastering the Art of Market Analysis</a>
-                                        </h5>
-                                        <p class="rs-blog-desc">Understand your competitors and market trends to stay
-                                            ahead of the curve and grow.</p>
-                                        <div class="rs-blog-btn">
-                                            <a class="rs-btn has-text is-white" href="blog-details.php">Read More
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -3461,7 +3514,7 @@ include 'includes/head.php'; ?>
                         <div class="rs-working-wrapper">
                             <div class="rs-working-thumb is-large-thumb rs-image scroll_reveal reveal-active"
                                 data-dir="left">
-                                <img decoding="async" src="assets/images/work/working-thumb-01.webp" alt="image">
+                                <img decoding="async" src="assets/images/about/34.webp" alt="image">
                             </div>
                             <div class="rs-working-content-wrapper">
                                 <div class="section-title-wrapper section-title-space">
@@ -3549,11 +3602,11 @@ include 'includes/head.php'; ?>
                                     <div class="rs-rotate-btn"
                                         data-background="assets/images/shape/half-rotate-shape.webp">
                                         <div class="rs-meta-shape">
-                                            <img src="assets/images/favicon.webp" alt="image">
+                                            <img src="assets/images/logo/favicon-icef.png" alt="image">
                                         </div>
                                         <div class="rs-circle-title rs-text-circle-wrapper">
                                             <div class="rs-text-circle" data-rotate-degree="8.5">
-                                                Corporate Consulting!
+                                                ICEF India!
                                             </div>
                                         </div>
                                     </div>

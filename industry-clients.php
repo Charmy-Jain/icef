@@ -18,7 +18,7 @@ include 'includes/head.php'; ?>
                                     <span class="section-subtitle">
                                         Best BUSINESS Strategy
                                     </span>
-                                    <h2 class="section-title rs-split-text-enable split-in-left mb-20">Welcome to bustar
+                                    <h2 class="section-title rs-split-text-enable split-in-left mb-20">Welcome to ICEF
                                         team
                                     </h2>
                                     <p class="rs-section-desc">Position your agency as the bridge between a client’s
@@ -92,7 +92,7 @@ include 'includes/head.php'; ?>
                                 </div>
                             </div>
                             <div class="rs-working-thumb rs-image scroll_reveal reveal-active" data-dir="reveal_right">
-                                <img src="assets/images/work/working-thumb-09.webp" alt="image">
+                                <img src="assets/images/about/16.webp" alt="image">
                             </div>
                         </div>
                     </div>
@@ -180,17 +180,104 @@ include 'includes/head.php'; ?>
         <!-- feature area end -->
 
         <!-- brand area start -->
-        <div class="rs-brand-area rs-brand-three" style="padding-top: 200px; padding-bottom: 320px;">
+        <div class="rs-brand-area rs-brand-three" style="padding-top: 100px; padding-bottom: 200px;">
             <div class="container">
+                <!-- Search Bar Row -->
+                <div class="row mb-50">
+                    <div class="col-xl-12">
+                        <div class="rs-search-container d-flex justify-content-end">
+                            <form action="javascript:void(0)" method="GET" class="rs-search-form" onsubmit="return false;">
+                                <div class="rs-search-input-group">
+                                    <input type="text" id="brandSearchInput" placeholder="Search clientele..." name="search">
+                                    <button type="button">
+                                        <i class="ri-search-line"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    .rs-search-container {
+                        margin-bottom: 30px;
+                    }
+                    .rs-search-form {
+                        width: 100%;
+                        max-width: 350px;
+                    }
+                    .rs-search-input-group {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .rs-search-input-group input {
+                        width: 100%;
+                        height: 55px;
+                        padding: 10px 60px 10px 25px;
+                        border: 1px solid #E5E9F2;
+                        border-radius: 50px;
+                        background: #fff;
+                        font-size: 16px;
+                        color: #1a1a1a;
+                        transition: all 0.3s ease;
+                        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+                    }
+                    .rs-search-input-group input:focus {
+                        border-color: #AB052D;
+                        outline: none;
+                        box-shadow: 0 5px 20px rgba(171, 5, 45, 0.1);
+                    }
+                    .rs-search-input-group button {
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                        width: 45px;
+                        height: 45px;
+                        background: #AB052D;
+                        color: #fff;
+                        border: none;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 20px;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                    }
+                    .rs-search-input-group button:hover {
+                        background: #1a1a1a;
+                        transform: scale(1.05);
+                    }
+                    @media (max-width: 767px) {
+                        .rs-search-form {
+                            max-width: 100%;
+                        }
+                    }
+                </style>
+
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="rs-brand-wrapper">
+                        <div class="rs-brand-wrapper" id="brandList">
                             <?php
-                            $brands = ["01", "02", "03", "04", "05", "06", "10", "11", "13", "14", "15", "16"];
+                            $brands = [
+                                ["id" => "01", "name" => "Access Bank"],
+                                ["id" => "02", "name" => "Cowrywise"],
+                                ["id" => "03", "name" => "Lendsqr"],
+                                ["id" => "04", "name" => "TalentQL"],
+                                ["id" => "05", "name" => "Piggyvest"],
+                                ["id" => "06", "name" => "Produqtedge"],
+                                ["id" => "10", "name" => "Asterisk"],
+                                ["id" => "11", "name" => "Fast Aid"],
+                                ["id" => "13", "name" => "Chain"],
+                                ["id" => "14", "name" => "Protected"],
+                                ["id" => "15", "name" => "Mainpoint"],
+                                ["id" => "16", "name" => "Puzzle"]
+                            ];
                             foreach ($brands as $brand): ?>
-                                <div class="rs-brand-item">
+                                <div class="rs-brand-item brand-search-item" data-name="<?php echo strtolower($brand['name']); ?>">
                                     <div class="rs-brand-thumb">
-                                        <img src="assets/images/brand/brand-thumb-<?php echo $brand; ?>.webp" alt="image">
+                                        <img src="assets/images/brand/brand-thumb-<?php echo $brand['id']; ?>.webp" alt="<?php echo $brand['name']; ?>">
                                     </div>
                                 </div>
                             <?php endforeach; ?>
@@ -200,6 +287,26 @@ include 'includes/head.php'; ?>
             </div>
         </div>
         <!-- brand area end -->
+
+        <script>
+            document.getElementById('brandSearchInput').addEventListener('input', function(e) {
+                const term = e.target.value.toLowerCase();
+                const items = document.querySelectorAll('.brand-search-item');
+                
+                items.forEach(item => {
+                    const name = item.getAttribute('data-name');
+                    if (name.includes(term)) {
+                        item.style.display = 'flex';
+                        item.style.opacity = '1';
+                        item.style.visibility = 'visible';
+                    } else {
+                        item.style.display = 'none';
+                        item.style.opacity = '0';
+                        item.style.visibility = 'hidden';
+                    }
+                });
+            });
+        </script>
 
         <!-- testimonial area start -->
         <section id="clients" class="rs-testimonial-area rs-testimonial-four section-space rs-swiper"
@@ -233,8 +340,8 @@ include 'includes/head.php'; ?>
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Abdur Rashid</h5>
-                                                    <span class="rs-testimonial-avater-designation">Founder & CEO</span>
+                                                    <h5 class="rs-testimonial-avater-title">Arjun Mehta</h5>
+                                                    <span class="rs-testimonial-avater-designation">Founder, Mehta Group</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
@@ -269,9 +376,8 @@ include 'includes/head.php'; ?>
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Leslie Alexander</h5>
-                                                    <span class="rs-testimonial-avater-designation">President of
-                                                        Sales</span>
+                                                    <h5 class="rs-testimonial-avater-title">Siddharth Varma</h5>
+                                                    <span class="rs-testimonial-avater-designation">Director of Sales, Indico</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
@@ -307,8 +413,8 @@ include 'includes/head.php'; ?>
                                         <div class="rs-testimonial-item">
                                             <div class="rs-testimonial-avater-wrapper">
                                                 <div class="rs-testimonial-avater-info">
-                                                    <h5 class="rs-testimonial-avater-title">Marry Holder</h5>
-                                                    <span class="rs-testimonial-avater-designation">HR Manager</span>
+                                                    <h5 class="rs-testimonial-avater-title">Kavita Reddy</h5>
+                                                    <span class="rs-testimonial-avater-designation">HR Lead, Apollo Bangalore</span>
                                                 </div>
                                                 <div class="rs-testimonial-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="44"
@@ -366,11 +472,11 @@ include 'includes/head.php'; ?>
                                     <div class="rs-rotate-btn"
                                         data-background="assets/images/shape/half-rotate-shape.webp">
                                         <div class="rs-meta-shape">
-                                            <img src="assets/images/favicon.webp" alt="image">
+                                            <img src="assets/images/logo/favicon-icef.png" alt="image">
                                         </div>
                                         <div class="rs-circle-title rs-text-circle-wrapper">
                                             <div class="rs-text-circle" data-rotate-degree="8.5">
-                                                Corporate Consulting!
+                                                ICEF India!
                                             </div>
                                         </div>
                                     </div>
