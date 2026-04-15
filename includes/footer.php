@@ -69,7 +69,7 @@
                     <div class="rs-footer-right">
                         <div class="rs-footer-widget-wrapper">
                             <div class="rs-footer-widget footer-1-col-2">
-                                <h5 class="rs-footer-widget-title">About​</h5>
+                                <h5 class="rs-footer-widget-title">About</h5>
                                 <div class="rs-footer-widget-link">
                                     <ul>
                                         <li><a href="about-mission.php">About ICEF India</a></li>

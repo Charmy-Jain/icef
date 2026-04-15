@@ -42,7 +42,7 @@ include 'includes/head.php'; ?>
                                 <span class="rs-banner-subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
                                     Seamless Customer Engagement
                                 </span>
-                                <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s" style="font-size: 54px; line-height: 1.3;">
+                                <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s" >
                                     Strategic Call Center & &amp; <br><span id="demo-typed-text" style="color:#AB052D;"></span><span class="demo-typed-cursor" style="color:#AB052D; font-weight:300;">|</span>
                                  </h1>
                                 <span class="rs-banner-line"></span>
@@ -69,11 +69,11 @@ include 'includes/head.php'; ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-5 col-xl-5 col-lg-5 offset-xxl-1" style="margin-top: -210px;">
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 offset-xxl-1" >
                         <div class="rs-banner-thumb rs-banner-form-wrap wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="1.3s">
                             <div class="rs-banner-contact-form" style="padding: 24px;">
-                                <h3 class="rs-form-title" style="font-size: 18px; margin-bottom: 4px;">Complete the form below.</h3>
-                                <p class="rs-form-subtitle" style="font-size: 12px; margin-bottom: 12px;">We will respond as soon as possible.</p>
+                                <h3 class="rs-form-title" >Complete the form below.</h3>
+                                <p class="rs-form-subtitle" >We will respond as soon as possible.</p>
                                 <?php 
                                     $selected_service = "call_center_bpo";
                                     $selected_sub_service = "inbound_outbound";
@@ -3711,3 +3711,4 @@ include 'includes/head.php'; ?>
 </body>
 
 </html>
+

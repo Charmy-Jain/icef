@@ -1,9 +1,0 @@
-.git
-.vscode
-.gemini
-unnecessary/
-Dockerfile
-.dockerignore
-node_modules
-npm-debug.log
-error_log

@@ -10166,8 +10166,8 @@ html.lenis body {
 .rs-footer-one .rs-footer-widget-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  gap: 20px;
+  align-items: start;
+  gap: 50px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -10377,7 +10377,7 @@ html.lenis body {
 }
 
 .rs-footer-one .footer-1-col-3 {
-  margin-inline-start: 30px;
+  margin-inline-start: 0px;
 }
 
 @media only screen and (max-width: 1199px) {

@@ -211,6 +211,20 @@
             border-color: #8c0424;
         }
 
+        /* Solution Page Banner Desktop Defaults (Replacing removed inline styles to maintain laptop view) */
+        @media (min-width: 992px) {
+            .rs-banner-one .rs-banner-title {
+                font-size: 54px;
+                line-height: 1.3;
+            }
+            .rs-banner-one .row > .col-lg-5 {
+                margin-top: -210px;
+            }
+            .rs-form-title {
+                font-size: 18px;
+            }
+        }
+
         /* ---- Responsive overrides ---- */
         @media (max-width: 1399px) {
             .rs-banner-area .rs-banner-content { padding-left: 40px; }
@@ -237,6 +251,79 @@
                 flex-direction: column;
                 gap: 10px;
             }
+
+            /* Solution Page Banner Fixes (Targeting inline styles) */
+            .rs-banner-one .rs-banner-title {
+                font-size: 32px !important;
+                line-height: 1.2 !important;
+            }
+
+            .rs-banner-one [style*="margin-top: -210px"] {
+                margin-top: 30px !important;
+            }
+            
+            .rs-banner-area.rs-banner-one {
+                padding-top: 100px;
+                padding-bottom: 40px;
+            }
+
+            .rs-banner-one .rs-banner-subtitle {
+                font-size: 14px !important;
+                margin-bottom: 10px !important;
+            }
+
+            .rs-banner-one .rs-banner-desc {
+                font-size: 16px !important;
+                margin-bottom: 20px !important;
+            }
+        }
+
+        /* Further Mobile Adjustments */
+        @media (max-width: 575px) {
+            .rs-banner-one .rs-banner-title {
+                font-size: 26px !important;
+            }
+            .rs-banner-area.rs-banner-one {
+                padding-top: 80px;
+            }
+        }
+
+        /* Footer Logo Responsiveness */
+        @media (max-width: 767px) {
+            .rs-footer-widget-logo img {
+                max-width: 140px !important;
+                height: auto !important;
+            }
+        }
+
+        /* Global Compact Banner Form Styles */
+        .rs-banner-contact-form .rs-form-group input,
+        .rs-banner-contact-form .rs-form-group select {
+            font-size: 12px !important;
+            padding: 6px 10px !important;
+            height: 36px !important;
+            min-height: unset !important;
+            line-height: 1 !important;
+            box-sizing: border-box !important;
+        }
+        .rs-banner-contact-form .rs-form-group textarea {
+            font-size: 12px !important;
+            padding: 6px 10px !important;
+            height: 80px !important;
+            min-height: unset !important;
+            resize: none;
+            box-sizing: border-box !important;
+        }
+        .rs-banner-contact-form .rs-form-group {
+            margin-bottom: 8px !important;
+        }
+        .rs-banner-contact-form .rs-form-row {
+            gap: 8px !important;
+            margin-bottom: 0 !important;
+        }
+        .rs-banner-contact-form .rs-banner-form-btn {
+            padding: 10px 20px !important;
+            font-size: 13px !important;
         }
 
         /* =============================================
@@ -245,7 +332,7 @@
         @media (min-width: 992px) {
 
             /* Overlay Header Container — only for main header, not sticky */
-            .rs-header-area.header-transparent:not(.rs-sticky-header) {
+            .rs-header-area.header-transparent {
                 position: absolute;
                 width: 100%;
                 top: 40px; /* leave space for the Top Red Bar */
@@ -264,34 +351,6 @@
                 align-items: center;
             }
 
-            /* Sticky header — glass while not yet active */
-            .header-transparent.rs-sticky-header:not(.active) {
-                background: rgba(43, 57, 68, 0.4) !important;
-                backdrop-filter: blur(20px);
-                -webkit-backdrop-filter: blur(20px);
-                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                position: fixed;
-                width: 100%;
-                top: -100px;
-                z-index: 1001;
-                visibility: hidden;
-                opacity: 0;
-                pointer-events: none;
-                transition: all 0.4s ease;
-            }
-
-            /* Sticky header — fully visible when active */
-            .header-transparent.rs-sticky-header.active {
-                background: var(--rs-theme-secondary) !important;
-                backdrop-filter: none;
-                -webkit-backdrop-filter: none;
-                top: 0 !important;
-                position: fixed;
-                width: 100%;
-                visibility: visible;
-                opacity: 1;
-                pointer-events: auto;
-            }
         }
 
         /* Mobile Menu Fix: hide desktop nav on small screens */

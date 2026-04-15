@@ -57,6 +57,9 @@
                         <div class="rs-offcanvas-menu mb-30" id="sidebar-menu-target">
                             <!-- Menu will be injected here via JS -->
                         </div>
+                        <div class="offcanvas-btn mb-30">
+                            <a class="rs-btn has-icon has-md-radius w-100 justify-content-center" href="contact.php">Get Free Quote</a>
+                        </div>
                     </div>
                     <div class="offcanvas-contact mb-30">
                         <h4 class="offcanvas-title-meta">Contact Info</h4>

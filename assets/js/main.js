@@ -428,16 +428,12 @@
             $(".progress-circle").css("stroke-dashoffset", 113.1 - 113.1 * (scrollTop / (documentHeight - windowHeight)));
             if (scrollTop > 150) {
                 $(".backtotop-wrap").addClass("active-progress").fadeIn();
+                $("header").addClass("header-sticky");
             } else {
                 $(".backtotop-wrap").removeClass("active-progress").fadeOut();
+                $("header").removeClass("header-sticky");
             }
-            // Sticky Header
-            var stickyHeader = $("#rs-sticky-header");
-            if ($(this).scrollTop() > 200) {
-                stickyHeader.addClass("active");
-            } else {
-                stickyHeader.removeClass("active");
-            }
+
         });
 
         $(".backtotop-wrap").on("click", function () {
@@ -509,21 +505,28 @@
             });
         }
         // Sidebar Navigation Builder (Custom Injection)
-        var $mainMenu = $('#mobile-menu ul.multipage-menu').clone();
+        var $mainMenu = $('#mobile-menu-two ul.multipage-menu').clone();
         var $sidebarTarget = $('#sidebar-menu-target');
 
         if ($mainMenu.length && $sidebarTarget.length) {
             $sidebarTarget.empty().append('<nav class="sidebar-nav"></nav>');
             $sidebarTarget.find('nav').append($mainMenu);
 
-            // Add Expand/Collapse Icons for submenus
-            $sidebarTarget.find('li.menu-item-has-children').append('<span class="menu-expand"><i class="ri-add-large-line"></i></span>');
+            // Add Expand/Collapse Icons for submenus and mega-menu columns
+            $sidebarTarget.find('li').each(function() {
+                if ($(this).children('ul, .submenu, .mega-menu').length) {
+                    $(this).addClass('menu-item-has-children');
+                    if (!$(this).children('.menu-expand').length) {
+                        $(this).append('<span class="menu-expand"><i class="ri-add-large-line"></i></span>');
+                    }
+                }
+            });
 
             // Handle Submenu Toggle (Accordion)
             $sidebarTarget.on('click', '.menu-expand', function(e) {
                 e.preventDefault();
                 $(this).toggleClass('active');
-                $(this).siblings('.submenu, .mega-menu').slideToggle(300);
+                $(this).siblings('ul, .submenu, .mega-menu').slideToggle(300);
                 
                 // Toggle between Plus and Minus icons
                 var $icon = $(this).find('i');

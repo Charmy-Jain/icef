@@ -216,23 +216,17 @@
         }
 
         /* Sticky Header Styles */
-        .rs-sticky-header.active {
-            background: var(--rs-theme-secondary) !important;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            top: 0 !important;
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
         }
 
-        .rs-sticky-header .header-logo img {
-            max-height: 50px;
-            width: auto;
+        header.header-sticky {
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
-
-        .rs-sticky-header .header-wrapper {
-            background: transparent !important;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
         /* Bridge the gap to prevent dropdown closing when moving mouse from link to menu */
         .main-menu li {
             position: relative;
@@ -452,7 +446,7 @@
                                 </li>
                                 
                                 
-                                <li><a href="contact.php">Support</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -478,9 +472,7 @@
             <?php echo $nav_html; ?>
         </div>
 
-        <div id="rs-sticky-header" class="rs-sticky-header rs-header-area rs-header-one <?php echo isset($header_class) ? $header_class : ''; ?>">
-            <?php echo $nav_html; ?>
-        </div>
+
     </header>
     <!-- Header area end -->
 
