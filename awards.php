@@ -18,7 +18,7 @@ include 'includes/head.php'; ?>
                         <div class="rs-working-wrapper">
                             <div class="rs-working-thumb is-large-thumb rs-image scroll_reveal reveal-active"
                                 data-dir="left">
-                                <img decoding="async" src="assets/images/work/working-thumb-01.webp" alt="image">
+                                <img decoding="async" src="assets/images/about/34.webp" alt="image">
                             </div>
                             <div class="rs-working-content-wrapper">
                                 <div class="section-title-wrapper section-title-space">
@@ -464,7 +464,7 @@ include 'includes/head.php'; ?>
                     <div class="col-xl-12">
                         <div class="rs-testimonial-wrapper">
                             <div class="rs-testimonial-thumb rs-image scroll_reveal" data-dir="left">
-                                <img src="assets/images/testimonial/testimonial-thumb-02.webp" alt="image">
+                                <img src="assets/images/about/8.webp" alt="image">
                             </div>
                             <div class="rs-testimonial-slider-wrapper">
                                 <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="1500"

@@ -69,13 +69,14 @@
                     <div class="rs-footer-right">
                         <div class="rs-footer-widget-wrapper">
                             <div class="rs-footer-widget footer-1-col-2">
-                                <h5 class="rs-footer-widget-title">Industries​</h5>
+                                <h5 class="rs-footer-widget-title">About​</h5>
                                 <div class="rs-footer-widget-link">
                                     <ul>
-                                        <li><a href="financial-services.php">Manufacturing</a></li>
-                                        <li><a href="financial-services.php">Healthcare</a></li>
-                                        <li><a href="financial-services.php">Natural Resources</a></li>
-                                        <li><a href="financial-services.php">Financial Services</a></li>
+                                        <li><a href="about-mission.php">About ICEF India</a></li>
+                                        <li><a href="industry-clients.php">Industry we work with</a></li>
+                                        <li><a href="why-choose-us.php">Why choose us</a></li>
+                                        <li><a href="careers-culture.php#careers">Careers</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -83,10 +84,12 @@
                                 <h5 class="rs-footer-widget-title">Services</h5>
                                 <div class="rs-footer-widget-link">
                                     <ul>
-                                        <li><a href="services-details.php">Growth Strategy</a></li>
-                                        <li><a href="services-details.php">Business Modeling</a></li>
-                                        <li><a href="services-details.php">Strategic Planning</a></li>
-                                        <li><a href="services-details.php">Risk Management</a></li>
+                                        <li><a href="it-emerging-tech-enablement.php">IT & Emerging Tech Enablement</a></li>
+                                        <li><a href="assessment-and-testing.php">Assessment & Testing</a></li>
+                                        <li><a href="recruitment-and-hiring.php">Recruitment & Hiring</a></li>
+                                        <li><a href="exam-management.php">Exam Management</a></li>
+                                        <li><a href="manpower-and-workforce.php">Manpower & Workforce</a></li>
+                                        <li><a href="call-center-and-bpos.php">Call Center & BPOs</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,10 +98,11 @@
 
                                 <div class="rs-footer-widget-link">
                                     <ul>
-                                        <li><a href="about-mission.php">About ICEF INDIA</a></li>
-                                        <li><a href="services.php">Our Services</a></li>
-                                        <li><a href="portfolio.php">Our Projects</a></li>
-                                        <li><a href="team.php">Expert Teams</a></li>
+                                        <li><a href="#solutions">Our Solutions</a></li>
+                                        <li><a href="case-study.php">Case Study</a></li>
+                                        <li><a href="industry-clients.php#clients">Clientele</a></li>
+                                        <li><a href="articles.php">Articles</a></li>
+                                        <li><a href="awards.php">Awards & Recognition</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -164,7 +168,7 @@
                             <div class="rs-footer-copyright-item">
                                 <div class="rs-footer-copyright">
                                     <p class="underline">Copyright © <span id="year">2025</span> ICEF INDIA. All rights reserved. Designed by <a
-                                            target="_blank" href="https://devsdesign.net/">Devsdesign.</a></p>
+                                            target="_blank" href="https://agumentiksoftware.com/">AGUMENTIK.</a></p>
                                 </div>
                             </div>
                         </div>

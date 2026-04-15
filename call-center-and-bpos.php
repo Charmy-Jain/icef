@@ -43,7 +43,7 @@ include 'includes/head.php'; ?>
                                     Comprehensive BPO Services
                                 </span>
                                 <h1 class="rs-banner-title wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s" style="font-size: 54px; line-height: 1.3;">
-                                    Customer Engagement & &amp; <br><span id="demo-typed-text" style="color:#AB052D;"></span><span class="demo-typed-cursor" style="color:#AB052D; font-weight:300;">|</span>
+                                    Customer Engagement &amp; <br><span id="demo-typed-text" style="color:#AB052D;"></span><span class="demo-typed-cursor" style="color:#AB052D; font-weight:300;">|</span>
                                 </h1>
                                 <span class="rs-banner-line"></span>
                                 <p class="rs-banner-desc wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".9s">Enhance customer satisfaction and efficiency with our scalable call center solutions and streamlined business process outsourcing.</p>

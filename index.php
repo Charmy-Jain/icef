@@ -1558,7 +1558,7 @@ include 'includes/head.php'; ?>
 
         <!-- feature area start -->
         <section class="rs-feature-area rs-feature-three section-space">
-            <div class="container">
+            <div class="container" id="solutions">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="rs-feature-wrapper">
@@ -1600,10 +1600,10 @@ include 'includes/head.php'; ?>
                                         <div class="rs-feature-thumb">
                                             <img src="assets/images/feature/feature-thumb-05.webp" alt="image">
                                         </div>
-                                        <h6 class="rs-feature-title"><a href="financial-services.php">Advanced Manufacturing </a></h6>
+                                        <h6 class="rs-feature-title"><a href="it-emerging-tech-enablement.php">IT & Emerging Tech Enablement </a></h6>
                                     </div>
                                     <div class="rs-feature-btn">
-                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                        <a class="rs-btn has-icon has-text" href="it-emerging-tech-enablement.php">
                                             <span class="icon-box">
                                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1627,11 +1627,11 @@ include 'includes/head.php'; ?>
                                         <div class="rs-feature-thumb">
                                             <img src="assets/images/feature/feature-thumb-06.webp" alt="image">
                                         </div>
-                                        <h6 class="rs-feature-title"><a href="financial-services.php">Financial Services
+                                        <h6 class="rs-feature-title"><a href="assessment-and-testing.php">Assessment & Testing
                                             </a></h6>
                                     </div>
                                     <div class="rs-feature-btn">
-                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                        <a class="rs-btn has-icon has-text" href="assessment-and-testing.php">
                                             <span class="icon-box">
                                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1655,11 +1655,10 @@ include 'includes/head.php'; ?>
                                         <div class="rs-feature-thumb">
                                             <img src="assets/images/feature/feature-thumb-07.webp" alt="image">
                                         </div>
-                                        <h6 class="rs-feature-title"><a href="financial-services.php">Energy & Natural
-                                                Resources</a></h6>
+                                        <h6 class="rs-feature-title"><a href="recruitment-and-hiring.php">Recruitment & Hiring</a></h6>
                                     </div>
                                     <div class="rs-feature-btn">
-                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                        <a class="rs-btn has-icon has-text" href="recruitment-and-hiring.php">
                                             <span class="icon-box">
                                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1683,11 +1682,11 @@ include 'includes/head.php'; ?>
                                         <div class="rs-feature-thumb">
                                             <img src="assets/images/feature/feature-thumb-08.webp" alt="image">
                                         </div>
-                                        <h6 class="rs-feature-title"><a href="financial-services.php">Government</a>
+                                        <h6 class="rs-feature-title"><a href="exam-management.php">Exam Management</a>
                                         </h6>
                                     </div>
                                     <div class="rs-feature-btn">
-                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                        <a class="rs-btn has-icon has-text" href="exam-management.php">
                                             <span class="icon-box">
                                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1711,12 +1710,11 @@ include 'includes/head.php'; ?>
                                         <div class="rs-feature-thumb">
                                             <img src="assets/images/feature/feature-thumb-09.webp" alt="image">
                                         </div>
-                                        <h6 class="rs-feature-title"><a href="financial-services.php"> Healthcare & Life
-                                                Sciences </a>
+                                        <h6 class="rs-feature-title"><a href="manpower-and-workforce.php">Manpower & Workforce</a>
                                         </h6>
                                     </div>
                                     <div class="rs-feature-btn">
-                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                        <a class="rs-btn has-icon has-text" href="manpower-and-workforce.php">
                                             <span class="icon-box">
                                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1740,11 +1738,11 @@ include 'includes/head.php'; ?>
                                         <div class="rs-feature-thumb">
                                             <img src="assets/images/feature/feature-thumb-10.webp" alt="image">
                                         </div>
-                                        <h6 class="rs-feature-title"><a href="financial-services.php">Agribusiness</a>
+                                        <h6 class="rs-feature-title"><a href="call-center-and-bpos.php">Call Center & BPOs</a>
                                         </h6>
                                     </div>
                                     <div class="rs-feature-btn">
-                                        <a class="rs-btn has-icon has-text" href="financial-services.php">
+                                        <a class="rs-btn has-icon has-text" href="call-center-and-bpos.php">
                                             <span class="icon-box">
                                                 <svg class="icon-first" width="16" height="16" viewBox="0 0 16 16"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">

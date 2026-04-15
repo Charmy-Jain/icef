@@ -95,7 +95,7 @@ include 'includes/head.php'; ?>
                                 </div>
                             </div>
                             <div class="rs-working-thumb rs-image scroll_reveal reveal-active" data-dir="reveal_right">
-                                <img src="assets/images/work/working-thumb-09.webp" alt="image">
+                                <img src="assets/images/about/16.webp" alt="image">
                             </div>
                         </div>
                     </div>
